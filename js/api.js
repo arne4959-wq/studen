@@ -1,6 +1,6 @@
 // The only module that touches the network. Pages call the exported functions below.
-import { USE_MOCK, API_BASE, MOCK_DELAY_MS, MOCK_SLOW_DELAY_MS } from "./config.js";
-import { getToken, getJSON, setJSON } from "./store.js";
+import { USE_MOCK, SUPABASE_URL, SUPABASE_KEY, MOCK_DELAY_MS, MOCK_SLOW_DELAY_MS } from "./config.js";
+import { getToken, getUser, getStore, setStore, getJSON, setJSON } from "./store.js";
 import { handleUnauthorized } from "./guard.js";
 
 export class ApiError extends Error {
@@ -25,27 +25,12 @@ export const loadLocale = (lang) => loadFile(`i18n/${lang}.json`);
 
 async function request(method, path, body) {
   try {
-    return USE_MOCK ? await mockRequest(method, path, body) : await httpRequest(method, path, body);
+    return USE_MOCK ? await mockRequest(method, path, body) : await realRequest(method, path, body);
   } catch (error) {
     const apiError = error instanceof ApiError ? error : new ApiError(0, "network_error", error?.message);
     if (apiError.status === 401 && path !== "/api/auth/login") handleUnauthorized();
     throw apiError;
   }
-}
-
-async function httpRequest(method, path, body) {
-  const headers = { Accept: "application/json" };
-  const token = getToken();
-  if (token) headers.Authorization = `Bearer ${token}`;
-  if (body !== undefined) headers["Content-Type"] = "application/json";
-  const response = await fetch(API_BASE + path, {
-    method,
-    headers,
-    body: body === undefined ? undefined : JSON.stringify(body),
-  });
-  const data = await response.json().catch(() => null);
-  if (!response.ok) throw new ApiError(response.status, data?.error ?? "unknown", data?.message ?? response.statusText);
-  return data;
 }
 
 /* ---------------- endpoints ---------------- */
@@ -78,15 +63,17 @@ export async function getNextLesson(lessonId) {
 
 const PUBLIC = new Set(["/api/auth/login", "/api/auth/register", "/api/auth/forgot"]);
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const FILES = ["subjects", "lessons", "summaries", "quizzes", "answers", "dashboard", "me"];
+const FILES = ["subjects", "lessons", "summaries", "quizzes", "dashboard"]; // static site content, used by both backends
+const MOCK_ONLY = ["answers", "me"]; // the mock server's own: the real answer key lives in the database, never on the site
 let mockData;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const pad = (n) => String(n).padStart(2, "0");
+const localDate = (date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
 const isoDaysAgo = (days) => {
   const date = new Date();
   date.setDate(date.getDate() - days);
-  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+  return localDate(date);
 };
 const clone = (value) => JSON.parse(JSON.stringify(value));
 const fail = (status, code, message) => new ApiError(status, code, message);
@@ -96,8 +83,9 @@ export function mockMode() {
 }
 
 async function loadMockData() {
-  mockData ??= Promise.all(FILES.map((name) => loadFile(`data/${name}.json`))).then((files) =>
-    Object.fromEntries(FILES.map((name, index) => [name, files[index]])),
+  const names = USE_MOCK ? [...FILES, ...MOCK_ONLY] : FILES;
+  mockData ??= Promise.all(names.map((name) => loadFile(`data/${name}.json`))).then((files) =>
+    Object.fromEntries(names.map((name, index) => [name, files[index]])),
   );
   return mockData;
 }
@@ -236,4 +224,128 @@ function dashboard(data, db, empty) {
       date: a.date,
     })),
   };
+}
+
+/* ---------------- real backend (Supabase) ---------------- */
+// Accounts: Supabase Auth over REST. Content: the same static data/*.json as the mock. Progress and the
+// answer key: Postgres, reached through two functions (submit_quiz, my_state) defined in supabase/schema.sql.
+
+// Turns a Supabase error body into the ApiError codes the pages already know.
+function backendError(status, data) {
+  const code = String(data?.error_code ?? data?.code ?? "");
+  const message = data?.msg ?? data?.message ?? data?.error_description ?? "";
+  if (code === "invalid_credentials") return new ApiError(401, "invalid_credentials", message);
+  if (code === "user_already_exists" || code === "email_exists") return new ApiError(409, "email_taken", message);
+  if (["weak_password", "validation_failed", "22023", "email_address_invalid"].includes(code)) return new ApiError(400, "validation_error", message);
+  if (status === 401 || ["28000", "PGRST301", "PGRST303"].includes(code)) return new ApiError(401, "unauthorized", message);
+  return new ApiError(status, status >= 500 ? "server_error" : "unknown", message);
+}
+
+async function backendCall(path, { method = "POST", body, auth = true } = {}, retried = false) {
+  const headers = { apikey: SUPABASE_KEY, "Content-Type": "application/json" };
+  const token = auth ? getToken() : null;
+  if (token) headers.Authorization = `Bearer ${token}`;
+  let response;
+  try {
+    response = await fetch(SUPABASE_URL + path, { method, headers, body: body === undefined ? undefined : JSON.stringify(body) });
+  } catch (error) {
+    throw new ApiError(0, "network_error", error?.message);
+  }
+  const data = await response.json().catch(() => null);
+  if (response.ok) return data;
+  // the access token lives about an hour: renew it once, then repeat the call
+  if (auth && !retried && response.status === 401 && (await refreshSession())) return backendCall(path, { method, body, auth }, true);
+  throw backendError(response.status, data);
+}
+
+async function refreshSession() {
+  const refresh = getStore("refresh");
+  if (!refresh) return false;
+  try {
+    const data = await backendCall("/auth/v1/token?grant_type=refresh_token", { body: { refresh_token: refresh }, auth: false }, true);
+    setStore("token", data.access_token);
+    setStore("refresh", data.refresh_token);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function startBackendSession(data) {
+  setStore("refresh", data.refresh_token);
+  remote = null;
+  const { id, email, user_metadata } = data.user;
+  return { token: data.access_token, user: { id, email, username: user_metadata?.username ?? email.split("@")[0] } };
+}
+
+const passwordGrant = (email, password) =>
+  backendCall("/auth/v1/token?grant_type=password", { body: { email: String(email).trim(), password }, auth: false });
+
+const backendAuth = {
+  "POST /api/auth/login": async (body) => startBackendSession(await passwordGrant(body.email, body.password)),
+  "POST /api/auth/register": async (body) => {
+    const data = await backendCall("/auth/v1/signup", {
+      body: { email: String(body.email).trim(), password: body.password, data: { username: String(body.username ?? "").trim() } },
+      auth: false,
+    });
+    // with "Confirm email" switched on in Supabase the account exists but there is no session yet
+    if (!data?.access_token) throw new ApiError(202, "confirm_email", "Confirm the email first");
+    return startBackendSession(data);
+  },
+  // shortcut: the reset email goes out, but the site has no "choose a new password" page for its link yet; add one before relying on this.
+  "POST /api/auth/forgot": async (body) => {
+    await backendCall("/auth/v1/recover", { body: { email: String(body.email).trim() }, auth: false });
+    return { ok: true };
+  },
+  "POST /api/auth/change-password": async (body) => {
+    if (String(body.next ?? "").length < 8) throw new ApiError(400, "validation_error", "New password is too short");
+    try {
+      await passwordGrant(getUser()?.email ?? "", body.current ?? ""); // proves the person knows the current password
+    } catch (error) {
+      throw error.code === "invalid_credentials" ? new ApiError(400, "wrong_password", "Current password is incorrect") : error;
+    }
+    await backendCall("/auth/v1/user", { method: "PUT", body: { password: body.next } });
+    return { ok: true };
+  },
+  "POST /api/auth/logout": async () => {
+    await backendCall("/auth/v1/logout", { body: {} }).catch(() => {}); // signing out here must never fail
+    remote = null;
+    return { ok: true };
+  },
+};
+
+// The person's progress and attempts, fetched once per few seconds and shaped like the mock's "db",
+// so the lesson / subject / dashboard answers are produced by the very same route() code.
+let remote;
+function remoteDb() {
+  if (!remote || Date.now() - remote.at > 3000) {
+    const promise = backendCall("/rest/v1/rpc/my_state", { body: {} }).then(toDb);
+    remote = { at: Date.now(), promise };
+    promise.catch(() => (remote = null));
+  }
+  return remote.promise;
+}
+
+function toDb(state) {
+  const progress = Object.fromEntries(state.progress.map((p) => [p.lessonId, { status: "done", score: p.score, total: p.total }]));
+  const activity = {};
+  const attempts = state.attempts.map((a) => {
+    const date = localDate(new Date(a.at));
+    activity[date] = (activity[date] ?? 0) + 1;
+    return { lessonId: a.lessonId, score: a.score, total: a.total, date };
+  });
+  return { progress, attempts, activity, user: getUser() };
+}
+
+async function realRequest(method, path, body = {}) {
+  const key = `${method} ${path}`;
+  if (backendAuth[key]) return backendAuth[key](body);
+  if (!getToken()) throw new ApiError(401, "unauthorized", "Missing token");
+  if (key === "POST /api/quiz/submit") {
+    const result = await backendCall("/rest/v1/rpc/submit_quiz", { body: { p_lesson_id: body.lessonId, p_answers: body.answers } });
+    remote = null; // the next page must see this score
+    return result;
+  }
+  const [data, db] = await Promise.all([loadMockData(), remoteDb()]);
+  return clone(route(method, path, body, data, db, false));
 }

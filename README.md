@@ -14,7 +14,7 @@ HTML + CSS + JavaScript ล้วน (ES modules) ไม่มี framework / bu
 
 | พารามิเตอร์ | ผล |
 |---|---|
-| `?mock=slow` | หน่วง 3 วินาที → เห็น skeleton |
+| `?mock=slow` | (เฉพาะโหมด mock) หน่วง 3 วินาที → เห็น skeleton |
 | `?mock=error` | ทุกคำขอตอบ 500 → กล่อง ERROR + ปุ่ม retry |
 | `?mock=empty` | รายการว่าง / dashboard เป็นศูนย์ → สถานะ empty |
 
@@ -43,7 +43,7 @@ css/
   components.css  ปุ่ม ช่องกรอก alert skeleton การ์ด ชิป ตัวเลือก PASS/FAIL diff heatmap switch toast dialog
   pages.css       ส่วนเฉพาะของแต่ละหน้า
 js/
-  config.js       USE_MOCK, API_BASE, ค่าหน่วง mock
+  config.js       SUPABASE_URL / SUPABASE_KEY, USE_MOCK, ค่าหน่วง mock
   api.js          ไฟล์เดียวที่เรียก fetch: endpoint ทั้งหมด + mock server + ApiError
   store.js        localStorage/sessionStorage (token, user, ผล Quiz)
   i18n.js         t(key, vars), data-i18n / data-i18n-attr / data-i18n-vars, setLang
@@ -63,17 +63,16 @@ tests/            หน้าตรวจด้านบน + harness.js
 
 กติกาที่โค้ดยึด: ไม่มีรหัสสีนอก `tokens.css` · `fetch(` มีแค่ใน `api.js` · ไม่ใช้ `innerHTML`/`eval`/`document.write` (ข้อมูลทุกตัวเข้า DOM ผ่าน `textContent` ใน `el()`) · ข้อความที่ผู้ใช้เห็นทุกตัวมาจาก `i18n/*.json`
 
-## สลับ mock ↔ API จริง
+## ระบบ save (Supabase)
 
-`js/config.js`
+เนื้อหาบทเรียนอยู่ในไฟล์ของเว็บ (`data/*.json`) ส่วนบัญชี ความคืบหน้า คะแนน และ **เฉลย Quiz** อยู่ในฐานข้อมูล Supabase เว็บเรียกผ่าน `js/api.js` ไฟล์เดียวเหมือนเดิม
 
-```js
-export const USE_MOCK = false;
-export const API_BASE = "https://api.example.com"; // ว่าง = origin เดียวกับเว็บ
-```
-
-API จริงต้องเป็นไปตามสัญญาเดียวกัน (JSON, error เป็น `{ "error": "code", "message": "..." }`) และรับ `Authorization: Bearer <token>`
-ถ้า API อยู่คนละ origin ต้องเปิด CORS ให้ origin ของเว็บ · ตอบ 401 เมื่อไหร่ เว็บจะล้าง session แล้วพากลับหน้า login (ยกเว้น 401 ของ `/api/auth/login` ซึ่งแสดงเป็นกล่อง ERROR)
+- `supabase/schema.sql` — ตาราง `progress`, `attempts`, `quiz_answers` + กฎความปลอดภัย (RLS: ผู้เรียนอ่านได้เฉพาะแถวของตัวเอง, เขียนไม่ได้ตรงๆ, อ่านเฉลยไม่ได้) + ฟังก์ชัน `submit_quiz` (ตรวจข้อสอบฝั่งเซิร์ฟเวอร์) และ `my_state`
+- `studen-offline-sources/make_answers_sql.py` — สร้าง SQL ใส่เฉลยลงตาราง `quiz_answers` จาก `data/answers.json` (ผลลัพธ์ห้าม commit)
+- `js/config.js` — ใส่ `SUPABASE_URL` และ `SUPABASE_KEY` (publishable key เปิดเผยได้ ความปลอดภัยอยู่ที่ RLS) ถ้าเว้นว่าง เว็บใช้โหมดทดลอง (mock) ตามเดิม
+- บน localhost เว็บใช้ mock เสมอ (เทสต์ทั้งหมดรันบน mock) อยากลองระบบจริงจาก localhost: `localStorage.setItem("hianngai:real", "1")` ในคอนโซลแล้วรีโหลด
+- ใน Supabase ต้องตั้ง Authentication → Sign In / Providers → Email: ปิด "Confirm email" ถ้าอยากให้สมัครแล้วใช้ได้ทันที (ถ้าเปิดไว้ เว็บจะแจ้งให้ไปกดยืนยันในอีเมลก่อน)
+- `data/answers.json` ใช้เฉพาะโหมด mock — ตอนเปิดใช้ระบบจริงจะเอาออกจาก GitHub (ใส่ใน `.gitignore`) เพราะเฉลยย้ายไปอยู่ในฐานข้อมูลแล้ว
 
 ## เพิ่มภาษาใหม่ (ตัวอย่าง: เวียดนาม `vi`)
 

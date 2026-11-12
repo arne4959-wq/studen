@@ -58,6 +58,7 @@
     "not_found": "We couldn't find that.",
     "unauthorized": "Your session expired. Please log in again.",
     "validation_error": "Some data is invalid. Check it and try again.",
+    "confirm_email": "Account created. Open the email we sent to confirm it, then log in.",
     "unknown": "Something unexpected went wrong."
   },
   "validation": {

@@ -13,7 +13,7 @@ const SOURCES = [
 const DYNAMIC = [
   ...["done", "running", "todo"].map((s) => `status.${s}`),
   ...["subjects", "stats", "profile"].map((s) => `nav.${s}`),
-  ...["invalid_credentials", "email_taken", "wrong_password", "server_error", "network_error", "not_found", "unauthorized", "validation_error", "unknown"].map((c) => `errors.${c}`),
+  ...["invalid_credentials", "email_taken", "wrong_password", "server_error", "network_error", "not_found", "unauthorized", "validation_error", "confirm_email", "unknown"].map((c) => `errors.${c}`),
   ...["mon", "tue", "wed", "thu", "fri", "sat", "sun"].map((d) => `stats.days.${d}`),
   ...LANGS.map((l) => `lang.${l}`),
 ];

@@ -62,6 +62,7 @@ export function setSession({ token, user }) {
 // Removes everything tied to the signed-in person; keeps theme, language and the mock "server" DB.
 export function clearSession() {
   removeStore("token");
+  removeStore("refresh");
   removeStore("user");
   for (const session of [false, true]) {
     try {
