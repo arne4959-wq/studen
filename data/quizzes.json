@@ -1,0 +1,3987 @@
+{
+  "g01": {
+    "lessonId": "g01",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "She ___ a teacher.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "am"
+          },
+          {
+            "id": "b",
+            "label": "is"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "be"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "They ___ from Laos.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "am"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "be"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "I ___ hungry.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "am"
+          },
+          {
+            "id": "b",
+            "label": "is"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "be"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "___ you a student?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Is"
+          },
+          {
+            "id": "b",
+            "label": "Am"
+          },
+          {
+            "id": "c",
+            "label": "Be"
+          },
+          {
+            "id": "d",
+            "label": "Are"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "He ___ at home. (ປະຕິເສດ)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "not is"
+          },
+          {
+            "id": "b",
+            "label": "isn't"
+          },
+          {
+            "id": "c",
+            "label": "aren't"
+          },
+          {
+            "id": "d",
+            "label": "don't"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "This is Anna. ___ brother is a doctor.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "His"
+          },
+          {
+            "id": "b",
+            "label": "Her"
+          },
+          {
+            "id": "c",
+            "label": "She"
+          },
+          {
+            "id": "d",
+            "label": "Their"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "We love ___ school.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "our"
+          },
+          {
+            "id": "b",
+            "label": "we"
+          },
+          {
+            "id": "c",
+            "label": "us"
+          },
+          {
+            "id": "d",
+            "label": "their"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "What's ___ name? — I'm Kham.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "you"
+          },
+          {
+            "id": "b",
+            "label": "my"
+          },
+          {
+            "id": "c",
+            "label": "your"
+          },
+          {
+            "id": "d",
+            "label": "his"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "The dog is eating ___ food.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "it's"
+          },
+          {
+            "id": "b",
+            "label": "its"
+          },
+          {
+            "id": "c",
+            "label": "it"
+          },
+          {
+            "id": "d",
+            "label": "his'"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Tom and Lin live in Vientiane. ___ house is big.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "There"
+          },
+          {
+            "id": "b",
+            "label": "They"
+          },
+          {
+            "id": "c",
+            "label": "Their"
+          },
+          {
+            "id": "d",
+            "label": "Them"
+          }
+        ]
+      }
+    ]
+  },
+  "g03": {
+    "lessonId": "g03",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "I eat ___ apple every day.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "an"
+          },
+          {
+            "id": "c",
+            "label": "two"
+          },
+          {
+            "id": "d",
+            "label": "-"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "She is ___ university student.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "an"
+          },
+          {
+            "id": "b",
+            "label": "a"
+          },
+          {
+            "id": "c",
+            "label": "some"
+          },
+          {
+            "id": "d",
+            "label": "-"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "Plural of 'box' is ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "boxs"
+          },
+          {
+            "id": "b",
+            "label": "boxies"
+          },
+          {
+            "id": "c",
+            "label": "boxes"
+          },
+          {
+            "id": "d",
+            "label": "box"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Plural of 'child' is ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "childs"
+          },
+          {
+            "id": "b",
+            "label": "children"
+          },
+          {
+            "id": "c",
+            "label": "childes"
+          },
+          {
+            "id": "d",
+            "label": "childrens"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "I'll be back in ___ hour.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "the"
+          },
+          {
+            "id": "c",
+            "label": "an"
+          },
+          {
+            "id": "d",
+            "label": "one of"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "(ຖືໃນມື) ___ is my phone.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "That"
+          },
+          {
+            "id": "b",
+            "label": "These"
+          },
+          {
+            "id": "c",
+            "label": "Those"
+          },
+          {
+            "id": "d",
+            "label": "This"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "(ໄກ, ຫຼາຍຄັນ) Look at ___ cars!",
+        "choices": [
+          {
+            "id": "a",
+            "label": "those"
+          },
+          {
+            "id": "b",
+            "label": "this"
+          },
+          {
+            "id": "c",
+            "label": "that"
+          },
+          {
+            "id": "d",
+            "label": "these"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "___ shoes are new. (ໃກ້)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "This"
+          },
+          {
+            "id": "b",
+            "label": "These"
+          },
+          {
+            "id": "c",
+            "label": "That"
+          },
+          {
+            "id": "d",
+            "label": "Those"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Who is ___ man over there?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "these"
+          },
+          {
+            "id": "b",
+            "label": "those"
+          },
+          {
+            "id": "c",
+            "label": "that"
+          },
+          {
+            "id": "d",
+            "label": "this"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Are ___ your books? (ໃກ້)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "this"
+          },
+          {
+            "id": "b",
+            "label": "that"
+          },
+          {
+            "id": "c",
+            "label": "these"
+          },
+          {
+            "id": "d",
+            "label": "it"
+          }
+        ]
+      }
+    ]
+  },
+  "g05": {
+    "lessonId": "g05",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "She ___ in a bank.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "work"
+          },
+          {
+            "id": "b",
+            "label": "works"
+          },
+          {
+            "id": "c",
+            "label": "working"
+          },
+          {
+            "id": "d",
+            "label": "is work"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "I ___ like coffee.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "doesn't"
+          },
+          {
+            "id": "b",
+            "label": "not"
+          },
+          {
+            "id": "c",
+            "label": "don't"
+          },
+          {
+            "id": "d",
+            "label": "isn't"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "___ he play football?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Do"
+          },
+          {
+            "id": "b",
+            "label": "Is"
+          },
+          {
+            "id": "c",
+            "label": "Does"
+          },
+          {
+            "id": "d",
+            "label": "Are"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "My brother ___ to school by bike.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "goes"
+          },
+          {
+            "id": "b",
+            "label": "go"
+          },
+          {
+            "id": "c",
+            "label": "gos"
+          },
+          {
+            "id": "d",
+            "label": "going"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "He ___ two sisters.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "have"
+          },
+          {
+            "id": "b",
+            "label": "haves"
+          },
+          {
+            "id": "c",
+            "label": "is have"
+          },
+          {
+            "id": "d",
+            "label": "has"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+        "choices": [
+          {
+            "id": "a",
+            "label": "I get always up at 6."
+          },
+          {
+            "id": "b",
+            "label": "I always get up at 6."
+          },
+          {
+            "id": "c",
+            "label": "Always I get up at 6."
+          },
+          {
+            "id": "d",
+            "label": "I get up at 6 always am."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+        "choices": [
+          {
+            "id": "a",
+            "label": "She never is late."
+          },
+          {
+            "id": "b",
+            "label": "She is late never."
+          },
+          {
+            "id": "c",
+            "label": "She is never late."
+          },
+          {
+            "id": "d",
+            "label": "Never she is late."
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "0% = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "sometimes"
+          },
+          {
+            "id": "b",
+            "label": "often"
+          },
+          {
+            "id": "c",
+            "label": "usually"
+          },
+          {
+            "id": "d",
+            "label": "never"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "ຄຳໃດເລື້ອຍທີ່ສຸດ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "always"
+          },
+          {
+            "id": "b",
+            "label": "often"
+          },
+          {
+            "id": "c",
+            "label": "sometimes"
+          },
+          {
+            "id": "d",
+            "label": "usually"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "They ___ eat rice for dinner. (ເກືອບທຸກມື້)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "never"
+          },
+          {
+            "id": "b",
+            "label": "usually"
+          },
+          {
+            "id": "c",
+            "label": "are usually"
+          },
+          {
+            "id": "d",
+            "label": "does usually"
+          }
+        ]
+      }
+    ]
+  },
+  "g07": {
+    "lessonId": "g07",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "There ___ a park near my house.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "are"
+          },
+          {
+            "id": "b",
+            "label": "is"
+          },
+          {
+            "id": "c",
+            "label": "be"
+          },
+          {
+            "id": "d",
+            "label": "have"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "There ___ thirty students in my class.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "has"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "am"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "___ there a hospital in this town?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Is"
+          },
+          {
+            "id": "b",
+            "label": "Are"
+          },
+          {
+            "id": "c",
+            "label": "Do"
+          },
+          {
+            "id": "d",
+            "label": "Have"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "There aren't ___ shops here.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "some"
+          },
+          {
+            "id": "c",
+            "label": "an"
+          },
+          {
+            "id": "d",
+            "label": "any"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+        "choices": [
+          {
+            "id": "a",
+            "label": "It has a bank in the street."
+          },
+          {
+            "id": "b",
+            "label": "There is a bank in the street."
+          },
+          {
+            "id": "c",
+            "label": "There are a bank in the street."
+          },
+          {
+            "id": "d",
+            "label": "Have a bank in the street."
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "She ___ swim very well.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "cans"
+          },
+          {
+            "id": "b",
+            "label": "can to"
+          },
+          {
+            "id": "c",
+            "label": "can"
+          },
+          {
+            "id": "d",
+            "label": "is can"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "I can't ___ the guitar.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "play"
+          },
+          {
+            "id": "b",
+            "label": "plays"
+          },
+          {
+            "id": "c",
+            "label": "to play"
+          },
+          {
+            "id": "d",
+            "label": "playing"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "___ you speak English?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Do can"
+          },
+          {
+            "id": "b",
+            "label": "Can"
+          },
+          {
+            "id": "c",
+            "label": "Are"
+          },
+          {
+            "id": "d",
+            "label": "Does"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "ຂໍອະນຸຍາດເປີດປ່ອງຢ້ຽມ: ___ I open the window?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Do"
+          },
+          {
+            "id": "b",
+            "label": "Am"
+          },
+          {
+            "id": "c",
+            "label": "Can"
+          },
+          {
+            "id": "d",
+            "label": "Is"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "can't ແມ່ນຮູບຫຍໍ້ຂອງ ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "can not to"
+          },
+          {
+            "id": "b",
+            "label": "cannot"
+          },
+          {
+            "id": "c",
+            "label": "can't to"
+          },
+          {
+            "id": "d",
+            "label": "don't can"
+          }
+        ]
+      }
+    ]
+  },
+  "g09": {
+    "lessonId": "g09",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Look! The baby ___.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "sleeps"
+          },
+          {
+            "id": "b",
+            "label": "is sleeping"
+          },
+          {
+            "id": "c",
+            "label": "sleep"
+          },
+          {
+            "id": "d",
+            "label": "are sleeping"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "I ___ a book at the moment.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "am reading"
+          },
+          {
+            "id": "b",
+            "label": "read"
+          },
+          {
+            "id": "c",
+            "label": "reads"
+          },
+          {
+            "id": "d",
+            "label": "is reading"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "-ing ຂອງ 'run' ແມ່ນ ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "runing"
+          },
+          {
+            "id": "b",
+            "label": "runeing"
+          },
+          {
+            "id": "c",
+            "label": "running"
+          },
+          {
+            "id": "d",
+            "label": "runs"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "-ing ຂອງ 'write' ແມ່ນ ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "writeing"
+          },
+          {
+            "id": "b",
+            "label": "writting"
+          },
+          {
+            "id": "c",
+            "label": "wrote"
+          },
+          {
+            "id": "d",
+            "label": "writing"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "What ___ they doing now?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "do"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "does"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "I ___ going to study tonight.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "am"
+          },
+          {
+            "id": "c",
+            "label": "are"
+          },
+          {
+            "id": "d",
+            "label": "be"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "She's going ___ her grandmother.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "visit"
+          },
+          {
+            "id": "b",
+            "label": "visiting"
+          },
+          {
+            "id": "c",
+            "label": "to visit"
+          },
+          {
+            "id": "d",
+            "label": "visits"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Look at those clouds! It ___ rain.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is going to"
+          },
+          {
+            "id": "b",
+            "label": "goes to"
+          },
+          {
+            "id": "c",
+            "label": "going"
+          },
+          {
+            "id": "d",
+            "label": "is go to"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "___ you going to buy a car?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Do"
+          },
+          {
+            "id": "b",
+            "label": "Is"
+          },
+          {
+            "id": "c",
+            "label": "Are"
+          },
+          {
+            "id": "d",
+            "label": "Will"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "They ___ going to come. They're busy.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "don't"
+          },
+          {
+            "id": "b",
+            "label": "aren't"
+          },
+          {
+            "id": "c",
+            "label": "isn't"
+          },
+          {
+            "id": "d",
+            "label": "not"
+          }
+        ]
+      }
+    ]
+  },
+  "g10": {
+    "lessonId": "g10",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "I ___ at home yesterday.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "was"
+          },
+          {
+            "id": "b",
+            "label": "were"
+          },
+          {
+            "id": "c",
+            "label": "am"
+          },
+          {
+            "id": "d",
+            "label": "is"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "They ___ at the party last night.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "was"
+          },
+          {
+            "id": "b",
+            "label": "are"
+          },
+          {
+            "id": "c",
+            "label": "were"
+          },
+          {
+            "id": "d",
+            "label": "is"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "___ you tired after the game?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Was"
+          },
+          {
+            "id": "b",
+            "label": "Were"
+          },
+          {
+            "id": "c",
+            "label": "Did"
+          },
+          {
+            "id": "d",
+            "label": "Are"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "The test ___ difficult. It was easy.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "weren't"
+          },
+          {
+            "id": "b",
+            "label": "didn't"
+          },
+          {
+            "id": "c",
+            "label": "isn't"
+          },
+          {
+            "id": "d",
+            "label": "wasn't"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "Where ___ she last week?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "were"
+          },
+          {
+            "id": "b",
+            "label": "was"
+          },
+          {
+            "id": "c",
+            "label": "did"
+          },
+          {
+            "id": "d",
+            "label": "is"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "Yesterday I ___ to school.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "walk"
+          },
+          {
+            "id": "b",
+            "label": "walked"
+          },
+          {
+            "id": "c",
+            "label": "walks"
+          },
+          {
+            "id": "d",
+            "label": "walking"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "What is the past tense of 'go'?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "goed"
+          },
+          {
+            "id": "b",
+            "label": "went"
+          },
+          {
+            "id": "c",
+            "label": "gone"
+          },
+          {
+            "id": "d",
+            "label": "going"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "She ___ breakfast at 7 yesterday.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "eat"
+          },
+          {
+            "id": "b",
+            "label": "eats"
+          },
+          {
+            "id": "c",
+            "label": "ate"
+          },
+          {
+            "id": "d",
+            "label": "eaten"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "I ___ see him last week.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "don't"
+          },
+          {
+            "id": "b",
+            "label": "wasn't"
+          },
+          {
+            "id": "c",
+            "label": "didn't"
+          },
+          {
+            "id": "d",
+            "label": "not"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "___ you buy a new phone?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Did"
+          },
+          {
+            "id": "b",
+            "label": "Do"
+          },
+          {
+            "id": "c",
+            "label": "Were"
+          },
+          {
+            "id": "d",
+            "label": "Was"
+          }
+        ]
+      }
+    ]
+  },
+  "v01": {
+    "lessonId": "v01",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "15 = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "fifty"
+          },
+          {
+            "id": "b",
+            "label": "fiveteen"
+          },
+          {
+            "id": "c",
+            "label": "fifteen"
+          },
+          {
+            "id": "d",
+            "label": "five-ten"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "40 = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "forty"
+          },
+          {
+            "id": "b",
+            "label": "fourty"
+          },
+          {
+            "id": "c",
+            "label": "fourteen"
+          },
+          {
+            "id": "d",
+            "label": "for-ty"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "12 = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "twelf"
+          },
+          {
+            "id": "b",
+            "label": "twelve"
+          },
+          {
+            "id": "c",
+            "label": "twoteen"
+          },
+          {
+            "id": "d",
+            "label": "twenty"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "99 = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "nineteen-nine"
+          },
+          {
+            "id": "b",
+            "label": "ninety nine"
+          },
+          {
+            "id": "c",
+            "label": "ninty-nine"
+          },
+          {
+            "id": "d",
+            "label": "ninety-nine"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "thirteen = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "13"
+          },
+          {
+            "id": "b",
+            "label": "30"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          },
+          {
+            "id": "d",
+            "label": "33"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "I have English ___ Monday.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "in"
+          },
+          {
+            "id": "b",
+            "label": "at"
+          },
+          {
+            "id": "c",
+            "label": "on"
+          },
+          {
+            "id": "d",
+            "label": "to"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "My birthday is ___ May.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "in"
+          },
+          {
+            "id": "b",
+            "label": "on"
+          },
+          {
+            "id": "c",
+            "label": "at"
+          },
+          {
+            "id": "d",
+            "label": "of"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "The class starts ___ 8 o'clock.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "on"
+          },
+          {
+            "id": "b",
+            "label": "at"
+          },
+          {
+            "id": "c",
+            "label": "in"
+          },
+          {
+            "id": "d",
+            "label": "by"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "6:30 = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "half to six"
+          },
+          {
+            "id": "b",
+            "label": "six half"
+          },
+          {
+            "id": "c",
+            "label": "half past seven"
+          },
+          {
+            "id": "d",
+            "label": "half past six"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "ມື້ຫຼັງວັນພຸດ ແມ່ນ ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Thursday"
+          },
+          {
+            "id": "b",
+            "label": "Tuesday"
+          },
+          {
+            "id": "c",
+            "label": "Friday"
+          },
+          {
+            "id": "d",
+            "label": "Monday"
+          }
+        ]
+      }
+    ]
+  },
+  "v03": {
+    "lessonId": "v03",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "My mother's mother is my ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "aunt"
+          },
+          {
+            "id": "b",
+            "label": "grandmother"
+          },
+          {
+            "id": "c",
+            "label": "sister"
+          },
+          {
+            "id": "d",
+            "label": "cousin"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "My father's brother is my ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "uncle"
+          },
+          {
+            "id": "b",
+            "label": "cousin"
+          },
+          {
+            "id": "c",
+            "label": "grandfather"
+          },
+          {
+            "id": "d",
+            "label": "nephew"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "My uncle's son is my ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "brother"
+          },
+          {
+            "id": "b",
+            "label": "nephew"
+          },
+          {
+            "id": "c",
+            "label": "cousin"
+          },
+          {
+            "id": "d",
+            "label": "uncle"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "mother + father = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "relatives"
+          },
+          {
+            "id": "b",
+            "label": "children"
+          },
+          {
+            "id": "c",
+            "label": "grandparents"
+          },
+          {
+            "id": "d",
+            "label": "parents"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "This is ___ bag. (ຂອງ Tom)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Tom's"
+          },
+          {
+            "id": "b",
+            "label": "Toms"
+          },
+          {
+            "id": "c",
+            "label": "Toms'"
+          },
+          {
+            "id": "d",
+            "label": "of Tom"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "A: Nice to meet you. B: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Nice to meet you, too."
+          },
+          {
+            "id": "b",
+            "label": "I'm fine."
+          },
+          {
+            "id": "c",
+            "label": "Goodbye."
+          },
+          {
+            "id": "d",
+            "label": "Yes, I am."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "A: How are you? B: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "I'm 18."
+          },
+          {
+            "id": "b",
+            "label": "I'm from Laos."
+          },
+          {
+            "id": "c",
+            "label": "I'm fine, thanks."
+          },
+          {
+            "id": "d",
+            "label": "My name's Noy."
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "A: Where are you from? B: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "I'm a student."
+          },
+          {
+            "id": "b",
+            "label": "I'm from Vientiane."
+          },
+          {
+            "id": "c",
+            "label": "I'm fine."
+          },
+          {
+            "id": "d",
+            "label": "At school."
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "ທັກທາຍຕອນເຊົ້າ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Good night"
+          },
+          {
+            "id": "b",
+            "label": "Good evening"
+          },
+          {
+            "id": "c",
+            "label": "Goodbye"
+          },
+          {
+            "id": "d",
+            "label": "Good morning"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "ຖາມຊື່ຢ່າງສຸພາບ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "What's your name?"
+          },
+          {
+            "id": "b",
+            "label": "Who you?"
+          },
+          {
+            "id": "c",
+            "label": "Name?"
+          },
+          {
+            "id": "d",
+            "label": "How old are you?"
+          }
+        ]
+      }
+    ]
+  },
+  "v04": {
+    "lessonId": "v04",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "I ___ up at 6 every day.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "wake"
+          },
+          {
+            "id": "b",
+            "label": "get"
+          },
+          {
+            "id": "c",
+            "label": "go"
+          },
+          {
+            "id": "d",
+            "label": "have"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "She ___ a shower in the morning.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "does"
+          },
+          {
+            "id": "b",
+            "label": "makes"
+          },
+          {
+            "id": "c",
+            "label": "has"
+          },
+          {
+            "id": "d",
+            "label": "takes up"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "After school I ___ my homework.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "make"
+          },
+          {
+            "id": "b",
+            "label": "have"
+          },
+          {
+            "id": "c",
+            "label": "get"
+          },
+          {
+            "id": "d",
+            "label": "do"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "I go to ___ at 10 p.m.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "bed"
+          },
+          {
+            "id": "b",
+            "label": "the bed"
+          },
+          {
+            "id": "c",
+            "label": "sleep bed"
+          },
+          {
+            "id": "d",
+            "label": "a bed"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "We ___ lunch at 12.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "do"
+          },
+          {
+            "id": "b",
+            "label": "have"
+          },
+          {
+            "id": "c",
+            "label": "make"
+          },
+          {
+            "id": "d",
+            "label": "get"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "ຄຳໃດນັບບໍ່ໄດ້?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "apple"
+          },
+          {
+            "id": "b",
+            "label": "egg"
+          },
+          {
+            "id": "c",
+            "label": "rice"
+          },
+          {
+            "id": "d",
+            "label": "banana"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Can I have ___ water, please?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "some"
+          },
+          {
+            "id": "c",
+            "label": "an"
+          },
+          {
+            "id": "d",
+            "label": "many"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Is there ___ milk in the fridge?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "any"
+          },
+          {
+            "id": "b",
+            "label": "a"
+          },
+          {
+            "id": "c",
+            "label": "an"
+          },
+          {
+            "id": "d",
+            "label": "many"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "a ___ of coffee",
+        "choices": [
+          {
+            "id": "a",
+            "label": "bottle"
+          },
+          {
+            "id": "b",
+            "label": "piece"
+          },
+          {
+            "id": "c",
+            "label": "slice"
+          },
+          {
+            "id": "d",
+            "label": "cup"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "ໄກ່ = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "chicken"
+          },
+          {
+            "id": "b",
+            "label": "kitchen"
+          },
+          {
+            "id": "c",
+            "label": "beef"
+          },
+          {
+            "id": "d",
+            "label": "fish"
+          }
+        ]
+      }
+    ]
+  },
+  "v06": {
+    "lessonId": "v06",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "A ___ works in a hospital.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "waiter"
+          },
+          {
+            "id": "b",
+            "label": "nurse"
+          },
+          {
+            "id": "c",
+            "label": "farmer"
+          },
+          {
+            "id": "d",
+            "label": "pilot"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "She's ___ engineer.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "a"
+          },
+          {
+            "id": "b",
+            "label": "the"
+          },
+          {
+            "id": "c",
+            "label": "an"
+          },
+          {
+            "id": "d",
+            "label": "-"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "A waiter works in a ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "school"
+          },
+          {
+            "id": "b",
+            "label": "bank"
+          },
+          {
+            "id": "c",
+            "label": "farm"
+          },
+          {
+            "id": "d",
+            "label": "restaurant"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+        "choices": [
+          {
+            "id": "a",
+            "label": "I'm a developer."
+          },
+          {
+            "id": "b",
+            "label": "I'm developer."
+          },
+          {
+            "id": "c",
+            "label": "I developer."
+          },
+          {
+            "id": "d",
+            "label": "I'm an developer."
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "ຄູ = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "student"
+          },
+          {
+            "id": "b",
+            "label": "teacher"
+          },
+          {
+            "id": "c",
+            "label": "doctor"
+          },
+          {
+            "id": "d",
+            "label": "driver"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "ບໍ່ໄດ້ຍິນ ຢາກໃຫ້ຄູເວົ້າອີກ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Say again!"
+          },
+          {
+            "id": "b",
+            "label": "Can you repeat that, please?"
+          },
+          {
+            "id": "c",
+            "label": "What?"
+          },
+          {
+            "id": "d",
+            "label": "Repeat you."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "ຖາມຄວາມໝາຍຂອງຄຳ: What ___ 'library' mean?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "do"
+          },
+          {
+            "id": "c",
+            "label": "does"
+          },
+          {
+            "id": "d",
+            "label": "are"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How do you ___ it? — F-R-I-E-N-D",
+        "choices": [
+          {
+            "id": "a",
+            "label": "spell"
+          },
+          {
+            "id": "b",
+            "label": "say"
+          },
+          {
+            "id": "c",
+            "label": "write"
+          },
+          {
+            "id": "d",
+            "label": "read"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "ບໍ່ເຂົ້າໃຈ: Sorry, I ___ understand.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "not"
+          },
+          {
+            "id": "b",
+            "label": "am not"
+          },
+          {
+            "id": "c",
+            "label": "doesn't"
+          },
+          {
+            "id": "d",
+            "label": "don't"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "ຂໍອະນຸຍາດໄປຫ້ອງນ້ຳ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Can I go to the toilet, please?"
+          },
+          {
+            "id": "b",
+            "label": "I go toilet."
+          },
+          {
+            "id": "c",
+            "label": "Toilet now!"
+          },
+          {
+            "id": "d",
+            "label": "Do I go to toilet?"
+          }
+        ]
+      }
+    ]
+  },
+  "p03": {
+    "lessonId": "p03",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "___, where is the post office?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Excuse me"
+          },
+          {
+            "id": "b",
+            "label": "Sorry for you"
+          },
+          {
+            "id": "c",
+            "label": "Hey you"
+          },
+          {
+            "id": "d",
+            "label": "Thank you"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "ລ້ຽວຂວາ = ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "turn left"
+          },
+          {
+            "id": "b",
+            "label": "go straight"
+          },
+          {
+            "id": "c",
+            "label": "turn right"
+          },
+          {
+            "id": "d",
+            "label": "go back"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "The bank is ___ the school. (ຢູ່ຂ້າງ)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "opposite"
+          },
+          {
+            "id": "b",
+            "label": "next to"
+          },
+          {
+            "id": "c",
+            "label": "in"
+          },
+          {
+            "id": "d",
+            "label": "far"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "Go ___ on, then turn left.",
+        "choices": [
+          {
+            "id": "a",
+            "label": "right"
+          },
+          {
+            "id": "b",
+            "label": "straight"
+          },
+          {
+            "id": "c",
+            "label": "strait"
+          },
+          {
+            "id": "d",
+            "label": "direct"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "A: Is it far? B: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Yes, it is near."
+          },
+          {
+            "id": "b",
+            "label": "It's next."
+          },
+          {
+            "id": "c",
+            "label": "Turn left."
+          },
+          {
+            "id": "d",
+            "label": "No, it's five minutes from here."
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "ຖາມລາຄາ 1 ອັນ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "How many is it?"
+          },
+          {
+            "id": "b",
+            "label": "How much is it?"
+          },
+          {
+            "id": "c",
+            "label": "How much are it?"
+          },
+          {
+            "id": "d",
+            "label": "What money?"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "ສັ່ງອາຫານຢ່າງສຸພາບ: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Give me chicken."
+          },
+          {
+            "id": "b",
+            "label": "I want chicken now."
+          },
+          {
+            "id": "c",
+            "label": "I'd like the chicken, please."
+          },
+          {
+            "id": "d",
+            "label": "Chicken!"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "Can I pay ___ card?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "by"
+          },
+          {
+            "id": "b",
+            "label": "with the"
+          },
+          {
+            "id": "c",
+            "label": "on"
+          },
+          {
+            "id": "d",
+            "label": "in"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "How much ___ these shoes?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "is"
+          },
+          {
+            "id": "b",
+            "label": "be"
+          },
+          {
+            "id": "c",
+            "label": "does"
+          },
+          {
+            "id": "d",
+            "label": "are"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "A: Here you are. B: ___",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Thank you."
+          },
+          {
+            "id": "b",
+            "label": "You're welcome."
+          },
+          {
+            "id": "c",
+            "label": "Here you are."
+          },
+          {
+            "id": "d",
+            "label": "Sorry."
+          }
+        ]
+      }
+    ]
+  },
+  "m01": {
+    "lessonId": "m01",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "0.3 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "3/10"
+          },
+          {
+            "id": "b",
+            "label": "3/100"
+          },
+          {
+            "id": "c",
+            "label": "30/10"
+          },
+          {
+            "id": "d",
+            "label": "1/3"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "0.25 = ? (ເປັນສ່ວນທີ່ງ່າຍທີ່ສຸດ)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "25/10"
+          },
+          {
+            "id": "b",
+            "label": "1/4"
+          },
+          {
+            "id": "c",
+            "label": "1/25"
+          },
+          {
+            "id": "d",
+            "label": "2/5"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "0.8 = ? (ເປັນສ່ວນທີ່ງ່າຍທີ່ສຸດ)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "8/100"
+          },
+          {
+            "id": "b",
+            "label": "1/8"
+          },
+          {
+            "id": "c",
+            "label": "4/5"
+          },
+          {
+            "id": "d",
+            "label": "8/5"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "0.125 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "1/125"
+          },
+          {
+            "id": "b",
+            "label": "1/4"
+          },
+          {
+            "id": "c",
+            "label": "125/100"
+          },
+          {
+            "id": "d",
+            "label": "1/8"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "1.5 = ? (ເປັນສ່ວນທີ່ງ່າຍທີ່ສຸດ)",
+        "choices": [
+          {
+            "id": "a",
+            "label": "15/100"
+          },
+          {
+            "id": "b",
+            "label": "3/2"
+          },
+          {
+            "id": "c",
+            "label": "1/5"
+          },
+          {
+            "id": "d",
+            "label": "5/3"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "1/2 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "0.2"
+          },
+          {
+            "id": "b",
+            "label": "0.5"
+          },
+          {
+            "id": "c",
+            "label": "2.0"
+          },
+          {
+            "id": "d",
+            "label": "0.12"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "3/4 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "0.34"
+          },
+          {
+            "id": "b",
+            "label": "0.43"
+          },
+          {
+            "id": "c",
+            "label": "0.75"
+          },
+          {
+            "id": "d",
+            "label": "3.4"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "1/5 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "0.5"
+          },
+          {
+            "id": "b",
+            "label": "0.15"
+          },
+          {
+            "id": "c",
+            "label": "1.5"
+          },
+          {
+            "id": "d",
+            "label": "0.2"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "7/10 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "0.7"
+          },
+          {
+            "id": "b",
+            "label": "7.0"
+          },
+          {
+            "id": "c",
+            "label": "0.07"
+          },
+          {
+            "id": "d",
+            "label": "1.7"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "3/8 = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "0.38"
+          },
+          {
+            "id": "b",
+            "label": "0.375"
+          },
+          {
+            "id": "c",
+            "label": "0.83"
+          },
+          {
+            "id": "d",
+            "label": "3.8"
+          }
+        ]
+      }
+    ]
+  },
+  "m03": {
+    "lessonId": "m03",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ສັນຍາລັກ U ໝາຍເຖິງຫຍັງ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ກຸ່ມຫວ່າງ"
+          },
+          {
+            "id": "b",
+            "label": "ກຸ່ມຈັກກະວານ"
+          },
+          {
+            "id": "c",
+            "label": "ກຸ່ມຍ່ອຍ"
+          },
+          {
+            "id": "d",
+            "label": "ອົງປະກອບ"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "A = {1, 3, 5}. ຂໍ້ໃດຖືກ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "2 ∈ A"
+          },
+          {
+            "id": "b",
+            "label": "3 ∈ A"
+          },
+          {
+            "id": "c",
+            "label": "5 ∉ A"
+          },
+          {
+            "id": "d",
+            "label": "1 ∉ A"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "ກຸ່ມຫວ່າງ ຂຽນດ້ວຍສັນຍາລັກໃດ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "∪"
+          },
+          {
+            "id": "b",
+            "label": "∩"
+          },
+          {
+            "id": "c",
+            "label": "∅"
+          },
+          {
+            "id": "d",
+            "label": "U"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "A = {2, 4}, B = {1, 2, 3, 4, 5}. ຂໍ້ໃດຖືກ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "B ⊂ A"
+          },
+          {
+            "id": "b",
+            "label": "A ⊂ B"
+          },
+          {
+            "id": "c",
+            "label": "A ∈ B"
+          },
+          {
+            "id": "d",
+            "label": "2 ∉ B"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "ກຸ່ມ {a, b, c} ມີອົງປະກອບຈັກໂຕ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "3"
+          },
+          {
+            "id": "b",
+            "label": "4"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          },
+          {
+            "id": "d",
+            "label": "1"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "A = {x | x ເປັນເລກຄີກບວກ, x < 8}. ຂຽນແບບແຈກຢາຍອົງປະກອບ:",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{1, 3, 5, 7}"
+          },
+          {
+            "id": "b",
+            "label": "{1, 3, 5, 7, 9}"
+          },
+          {
+            "id": "c",
+            "label": "{3, 5, 7}"
+          },
+          {
+            "id": "d",
+            "label": "{2, 4, 6}"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "{x | x ເປັນຕົວປະກອບຂອງ 6 (ເລກບວກ)} ຂຽນແບບແຈກຢາຍໄດ້:",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{2, 3}"
+          },
+          {
+            "id": "b",
+            "label": "{6, 12, 18}"
+          },
+          {
+            "id": "c",
+            "label": "{1, 6}"
+          },
+          {
+            "id": "d",
+            "label": "{1, 2, 3, 6}"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "ກຸ່ມ {1, 2, 2, 3} ມີອົງປະກອບທີ່ແຕກຕ່າງກັນຈັກໂຕ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "4"
+          },
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "2"
+          },
+          {
+            "id": "d",
+            "label": "1"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "{x | x ເປັນເລກທຳມະຊາດ, 2 < x ≤ 5} = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{2, 3, 4, 5}"
+          },
+          {
+            "id": "b",
+            "label": "{3, 4}"
+          },
+          {
+            "id": "c",
+            "label": "{3, 4, 5}"
+          },
+          {
+            "id": "d",
+            "label": "{2, 3, 4}"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "ກຸ່ມໃດເປັນກຸ່ມດຽວກັນກັບ {1, 2, 3}?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{3, 2, 1}"
+          },
+          {
+            "id": "b",
+            "label": "{1, 2}"
+          },
+          {
+            "id": "c",
+            "label": "{1, 2, 3, 4}"
+          },
+          {
+            "id": "d",
+            "label": "{2, 3}"
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "text": "n(A) = 12, n(B) = 8, n(A ∩ B) = 3. n(A ∪ B) = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "17"
+          },
+          {
+            "id": "b",
+            "label": "20"
+          },
+          {
+            "id": "c",
+            "label": "23"
+          },
+          {
+            "id": "d",
+            "label": "15"
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "text": "ນັກຮຽນ 30 ຄົນ: 18 ຄົນມັກບານເຕະ, 14 ຄົນມັກບານສົ່ງ, 5 ຄົນມັກທັງສອງ. ມີຈັກຄົນມັກສະເພາະບານເຕະ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "18"
+          },
+          {
+            "id": "b",
+            "label": "13"
+          },
+          {
+            "id": "c",
+            "label": "5"
+          },
+          {
+            "id": "d",
+            "label": "9"
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "text": "ນັກຮຽນ 30 ຄົນ: 18 ຄົນມັກບານເຕະ, 14 ຄົນມັກບານສົ່ງ, 5 ຄົນມັກທັງສອງ. ມີຈັກຄົນບໍ່ມັກທັງສອງ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "4"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          },
+          {
+            "id": "d",
+            "label": "5"
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "text": "A ∩ B ໝາຍເຖິງສ່ວນໃດຂອງແຜນວາດແວນ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ສ່ວນລວມທັງວົງ A ແລະ ວົງ B"
+          },
+          {
+            "id": "b",
+            "label": "ສ່ວນທີ່ວົງ A ແລະ B ຊ້ອນກັນ"
+          },
+          {
+            "id": "c",
+            "label": "ສ່ວນນອກວົງທັງສອງ"
+          },
+          {
+            "id": "d",
+            "label": "ສະເພາະວົງ A"
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "text": "ຖ້າ A ແລະ B ບໍ່ມີອົງປະກອບຮ່ວມກັນເລີຍ n(A ∩ B) = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "n(A)"
+          },
+          {
+            "id": "b",
+            "label": "1"
+          },
+          {
+            "id": "c",
+            "label": "n(B)"
+          },
+          {
+            "id": "d",
+            "label": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "m06": {
+    "lessonId": "m06",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "(x, y) = (3, 7). ຊອກ x ແລະ y",
+        "choices": [
+          {
+            "id": "a",
+            "label": "x = 7, y = 3"
+          },
+          {
+            "id": "b",
+            "label": "x = 3, y = 7"
+          },
+          {
+            "id": "c",
+            "label": "x = 3, y = 3"
+          },
+          {
+            "id": "d",
+            "label": "x = 7, y = 7"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "(x + 2, 5) = (6, y). ຊອກ x ແລະ y",
+        "choices": [
+          {
+            "id": "a",
+            "label": "x = 8, y = 5"
+          },
+          {
+            "id": "b",
+            "label": "x = 4, y = 6"
+          },
+          {
+            "id": "c",
+            "label": "x = 4, y = 5"
+          },
+          {
+            "id": "d",
+            "label": "x = 6, y = 5"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "(2x, y − 1) = (8, 4). ຊອກ x ແລະ y",
+        "choices": [
+          {
+            "id": "a",
+            "label": "x = 4, y = 5"
+          },
+          {
+            "id": "b",
+            "label": "x = 8, y = 5"
+          },
+          {
+            "id": "c",
+            "label": "x = 4, y = 3"
+          },
+          {
+            "id": "d",
+            "label": "x = 16, y = 5"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "ຂໍ້ໃດຖືກຕ້ອງ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "(1, 2) = (2, 1)"
+          },
+          {
+            "id": "b",
+            "label": "(1, 2) = (1, 3)"
+          },
+          {
+            "id": "c",
+            "label": "(3, 4) = (4, 3)"
+          },
+          {
+            "id": "d",
+            "label": "(5, 6) ≠ (6, 5)"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "(x − 1, 3y) = (0, 9). ຊອກ x ແລະ y",
+        "choices": [
+          {
+            "id": "a",
+            "label": "x = 0, y = 3"
+          },
+          {
+            "id": "b",
+            "label": "x = 1, y = 3"
+          },
+          {
+            "id": "c",
+            "label": "x = 1, y = 9"
+          },
+          {
+            "id": "d",
+            "label": "x = −1, y = 3"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "A = {1, 2}, B = {3}. A × B = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{(1, 3), (2, 3)}"
+          },
+          {
+            "id": "b",
+            "label": "{(3, 1), (3, 2)}"
+          },
+          {
+            "id": "c",
+            "label": "{(1, 2), (2, 3)}"
+          },
+          {
+            "id": "d",
+            "label": "{1, 2, 3}"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "n(A) = 3, n(B) = 4. n(A × B) = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "7"
+          },
+          {
+            "id": "b",
+            "label": "12"
+          },
+          {
+            "id": "c",
+            "label": "1"
+          },
+          {
+            "id": "d",
+            "label": "34"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "A = {a, b}, B = {1, 2}. ຄູ່ໃດຢູ່ໃນ A × B?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "(1, a)"
+          },
+          {
+            "id": "b",
+            "label": "(2, b)"
+          },
+          {
+            "id": "c",
+            "label": "(a, 2)"
+          },
+          {
+            "id": "d",
+            "label": "(b, b)"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "ຂໍ້ໃດເປັນຈິງ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "A × B = B × A ສະເໝີ"
+          },
+          {
+            "id": "b",
+            "label": "(a, b) = (b, a) ສະເໝີ"
+          },
+          {
+            "id": "c",
+            "label": "n(A × B) = n(A) + n(B)"
+          },
+          {
+            "id": "d",
+            "label": "ໂດຍທົ່ວໄປ A × B ≠ B × A"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "n(A × B) = 20 ແລະ n(A) = 4. n(B) = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "16"
+          },
+          {
+            "id": "b",
+            "label": "24"
+          },
+          {
+            "id": "c",
+            "label": "5"
+          },
+          {
+            "id": "d",
+            "label": "80"
+          }
+        ]
+      }
+    ]
+  },
+  "m08": {
+    "lessonId": "m08",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "A = {1, 2, 3}, B = {2, 4, 6}. R: y = 2x. R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{(1, 2), (2, 4), (3, 6)}"
+          },
+          {
+            "id": "b",
+            "label": "{(2, 1), (4, 2), (6, 3)}"
+          },
+          {
+            "id": "c",
+            "label": "{(1, 2), (2, 2), (3, 2)}"
+          },
+          {
+            "id": "d",
+            "label": "{(2, 4), (4, 8)}"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "ຄວາມສຳພັນ R ຈາກ A ໄປ B ເປັນກຸ່ມຍ່ອຍຂອງກຸ່ມໃດ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "A"
+          },
+          {
+            "id": "b",
+            "label": "B"
+          },
+          {
+            "id": "c",
+            "label": "A × B"
+          },
+          {
+            "id": "d",
+            "label": "B × A"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "R = {(1, 2), (2, 3), (3, 4)}. ໂດເມນຂອງ R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{2, 3, 4}"
+          },
+          {
+            "id": "b",
+            "label": "{1, 2, 3}"
+          },
+          {
+            "id": "c",
+            "label": "{1, 2, 3, 4}"
+          },
+          {
+            "id": "d",
+            "label": "{1, 4}"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "R = {(1, 2), (2, 3), (3, 4)}. ເຣນຂອງ R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{1, 2, 3}"
+          },
+          {
+            "id": "b",
+            "label": "{1, 4}"
+          },
+          {
+            "id": "c",
+            "label": "{1, 2, 3, 4}"
+          },
+          {
+            "id": "d",
+            "label": "{2, 3, 4}"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "A = {1, 2}, B = {1, 2}. R: x < y. R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{(1, 1), (2, 2)}"
+          },
+          {
+            "id": "b",
+            "label": "{(2, 1)}"
+          },
+          {
+            "id": "c",
+            "label": "{(1, 2)}"
+          },
+          {
+            "id": "d",
+            "label": "{(1, 2), (2, 1)}"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "A = {1, 2, 3}, B = {1, 2}. R: x > y. R ມີຈັກຄູ່?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "3"
+          },
+          {
+            "id": "c",
+            "label": "4"
+          },
+          {
+            "id": "d",
+            "label": "6"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "A = {1, 2}, B = {2, 3}. R: x < y. R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{(1, 2), (1, 3), (2, 3)}"
+          },
+          {
+            "id": "b",
+            "label": "{(1, 2), (2, 3)}"
+          },
+          {
+            "id": "c",
+            "label": "{(1, 3), (2, 3)}"
+          },
+          {
+            "id": "d",
+            "label": "{(1, 2), (1, 3), (2, 2), (2, 3)}"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "ຄູ່ໃດຢູ່ໃນ R ເມື່ອ R: x > y?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "(2, 5)"
+          },
+          {
+            "id": "b",
+            "label": "(4, 4)"
+          },
+          {
+            "id": "c",
+            "label": "(3, 7)"
+          },
+          {
+            "id": "d",
+            "label": "(5, 2)"
+          }
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "A = {4, 5}, B = {3, 4, 5}. R: x > y. R = ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "{(4, 3), (5, 3), (5, 4)}"
+          },
+          {
+            "id": "b",
+            "label": "{(4, 3), (4, 4), (5, 3), (5, 4)}"
+          },
+          {
+            "id": "c",
+            "label": "{(3, 4), (3, 5), (4, 5)}"
+          },
+          {
+            "id": "d",
+            "label": "{(4, 5)}"
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "A = {1, 2, 3}, B = {1, 2, 3}. R: x < y ມີຈັກຄູ່?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "2"
+          },
+          {
+            "id": "b",
+            "label": "4"
+          },
+          {
+            "id": "c",
+            "label": "3"
+          },
+          {
+            "id": "d",
+            "label": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "m10": {
+    "lessonId": "m10",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ຂໍ້ໃດເປັນຄຳຢືນຢັນ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ເຈົ້າຊື່ຫຍັງ?"
+          },
+          {
+            "id": "b",
+            "label": "5 + 4 = 9"
+          },
+          {
+            "id": "c",
+            "label": "ຈົ່ງຂຽນຊື່ຂອງເຈົ້າ"
+          },
+          {
+            "id": "d",
+            "label": "ວ້າວ ສວຍຫຼາຍ!"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "'8 ເປັນເລກຄີກ' ເປັນຄຳຢືນຢັນທີ່?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ຖືກ"
+          },
+          {
+            "id": "b",
+            "label": "ບໍ່ແມ່ນຄຳຢືນຢັນ"
+          },
+          {
+            "id": "c",
+            "label": "ຜິດ"
+          },
+          {
+            "id": "d",
+            "label": "ບອກບໍ່ໄດ້"
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "text": "ຂໍ້ໃດ ບໍ່ແມ່ນ ຄຳຢືນຢັນ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "3 × 3 = 9"
+          },
+          {
+            "id": "b",
+            "label": "10 < 5"
+          },
+          {
+            "id": "c",
+            "label": "ນ້ຳໄຫຼຈາກທີ່ສູງລົງທີ່ຕ່ຳ"
+          },
+          {
+            "id": "d",
+            "label": "ມື້ນີ້ແມ່ນວັນຈັນບໍ?"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "text": "p: 6 > 9 ເປັນຄຳຢືນຢັນທີ່ຜິດ. ¬p ມີຄ່າໃດ?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ຖືກ"
+          },
+          {
+            "id": "b",
+            "label": "ຜິດ"
+          },
+          {
+            "id": "c",
+            "label": "ບໍ່ແມ່ນຄຳຢືນຢັນ"
+          },
+          {
+            "id": "d",
+            "label": "ບໍ່ແນ່ນອນ"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "'x + 2 = 5 ເມື່ອ x = 3' ເປັນຄຳຢືນຢັນທີ່?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ຜິດ"
+          },
+          {
+            "id": "b",
+            "label": "ບໍ່ແມ່ນຄຳຢືນຢັນ"
+          },
+          {
+            "id": "c",
+            "label": "ຖືກ"
+          },
+          {
+            "id": "d",
+            "label": "ບອກບໍ່ໄດ້"
+          }
+        ]
+      }
+    ]
+  },
+  "r01": {
+    "lessonId": "r01",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ระบบสารสนเทศมี 5 ส่วน ส่วนไหนสำคัญที่สุด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Hardware"
+          },
+          {
+            "id": "b",
+            "label": "Software"
+          },
+          {
+            "id": "c",
+            "label": "People (บุคลากร/ผู้ใช้)"
+          },
+          {
+            "id": "d",
+            "label": "Data"
+          }
+        ]
+      }
+    ]
+  },
+  "r02": {
+    "lessonId": "r02",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Internet เริ่มต้นในปี 1969 จากโครงการของสหรัฐฯ ที่ชื่อว่าอะไร?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ARPANET"
+          },
+          {
+            "id": "b",
+            "label": "CERN"
+          },
+          {
+            "id": "c",
+            "label": "WWW"
+          },
+          {
+            "id": "d",
+            "label": "Ethernet"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "การประมูลสินค้าออนไลน์ระหว่างคนทั่วไปด้วยกัน เป็น E-commerce ประเภทใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "B2C"
+          },
+          {
+            "id": "b",
+            "label": "B2B"
+          },
+          {
+            "id": "c",
+            "label": "B2G"
+          },
+          {
+            "id": "d",
+            "label": "C2C"
+          }
+        ]
+      }
+    ]
+  },
+  "r03": {
+    "lessonId": "r03",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ภาพที่ถูกเก็บเป็นจุดเล็กๆ ที่เรียกว่า pixels คือภาพแบบใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Vector image"
+          },
+          {
+            "id": "b",
+            "label": "Bitmap / Raster image"
+          },
+          {
+            "id": "c",
+            "label": "Clip art"
+          },
+          {
+            "id": "d",
+            "label": "Graphics suite"
+          }
+        ]
+      }
+    ]
+  },
+  "r04": {
+    "lessonId": "r04",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ถ้ากด Restart เครื่องที่เปิดอยู่แล้ว เรียกว่าการ boot แบบใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Warm boot"
+          },
+          {
+            "id": "b",
+            "label": "Cold boot"
+          },
+          {
+            "id": "c",
+            "label": "Embedded boot"
+          },
+          {
+            "id": "d",
+            "label": "Network boot"
+          }
+        ]
+      }
+    ]
+  },
+  "r05": {
+    "lessonId": "r05",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ส่วนของ CPU ที่คำนวณทางคณิตศาสตร์และเปรียบเทียบทางตรรกะคือข้อใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "Control unit"
+          },
+          {
+            "id": "b",
+            "label": "Cache memory"
+          },
+          {
+            "id": "c",
+            "label": "ALU (Arithmetic-Logic Unit)"
+          },
+          {
+            "id": "d",
+            "label": "Bus line"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "หน่วยความจำแบบใดที่ข้อมูลหายเมื่อปิดเครื่องหรือไฟดับ (volatile)?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ROM"
+          },
+          {
+            "id": "b",
+            "label": "RAM"
+          },
+          {
+            "id": "c",
+            "label": "Flash memory"
+          },
+          {
+            "id": "d",
+            "label": "Hard disk"
+          }
+        ]
+      }
+    ]
+  },
+  "r06": {
+    "lessonId": "r06",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "อุปกรณ์ที่อ่าน \"เครื่องหมาย\" ด้วยแสง เช่น เครื่องตรวจกระดาษคำตอบแบบฝนวงกลม คือข้อใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "MICR"
+          },
+          {
+            "id": "b",
+            "label": "OCR"
+          },
+          {
+            "id": "c",
+            "label": "OMR"
+          },
+          {
+            "id": "d",
+            "label": "UPC"
+          }
+        ]
+      }
+    ]
+  },
+  "r07": {
+    "lessonId": "r07",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "แผ่น DVD-R มีความสามารถแบบใด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "อ่านได้อย่างเดียว"
+          },
+          {
+            "id": "b",
+            "label": "ลบและเขียนซ้ำได้หลายครั้ง"
+          },
+          {
+            "id": "c",
+            "label": "เก็บข้อมูลไว้บน cloud"
+          },
+          {
+            "id": "d",
+            "label": "เขียนได้ครั้งเดียว"
+          }
+        ]
+      }
+    ]
+  },
+  "r08": {
+    "lessonId": "r08",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "CPU Intel ที่ลงท้ายด้วย F เช่น Core i5-10400F หมายความว่าอะไร?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "ปลดล็อกให้ overclock ได้"
+          },
+          {
+            "id": "b",
+            "label": "ไม่มีกราฟิกในตัว ต้องใช้การ์ดจอแยก"
+          },
+          {
+            "id": "c",
+            "label": "ประหยัดไฟสำหรับโน้ตบุ๊ก"
+          },
+          {
+            "id": "d",
+            "label": "มี 4 คอร์"
+          }
+        ]
+      }
+    ]
+  },
+  "r09": {
+    "lessonId": "r09",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "RAM DDR4 แบบ DIMM (เดสก์ท็อป) มีกี่ขาและใช้ไฟกี่โวลต์?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "184 ขา 2.5 V"
+          },
+          {
+            "id": "b",
+            "label": "240 ขา 1.8 V"
+          },
+          {
+            "id": "c",
+            "label": "240 ขา 1.5 V"
+          },
+          {
+            "id": "d",
+            "label": "288 ขา 1.2 V"
+          }
+        ]
+      }
+    ]
+  },
+  "r10": {
+    "lessonId": "r10",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "SATA III มีอัตรารับส่งข้อมูลเท่าไร?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "1.5 Gbit/s (~150 MB/s)"
+          },
+          {
+            "id": "b",
+            "label": "3 Gbit/s (~300 MB/s)"
+          },
+          {
+            "id": "c",
+            "label": "6 Gbit/s (~600 MB/s)"
+          },
+          {
+            "id": "d",
+            "label": "133 MB/s"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "RAID แบบใดที่อ่าน/เขียนเร็วขึ้น แต่ถ้าดิสก์ลูกใดลูกหนึ่งเสีย ข้อมูลอาจหายทั้งหมด?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "RAID 0"
+          },
+          {
+            "id": "b",
+            "label": "RAID 1"
+          },
+          {
+            "id": "c",
+            "label": "RAID 5"
+          },
+          {
+            "id": "d",
+            "label": "NAS"
+          }
+        ]
+      }
+    ]
+  },
+  "r11": {
+    "lessonId": "r11",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "ชิ้นส่วนใดบนเมนบอร์ดที่กำหนดคุณสมบัติเกือบทั้งหมด เช่น CPU ที่รองรับ ชนิด RAM และความเร็ว bus?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "BIOS chip"
+          },
+          {
+            "id": "b",
+            "label": "Chipset"
+          },
+          {
+            "id": "c",
+            "label": "CPU socket"
+          },
+          {
+            "id": "d",
+            "label": "Power connector"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Power Supply ทำหน้าที่อะไร?",
+        "choices": [
+          {
+            "id": "a",
+            "label": "แปลงไฟ AC 220 V เป็น DC 3.3 V, 5 V และ 12 V"
+          },
+          {
+            "id": "b",
+            "label": "แปลงไฟ DC เป็น AC 220 V"
+          },
+          {
+            "id": "c",
+            "label": "สำรองไฟเวลาไฟดับได้ 5–10 นาที"
+          },
+          {
+            "id": "d",
+            "label": "เก็บค่าการตั้งค่า BIOS"
+          }
+        ]
+      }
+    ]
+  }
+}

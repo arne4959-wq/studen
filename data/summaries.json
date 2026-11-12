@@ -1,0 +1,2285 @@
+{
+  "g01": {
+    "id": "g01",
+    "title": "Verb to be & pronouns",
+    "readMinutes": 8,
+    "intro": "to be ແປວ່າ 'ເປັນ / ຢູ່ / ແມ່ນ' ໃຊ້ບອກວ່າຜູ້ໃດເປັນໃຜ ຢູ່ໃສ ຫຼື ເປັນແນວໃດ ຄຳແທນນາມ (I, you...) ໃຊ້ເປັນປະທານ ສ່ວນ my, your... ບອກວ່າເປັນຂອງໃຜ ແລະ ຕ້ອງມີນາມຕາມຫຼັງ",
+    "keyPoints": [
+      "I ໃຊ້ am",
+      "he / she / it ໃຊ້ is",
+      "you / we / they ໃຊ້ are",
+      "ປະໂຫຍກປະຕິເສດ ເຕີມ not: I am not, she isn't",
+      "ຄຳຖາມ ເອົາ am/is/are ໄວ້ໜ້າ: Are you a student?",
+      "I → my",
+      "you → your",
+      "he → his, she → her, it → its",
+      "we → our, they → their",
+      "its (ຂອງມັນ) ບໍ່ມີ ' — it's = it is"
+    ],
+    "codeSample": "I        -> am\nhe/she/it -> is\nyou/we/they -> are\n\nshe -> her book\nthey -> their house",
+    "table": [
+      {
+        "from": "I am",
+        "to": "I'm"
+      },
+      {
+        "from": "she is",
+        "to": "she's"
+      },
+      {
+        "from": "they are",
+        "to": "they're"
+      },
+      {
+        "from": "is not",
+        "to": "isn't"
+      },
+      {
+        "from": "I",
+        "to": "my"
+      },
+      {
+        "from": "he",
+        "to": "his"
+      },
+      {
+        "from": "she",
+        "to": "her"
+      },
+      {
+        "from": "we",
+        "to": "our"
+      },
+      {
+        "from": "they",
+        "to": "their"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g01.svg",
+      "alt": "ແຜນພາບ: I ໃຊ້ am, he / she / it ໃຊ້ is, you / we / they ໃຊ້ are",
+      "caption": "ເຄື່ອງຈັກ to be: ໃສ່ປະທານເຂົ້າທາງຊ້າຍ ອອກມາເປັນ am, is ຫຼື are. ຖ້າໃສ່ ‘my friends’ ຈະອອກມາເປັນຫຍັງ?"
+    },
+    "examples": [
+      {
+        "title": "🔎 ນັກສືບ: ນີ້ແມ່ນຂອງໃຜ?",
+        "story": "ລອງນຶກພາບ: ໃນຫ້ອງຮຽນມີຂອງຕົກຢູ່ພື້ນ ເຈົ້າເປັນນັກສືບ ຕ້ອງຫາເຈົ້າຂອງໃຫ້ເຈິ",
+        "lines": [
+          "🎒 Is this your bag? — No, it isn't. It's his bag.",
+          "📕 Is this her book? — Yes, it is. She's my friend.",
+          "⚽️ This is their ball. They are in the garden.",
+          "👟 And this shoe? — Oh! It's my shoe. I'm sorry. 😅"
+        ]
+      },
+      {
+        "title": "🤖 ຫຸ່ນຍົນເວົ້າຜິດ",
+        "story": "ຫຸ່ນຍົນໂຕໜຶ່ງໃຊ້ am / is / are ສັບສົນໝົດ ຊ່ວຍແກ້ໃຫ້ມັນແດ່",
+        "lines": [
+          "🤖 I is a robot. → ✅️ I am a robot.",
+          "🤖 My name are Bip. → ✅️ My name is Bip.",
+          "🤖 You is my friend. → ✅️ You are my friend.",
+          "🤖 We am happy! → ✅️ We are happy!"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ຕື່ມ am / is / are: I ___ a student. She ___ my sister. My friends ___ from Laos.",
+        "answer": "am, is, are (my friends = they)"
+      },
+      {
+        "task": "ປ່ຽນເປັນຄຳຖາມ ແລະ ປະຕິເສດ: You are a teacher.",
+        "answer": "Are you a teacher? / You aren't a teacher."
+      },
+      {
+        "task": "its ຫຼື it's? ___ a cat. ___ name is Mimi.",
+        "answer": "It's a cat. Its name is Mimi. (it's = it is, its = ຂອງມັນ)"
+      }
+    ],
+    "idea": "ເຮັດ ‘ບັດແນະນຳຕົວ’ ຂອງເຈົ້າ 4 ປະໂຫຍກ: I am ... / My ... is ... / My friend is ... / We are ... ແລ້ວແຕ້ມຮູບປະກອບ"
+  },
+  "g03": {
+    "id": "g03",
+    "title": "a / an, plurals & this / that / these / those",
+    "readMinutes": 7,
+    "intro": "a / an ໃຊ້ກັບນາມນັບໄດ້ ຈຳນວນດຽວ. ພະຫູພົດ (ຫຼາຍອັນ) ສ່ວນຫຼາຍເຕີມ -s ໃຊ້ຊີ້ສິ່ງຂອງ. ໃກ້ໃຊ້ this/these ໄກໃຊ້ that/those",
+    "keyPoints": [
+      "a ໃຊ້ກ່ອນສຽງພະຍັນຊະນະ: a book, a university",
+      "an ໃຊ້ກ່ອນສຽງສະຫຼະ: an apple, an hour",
+      "ພະຫູພົດທົ່ວໄປ ເຕີມ -s: books",
+      "ລົງທ້າຍ -s, -sh, -ch, -x ເຕີມ -es: boxes",
+      "ບໍ່ປົກກະຕິ: man → men, child → children",
+      "this = ອັນນີ້ (ໃກ້, 1 ອັນ)",
+      "these = ເຫຼົ່ານີ້ (ໃກ້, ຫຼາຍອັນ)",
+      "that = ອັນນັ້ນ (ໄກ, 1 ອັນ)",
+      "those = ເຫຼົ່ານັ້ນ (ໄກ, ຫຼາຍອັນ)"
+    ],
+    "codeSample": "if (sound == vowel) 'an' else 'a'\n\nnear + 1 = this\nnear + many = these\nfar + 1 = that\nfar + many = those",
+    "table": [
+      {
+        "from": "box",
+        "to": "boxes"
+      },
+      {
+        "from": "city",
+        "to": "cities"
+      },
+      {
+        "from": "man",
+        "to": "men"
+      },
+      {
+        "from": "child",
+        "to": "children"
+      },
+      {
+        "from": "this pen",
+        "to": "these pens"
+      },
+      {
+        "from": "that car",
+        "to": "those cars"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g03.svg",
+      "alt": "ຂອງໃກ້ໂຕ: this apple, these apples. ຂອງໄກໂຕ: that car, those cars",
+      "caption": "ຂອງຢູ່ໃກ້ມືໃຊ້ this / these ຂອງຢູ່ໄກໃຊ້ that / those. ອັນໃດມີ 1 ອັນ ອັນໃດມີຫຼາຍອັນ?"
+    },
+    "examples": [
+      {
+        "title": "🍎 ຂາຍໝາກໄມ້",
+        "story": "ລອງນຶກພາບ: ເຈົ້າເປັນແມ່ຄ້າຂາຍໝາກໄມ້ ຂອງບາງຢ່າງຢູ່ໃກ້ມື ບາງຢ່າງຢູ່ໄກ ຕ້ອງຊີ້ບອກລູກຄ້າໃຫ້ຖືກ",
+        "lines": [
+          "👉🍎 This apple is sweet. (ໃກ້, 1 ໜ່ວຍ)",
+          "👉🍌🍌🍌 These bananas are cheap. (ໃກ້, ຫຼາຍໜ່ວຍ)",
+          "☝️🍉 That watermelon is big! (ໄກ, 1 ໜ່ວຍ)",
+          "☝️🥭🥭 Those mangoes are from my garden. (ໄກ, ຫຼາຍໜ່ວຍ)"
+        ]
+      },
+      {
+        "title": "✨️ ເວດມົນ: 1 ກາຍເປັນຫຼາຍ",
+        "story": "ລອງນຶກພາບວ່າເຈົ້າມີໄມ້ກາຍະສິດ ຊີ້ໃສ່ຫຍັງ ສິ່ງນັ້ນກໍເພີ່ມເປັນຫຼາຍອັນ ແຕ່ຄຳກໍຕ້ອງປ່ຽນນຳ!",
+        "lines": [
+          "a book 📕 → three books 📕📗📘",
+          "a box 📦 → two boxes 📦📦 (ລົງທ້າຍ -x ເຕີມ -es)",
+          "an egg 🥚 → four eggs 🥚🥚🥚🥚",
+          "a child 👦 → two children 👦👧 (ບໍ່ປົກກະຕິ!)"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "a ຫຼື an? ___ orange, ___ banana, ___ hour, ___ university",
+        "answer": "an orange, a banana, an hour, a university (ເບິ່ງສຽງ ບໍ່ແມ່ນຕົວໜັງສື)"
+      },
+      {
+        "task": "ປ່ຽນເປັນພະຫູພົດ: bus, city, man",
+        "answer": "buses, cities, men"
+      },
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: ຢາກຊີ້ໄປຫາລົດຫຼາຍຄັນທີ່ຢູ່ໄກ ຈະເວົ້າວ່າແນວໃດ?",
+        "answer": "Those cars."
+      }
+    ],
+    "idea": "ເບິ່ງອ້ອມໂຕເຈົ້າດຽວນີ້ ຊີ້ຂອງ 4 ຢ່າງ ແລ້ວເວົ້າ: This is a / an ... / These are ... / That is ... / Those are ..."
+  },
+  "g05": {
+    "id": "g05",
+    "title": "Present Simple & adverbs of frequency",
+    "readMinutes": 8,
+    "intro": "ໃຊ້ເວົ້າເຖິງສິ່ງທີ່ເຮັດເປັນປະຈຳ ນິໄສ ຫຼື ຄວາມຈິງທົ່ວໄປ ບອກວ່າເຮັດເລື້ອຍປານໃດ ວາງໄວ້ໜ້າກິລິຍາຫຼັກ ແຕ່ຫຼັງ to be",
+    "keyPoints": [
+      "he / she / it ກິລິຍາເຕີມ -s: she works",
+      "ປະຕິເສດ: don't / doesn't + ກິລິຍາຮູບປົກກະຕິ",
+      "ຄຳຖາມ: Do / Does + ປະທານ + ກິລິຍາ?",
+      "have → has, go → goes, study → studies",
+      "always 100% > usually > often > sometimes > never 0%",
+      "I always get up at 6.",
+      "She is never late. (ຫຼັງ is)"
+    ],
+    "codeSample": "if (subject in [he, she, it]) verb + 's'\nelse verb\n\nalways 100%\nusually  80%\noften    60%\nsometimes 40%\nnever     0%",
+    "table": [
+      {
+        "from": "I work",
+        "to": "she works"
+      },
+      {
+        "from": "I go",
+        "to": "he goes"
+      },
+      {
+        "from": "I don't like",
+        "to": "she doesn't like"
+      },
+      {
+        "from": "I eat breakfast.",
+        "to": "I usually eat breakfast."
+      },
+      {
+        "from": "He is late.",
+        "to": "He is often late."
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g05.svg",
+      "alt": "ຕາຕະລາງ 7 ວັນ: always ເຮັດທັງ 7 ວັນ, usually 6 ວັນ, often 4 ວັນ, sometimes 3 ວັນ, never 0 ວັນ",
+      "caption": "ຈຸດສີ = ມື້ທີ່ເຮັດ. ໃນ 1 ອາທິດ ເຈົ້າເຮັດຫຍັງ always ແລະ ເຮັດຫຍັງ never?"
+    },
+    "examples": [
+      {
+        "title": "🐱 ຊີວິດຂອງແມວ Mimi",
+        "story": "ລອງນຶກພາບແມວໂຕໜຶ່ງຊື່ Mimi ມັນເຮັດຫຍັງແດ່ໃນແຕ່ລະມື້? (she / it → ກິລິຍາເຕີມ -s)",
+        "lines": [
+          "😴 Mimi always sleeps on my bed. (100%)",
+          "🐟 She usually eats fish. (80%)",
+          "🎾 She sometimes plays with a ball. (40%)",
+          "🚿 She never has a shower! (0%)"
+        ]
+      },
+      {
+        "title": "🎤 ສຳພາດໝູ່",
+        "story": "ເຈົ້າເປັນນັກຂ່າວ ຖາມໝູ່ວ່າເຮັດສິ່ງຕ່າງໆເລື້ອຍປານໃດ ຄຳຖາມໃຊ້ Do / Does",
+        "lines": [
+          "You: Do you get up early?",
+          "Friend: Yes, I always get up at five.",
+          "You: Does your brother get up early?",
+          "Friend: No, he doesn't. He is often late for school! 😆"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ຕື່ມກິລິຍາ: She ___ (go) to school. They ___ (play) football.",
+        "answer": "She goes to school. They play football."
+      },
+      {
+        "task": "ວາງ never ໃສ່ໃຫ້ຖືກບ່ອນ: I eat breakfast. / He is late.",
+        "answer": "I never eat breakfast. / He is never late. (ໜ້າກິລິຍາຫຼັກ ແຕ່ຫຼັງ to be)"
+      },
+      {
+        "task": "ປ່ຽນເປັນປະຕິເສດ: He likes coffee.",
+        "answer": "He doesn't like coffee. (ຫຼັງ doesn't ບໍ່ເຕີມ -s)"
+      }
+    ],
+    "idea": "ເຮັດ ‘ຕາຕະລາງນິໄສ’ ຂອງເຈົ້າ: ຂຽນ 5 ປະໂຫຍກ ໃຊ້ always, usually, often, sometimes, never ຄຳລະປະໂຫຍກ ແລ້ວແຕ່ງອີກ 2 ປະໂຫຍກກ່ຽວກັບຄົນໃນຄອບຄົວ (ຢ່າລືມ -s!)"
+  },
+  "g07": {
+    "id": "g07",
+    "title": "There is / There are & can / can't",
+    "readMinutes": 6,
+    "intro": "ໃຊ້ບອກວ່າມີສິ່ງໃດຢູ່ໃສ can ບອກຄວາມສາມາດ ຫຼື ຂໍອະນຸຍາດ ກິລິຍາຫຼັງ can ບໍ່ເຕີມ -s",
+    "keyPoints": [
+      "There is + ຈຳນວນດຽວ: There is a bank.",
+      "There are + ຫຼາຍ: There are two chairs.",
+      "ຄຳຖາມ: Is there...? / Are there...?",
+      "ປະຕິເສດ: There isn't / There aren't any",
+      "I / she / they can swim. (ບໍ່ມີ cans)",
+      "ປະຕິເສດ: can't = cannot",
+      "ຄຳຖາມ: Can you speak English?",
+      "ຂໍອະນຸຍາດ: Can I open the window?"
+    ],
+    "codeSample": "count == 1 ? 'There is' : 'There are'\n\nsubject + can + verb (no -s, no to)",
+    "table": [
+      {
+        "from": "a book",
+        "to": "There is a book."
+      },
+      {
+        "from": "three books",
+        "to": "There are three books."
+      },
+      {
+        "from": "She can to sing.",
+        "to": "She can sing."
+      },
+      {
+        "from": "He cans drive.",
+        "to": "He can drive."
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g07.svg",
+      "alt": "ຫ້ອງນອນ: ຕຽງ 1 ໜ່ວຍ, ປຶ້ມ 3 ຫົວຢູ່ເທິງຊັ້ນວາງ, ແມວ 2 ໂຕ, ປາ 1 ໂຕໃນໂຖແກ້ວ ແລະ ນົກ 1 ໂຕຢູ່ປ່ອງຢ້ຽມ",
+      "caption": "ໃນຫ້ອງນີ້ມີຫຍັງແດ່ ຢ່າງລະຈັກອັນ? ນັບເບິ່ງ ແລ້ວລອງເວົ້າ There is ... / There are ..."
+    },
+    "examples": [
+      {
+        "title": "👀 ເກມຈື່ຂອງໃນຫ້ອງ",
+        "story": "ເບິ່ງພາບຫ້ອງຂ້າງເທິງ 10 ວິນາທີ ແລ້ວປິດຕາ ເຈົ້າຈື່ໄດ້ຈັກຢ່າງ?",
+        "lines": [
+          "🛏️ There is a bed.",
+          "📚 There are three books on the shelf.",
+          "🐈 There are two cats on the floor.",
+          "🐶 Is there a dog? — No, there isn't.",
+          "📺 Are there any TVs? — No, there aren't any."
+        ]
+      },
+      {
+        "title": "💪 ພະລັງພິເສດ",
+        "story": "ສັດແຕ່ລະໂຕໃນຫ້ອງມີຄວາມສາມາດບໍ່ຄືກັນ ແລ້ວເຈົ້າເດ ມີພະລັງພິເສດຫຍັງ?",
+        "lines": [
+          "🐟 The fish can swim, but it can't walk.",
+          "🐦 The bird can fly, but it can't read.",
+          "🐈 The cats can jump, but they can't fly.",
+          "💪 And you? I can ..., but I can't ..."
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ ແລ້ວຕື່ມ is / are: There ___ a bed. There ___ two cats.",
+        "answer": "There is a bed. There are two cats."
+      },
+      {
+        "task": "ແກ້ປະໂຫຍກໃຫ້ຖືກ: She cans to swim.",
+        "answer": "She can swim. (can ບໍ່ເຕີມ -s ແລະ ບໍ່ມີ to)"
+      },
+      {
+        "task": "ຢາກຂໍອະນຸຍາດເປີດປ່ອງຢ້ຽມ ຈະເວົ້າວ່າແນວໃດ?",
+        "answer": "Can I open the window?"
+      }
+    ],
+    "idea": "ພັນລະນາຫ້ອງຂອງເຈົ້າເອງ 4 ປະໂຫຍກ ດ້ວຍ There is / There are ແລ້ວຂຽນ ‘ພະລັງ’ ຂອງເຈົ້າ: 2 ຢ່າງທີ່ I can ແລະ 2 ຢ່າງທີ່ I can't"
+  },
+  "g09": {
+    "id": "g09",
+    "title": "Present Continuous & be going to",
+    "readMinutes": 8,
+    "intro": "ໃຊ້ເວົ້າເຖິງສິ່ງທີ່ກຳລັງເກີດຂຶ້ນຕອນນີ້ ໃຊ້ເວົ້າເຖິງແຜນທີ່ຕັດສິນໃຈໄວ້ແລ້ວ ຫຼື ສິ່ງທີ່ເຫັນວ່າກຳລັງຈະເກີດ",
+    "keyPoints": [
+      "am / is / are + ກິລິຍາ-ing",
+      "I'm reading. She's cooking.",
+      "ຄຳທີ່ມັກໃຊ້: now, at the moment, look!",
+      "run → running, write → writing",
+      "am / is / are + going to + ກິລິຍາ",
+      "I'm going to study tonight.",
+      "Look at the clouds! It's going to rain.",
+      "ຄຳຖາມ: Are you going to...?"
+    ],
+    "codeSample": "be + verb + 'ing'\n\nbe + going to + verb",
+    "table": [
+      {
+        "from": "read",
+        "to": "reading"
+      },
+      {
+        "from": "write",
+        "to": "writing"
+      },
+      {
+        "from": "swim",
+        "to": "swimming"
+      },
+      {
+        "from": "I study (plan)",
+        "to": "I'm going to study."
+      },
+      {
+        "from": "she visit",
+        "to": "She's going to visit."
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g09.svg",
+      "alt": "ຊ້າຍ (NOW): He's running. She's cooking. ຂວາ (GOING TO): ມີເມກຫຼາຍ ຝົນກຳລັງຈະຕົກ It's going to rain.",
+      "caption": "ຊ້າຍ = ກຳລັງເກີດຂຶ້ນດຽວນີ້ (-ing). ຂວາ = ເຫັນຫຼັກຖານແລ້ວວ່າກຳລັງຈະເກີດ (going to)"
+    },
+    "examples": [
+      {
+        "title": "📞 ໂທຫາໝູ່",
+        "story": "ລອງນຶກພາບ: ເຈົ້າໂທວິດີໂອຫາໝູ່ ແລ້ວຖາມວ່າແຕ່ລະຄົນໃນບ້ານກຳລັງເຮັດຫຍັງຢູ່",
+        "lines": [
+          "You: Hi! What are you doing?",
+          "Friend: I'm watching TV. 📺",
+          "You: And your mother?",
+          "Friend: She's cooking dinner. 🍳",
+          "Friend: Look! My dog is running in the kitchen! 🐶"
+        ]
+      },
+      {
+        "title": "🔮 ນັກທຳນາຍ",
+        "story": "ເບິ່ງຫຼັກຖານຕໍ່ໜ້າ ແລ້ວທາຍວ່າຫຍັງກຳລັງຈະເກີດຂຶ້ນ",
+        "lines": [
+          "☁️ Look at the clouds! → It's going to rain.",
+          "😴 The baby is very tired. → She's going to sleep.",
+          "📚 I have a test tomorrow. → I'm going to study tonight.",
+          "🎂 It's my friend's birthday. → We're going to eat cake!"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເຕີມ -ing: run, write, swim, read",
+        "answer": "running, writing, swimming, reading"
+      },
+      {
+        "task": "ເບິ່ງພາບຝັ່ງ NOW ແລ້ວປ່ຽນເປັນຄຳຖາມ: He's running.",
+        "answer": "Is he running?"
+      },
+      {
+        "task": "ແຕ່ງປະໂຫຍກບອກແຜນມື້ອື່ນ ຈາກຄຳເຫຼົ່ານີ້: I / visit / my grandmother",
+        "answer": "I'm going to visit my grandmother."
+      }
+    ],
+    "idea": "ເບິ່ງອອກໄປນອກປ່ອງຢ້ຽມ: ຂຽນ 3 ຢ່າງທີ່ກຳລັງເກີດຂຶ້ນດຽວນີ້ (... is ...ing) ແລ້ວຂຽນແຜນທ້າຍອາທິດນີ້ຂອງເຈົ້າ 2 ຢ່າງ (I'm going to ...)"
+  },
+  "g10": {
+    "id": "g10",
+    "title": "was / were & Past Simple",
+    "readMinutes": 8,
+    "intro": "ອະດີດຂອງ to be ໃຊ້ເວົ້າເຖິງເຫດການທີ່ເກີດຂຶ້ນ ແລະ ຈົບໄປແລ້ວໃນອະດີດ",
+    "keyPoints": [
+      "I / he / she / it → was",
+      "you / we / they → were",
+      "ປະຕິເສດ: wasn't / weren't",
+      "ຄຳຖາມ: Were you at home yesterday?",
+      "ກິລິຍາປົກກະຕິ ເຕີມ -ed: walk → walked",
+      "ກິລິຍາບໍ່ປົກກະຕິ ຕ້ອງຈື່: go → went",
+      "ປະຕິເສດ: didn't + ກິລິຍາຮູບປົກກະຕິ",
+      "ຄຳຖາມ: Did you go...?",
+      "ຄຳບອກເວລາ: yesterday, last week, ago"
+    ],
+    "codeSample": "am, is -> was\nare    -> were\n\nif (verb.regular) past = verb + 'ed'\nelse past = irregular[verb]",
+    "table": [
+      {
+        "from": "I am tired.",
+        "to": "I was tired."
+      },
+      {
+        "from": "They are here.",
+        "to": "They were here."
+      },
+      {
+        "from": "walk",
+        "to": "walked"
+      },
+      {
+        "from": "go",
+        "to": "went"
+      },
+      {
+        "from": "eat",
+        "to": "ate"
+      },
+      {
+        "from": "see",
+        "to": "saw"
+      },
+      {
+        "from": "buy",
+        "to": "bought"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/g10.svg",
+      "alt": "ສອງຝັ່ງ: TODAY am / is, are, walk, go, eat ຍ້ອນກັບໄປ YESTERDAY ກາຍເປັນ was, were, walked, went, ate",
+      "caption": "ຍ້ອນເວລາກັບໄປມື້ວານ ກິລິຍາກໍປ່ຽນຮູບ. ຄຳໃດແຕ່ເຕີມ -ed ຄຳໃດປ່ຽນໄປທັງຄຳ?"
+    },
+    "examples": [
+      {
+        "title": "⏪️ ເຄື່ອງຍ້ອນເວລາ",
+        "story": "ລອງນຶກພາບວ່າເຈົ້າມີເຄື່ອງຍ້ອນເວລາ ກົດປຸ່ມກັບໄປມື້ວານນີ້ ທຸກປະໂຫຍກຕ້ອງປ່ຽນເປັນອະດີດ",
+        "lines": [
+          "Today I am at school. → Yesterday I was at home.",
+          "Today we are happy. → Yesterday we were tired.",
+          "Today I walk to school. → Yesterday I walked to school.",
+          "Today I eat rice. → Yesterday I ate noodles. 🍜 (ບໍ່ປົກກະຕິ!)"
+        ]
+      },
+      {
+        "title": "📔 ບັນທຶກກ່ອນນອນ",
+        "story": "ກ່ອນນອນ ເຈົ້າຂຽນບັນທຶກສັ້ນໆ ວ່າມື້ວານນີ້ເຮັດຫຍັງແດ່",
+        "lines": [
+          "Yesterday was Saturday.",
+          "I went to the market with my mother.",
+          "We bought mangoes and saw my teacher there.",
+          "I didn't do my homework. 😬"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ຕື່ມ was / were: I ___ tired. They ___ at home.",
+        "answer": "I was tired. They were at home."
+      },
+      {
+        "task": "ປ່ຽນເປັນອະດີດ: walk, go, eat, see, buy",
+        "answer": "walked, went, ate, saw, bought"
+      },
+      {
+        "task": "ປ່ຽນເປັນປະຕິເສດ ແລະ ຄຳຖາມ: You went to school.",
+        "answer": "You didn't go to school. / Did you go to school? (ຫຼັງ did ໃຊ້ກິລິຍາຮູບປົກກະຕິ)"
+      }
+    ],
+    "idea": "ຂຽນບັນທຶກຂອງເຈົ້າເອງ: ມື້ວານນີ້ເຮັດຫຍັງແດ່ 4 ປະໂຫຍກ (was / were 1 ປະໂຫຍກ, ກິລິຍາ -ed 1 ປະໂຫຍກ, ກິລິຍາບໍ່ປົກກະຕິ 1 ປະໂຫຍກ ແລະ didn't 1 ປະໂຫຍກ)"
+  },
+  "v01": {
+    "id": "v01",
+    "title": "Numbers, days, months & time",
+    "readMinutes": 8,
+    "intro": "ຕົວເລກໃຊ້ທຸກມື້ ລະວັງ -teen ກັບ -ty ອອກສຽງຕ່າງກັນ ມື້ ແລະ ເດືອນ ຂຶ້ນຕົ້ນດ້ວຍຕົວໃຫຍ່ສະເໝີ",
+    "keyPoints": [
+      "13 thirteen ↔ 30 thirty",
+      "15 fifteen ↔ 50 fifty",
+      "21 = twenty-one (ມີ -)",
+      "100 = one hundred",
+      "on + ມື້: on Monday",
+      "in + ເດືອນ/ປີ: in May, in 2026",
+      "at + ເວລາ: at 7 o'clock",
+      "half past six = 6:30, quarter to nine = 8:45"
+    ],
+    "codeSample": "teen -> 13..19 (ສຽງໜັກທ້າຍ)\nty   -> 20,30..90 (ສຽງໜັກໜ້າ)\n\non  -> day\nin  -> month, year\nat  -> time",
+    "table": [
+      {
+        "from": "12",
+        "to": "twelve"
+      },
+      {
+        "from": "13",
+        "to": "thirteen"
+      },
+      {
+        "from": "40",
+        "to": "forty"
+      },
+      {
+        "from": "99",
+        "to": "ninety-nine"
+      },
+      {
+        "from": "ວັນຈັນ",
+        "to": "Monday"
+      },
+      {
+        "from": "ວັນເສົາ",
+        "to": "Saturday"
+      },
+      {
+        "from": "ເດືອນມັງກອນ",
+        "to": "January"
+      },
+      {
+        "from": "6:30",
+        "to": "half past six"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/v01.svg",
+      "alt": "ໂມງຊີ້ 7 ໂມງ, ປະຕິທິນ ວັນຈັນ ທີ 13 ເດືອນພຶດສະພາ ແລະ ປ້າຍຕົວເລກ 13 ກັບ 30",
+      "caption": "ໂມງບອກເວລາຈັກໂມງ? ມື້ນີ້ແມ່ນວັນຫຍັງ ເດືອນຫຍັງ? ລອງຕອບເປັນພາສາອັງກິດ"
+    },
+    "examples": [
+      {
+        "title": "🥭 ຂາຍໝາກມ່ວງ: 13 ຫຼື 30?",
+        "story": "ລອງນຶກພາບ: ເຈົ້າຂາຍໝາກມ່ວງຢູ່ຕະຫຼາດ ມີນັກທ່ອງທ່ຽວມາຊື້ ຖ້າຟັງ -teen ກັບ -ty ຜິດ ຈະເກີດຫຍັງຂຶ້ນ?",
+        "lines": [
+          "Tourist: Thirteen mangoes, please. (thir-TEEN = 13)",
+          "ເຈົ້າຟັງເປັນ thirty (THIR-ty = 30) ແລ້ວນັບໝາກມ່ວງໃສ່ຖົງ 30 ໜ່ວຍ 😅",
+          "Tourist: No, no! Thirteen. One - three!",
+          "ຈື່ໄວ້: -teen ສຽງໜັກຢູ່ທ້າຍ ສ່ວນ -ty ສຽງໜັກຢູ່ໜ້າ"
+        ]
+      },
+      {
+        "title": "📅 ນັດໝູ່ໄປຫຼິ້ນ",
+        "story": "ໝູ່ຕ່າງປະເທດຢາກນັດເຈົ້າໄປກິນເຂົ້າ ໃຊ້ on / in / at ໃຫ້ຖືກ ກໍນັດໄດ້ບໍ່ພາດ",
+        "lines": [
+          "A: Are you free on Saturday?",
+          "B: Yes! What time?",
+          "A: At half past six. (6:30)",
+          "B: OK. See you on Saturday at half past six!"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: ໂມງບອກເວລາຈັກໂມງ? ຕອບເປັນພາສາອັງກິດ",
+        "answer": "It's seven o'clock."
+      },
+      {
+        "task": "ຂຽນເປັນຄຳ: 14, 40 ແລະ 99",
+        "answer": "fourteen, forty (ບໍ່ມີ u), ninety-nine (ມີ -)"
+      },
+      {
+        "task": "ຕື່ມ on / in / at: My birthday is ___ May. The party is ___ Friday ___ 8 o'clock.",
+        "answer": "in May, on Friday, at 8 o'clock"
+      }
+    ],
+    "idea": "ມື້ນີ້ເຈົ້າເຫັນຕົວເລກຢູ່ໃສແດ່? ປ້າຍລາຄາ ປ້າຍທະບຽນລົດ ເບີໂທ... ລອງອ່ານອອກສຽງເປັນພາສາອັງກິດ 5 ຕົວເລກ ແລ້ວແຕ່ງປະໂຫຍກນັດໝູ່ຂອງເຈົ້າເອງ 1 ປະໂຫຍກ ໂດຍໃຊ້ on ແລະ at"
+  },
+  "v03": {
+    "id": "v03",
+    "title": "Greetings & family",
+    "readMinutes": 6,
+    "intro": "ຄຳສັບຄອບຄົວ ແລະ ການໃຊ້ 's ບອກຄວາມເປັນເຈົ້າຂອງ ປະໂຫຍກທັກທາຍ ແລະ ແນະນຳຕົວທີ່ໃຊ້ທຸກມື້",
+    "keyPoints": [
+      "mother, father → parents",
+      "brother, sister",
+      "grandmother, grandfather",
+      "aunt, uncle, cousin",
+      "Tom's sister = ເອື້ອຍ/ນ້ອງສາວຂອງ Tom",
+      "Hi / Hello. Good morning.",
+      "What's your name? — My name's Noy.",
+      "Where are you from? — I'm from Laos.",
+      "Nice to meet you. — Nice to meet you, too.",
+      "How are you? — I'm fine, thanks. And you?"
+    ],
+    "codeSample": "owner + 's + thing\nTom's bag\n\n> What's your name?\n< My name's Noy.",
+    "table": [
+      {
+        "from": "ພໍ່ແມ່",
+        "to": "parents"
+      },
+      {
+        "from": "ພີ່ນ້ອງຊາຍ",
+        "to": "brother"
+      },
+      {
+        "from": "ລູກພີ່ລູກນ້ອງ",
+        "to": "cousin"
+      },
+      {
+        "from": "ລຸງ/ອາ",
+        "to": "uncle"
+      },
+      {
+        "from": "ສະບາຍດີ (ຕອນເຊົ້າ)",
+        "to": "Good morning"
+      },
+      {
+        "from": "ຍິນດີທີ່ໄດ້ຮູ້ຈັກ",
+        "to": "Nice to meet you"
+      },
+      {
+        "from": "ລາກ່ອນ",
+        "to": "Goodbye / See you"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/v03.svg",
+      "alt": "ແຜນຜັງຄອບຄົວຂອງ Noy: grandfather, grandmother, father, mother, Noy ແລະ Tom",
+      "caption": "ນີ້ແມ່ນຄອບຄົວຂອງ Noy. ລອງທາຍເບິ່ງ: Tom ເປັນຫຍັງກັບ Noy?"
+    },
+    "examples": [
+      {
+        "title": "👋 ໝູ່ໃໝ່ຢູ່ໂຮງຮຽນ",
+        "story": "ລອງນຶກພາບ: ມີນັກຮຽນໃໝ່ຍ້າຍມາຈາກຕ່າງປະເທດ ນັ່ງຢູ່ຂ້າງເຈົ້າ ເຈົ້າຈະເລີ່ມລົມກັບລາວແນວໃດ?",
+        "lines": [
+          "You: Hi! What's your name?",
+          "Tom: My name's Tom. And you?",
+          "You: I'm Noy. Where are you from?",
+          "Tom: I'm from Australia. Nice to meet you.",
+          "You: Nice to meet you, too!"
+        ]
+      },
+      {
+        "title": "📸 ອວດຮູບຄອບຄົວ",
+        "story": "ເຈົ້າເປີດຮູບຄອບຄົວໃນມືຖືໃຫ້ໝູ່ເບິ່ງ ແລ້ວແນະນຳເທື່ອລະຄົນ ໃຊ້ 's ບອກວ່າໃຜເປັນຫຍັງກັບໃຜ",
+        "lines": [
+          "This is my mother.",
+          "This is my father's brother — my uncle.",
+          "This is my uncle's son — my cousin.",
+          "And this is Mimi. She's my sister's cat! 🐱"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: Tom ເປັນຫຍັງກັບ Noy? ຕອບໂດຍໃຊ້ 's",
+        "answer": "Tom is Noy's brother."
+      },
+      {
+        "task": "ແມ່ຂອງແມ່ ເອີ້ນວ່າຫຍັງ? ລູກຂອງລຸງ ເອີ້ນວ່າຫຍັງ?",
+        "answer": "grandmother ແລະ cousin"
+      },
+      {
+        "task": "ມີຄົນເວົ້າກັບເຈົ້າວ່າ: Nice to meet you. ເຈົ້າຈະຕອບວ່າແນວໃດ?",
+        "answer": "Nice to meet you, too."
+      }
+    ],
+    "idea": "ແຕ້ມແຜນຜັງຄອບຄົວຂອງເຈົ້າເອງ ຂຽນຄຳພາສາອັງກິດກຳກັບທຸກຄົນ (mother, uncle, cousin...) ແລ້ວແນະນຳ 3 ຄົນໃຫ້ໝູ່ຟັງ: This is my ..."
+  },
+  "v04": {
+    "id": "v04",
+    "title": "Daily routine, food & drink",
+    "readMinutes": 7,
+    "intro": "ກິລິຍາທີ່ໃຊ້ເລົ່າກິດຈະວັດປະຈຳວັນ ໃຊ້ຄູ່ກັບ Present Simple ນາມນັບໄດ້ ແລະ ນັບບໍ່ໄດ້ ໃຊ້ some / any ຕ່າງກັນ",
+    "keyPoints": [
+      "get up, have a shower, have breakfast",
+      "go to school, start / finish work",
+      "have lunch / dinner, do homework",
+      "go to bed",
+      "ນັບໄດ້: an apple, two eggs",
+      "ນັບບໍ່ໄດ້: rice, water, milk (ບໍ່ເຕີມ -s)",
+      "some ໃນປະໂຫຍກບອກເລົ່າ, any ໃນຄຳຖາມ/ປະຕິເສດ",
+      "a bottle of water, a cup of coffee"
+    ],
+    "codeSample": "06:00 get up\n07:00 have breakfast\n22:00 go to bed\n\ncountable   -> a/an, -s\nuncountable -> some, no -s",
+    "table": [
+      {
+        "from": "ຕື່ນນອນ",
+        "to": "get up"
+      },
+      {
+        "from": "ອາບນ້ຳ",
+        "to": "have a shower"
+      },
+      {
+        "from": "ເຮັດວຽກບ້ານ",
+        "to": "do homework"
+      },
+      {
+        "from": "ເຂົ້ານອນ",
+        "to": "go to bed"
+      },
+      {
+        "from": "ເຂົ້າ",
+        "to": "rice"
+      },
+      {
+        "from": "ໄຂ່",
+        "to": "egg"
+      },
+      {
+        "from": "ນ້ຳ",
+        "to": "water"
+      },
+      {
+        "from": "ໄກ່",
+        "to": "chicken"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/v04.svg",
+      "alt": "ຕາຕະລາງ 1 ມື້ຂອງ Noy: 06:00 get up, 07:00 have breakfast, 08:00 go to school, 12:00 have lunch, 18:00 do homework, 22:00 go to bed",
+      "caption": "ນີ້ແມ່ນມື້ໜຶ່ງຂອງ Noy. ມື້ຂອງເຈົ້າຄືກັນ ຫຼື ຕ່າງກັນບ່ອນໃດ?"
+    },
+    "examples": [
+      {
+        "title": "🎥 ຖ່າຍວິດີໂອ ‘ມື້ໜຶ່ງຂອງຂ້ອຍ’",
+        "story": "ລອງນຶກພາບວ່າເຈົ້າຖ່າຍວິດີໂອເລົ່າຊີວິດ 1 ມື້ ໃຫ້ຄົນທົ່ວໂລກເບິ່ງ ເຈົ້າຈະເລົ່າແນວໃດ?",
+        "lines": [
+          "⏰️ I get up at six o'clock.",
+          "🍳 I have breakfast at seven.",
+          "🏫 I go to school at eight.",
+          "📚 I do homework at six.",
+          "😴 I go to bed at ten. Good night!"
+        ]
+      },
+      {
+        "title": "🥚 ເປີດຕູ້ເຢັນ",
+        "story": "ທ້ອງຮ້ອງແລ້ວ! ເປີດຕູ້ເຢັນເບິ່ງວ່າມີຫຍັງແດ່ ຂອງທີ່ນັບໄດ້ໃຊ້ a / an ຫຼື ຕົວເລກ ຂອງທີ່ນັບບໍ່ໄດ້ໃຊ້ some",
+        "lines": [
+          "🥚🥚 I have two eggs.",
+          "🍎 I have an apple.",
+          "🥛 I have some milk. (ນັບບໍ່ໄດ້ ບໍ່ເຕີມ -s)",
+          "🍚 Do we have any rice? — No! We don't have any rice. 😱"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: Noy ເຮັດຫຍັງຕອນ 12:00 ແລະ 22:00?",
+        "answer": "12:00 have lunch · 22:00 go to bed"
+      },
+      {
+        "task": "ນັບໄດ້ ຫຼື ນັບບໍ່ໄດ້? egg, water, banana, rice",
+        "answer": "ນັບໄດ້: egg, banana (two eggs, a banana) · ນັບບໍ່ໄດ້: water, rice (some water, some rice)"
+      },
+      {
+        "task": "ຕື່ມ some / any: I have ___ coffee. Do you have ___ milk?",
+        "answer": "some coffee, any milk"
+      }
+    ],
+    "idea": "ອອກແບບ ‘ມື້ໃນຝັນ’ ຂອງເຈົ້າ: ຢາກຕື່ນຈັກໂມງ ກິນຫຍັງ ເຮັດຫຍັງ? ຂຽນ 4 ປະໂຫຍກ ເຊັ່ນ: I get up at ten. I have pizza for breakfast. 😄"
+  },
+  "v06": {
+    "id": "v06",
+    "title": "Jobs, places & classroom",
+    "readMinutes": 6,
+    "intro": "ບອກອາຊີບໃຊ້ a / an ສະເໝີ: She's a doctor. ປະໂຫຍກທີ່ນັກຮຽນໃຊ້ໃນຫ້ອງຮຽນ",
+    "keyPoints": [
+      "teacher → school",
+      "doctor, nurse → hospital",
+      "waiter → restaurant",
+      "engineer, developer → office",
+      "I'm an engineer. (an ເພາະສຽງສະຫຼະ)",
+      "Can you repeat that, please?",
+      "What does ... mean?",
+      "How do you spell it?",
+      "Sorry, I don't understand.",
+      "Can I go to the toilet, please?"
+    ],
+    "codeSample": "job -> place\ndoctor -> hospital\n\n> How do you spell 'friend'?\n< F-R-I-E-N-D",
+    "table": [
+      {
+        "from": "ຄູ",
+        "to": "teacher"
+      },
+      {
+        "from": "ໝໍ",
+        "to": "doctor"
+      },
+      {
+        "from": "ພະນັກງານເສີບ",
+        "to": "waiter"
+      },
+      {
+        "from": "ນັກພັດທະນາ",
+        "to": "developer"
+      },
+      {
+        "from": "ຂໍໃຫ້ເວົ້າອີກເທື່ອໜຶ່ງ",
+        "to": "Can you repeat that, please?"
+      },
+      {
+        "from": "ຂ້ອຍບໍ່ເຂົ້າໃຈ",
+        "to": "I don't understand."
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/v06.svg",
+      "alt": "ເກມຈັບຄູ່: ອາຊີບ teacher, doctor, waiter, developer ກັບ ສະຖານທີ່ hospital, office, school, restaurant",
+      "caption": "ໃຜເຮັດວຽກຢູ່ໃສ? ລອງລາກເສັ້ນຈັບຄູ່ໃນໃຈ ກ່ອນອ່ານບົດ"
+    },
+    "examples": [
+      {
+        "title": "🎭 ເກມທາຍອາຊີບ",
+        "story": "ລອງຫຼິ້ນກັບໝູ່: ຄົນໜຶ່ງທຳທ່າເປັນອາຊີບໃດໜຶ່ງ ອີກຄົນທາຍເປັນພາສາອັງກິດ ຢ່າລືມ a / an!",
+        "lines": [
+          "A: (ທຳທ່າສັກຢາ 💉)",
+          "B: Are you a doctor?",
+          "A: Yes, I am! I work in a hospital. 🏥",
+          "B: (ທຳທ່າພິມຄອມ 💻)",
+          "A: Are you an engineer?",
+          "B: No, I'm not. I'm a developer!"
+        ]
+      },
+      {
+        "title": "🙋 ບໍ່ເຂົ້າໃຈ ກໍຖາມໄດ້",
+        "story": "ຄູເວົ້າໄວຫຼາຍ ເຈົ້າຟັງບໍ່ທັນ ຢ່ານັ່ງງຽບ! ນັກຮຽນເກັ່ງແມ່ນຄົນທີ່ກ້າຖາມ",
+        "lines": [
+          "You: Sorry, I don't understand. Can you repeat that, please?",
+          "Teacher: Of course. ‘Engineer’.",
+          "You: How do you spell it?",
+          "Teacher: E-N-G-I-N-E-E-R.",
+          "You: What does ‘engineer’ mean?"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ ແລ້ວຈັບຄູ່: teacher, doctor, waiter, developer ເຮັດວຽກຢູ່ໃສ?",
+        "answer": "teacher → school · doctor → hospital · waiter → restaurant · developer → office"
+      },
+      {
+        "task": "a ຫຼື an? She's ___ nurse. He's ___ engineer.",
+        "answer": "a nurse, an engineer (engineer ຂຶ້ນຕົ້ນດ້ວຍສຽງສະຫຼະ)"
+      },
+      {
+        "task": "ຢາກຮູ້ວ່າຄຳວ່າ friend ສະກົດແນວໃດ ຈະຖາມຄູວ່າແນວໃດ?",
+        "answer": "How do you spell ‘friend’? — F-R-I-E-N-D"
+      }
+    ],
+    "idea": "ໃຫຍ່ຂຶ້ນເຈົ້າຢາກເປັນຫຍັງ? ຂຽນ 2 ປະໂຫຍກ: I want to be a / an ... ແລະ I want to work in a / an ... ແລ້ວລອງຖາມໝູ່ອີກ 3 ຄົນ"
+  },
+  "p03": {
+    "id": "p03",
+    "title": "Directions, shopping & ordering food",
+    "readMinutes": 7,
+    "intro": "ຖາມທາງ ແລະ ຟັງຄຳຕອບ ປະໂຫຍກສຸພາບເວລາຊື້ເຄື່ອງ ແລະ ສັ່ງອາຫານ",
+    "keyPoints": [
+      "Excuse me, where is the bank?",
+      "Go straight on.",
+      "Turn left / Turn right.",
+      "It's next to / opposite / near the school.",
+      "Is it far? — No, it's five minutes from here.",
+      "How much is it? / How much are they?",
+      "Can I have a coffee, please?",
+      "I'd like the chicken, please.",
+      "Can I pay by card?",
+      "Here you are. — Thank you."
+    ],
+    "codeSample": "go straight -> turn left -> next to the bank\n\n> Can I have a coffee, please?\n< Sure. That's 2 dollars.",
+    "table": [
+      {
+        "from": "ໄປຊື່ໆ",
+        "to": "go straight on"
+      },
+      {
+        "from": "ລ້ຽວຊ້າຍ",
+        "to": "turn left"
+      },
+      {
+        "from": "ກົງກັນຂ້າມ",
+        "to": "opposite"
+      },
+      {
+        "from": "ຢູ່ຂ້າງ",
+        "to": "next to"
+      },
+      {
+        "from": "ລາຄາເທົ່າໃດ (1 ອັນ)",
+        "to": "How much is it?"
+      },
+      {
+        "from": "ຂ້ອຍຂໍ...",
+        "to": "I'd like ..., please."
+      },
+      {
+        "from": "ຈ່າຍບັດໄດ້ບໍ",
+        "to": "Can I pay by card?"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/p03.svg",
+      "alt": "ແຜນທີ່: ຈາກຈຸດ YOU ໄປຊື່ໆ ແລ້ວລ້ຽວຊ້າຍ ຈະເຫັນ bank ຢູ່ຂ້າງ school ແລະ ກົງກັນຂ້າມ hospital. ຖ້າລ້ຽວຂວາ ຈະເຫັນ café ກົງກັນຂ້າມ shop",
+      "caption": "ເຈົ້າຢືນຢູ່ຈຸດ YOU. ນັກທ່ອງທ່ຽວຖາມ: Excuse me, where is the bank? ເຈົ້າຈະບອກທາງແນວໃດ?"
+    },
+    "examples": [
+      {
+        "title": "🗺️ ນັກທ່ອງທ່ຽວຫຼົງທາງ",
+        "story": "ລອງນຶກພາບ: ເຈົ້າຢືນຢູ່ຈຸດ YOU ໃນແຜນທີ່ຂ້າງເທິງ ມີນັກທ່ອງທ່ຽວຖືແຜນທີ່ປີ້ນຫົວ ຍ່າງມາຫາເຈົ້າ",
+        "lines": [
+          "Tourist: Excuse me, where is the bank?",
+          "You: Go straight on. Then turn left.",
+          "You: It's next to the school, opposite the hospital.",
+          "Tourist: Is it far?",
+          "You: No, it's two minutes from here.",
+          "Tourist: Thank you so much!"
+        ]
+      },
+      {
+        "title": "☕️ ສັ່ງເຄື່ອງດື່ມຢູ່ຮ້ານກາເຟ",
+        "story": "ຮອດຮ້ານກາເຟແລ້ວ ເຈົ້າຫິວນ້ຳຫຼາຍ ຢາກສັ່ງແບບສຸພາບ ຕ້ອງມີ please ສະເໝີ",
+        "lines": [
+          "You: Can I have an iced coffee, please?",
+          "Waiter: Sure. Anything else?",
+          "You: I'd like a sandwich, please. How much is it?",
+          "Waiter: That's five dollars.",
+          "You: Can I pay by card?",
+          "Waiter: Of course. Here you are."
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງແຜນທີ່ຂ້າງເທິງ: ບອກທາງຈາກຈຸດ YOU ໄປ café",
+        "answer": "Go straight on. Turn right. It's opposite the shop."
+      },
+      {
+        "task": "ຢາກຮູ້ລາຄາເກີບ 1 ຄູ່ (ຫຼາຍອັນ) ຈະຖາມວ່າແນວໃດ?",
+        "answer": "How much are they? (ຖ້າ 1 ອັນ ໃຊ້ How much is it?)"
+      },
+      {
+        "task": "ສັ່ງເຂົ້າຜັດໄກ່ແບບສຸພາບ ໂດຍໃຊ້ I'd like ...",
+        "answer": "I'd like the chicken fried rice, please."
+      }
+    ],
+    "idea": "ແຕ້ມແຜນທີ່ຈາກບ້ານເຈົ້າໄປໂຮງຮຽນ (ຫຼື ຕະຫຼາດ) ແລ້ວຂຽນບອກທາງເປັນພາສາອັງກິດ 3 ປະໂຫຍກ ໃຫ້ໝູ່ລອງເອົານິ້ວຍ່າງຕາມ ວ່າຮອດແທ້ບໍ່"
+  },
+  "m01": {
+    "id": "m01",
+    "title": "Decimals and fractions",
+    "readMinutes": 8,
+    "intro": "ເລກທົດສະນິຍົມ (ເຊັ່ນ 0.75) ປ່ຽນເປັນເລກສ່ວນໄດ້ ໂດຍຂຽນເປັນສ່ວນຂອງ 10, 100 ຫຼື 1000 ແລ້ວຫຍໍ້ໃຫ້ເປັນສ່ວນທີ່ງ່າຍທີ່ສຸດ ເລກສ່ວນ a/b ໝາຍເຖິງ a ຫານ b. ຖ້າຫານໄດ້ກໍຈະໄດ້ເລກທົດສະນິຍົມ",
+    "keyPoints": [
+      "ທົດສະນິຍົມ 1 ຕຳແໜ່ງ → ສ່ວນຂອງ 10: 0.3 = 3/10",
+      "ທົດສະນິຍົມ 2 ຕຳແໜ່ງ → ສ່ວນຂອງ 100: 0.75 = 75/100",
+      "ທົດສະນິຍົມ 3 ຕຳແໜ່ງ → ສ່ວນຂອງ 1000: 0.125 = 125/1000",
+      "ແລ້ວຫຍໍ້ໂດຍຫານທັງຕົວເສດ ແລະ ຕົວຫານດ້ວຍຕົວຫານຮ່ວມ: 75/100 = 3/4",
+      "a/b = a ÷ b",
+      "1/2 = 1 ÷ 2 = 0.5",
+      "ຖ້າປ່ຽນຕົວຫານເປັນ 10, 100, 1000 ໄດ້ ກໍຂຽນທົດສະນິຍົມໄດ້ທັນທີ: 3/5 = 6/10 = 0.6",
+      "ບາງເລກສ່ວນໄດ້ທົດສະນິຍົມຊ້ຳ: 1/3 = 0.333..."
+    ],
+    "codeSample": "0.75 = 75/100\n     = (75 ÷ 25) / (100 ÷ 25)\n     = 3/4\n\n3/4 = 3 ÷ 4 = 0.75\n3/8 = 3 ÷ 8 = 0.375",
+    "table": [
+      {
+        "from": "0.5",
+        "to": "1/2"
+      },
+      {
+        "from": "0.25",
+        "to": "1/4"
+      },
+      {
+        "from": "0.75",
+        "to": "3/4"
+      },
+      {
+        "from": "0.2",
+        "to": "1/5"
+      },
+      {
+        "from": "0.125",
+        "to": "1/8"
+      },
+      {
+        "from": "1/2",
+        "to": "0.5"
+      },
+      {
+        "from": "1/4",
+        "to": "0.25"
+      },
+      {
+        "from": "3/4",
+        "to": "0.75"
+      },
+      {
+        "from": "1/5",
+        "to": "0.2"
+      },
+      {
+        "from": "3/8",
+        "to": "0.375"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/m01.svg",
+      "alt": "ພິດຊ່າແບ່ງ 4 ຕ່ອນ ເຫຼືອ 3 ຕ່ອນ: 3/4 = 0.75 ແລະ ແບັດເຕີຣີ 10 ຂີດ ເຫຼືອ 5 ຂີດ: 5/10 = 0.5",
+      "caption": "ພິດຊ່າ ແລະ ແບັດເຕີຣີ ເຫຼືອເທົ່າໃດ? ພາບດຽວກັນ ຂຽນໄດ້ທັງເລກສ່ວນ ແລະ ເລກທົດສະນິຍົມ"
+    },
+    "examples": [
+      {
+        "title": "🍕 ແບ່ງພິດຊ່າ",
+        "story": "ລອງນຶກພາບ: ພິດຊ່າ 1 ຖາດ ຕັດເປັນ 4 ຕ່ອນເທົ່າກັນ ເຈົ້າກິນໄປ 1 ຕ່ອນ ເຫຼືອເທົ່າໃດ?",
+        "lines": [
+          "ເຫຼືອ 3 ຕ່ອນ ຈາກ 4 ຕ່ອນ = 3/4",
+          "3/4 = 3 ÷ 4 = 0.75",
+          "ສ່ວນທີ່ກິນໄປ 1/4 = 1 ÷ 4 = 0.25",
+          "ກວດຄືນ: 0.75 + 0.25 = 1 (ພິດຊ່າເຕັມຖາດ) ✓"
+        ]
+      },
+      {
+        "title": "💰 ເງິນໃນກະເປົາ",
+        "story": "ເຈົ້າມີເງິນ 10,000 ກີບ ຊື້ເຂົ້າໜົມໄປ 2,500 ກີບ ໃຊ້ໄປຈັກສ່ວນຂອງເງິນທັງໝົດ?",
+        "lines": [
+          "2,500 / 10,000 = 25/100 = 0.25",
+          "ຫຍໍ້ 25/100: ຫານທັງຕົວເສດ ແລະ ຕົວຫານດ້ວຍ 25 ໄດ້ 1/4",
+          "ໝາຍຄວາມວ່າ ໃຊ້ໄປ 1 ໃນ 4 ສ່ວນ ຍັງເຫຼືອ 3/4 = 0.75 ຂອງເງິນ"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: ແບັດເຕີຣີ 10 ຂີດ ເຫຼືອ 5 ຂີດ. ຂຽນເປັນເລກສ່ວນທີ່ງ່າຍທີ່ສຸດ ແລະ ເລກທົດສະນິຍົມ",
+        "answer": "5/10 = 1/2 = 0.5"
+      },
+      {
+        "task": "ປ່ຽນ 0.6 ເປັນເລກສ່ວນທີ່ງ່າຍທີ່ສຸດ",
+        "answer": "0.6 = 6/10 = 3/5"
+      },
+      {
+        "task": "ປ່ຽນ 2/5 ເປັນເລກທົດສະນິຍົມ",
+        "answer": "2/5 = 4/10 = 0.4 (ຫຼື 2 ÷ 5 = 0.4)"
+      }
+    ],
+    "idea": "ຊອກຫາເລກທົດສະນິຍົມ ຫຼື ເລກສ່ວນໃນຊີວິດຈິງ 3 ບ່ອນ (ປ້າຍຫຼຸດລາຄາ, ຂວດນ້ຳ 0.5 ລິດ, ສູດແຕ່ງກິນ...) ແລ້ວປ່ຽນໄປອີກຮູບໜຶ່ງ. ຖ້າແບ່ງເຄັກ 1 ກ້ອນໃຫ້ໝູ່ 8 ຄົນເທົ່າໆກັນ ແຕ່ລະຄົນໄດ້ເທົ່າໃດ?"
+  },
+  "m03": {
+    "id": "m03",
+    "title": "Sets, listing elements & Venn diagrams",
+    "readMinutes": 14,
+    "intro": "ກຸ່ມ ແມ່ນການລວບລວມສິ່ງຕ່າງໆ ເຊິ່ງແຕ່ລະອັນເອີ້ນວ່າ ອົງປະກອບ. ກຸ່ມຈັກກະວານ (U) ແມ່ນກຸ່ມໃຫຍ່ທີ່ສຸດທີ່ມີທຸກອົງປະກອບທີ່ເຮົາກຳລັງພິຈາລະນາ ການຂຽນກຸ່ມມີ 2 ແບບ: ແບບແຈກຢາຍອົງປະກອບ (ຂຽນທຸກໂຕ) ແລະ ແບບບອກເງື່ອນໄຂ ແຜນວາດແວນ ໃຊ້ວົງມົນສະແດງກຸ່ມ. ສ່ວນທີ່ວົງຊ້ອນກັນແມ່ນ A ∩ B. ໃຊ້ແກ້ໂຈດທີ່ບອກຈຳນວນຄົນ ຫຼື ສິ່ງຂອງ",
+    "keyPoints": [
+      "ຂຽນກຸ່ມດ້ວຍ { }: A = {1, 2, 3}",
+      "x ∈ A ອ່ານວ່າ x ເປັນອົງປະກອບຂອງ A, x ∉ A ອ່ານວ່າ ບໍ່ເປັນອົງປະກອບ",
+      "ທຸກກຸ່ມເປັນກຸ່ມຍ່ອຍຂອງກຸ່ມຈັກກະວານ U",
+      "A ⊂ B ອ່ານວ່າ A ເປັນກຸ່ມຍ່ອຍຂອງ B",
+      "ກຸ່ມຫວ່າງ ຂຽນ ∅ ຫຼື { } (ບໍ່ມີອົງປະກອບ)",
+      "ແຈກຢາຍອົງປະກອບ: ຂຽນທຸກໂຕໃນ { } ຂັ້ນດ້ວຍຈຸດ , ເຊັ່ນ A = {1, 2, 3}",
+      "ບອກເງື່ອນໄຂ: A = {x | x ເປັນເລກຄູ່ບວກ, x < 10}",
+      "ອົງປະກອບທີ່ຊ້ຳກັນ ຂຽນເທື່ອດຽວ ແລະ ລຳດັບບໍ່ສຳຄັນ",
+      "ກວດໃຫ້ຄົບທຸກໂຕທີ່ຕົງເງື່ອນໄຂ ບໍ່ໃຫ້ຂາດ ບໍ່ໃຫ້ເກີນ",
+      "A ∪ B = ທຸກຢ່າງທີ່ຢູ່ໃນ A ຫຼື B (ລວມກັນ)",
+      "A ∩ B = ສ່ວນທີ່ຢູ່ທັງ A ແລະ B (ຊ້ອນກັນ)",
+      "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+      "ເລີ່ມຕື່ມຕົວເລກສ່ວນຊ້ອນກັນກ່ອນ ແລ້ວຄ່ອຍຕື່ມສ່ວນທີ່ເຫຼືອຂອງ A ແລະ B"
+    ],
+    "codeSample": "U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\nA = {2, 4, 6, 8, 10}   // A ⊂ U\n4 ∈ A,  3 ∉ A\n\nA = {x | x ເປັນເລກຄູ່ບວກ, x < 10}\nA = {2, 4, 6, 8}\n\nn(A) = 20, n(B) = 15, n(A ∩ B) = 5\nn(A ∪ B) = 20 + 15 − 5 = 30",
+    "table": [
+      {
+        "from": "∈",
+        "to": "ເປັນອົງປະກອບຂອງ"
+      },
+      {
+        "from": "∉",
+        "to": "ບໍ່ເປັນອົງປະກອບຂອງ"
+      },
+      {
+        "from": "⊂",
+        "to": "ເປັນກຸ່ມຍ່ອຍຂອງ"
+      },
+      {
+        "from": "∅",
+        "to": "ກຸ່ມຫວ່າງ"
+      },
+      {
+        "from": "U",
+        "to": "ກຸ່ມຈັກກະວານ"
+      },
+      {
+        "from": "ເລກຄີກບວກ ນ້ອຍກວ່າ 8",
+        "to": "{1, 3, 5, 7}"
+      },
+      {
+        "from": "ຕົວປະກອບຂອງ 6",
+        "to": "{1, 2, 3, 6}"
+      },
+      {
+        "from": "ຕົວອັກສອນ a ຫາ e",
+        "to": "{a, b, c, d, e}"
+      },
+      {
+        "from": "ກຳລັງສອງຂອງ 1 ຫາ 5",
+        "to": "{1, 4, 9, 16, 25}"
+      },
+      {
+        "from": "ມີສະເພາະ A",
+        "to": "n(A) − n(A ∩ B)"
+      },
+      {
+        "from": "ມີສະເພາະ B",
+        "to": "n(B) − n(A ∩ B)"
+      },
+      {
+        "from": "ມີທັງ A ແລະ B",
+        "to": "n(A ∩ B)"
+      },
+      {
+        "from": "ມີ A ຫຼື B",
+        "to": "n(A) + n(B) − n(A ∩ B)"
+      },
+      {
+        "from": "ບໍ່ຢູ່ໃນ A ຫຼື B",
+        "to": "n(U) − n(A ∪ B)"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/m03.svg",
+      "alt": "ແຜນວາດແວນ: ຫ້ອງຮຽນ U = 35 ຄົນ. ວົງເຕະບານ ແລະ ວົງດົນຕີຊ້ອນກັນ: ເຕະບານຢ່າງດຽວ 15, ທັງສອງ 5, ດົນຕີຢ່າງດຽວ 10 ແລະ ນອກວົງເປັນເຄື່ອງໝາຍຖາມ",
+      "caption": "ຫ້ອງຮຽນມີ 35 ຄົນ. ຈັກຄົນທີ່ບໍ່ມັກທັງເຕະບານ ແລະ ດົນຕີ? (ເຄື່ອງໝາຍ ? ໃນພາບ)"
+    },
+    "examples": [
+      {
+        "title": "⚽️🎸 ສຳຫຼວດຫ້ອງຮຽນ",
+        "story": "ລອງນຶກພາບ: ຄູຖາມນັກຮຽນ 35 ຄົນ ວ່າມັກຫຍັງ. 20 ຄົນຍົກມືວ່າມັກເຕະບານ 15 ຄົນມັກດົນຕີ ແຕ່ມີ 5 ຄົນຍົກມືທັງສອງເທື່ອ!",
+        "lines": [
+          "ເລີ່ມຈາກສ່ວນຊ້ອນກັນກ່ອນ: n(A ∩ B) = 5",
+          "ມັກເຕະບານຢ່າງດຽວ: 20 − 5 = 15",
+          "ມັກດົນຕີຢ່າງດຽວ: 15 − 5 = 10",
+          "ມັກຢ່າງໜ້ອຍ 1 ຢ່າງ: n(A ∪ B) = 20 + 15 − 5 = 30",
+          "ບໍ່ມັກທັງສອງ: 35 − 30 = 5 ຄົນ"
+        ]
+      },
+      {
+        "title": "🎒 ກຸ່ມຢູ່ອ້ອມໂຕເຮົາ",
+        "story": "ກຸ່ມບໍ່ໄດ້ມີແຕ່ຕົວເລກ ເປີດກະເປົານັກຮຽນເບິ່ງ ກໍຂຽນເປັນກຸ່ມໄດ້",
+        "lines": [
+          "ແບບແຈກຢາຍ: A = {ສໍ, ປາກກາ, ໄມ້ບັນທັດ, ຢາງລຶບ}",
+          "ແບບບອກເງື່ອນໄຂ: A = {x | x ເປັນເຄື່ອງຂຽນໃນກະເປົາຂອງຂ້ອຍ}",
+          "ປາກກາ ∈ A ແຕ່ ໂທລະສັບ ∉ A",
+          "ຖ້າກະເປົາເປົ່າ: A = ∅ (ກຸ່ມຫວ່າງ)"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ຂຽນແບບແຈກຢາຍ: B = {x | x ເປັນເລກຄີກບວກ, x < 10}",
+        "answer": "B = {1, 3, 5, 7, 9}"
+      },
+      {
+        "task": "A = {1, 2, 3, 4}, B = {3, 4, 5}. ຊອກ A ∩ B ແລະ A ∪ B",
+        "answer": "A ∩ B = {3, 4} · A ∪ B = {1, 2, 3, 4, 5}"
+      },
+      {
+        "task": "ຮ້ານນ້ຳປັ່ນ: 12 ຄົນສັ່ງນ້ຳໝາກມ່ວງ 9 ຄົນສັ່ງນ້ຳໝາກພ້າວ ແລະ 4 ຄົນສັ່ງທັງສອງຢ່າງ. ມີລູກຄ້າທັງໝົດຈັກຄົນ?",
+        "answer": "12 + 9 − 4 = 17 ຄົນ"
+      }
+    ],
+    "idea": "ສຳຫຼວດໝູ່ໃນຫ້ອງ ຫຼື ຄົນໃນບ້ານ ດ້ວຍຄຳຖາມ 2 ຂໍ້ທີ່ເຈົ້າຄິດເອງ (ເຊັ່ນ: ມັກແມວບໍ່? ມັກໝາບໍ່?) ແລ້ວແຕ້ມແຜນວາດແວນຈາກຄຳຕອບຈິງ. ສ່ວນໃດໃຫຍ່ທີ່ສຸດ?"
+  },
+  "m06": {
+    "id": "m06",
+    "title": "Ordered pairs & Cartesian product",
+    "readMinutes": 10,
+    "intro": "ຄູ່ລຳດັບ (a, b) ລຳດັບສຳຄັນ: (a, b) ບໍ່ເທົ່າກັບ (b, a). ຄູ່ລຳດັບສອງຄູ່ເທົ່າກັນ ເມື່ອໂຕທຳອິດເທົ່າກັນ ແລະ ໂຕທີສອງເທົ່າກັນ ຜົນຄູນກາກທິຊຽນຂອງ A ແລະ B ຂຽນ A × B ແມ່ນກຸ່ມຂອງຄູ່ລຳດັບ (a, b) ທັງໝົດ ໂດຍ a ມາຈາກ A ແລະ b ມາຈາກ B",
+    "keyPoints": [
+      "(a, b) = (c, d) ກໍຕໍ່ເມື່ອ a = c ແລະ b = d",
+      "(2, 3) ≠ (3, 2) ເພາະລຳດັບຕ່າງກັນ",
+      "ແກ້ສົມຜົນແຍກກັນ: ໂຕທຳອິດກັບໂຕທຳອິດ ໂຕທີສອງກັບໂຕທີສອງ",
+      "A × B = {(a, b) | a ∈ A, b ∈ B}",
+      "ເອົາແຕ່ລະໂຕຂອງ A ຈັບຄູ່ກັບທຸກໂຕຂອງ B",
+      "n(A × B) = n(A) × n(B)",
+      "ໂດຍທົ່ວໄປ A × B ≠ B × A (ລຳດັບສຳຄັນ)"
+    ],
+    "codeSample": "(x + 1, 2y) = (4, 10)\nx + 1 = 4   →  x = 3\n2y = 10     →  y = 5\n\nA = {1, 2},  B = {x, y}\nA × B = {(1,x), (1,y), (2,x), (2,y)}\nn(A × B) = 2 × 2 = 4",
+    "table": [
+      {
+        "from": "(x + 2, y) = (5, 1)",
+        "to": "x = 3, y = 1"
+      },
+      {
+        "from": "(2x, y − 1) = (8, 4)",
+        "to": "x = 4, y = 5"
+      },
+      {
+        "from": "(x − 1, 3y) = (0, 9)",
+        "to": "x = 1, y = 3"
+      },
+      {
+        "from": "n(A) = 2, n(B) = 3",
+        "to": "n(A × B) = 6"
+      },
+      {
+        "from": "n(A) = 3, n(B) = 4",
+        "to": "n(A × B) = 12"
+      },
+      {
+        "from": "n(A) = 1, n(B) = 5",
+        "to": "n(A × B) = 5"
+      },
+      {
+        "from": "n(A) = 4, n(A × B) = 20",
+        "to": "n(B) = 5"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/m06.svg",
+      "alt": "ຕາຕະລາງ A × B: ເຄື່ອງດື່ມ 2 ຢ່າງ (ກາເຟ, ຊາ) ຈັບຄູ່ກັບ ຂອງຫວານ 3 ຢ່າງ (ເຄັກ, ຄຸກກີ້, ໂດນັດ) ໄດ້ 6 ຄູ່",
+      "caption": "ເຄື່ອງດື່ມ 2 ຢ່າງ ຈັບຄູ່ກັບຂອງຫວານ 3 ຢ່າງ ຈັດເປັນຊຸດໄດ້ຈັກແບບ? ນັບຊ່ອງໃນຕາຕະລາງເບິ່ງ"
+    },
+    "examples": [
+      {
+        "title": "☕️🍰 ເມນູຊຸດຮ້ານກາເຟ",
+        "story": "ລອງນຶກພາບ: ເຈົ້າເປີດຮ້ານກາເຟ ຂາຍເປັນຊຸດ (ເຄື່ອງດື່ມ, ຂອງຫວານ). A = {ກາເຟ, ຊາ} ແລະ B = {ເຄັກ, ຄຸກກີ້, ໂດນັດ}",
+        "lines": [
+          "ກາເຟ ຈັບຄູ່ໄດ້ 3 ແບບ: (ກາເຟ, ເຄັກ), (ກາເຟ, ຄຸກກີ້), (ກາເຟ, ໂດນັດ)",
+          "ຊາ ຈັບຄູ່ໄດ້ອີກ 3 ແບບ: (ຊາ, ເຄັກ), (ຊາ, ຄຸກກີ້), (ຊາ, ໂດນັດ)",
+          "A × B ມີທັງໝົດ n(A) × n(B) = 2 × 3 = 6 ຊຸດ",
+          "ຖ້າເພີ່ມນົມເຂົ້າໄປໃນ A ຈະໄດ້ 3 × 3 = 9 ຊຸດ ທັນທີ!"
+        ]
+      },
+      {
+        "title": "🎬 ບ່ອນນັ່ງໂຮງໜັງ",
+        "story": "ປີ້ໜັງຂຽນວ່າ (ແຖວ, ເລກບ່ອນນັ່ງ). ເຈົ້າໄດ້ປີ້ (2, 3) ໝູ່ໄດ້ປີ້ (3, 2) ໄດ້ນັ່ງບ່ອນດຽວກັນບໍ່?",
+        "lines": [
+          "(2, 3) = ແຖວ 2 ບ່ອນນັ່ງທີ 3",
+          "(3, 2) = ແຖວ 3 ບ່ອນນັ່ງທີ 2",
+          "(2, 3) ≠ (3, 2) ລຳດັບສຳຄັນ! ຖ້າສະຫຼັບກັນ ກໍໄປນັ່ງຜິດບ່ອນ 😅",
+          "ຖ້າປີ້ຂຽນ (x + 1, 3) = (2, 3) ສະແດງວ່າ x + 1 = 2 ດັ່ງນັ້ນ x = 1"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ຊອກ x ແລະ y: (x + 3, 2y) = (7, 8)",
+        "answer": "x + 3 = 7 ໄດ້ x = 4 · 2y = 8 ໄດ້ y = 4"
+      },
+      {
+        "task": "A = {1, 2, 3}, B = {a, b}. ຂຽນ A × B ແລະ ບອກ n(A × B)",
+        "answer": "A × B = {(1,a), (1,b), (2,a), (2,b), (3,a), (3,b)} · n(A × B) = 3 × 2 = 6"
+      },
+      {
+        "task": "ເຈົ້າມີເສື້ອ 4 ໂຕ ແລະ ໂສ້ງ 3 ໂຕ ແຕ່ງໂຕບໍ່ຊ້ຳກັນໄດ້ຈັກແບບ?",
+        "answer": "4 × 3 = 12 ແບບ"
+      }
+    ],
+    "idea": "ອອກແບບເມນູຊຸດຂອງເຈົ້າເອງ: ເລືອກກຸ່ມ A ແລະ B ທີ່ມັກ (ເຊັ່ນ ເຄື່ອງດື່ມ × ເຂົ້າໜົມ ຫຼື ເສື້ອ × ໝວກ) ຂຽນ A × B ໃຫ້ຄົບທຸກຄູ່ ແລ້ວເລືອກຄູ່ທີ່ເຈົ້າມັກທີ່ສຸດ"
+  },
+  "m08": {
+    "id": "m08",
+    "title": "Relations",
+    "readMinutes": 10,
+    "intro": "ຄວາມສຳພັນ R ຈາກ A ໄປ B ແມ່ນກຸ່ມຍ່ອຍຂອງ A × B ທີ່ປະກອບດ້ວຍຄູ່ລຳດັບທີ່ຕົງຕາມກົດທີ່ກຳນົດ ຄວາມສຳພັນ 'ໃຫຍ່ກວ່າ' (>) ແລະ 'ນ້ອຍກວ່າ' (<) ຈາກ A ໄປ B: ເລືອກຄູ່ (x, y) ໃນ A × B ທີ່ x ໃຫຍ່ກວ່າ ຫຼື ນ້ອຍກວ່າ y",
+    "keyPoints": [
+      "R ⊂ A × B",
+      "ຂຽນ A × B ທຸກຄູ່ກ່ອນ ແລ້ວເລືອກຄູ່ທີ່ຕົງກົດ ເຊັ່ນ y = x + 1",
+      "ໂດເມນ (Domain) = ໂຕທຳອິດທັງໝົດຂອງຄູ່ໃນ R",
+      "ເຣນ (Range) = ໂຕທີສອງທັງໝົດຂອງຄູ່ໃນ R",
+      "R = {(x, y) | x > y}: ໂຕທຳອິດໃຫຍ່ກວ່າໂຕທີສອງ",
+      "R = {(x, y) | x < y}: ໂຕທຳອິດນ້ອຍກວ່າໂຕທີສອງ",
+      "ກວດທຸກຄູ່ຂອງ A × B ເທື່ອລະຄູ່ ບໍ່ໃຫ້ຂາດ",
+      "ໃຊ້ຕາຕະລາງ ຫຼື ລູກສອນເຊື່ອມ A ໄປ B ຊ່ວຍກວດ"
+    ],
+    "codeSample": "A = {1, 2, 3},  B = {2, 3, 4}\nR = {(x, y) | y = x + 1}\nR = {(1,2), (2,3), (3,4)}\n\nA = {1, 2, 3},  B = {1, 2}\nR: x > y\n(2,1) ✓   (3,1) ✓   (3,2) ✓\nR = {(2,1), (3,1), (3,2)}",
+    "table": [
+      {
+        "from": "ໂດເມນຂອງ R",
+        "to": "{1, 2, 3}"
+      },
+      {
+        "from": "ເຣນຂອງ R",
+        "to": "{2, 3, 4}"
+      },
+      {
+        "from": "ຈຳນວນຄູ່ n(R)",
+        "to": "3"
+      },
+      {
+        "from": "(1, 1) ເມື່ອ x > y",
+        "to": "1 > 1 ບໍ່ຖືກ"
+      },
+      {
+        "from": "(2, 1) ເມື່ອ x > y",
+        "to": "2 > 1 ຖືກ"
+      },
+      {
+        "from": "(1, 2) ເມື່ອ x < y",
+        "to": "1 < 2 ຖືກ"
+      },
+      {
+        "from": "(3, 2) ເມື່ອ x < y",
+        "to": "3 < 2 ບໍ່ຖືກ"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/m08.svg",
+      "alt": "ແຜນພາບລູກສອນຈາກກຸ່ມ A = {1, 2, 3} ໄປກຸ່ມ B = {2, 3, 4}: 1 ໄປ 2, 2 ໄປ 3 ແລະ 3 ໄປ 4",
+      "caption": "ລູກສອນທຸກເສັ້ນເຮັດຕາມກົດດຽວກັນ. ກົດນັ້ນແມ່ນຫຍັງ?"
+    },
+    "examples": [
+      {
+        "title": "🎂 ອ້າຍກັບນ້ອງ",
+        "story": "ລອງນຶກພາບ: ອ້າຍແກ່ກວ່ານ້ອງ 1 ປີສະເໝີ. ໃຫ້ x ເປັນອາຍຸນ້ອງ ແລະ y ເປັນອາຍຸອ້າຍ ຈະຈັບຄູ່ (ນ້ອງ, ອ້າຍ) ໄດ້ແນວໃດ?",
+        "lines": [
+          "A = {1, 2, 3} (ອາຍຸນ້ອງ), B = {2, 3, 4} (ອາຍຸອ້າຍ)",
+          "ກົດ: y = x + 1",
+          "R = {(1, 2), (2, 3), (3, 4)} ຄືກັບລູກສອນໃນພາບ",
+          "ໂດເມນ = {1, 2, 3} · ເຣນ = {2, 3, 4}"
+        ]
+      },
+      {
+        "title": "🏀 ໃຜສູງກວ່າ?",
+        "story": "ທີມ A ແລະ ທີມ B ຈະແຂ່ງບານບ້ວງ ເຈົ້າຢາກຮູ້ວ່າ ຜູ້ຫຼິ້ນຄົນໃດຂອງ A ສູງກວ່າຄົນໃດຂອງ B",
+        "lines": [
+          "A = {150, 160, 170} · B = {155, 165} (ລວງສູງເປັນຊັງຕີແມັດ)",
+          "ກົດ: x > y (ຄົນຂອງ A ສູງກວ່າຄົນຂອງ B)",
+          "ກວດເທື່ອລະຄູ່: (150, 155) ✗ (150, 165) ✗ (160, 155) ✓ (160, 165) ✗ (170, 155) ✓ (170, 165) ✓",
+          "R = {(160, 155), (170, 155), (170, 165)}"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "A = {1, 2, 3}, B = {1, 2, 3}. ຂຽນ R = {(x, y) | x < y}",
+        "answer": "R = {(1, 2), (1, 3), (2, 3)}"
+      },
+      {
+        "task": "R = {(1, 5), (2, 6), (3, 7)}. ບອກໂດເມນ, ເຣນ ແລະ ກົດຂອງ R",
+        "answer": "ໂດເມນ = {1, 2, 3} · ເຣນ = {5, 6, 7} · ກົດ: y = x + 4"
+      },
+      {
+        "task": "A = {2, 4}, B = {1, 2, 3, 4}. ຂຽນ R = {(x, y) | y = x ÷ 2}",
+        "answer": "R = {(2, 1), (4, 2)}"
+      }
+    ],
+    "idea": "ຄິດ ‘ກົດ’ ຂອງເຈົ້າເອງຈາກຊີວິດຈິງ ເຊັ່ນ: ລາຄາເຂົ້າໜົມ y = 2,000 × ຈຳນວນຖົງ x ແລ້ວຂຽນຄູ່ລຳດັບ 4 ຄູ່ ແລະ ແຕ້ມແຜນພາບລູກສອນ. ລອງໃຫ້ໝູ່ທາຍກົດຂອງເຈົ້າ!"
+  },
+  "m10": {
+    "id": "m10",
+    "title": "ຄຳຢືນຢັນ ຜິດ ຖືກ",
+    "readMinutes": 6,
+    "intro": "ຄຳຢືນຢັນ ແມ່ນປະໂຫຍກທີ່ບອກໄດ້ຊັດວ່າ ຖືກ ຫຼື ຜິດ ຢ່າງໃດຢ່າງໜຶ່ງ. ຄຳຖາມ ຄຳສັ່ງ ແລະ ຄຳອຸທານ ບໍ່ແມ່ນຄຳຢືນຢັນ",
+    "keyPoints": [
+      "'2 + 3 = 5' ເປັນຄຳຢືນຢັນທີ່ຖືກ, '2 + 3 = 6' ເປັນຄຳຢືນຢັນທີ່ຜິດ",
+      "'x + 1 = 4' ຍັງບໍ່ແມ່ນຄຳຢືນຢັນ ຈົນກວ່າຈະຮູ້ຄ່າ x",
+      "ຄຳຖາມ/ຄຳສັ່ງ ບໍ່ແມ່ນຄຳຢືນຢັນ: 'ເຈົ້າຊື່ຫຍັງ?'",
+      "ການປະຕິເສດ ¬p: ຖ້າ p ຖືກ ¬p ຜິດ, ຖ້າ p ຜິດ ¬p ຖືກ"
+    ],
+    "codeSample": "p:  7 > 3     →  ຖືກ (T)\n¬p: 7 ≤ 3     →  ຜິດ (F)",
+    "table": [
+      {
+        "from": "5 + 2 = 7",
+        "to": "ຖືກ"
+      },
+      {
+        "from": "9 ເປັນເລກຄູ່",
+        "to": "ຜິດ"
+      },
+      {
+        "from": "ຈົ່ງເປີດປະຕູ",
+        "to": "ບໍ່ແມ່ນຄຳຢືນຢັນ"
+      },
+      {
+        "from": "x + 1 = 4",
+        "to": "ບໍ່ແມ່ນຄຳຢືນຢັນ (ຍັງບໍ່ຮູ້ x)"
+      }
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/m10.svg",
+      "alt": "ບັດ 6 ໃບ: 2 + 3 = 5, x + 1 = 4, 7 < 3, 5 + 2 = ?, 2 + 3 = 6, 9 − 4 = 5 ແລະ ກ່ອງ 3 ໃບ: T (ຖືກ), F (ຜິດ) ແລະ ? (ບໍ່ແມ່ນຄຳຢືນຢັນ)",
+      "caption": "ບັດແຕ່ລະໃບຄວນລົງກ່ອງໃດ: ຖືກ (T), ຜິດ (F) ຫຼື ບໍ່ແມ່ນຄຳຢືນຢັນ (?)"
+    },
+    "examples": [
+      {
+        "title": "🔎 ນັກສືບຈັບຕົວະ",
+        "story": "ລອງນຶກພາບວ່າເຈົ້າເປັນນັກສືບ ມີຄົນມາເວົ້າປະໂຫຍກຕ່າງໆ ປະໂຫຍກໃດກວດໄດ້ວ່າ ຖືກ ຫຼື ຜິດ ຈຶ່ງເປັນຄຳຢືນຢັນ",
+        "lines": [
+          "‘ປະເທດລາວມີທະເລ’ ກວດໄດ້: ຜິດ ຈຶ່ງເປັນຄຳຢືນຢັນ (F)",
+          "‘ອາທິດໜຶ່ງມີ 7 ມື້’ ກວດໄດ້: ຖືກ ຈຶ່ງເປັນຄຳຢືນຢັນ (T)",
+          "‘ເຈົ້າກິນເຂົ້າແລ້ວບໍ?’ ເປັນຄຳຖາມ ກວດບໍ່ໄດ້ ຈຶ່ງບໍ່ແມ່ນຄຳຢືນຢັນ",
+          "‘ປິດປະຕູແດ່!’ ເປັນຄຳສັ່ງ ຈຶ່ງບໍ່ແມ່ນຄຳຢືນຢັນ"
+        ]
+      },
+      {
+        "title": "🔄 ເກມເວົ້າກົງກັນຂ້າມ",
+        "story": "ການປະຕິເສດ ¬p ຄືການປີ້ນຄ່າຄວາມຈິງ: ຖືກກາຍເປັນຜິດ ຜິດກາຍເປັນຖືກ",
+        "lines": [
+          "p: ມື້ນີ້ຝົນຕົກ · ¬p: ມື້ນີ້ຝົນບໍ່ຕົກ",
+          "p: 5 > 2 (ຖືກ) · ¬p: 5 ≤ 2 (ຜິດ)",
+          "p: 4 ເປັນເລກຄີກ (ຜິດ) · ¬p: 4 ບໍ່ເປັນເລກຄີກ (ຖືກ)"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ເບິ່ງພາບຂ້າງເທິງ: ຈັດບັດ 6 ໃບລົງກ່ອງ T, F ແລະ ?",
+        "answer": "T: 2 + 3 = 5 ແລະ 9 − 4 = 5 · F: 7 < 3 ແລະ 2 + 3 = 6 · ?: x + 1 = 4 (ຍັງບໍ່ຮູ້ຄ່າ x) ແລະ 5 + 2 = ? (ເປັນຄຳຖາມ)"
+      },
+      {
+        "task": "ຂຽນ ¬p ຂອງ p: 8 < 3 ແລ້ວບອກວ່າ p ແລະ ¬p ຖືກ ຫຼື ຜິດ",
+        "answer": "p ຜິດ · ¬p: 8 ≥ 3 ຖືກ"
+      },
+      {
+        "task": "ຖ້າ x = 3 ປະໂຫຍກ ‘x + 1 = 4’ ກາຍເປັນຄຳຢືນຢັນແບບໃດ? ແລ້ວຖ້າ x = 5?",
+        "answer": "x = 3: 3 + 1 = 4 ຖືກ · x = 5: 5 + 1 = 4 ຜິດ"
+      }
+    ],
+    "idea": "ຫຼິ້ນເກມ ‘2 ຈິງ 1 ຕົວະ’ ກັບໝູ່: ຂຽນຄຳຢືນຢັນກ່ຽວກັບໂຕເຈົ້າ 3 ຂໍ້ (ຖືກ 2 ຜິດ 1) ໃຫ້ໝູ່ທາຍວ່າຂໍ້ໃດຜິດ ແລ້ວລອງແຕ່ງປະໂຫຍກ 2 ຂໍ້ທີ່ ‘ບໍ່ແມ່ນຄຳຢືນຢັນ’"
+  },
+  "r01": {
+    "id": "r01",
+    "title": "IT, Internet และตัวเรา",
+    "readMinutes": 5,
+    "intro": "ระบบสารสนเทศมี 5 ส่วน และ People คือส่วนที่สำคัญที่สุด",
+    "keyPoints": [
+      "ระบบสารสนเทศ (Information System): People (ผู้ใช้/End user), Procedure (ขั้นตอน/คู่มือ), Software, Hardware, Data",
+      "Data = ข้อมูลดิบ (raw data) ที่ยังไม่ผ่านการประมวลผล → ประมวลผลแล้วเป็น Information",
+      "Software มี 2 แบบ",
+      "– System software: OS (Windows, Mac OS), Utilities (ดูแลทรัพยากรเครื่อง), Device drivers (ให้อุปกรณ์สื่อสารกับเครื่องได้)",
+      "– Application software: แบบพื้นฐาน (browser, word processor, spreadsheet, presentation) และแบบเฉพาะทาง (กราฟิก, เสียง-วิดีโอ, multimedia, เว็บ, AI)",
+      "คอมพิวเตอร์ 4 ชนิด: Supercomputer, Mainframe, Minicomputer, Microcomputer (Microcomputer มี 6 แบบ: Desktop, Laptop, Netbook, Tablet, Smartphone, Media Center)",
+      "ฮาร์ดแวร์ 4 กลุ่ม: System unit (CPU + memory), Input/Output, Secondary storage (HDD, USB, flash card, CD/DVD/Blu-ray), Communication devices",
+      "ไฟล์ 4 แบบ: Document (word processor), Worksheet (spreadsheet), Database (DBMS), Presentation",
+      "Connectivity: Internet คือเครือข่ายที่ใหญ่ที่สุดในโลก, WWW, wireless revolution, Cloud computing",
+      "อาชีพ IT: Webmaster, Computer support specialist, Technical writer, Software engineer, Network administrator, Database administrator, System analyst, Programmer"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r01.svg",
+      "alt": "แผนภาพระบบสารสนเทศ 5 ส่วน: People อยู่ตรงกลาง ล้อมด้วย Procedure, Software, Hardware และ Data",
+      "caption": "ระบบสารสนเทศมี 5 ส่วน ทำไม People ถึงอยู่ตรงกลาง?"
+    },
+    "examples": [
+      {
+        "title": "🍜 ร้านก๋วยเตี๋ยวก็เป็นระบบสารสนเทศ",
+        "story": "ลองนึกภาพร้านก๋วยเตี๋ยวที่รับออเดอร์ผ่านแท็บเล็ต มีครบ 5 ส่วนเหมือนในภาพเลย",
+        "lines": [
+          "People: ลูกค้า พนักงาน และพ่อครัว",
+          "Procedure: ขั้นตอนรับออเดอร์ → ทำ → เสิร์ฟ → เก็บเงิน",
+          "Software: แอปรับออเดอร์บนแท็บเล็ต",
+          "Hardware: แท็บเล็ต และเครื่องพิมพ์ใบเสร็จ",
+          "Data: ‘เส้นเล็กน้ำตก 2 ชาม’ คือข้อมูลดิบ ส่วนยอดขายรวมทั้งวันคือ Information"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "โทรศัพท์มือถือของคุณจัดเป็นคอมพิวเตอร์ชนิดใดใน 4 ชนิด?",
+        "answer": "Microcomputer (แบบ Smartphone)"
+      },
+      {
+        "task": "คะแนนสอบของนักเรียนแต่ละคน กับ ‘คะแนนเฉลี่ยของห้อง’ อันไหนคือ Data อันไหนคือ Information?",
+        "answer": "คะแนนแต่ละคน = Data (ข้อมูลดิบ) · คะแนนเฉลี่ย = Information (ผ่านการประมวลผลแล้ว)"
+      },
+      {
+        "task": "Windows กับ โปรแกรมพิมพ์เอกสาร อันไหนเป็น System software อันไหนเป็น Application software?",
+        "answer": "Windows = System software (OS) · โปรแกรมพิมพ์เอกสาร (word processor) = Application software"
+      }
+    ],
+    "idea": "เลือกสถานที่ใกล้ตัว 1 แห่ง (ร้านสะดวกซื้อ ห้องสมุด ร้านเกม) แล้วลองแยกให้ครบ 5 ส่วน: People, Procedure, Software, Hardware, Data คุณคิดว่าถ้าขาดส่วนไหนไป ระบบจะพังเร็วที่สุด?"
+  },
+  "r02": {
+    "id": "r02",
+    "title": "Internet, Web และ E-commerce",
+    "readMinutes": 6,
+    "intro": "Internet เริ่มปี 1969 จาก ARPANET ส่วน Web เริ่มปี 1991 ที่ CERN อย่าสับสนสองอันนี้",
+    "keyPoints": [
+      "Internet เกิดปี 1969 จากโครงการ ARPANET ของสหรัฐฯ ขณะเชื่อมต่อเรียกว่า online",
+      "Web เกิดปี 1991 ที่ CERN (องค์กรวิจัยนิวเคลียร์ยุโรป) เป็นสื่อ multimedia ที่เข้าถึงทรัพยากรบน Internet",
+      "ใช้ทำ: Communicating, Shopping, Searching, Entertainment, Education",
+      "เข้าใช้ผ่าน Provider (แบบมีสาย/ไร้สาย) + Browser",
+      "URL = Protocol + Domain name · HTML = ภาษาเขียนเว็บ มี hyperlink · JavaScript เขียนร่วมกับ HTML · Applet = โปรแกรมเล็กที่เขียนด้วย Java",
+      "E-mail = header (ที่อยู่, subject, ไฟล์แนบ) + message + signature · กัน spam ด้วย spam blocker · Instant Messaging (IM) คุยทันที",
+      "Social network (สไลด์ให้ 6 แบบ): Identity, Creative, Interest, Collaboration, P2P, Virtual Reality",
+      "Blog = บันทึกออนไลน์ · Microblog = ข้อความสั้นๆ · Wiki = ผู้อ่านช่วยกันเขียนและแก้ได้",
+      "การค้นหา",
+      "– Spider = โปรแกรมที่เก็บหน้าเว็บใหม่เข้าฐานข้อมูล",
+      "– Search engine มี Keyword search (ผลที่เจอเรียก hits) และ Directory search",
+      "– Metasearch engine = ส่งคำค้นไปหลาย engine พร้อมกัน แล้วตัดผลซ้ำ",
+      "– Specialized search engine = ค้นเฉพาะเรื่อง",
+      "– ประเมินเนื้อหาเว็บจาก authority, accuracy, objectivity, timeliness",
+      "E-commerce 3 แบบ",
+      "– B2C — โตเร็วที่สุด เช่น online banking, ซื้อหุ้น, ช้อปออนไลน์",
+      "– C2C — นิยมสุดคือ การประมูล (auction house sites / person-to-person auction sites)",
+      "– B2B — ธุรกิจกับธุรกิจ เช่น ผู้ผลิตกับผู้จัดหาวัตถุดิบ",
+      "จ่ายเงินออนไลน์ 3 แบบ: check, credit card, electronic cash"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r02.svg",
+      "alt": "เส้นเวลา: ปี 1969 ARPANET จุดเริ่มของ Internet และปี 1991 Web ที่ CERN ด้านล่างเป็น E-commerce 3 แบบ: B2C, C2C และ B2B",
+      "caption": "Internet กับ Web อันไหนเกิดก่อน และห่างกันกี่ปี?"
+    },
+    "examples": [
+      {
+        "title": "🛣️ ถนนกับร้านค้า",
+        "story": "ลองนึกภาพ Internet เป็นถนนที่เชื่อมทุกเมืองในโลก ส่วน Web เป็นร้านค้าที่ตั้งอยู่ริมถนน ไม่มีถนนก็ไปร้านไม่ได้ แต่ถนนยังใช้ทำอย่างอื่นได้อีกเยอะ",
+        "lines": [
+          "ถนน (Internet, 1969): ใช้ส่ง e-mail คุย IM และเปิดเว็บ",
+          "ร้านริมถนน (Web, 1991): หน้าเว็บที่เปิดด้วย Browser",
+          "ที่อยู่ร้าน = URL (Protocol + Domain name)",
+          "ทางขึ้นถนน = Provider ที่เราจ่ายค่าบริการทุกเดือน"
+        ]
+      },
+      {
+        "title": "🛒 ซื้อขายออนไลน์ 3 แบบ",
+        "story": "วันนี้มีการซื้อขาย 3 ครั้ง ลองดูว่าแต่ละครั้งเป็น E-commerce แบบไหน",
+        "lines": [
+          "คุณซื้อรองเท้าจากเว็บของแบรนด์ = B2C (ธุรกิจ → ลูกค้า)",
+          "คุณประมูลการ์ดสะสมจากคนทั่วไปด้วยกัน = C2C (ลูกค้า → ลูกค้า)",
+          "ร้านรองเท้าสั่งหนังจากโรงงาน = B2B (ธุรกิจ → ธุรกิจ)"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ดูภาพด้านบน: Internet กับ Web เกิดห่างกันกี่ปี?",
+        "answer": "1991 − 1969 = 22 ปี (Internet เกิดก่อน)"
+      },
+      {
+        "task": "คุณขายมือถือเก่าให้คนอื่นผ่านเว็บประมูล เป็น E-commerce แบบใด?",
+        "answer": "C2C"
+      },
+      {
+        "task": "เว็บที่ผู้อ่านช่วยกันเขียนและแก้ไขได้ เรียกว่าอะไร?",
+        "answer": "Wiki"
+      }
+    ],
+    "idea": "ลองจดว่าวันนี้คุณใช้ Internet ทำอะไรบ้าง แล้วจัดเข้ากลุ่ม: Communicating, Shopping, Searching, Entertainment, Education กลุ่มไหนเยอะสุด? ถ้าจะเปิดร้านออนไลน์ของตัวเอง จะขายอะไร และเป็นแบบ B2C หรือ C2C?"
+  },
+  "r03": {
+    "id": "r03",
+    "title": "Application Software (บทที่ 3–4)",
+    "readMinutes": 4,
+    "intro": "Application software แบ่งเป็นแบบพื้นฐานที่ทุกอาชีพใช้ และแบบเฉพาะทางสำหรับงานเฉพาะอาชีพ",
+    "keyPoints": [
+      "GUI ประกอบด้วย menu, dialog box, toolbar, ribbon, tab, gallery",
+      "โปรแกรมพื้นฐาน: word processor, spreadsheet, database, presentation",
+      "กราฟิก",
+      "– Desktop publishing = จัดหน้าสิ่งพิมพ์ (page layout)",
+      "– Image editor / Photo editor → ภาพ Bitmap/Raster เก็บเป็นจุด เรียกว่า pixels",
+      "– Illustration / Drawing program → ภาพ Vector เก็บเป็นวัตถุ เช่น เส้น สี่เหลี่ยม วงรี",
+      "– Image gallery = คลังภาพ (stock photographs, clip art) · Graphics suite = ชุดโปรแกรมกราฟิกหลายตัวรวมกัน",
+      "Video editing ตัดต่อ เพิ่ม effect · Audio editing ใส่ filter แก้ track สร้างไฟล์ MP3",
+      "Multimedia รวมวิดีโอ เพลง เสียง กราฟิก ตัวอักษร หัวใจคือ interactivity",
+      "Apps & App store บนมือถือ",
+      "AI มี 3 สาขา: Virtual reality, Knowledge-based systems, Robotics"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r03.svg",
+      "alt": "ซ้าย: วงกลมแบบ Bitmap ประกอบจากจุดสี่เหลี่ยม (pixels) ขอบเป็นขั้นบันได ขวา: วงกลมแบบ Vector ขอบเรียบ มีจุดควบคุม",
+      "caption": "วงกลมสองวงนี้ต่างกันอย่างไร? ถ้าขยายให้ใหญ่ขึ้นอีก 10 เท่า วงไหนจะยังคมอยู่?"
+    },
+    "examples": [
+      {
+        "title": "🔍 ซูมรูปจนแตก",
+        "story": "ลองนึกภาพ: คุณถ่ายรูปแมวแล้วซูมเข้าไปเรื่อยๆ จนเห็นเป็นสี่เหลี่ยมเล็กๆ แต่โลโก้ร้านที่วาดด้วยโปรแกรมวาดภาพ ขยายเท่าป้ายโฆษณาก็ยังคม ทำไม?",
+        "lines": [
+          "รูปถ่าย = Bitmap/Raster เก็บเป็นจุด (pixels) ขยายมากจุดก็ใหญ่ตาม ภาพจึงแตก",
+          "โลโก้ = Vector เก็บเป็นวัตถุ เช่น เส้น สี่เหลี่ยม วงรี ขยายเท่าไรก็ยังคม",
+          "แต่งรูปถ่าย ใช้ Image editor / Photo editor",
+          "วาดโลโก้ ใช้ Illustration / Drawing program"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "จะทำโปสเตอร์งานโรงเรียนที่มีทั้งรูปและข้อความ จัดหน้าให้สวย ควรใช้โปรแกรมประเภทใด?",
+        "answer": "Desktop publishing (จัดหน้าสิ่งพิมพ์)"
+      },
+      {
+        "task": "ภาพที่เก็บเป็นวัตถุ เช่น เส้น สี่เหลี่ยม วงรี คือภาพแบบใด?",
+        "answer": "Vector"
+      },
+      {
+        "task": "หัวใจของ Multimedia คืออะไร?",
+        "answer": "Interactivity (ผู้ใช้โต้ตอบได้)"
+      }
+    ],
+    "idea": "ลองเปิดรูปถ่ายในมือถือแล้วซูมให้สุด เห็น pixels ไหม? จากนั้นคิดว่าถ้าคุณจะทำคลิปแนะนำตัวเอง 1 นาที ต้องใช้โปรแกรมประเภทไหนบ้าง (ตัดต่อวิดีโอ เสียง กราฟิก) และจะใส่อะไรให้คนดูโต้ตอบได้?"
+  },
+  "r04": {
+    "id": "r04",
+    "title": "System Software",
+    "readMinutes": 5,
+    "intro": "System software มี 4 ประเภท: OS, Utility, Device driver และ Language translator",
+    "keyPoints": [
+      "OS ทำ 3 อย่าง: จัดการทรัพยากร, ทำ user interface, ทำงานร่วมกับโปรแกรม",
+      "Booting: Start = cold boot · Restart = warm boot",
+      "ส่วนติดต่อผู้ใช้: icon, pointer, window, menu, dialog box, Help · file เก็บข้อมูล/โปรแกรม · folder เก็บไฟล์",
+      "OS 3 แบบ (เรียกอีกอย่างว่า platform)",
+      "– Embedded OS — ฝังใน ROM ของอุปกรณ์พกพา/มือถือ",
+      "– Network OS (NOS) — อยู่บน server ควบคุมเครือข่ายและ client",
+      "– Stand-alone / Desktop OS — อยู่บน hard disk เช่น Windows, Mac OS, Linux",
+      "Virtualization = รันหลาย OS/platform บนเครื่องเดียว แต่ละระบบแยกกันอิสระ",
+      "Mobile OS: iOS, Android, Windows Phone, BlackBerry OS, Symbian",
+      "Utility ใน Windows (เมนู System Tools): Backup and Restore, Disk Cleanup, Disk Defragmenter",
+      "Device driver = โปรแกรมที่ทำให้อุปกรณ์ input/output สื่อสารกับคอมพิวเตอร์ได้"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r04.svg",
+      "alt": "แผนภาพชั้น: User อยู่บนสุด ถัดลงมาคือ Application software, System software (OS, Utility, Driver, Translator) และ Hardware อยู่ล่างสุด",
+      "caption": "เราพิมพ์งานได้โดยไม่ต้องสั่ง Hardware เองโดยตรง ใครอยู่ตรงกลางคอยช่วย?"
+    },
+    "examples": [
+      {
+        "title": "🏨 OS คือผู้จัดการโรงแรม",
+        "story": "ลองนึกภาพคอมพิวเตอร์เป็นโรงแรม โปรแกรมต่างๆ คือแขกที่มาพัก ส่วน OS คือผู้จัดการที่ทำ 3 อย่าง",
+        "lines": [
+          "จัดการทรัพยากร: แบ่งห้องและของส่วนกลางให้แขกทุกคน",
+          "ทำ user interface: เคาน์เตอร์ต้อนรับที่มี icon, window, menu ให้เราสั่งงาน",
+          "ทำงานร่วมกับโปรแกรม: ดูแลให้แขกแต่ละคนใช้บริการได้ไม่ชนกัน",
+          "Device driver = ล่ามประจำโรงแรม ช่วยให้อุปกรณ์ใหม่ เช่น printer คุยกับเครื่องรู้เรื่อง"
+        ]
+      },
+      {
+        "title": "🔌 เปิดเครื่อง 2 แบบ",
+        "story": "เช้านี้คุณกดปุ่ม Power เปิดคอม ตอนบ่ายเครื่องค้าง คุณเลยกด Restart สองครั้งนี้เรียกไม่เหมือนกัน",
+        "lines": [
+          "เปิดจากเครื่องที่ปิดอยู่ (Start) = cold boot",
+          "เริ่มใหม่ทั้งที่เครื่องเปิดอยู่ (Restart) = warm boot"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ระบบปฏิบัติการที่ฝังอยู่ใน ROM ของมือถือและอุปกรณ์พกพา เรียกว่า OS แบบใด?",
+        "answer": "Embedded OS"
+      },
+      {
+        "task": "ดิสก์ใกล้เต็ม อยากลบไฟล์ที่ไม่จำเป็นออก ควรใช้ Utility ตัวไหนใน System Tools?",
+        "answer": "Disk Cleanup"
+      },
+      {
+        "task": "อยากรัน Windows กับ Linux บนเครื่องเดียว โดยแต่ละระบบแยกกันอิสระ ใช้เทคนิคอะไร?",
+        "answer": "Virtualization"
+      }
+    ],
+    "idea": "สำรวจอุปกรณ์รอบตัว 3 ชิ้น (มือถือ คอมที่โรงเรียน สมาร์ตทีวี...) แต่ละชิ้นใช้ OS อะไร และเป็นแบบ Embedded, Network หรือ Stand-alone? ถ้าคุณออกแบบ OS เองได้ อยากให้หน้าจอแรกมีอะไร?"
+  },
+  "r05": {
+    "id": "r05",
+    "title": "System Unit",
+    "readMinutes": 4,
+    "intro": "System unit ของ microcomputer มีส่วนหลัก 3 อย่าง: system board, microprocessor และ memory",
+    "keyPoints": [
+      "System unit มี 6 แบบ: desktop, media center, notebook, netbook, tablet PC, handheld",
+      "System board / Motherboard มี socket (เสียบชิป), slot (เสียบการ์ด), bus line (ทางส่งข้อมูล)",
+      "CPU = Control unit (คุมให้ทำงานตามคำสั่ง) + ALU (คำนวณ arithmetic และ logical)",
+      "Memory 3 แบบ",
+      "– RAM — volatile ไฟดับข้อมูลหาย (เกี่ยวข้อง: cache memory, DIMM, virtual memory)",
+      "– ROM — nonvolatile เก็บคำสั่งพิเศษ เช่น BIOS chip",
+      "– Flash memory — ได้ข้อดีของ RAM + ROM ไม่มีไฟก็เก็บข้อมูลได้",
+      "Expansion card: graphics, sound, NIC, wireless network, TV tuner · โน้ตบุ๊กใช้ PC card (PCMCIA) / ExpressCard ขนาดเท่าบัตรเครดิต",
+      "Bus width = จำนวนบิตที่ส่งได้ต่อครั้ง · System bus = CPU ↔ memory · Expansion bus = CPU ↔ slot (USB, FireWire, PCIe)",
+      "Port",
+      "– มาตรฐาน: VGA/DVI (จอ), USB, FireWire, Ethernet",
+      "– แบบพิเศษ: S/PDIF (เสียง/home theater), HDMI (ภาพ+เสียงดิจิทัล), MIDI (ดนตรีดิจิทัล)",
+      "– Legacy: serial, parallel, keyboard, mouse, IrDA (อินฟราเรด)",
+      "Power supply แปลงไฟ AC → DC · โน้ตบุ๊กใช้ AC adapter"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r05.svg",
+      "alt": "CPU แบ่งเป็น Control unit และ ALU เชื่อมกับหน่วยความจำ RAM (volatile), ROM (BIOS chip) และ Flash ผ่าน bus",
+      "caption": "ถ้าไฟดับกะทันหัน ข้อมูลในกล่องไหนหาย กล่องไหนยังอยู่?"
+    },
+    "examples": [
+      {
+        "title": "🍳 ครัวร้านอาหาร",
+        "story": "ลองนึกภาพ System unit เป็นครัว CPU คือทีมพ่อครัว ส่วน memory คือที่วางของ",
+        "lines": [
+          "Control unit = หัวหน้าครัว อ่านออเดอร์แล้วสั่งว่าใครทำอะไรก่อนหลัง",
+          "ALU = พ่อครัวมือคำนวณ ชั่ง ตวง (arithmetic) และเทียบว่าสุกหรือยัง (logical)",
+          "RAM = เคาน์เตอร์เตรียมของ หยิบเร็ว แต่เลิกงาน (ไฟดับ) ต้องเก็บกวาดหมด จึงเป็น volatile",
+          "ROM = สูตรลับที่สลักติดผนัง ไฟดับก็ไม่หาย เช่น BIOS จึงเป็น nonvolatile",
+          "Bus line = ทางเดินในครัว ยิ่งกว้าง (bus width) ยิ่งส่งของได้ทีละมาก"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "กำลังพิมพ์รายงานอยู่แล้วไฟดับ งานที่ยังไม่ได้ Save หายไป เพราะข้อมูลอยู่ในหน่วยความจำชนิดใด?",
+        "answer": "RAM (volatile ไฟดับข้อมูลหาย)"
+      },
+      {
+        "task": "การเปรียบเทียบว่า 7 มากกว่า 5 หรือไม่ เป็นงานของส่วนใดใน CPU?",
+        "answer": "ALU (ส่วน logical)"
+      },
+      {
+        "task": "อยากต่อทีวีให้ได้ทั้งภาพและเสียงแบบดิจิทัลด้วยสายเส้นเดียว ใช้ port อะไร?",
+        "answer": "HDMI"
+      }
+    ],
+    "idea": "ลองดูด้านหลังหรือด้านข้างคอม/โน้ตบุ๊กที่บ้านหรือโรงเรียน มี port อะไรบ้าง? วาดรูปแล้วเขียนชื่อกำกับ (USB, HDMI, Ethernet...) port ไหนที่คุณไม่เคยใช้เลย ลองเดาว่าเอาไว้ต่ออะไร",
+    "photos": [
+      {
+        "src": "assets/photos/r05-inside-pc.jpg",
+        "alt": "ภายในเคสคอมพิวเตอร์ตั้งโต๊ะ HP ที่เปิดฝา เห็น power supply, hard disk, ไดรฟ์ optical และเมนบอร์ดสีเขียว",
+        "caption": "ภายใน System unit ของจริง ลองหาให้เจอ: power supply (กล่องเงินมุมขวาบน), hard disk (ตรงกลางด้านบน), ไดรฟ์ optical (ซ้ายบน), เมนบอร์ดสีเขียว และถ่าน BIOS ทรงเหรียญ",
+        "credit": "Bubba73 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HP_SFF_desktop_computer_inside.jpg",
+        "width": 960,
+        "height": 766
+      },
+      {
+        "src": "assets/photos/r05-back-panel.jpg",
+        "alt": "แผง port ด้านหลังเมนบอร์ด ASUS: PS/2, USB, HDMI, VGA, DVI, Ethernet และช่องเสียง 6 ช่อง",
+        "caption": "แผง port ด้านหลังเครื่อง ช่องต่อจอมี 3 แบบ คือ VGA (สีน้ำเงิน), DVI (สีขาว) และ HDMI ลองนับดูว่ามี USB กี่ช่อง และ Ethernet อยู่ตรงไหน",
+        "credit": "Hitachi-Train · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:ASUS_P5Q-EM_back_panel.jpg",
+        "width": 960,
+        "height": 240
+      }
+    ]
+  },
+  "r06": {
+    "id": "r06",
+    "title": "Input และ Output",
+    "readMinutes": 4,
+    "intro": "Input แปลงสิ่งที่คนให้เป็นข้อมูลที่คอมประมวลผลได้ ส่วน Output แปลงผลลัพธ์กลับเป็นรูปที่คนเข้าใจ",
+    "keyPoints": [
+      "Keyboard: traditional, flexible (พับ/ม้วนได้), ergonomic, wireless, PDA keyboard, virtual keyboard",
+      "Pointing device: mouse (optical, mechanical, cordless), trackball, touch pad, pointing stick, touch screen, joystick, light pen, stylus",
+      "Scanning device",
+      "– Optical scanner: แบบ flatbed, document, portable",
+      "– Card reader: แถบแม่เหล็ก และ RFID",
+      "– Bar code reader อ่านรหัส UPC (แบบมือถือ / แบบติดตั้ง)",
+      "– MICR = อ่านอักษรหมึกแม่เหล็ก · OCR = อ่านตัวอักษรด้วยแสง · OMR = อ่านเครื่องหมายด้วยแสง",
+      "Image capturing: กล้องดิจิทัล, กล้องวิดีโอดิจิทัล · Audio input: microphone, sound card, ซอฟต์แวร์รู้จำเสียง",
+      "Monitor → ผลบนจอเรียก soft copy",
+      "– จอแบน LCD เป็นมาตรฐาน · CRT ใหญ่ กินไฟ กินที่",
+      "– จอเฉพาะงาน: e-book reader, data projector, digital whiteboard, HDTV",
+      "Printer → ผลบนกระดาษเรียก hard copy",
+      "– Inkjet — พ่นหมึก คุณภาพดี ราคาถูก นิยมที่สุด",
+      "– Laser — หลักการเดียวกับเครื่องถ่ายเอกสาร มีแบบส่วนตัวและแบบใช้ร่วมกัน",
+      "Audio output: ลำโพง, หูฟัง · digital media player"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r06.svg",
+      "alt": "ลูกศรจากอุปกรณ์ Input (keyboard, mouse, mic, camera) เข้าคอมพิวเตอร์ แล้วออกไปที่ Output: จอ (soft copy), printer (hard copy) และลำโพง (sound)",
+      "caption": "อุปกรณ์ไหนส่งข้อมูลเข้า อุปกรณ์ไหนพาผลลัพธ์ออก? แล้วจอสัมผัสของมือถืออยู่ฝั่งไหน?"
+    },
+    "examples": [
+      {
+        "title": "🏪 หนึ่งนาทีที่ร้านสะดวกซื้อ",
+        "story": "ลองนึกภาพตอนจ่ายเงินที่เคาน์เตอร์ ในเวลาแค่ 1 นาที มีทั้ง Input และ Output เกิดขึ้นหลายอย่าง",
+        "lines": [
+          "พนักงานยิงบาร์โค้ด: Bar code reader อ่านรหัส UPC (Input)",
+          "ราคาขึ้นบนจอ: Monitor แสดง soft copy (Output)",
+          "แตะบัตรจ่ายเงิน: Card reader แบบ RFID (Input)",
+          "ใบเสร็จไหลออกมา: Printer ให้ hard copy (Output)",
+          "เสียง ‘ติ๊ด’: ลำโพง (Audio output)"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "เครื่องตรวจข้อสอบแบบฝนวงกลมด้วยดินสอ ใช้เทคโนโลยีอะไร?",
+        "answer": "OMR (อ่านเครื่องหมายด้วยแสง)"
+      },
+      {
+        "task": "ผลงานที่แสดงบนจอ กับ ผลงานที่พิมพ์ลงกระดาษ เรียกต่างกันอย่างไร?",
+        "answer": "บนจอ = soft copy · บนกระดาษ = hard copy"
+      },
+      {
+        "task": "Printer แบบใดใช้หลักการเดียวกับเครื่องถ่ายเอกสาร?",
+        "answer": "Laser printer"
+      }
+    ],
+    "idea": "นับอุปกรณ์ Input และ Output ในมือถือของคุณให้ได้มากที่สุด (จอสัมผัส ไมค์ กล้อง ลำโพง...) อันไหนเป็นได้ทั้งสองอย่าง? ถ้าจะประดิษฐ์อุปกรณ์ Input แบบใหม่ที่ยังไม่มีใครทำ คุณอยากให้มันรับคำสั่งจากอะไร?"
+  },
+  "r07": {
+    "id": "r07",
+    "title": "Secondary Storage",
+    "readMinutes": 4,
+    "intro": "Primary storage (RAM) ข้อมูลหายได้ ส่วน secondary storage เก็บข้อมูลถาวร",
+    "keyPoints": [
+      "ลักษณะที่ต้องรู้: Media (วัสดุที่เก็บข้อมูล), Capacity (ความจุ), Storage device (ฮาร์ดแวร์ที่อ่าน/เขียน), Access speed / Access time (เวลาดึงข้อมูล)",
+      "Hard disk: จานโลหะซ้อนกันเรียก platter · จัดเก็บด้วย track, sector, cylinder (cylinder = track และ sector เดียวกันแต่ต่าง platter) · มีแบบ internal และ external",
+      "Solid-state storage: ไม่มีจานหมุน เร็ว กินไฟน้อย แต่แพง เช่น flash memory · USB drive เล็ก พกพาง่าย",
+      "Optical disc (CD, DVD, Blu-ray)",
+      "– ROM = อ่านอย่างเดียว",
+      "– R = เขียนได้ครั้งเดียว",
+      "– RW = อ่าน เขียน แก้ไขซ้ำได้",
+      "Cloud storage: Google Drive, OneDrive, Dropbox"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r07.svg",
+      "alt": "จาน platter ของ hard disk แสดง track เป็นวงกลม และ sector เป็นชิ้นรูปพาย ด้านขวาเป็น SSD / USB, แผ่น CD / DVD / Blu-ray และ Cloud",
+      "caption": "track กับ sector บนจาน platter ต่างกันอย่างไร? ลองดูจากสีในภาพ"
+    },
+    "examples": [
+      {
+        "title": "📦 เก็บของให้ถูกที่",
+        "story": "ลองนึกภาพ: RAM คือโต๊ะทำงาน วางของได้เร็วแต่ต้องเก็บทุกครั้งที่เลิกงาน ส่วน secondary storage คือตู้และโกดังที่เก็บของไว้ได้ถาวร แต่ละแบบเหมาะกับงานต่างกัน",
+        "lines": [
+          "Hard disk = โกดังใหญ่ มีจาน platter หมุนอยู่ข้างใน",
+          "Solid-state / USB drive = ตู้ล็อกเกอร์ไฮเทค ไม่มีจานหมุน เร็ว กินไฟน้อย แต่แพง",
+          "Optical disc = แผ่นบันทึก: ROM อ่านอย่างเดียว · R เขียนได้ครั้งเดียว · RW เขียนซ้ำได้",
+          "Cloud storage = ฝากของไว้กับผู้ให้บริการผ่าน Internet เช่น Google Drive"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "อยากบันทึกเพลงลงแผ่น แล้วลบเปลี่ยนเพลงใหม่ได้เรื่อยๆ ต้องซื้อแผ่นแบบใด: ROM, R หรือ RW?",
+        "answer": "RW (อ่าน เขียน แก้ไขซ้ำได้)"
+      },
+      {
+        "task": "track และ sector ตำแหน่งเดียวกัน แต่อยู่บน platter คนละแผ่น รวมเรียกว่าอะไร?",
+        "answer": "Cylinder"
+      },
+      {
+        "task": "โน้ตบุ๊กที่ต้องการความเร็วและกินไฟน้อย ควรใช้ storage แบบใด และข้อเสียคืออะไร?",
+        "answer": "Solid-state storage — ข้อเสียคือแพง"
+      }
+    ],
+    "idea": "ถ้าต้องเก็บรูปถ่ายครอบครัวไว้ 10 ปีไม่ให้หาย คุณจะเลือกเก็บที่ไหนบ้าง (Hard disk, USB, แผ่น, Cloud) เพราะอะไร? ลองออกแบบแผนสำรองข้อมูลของคุณเอง: เก็บกี่ที่ ที่ไหนบ้าง",
+    "photos": [
+      {
+        "src": "assets/photos/r07-hard-disk-open.jpg",
+        "alt": "Hard disk ที่เปิดฝาออก เห็นจาน platter สีเงินและแขนหัวอ่าน",
+        "caption": "Hard disk ที่เปิดฝาออก จานเงาๆ คือ platter ส่วนแขนที่ยื่นเข้ามาคือหัวอ่าน/เขียน ลองนึกดูว่า track แต่ละวงจะอยู่ตรงไหนของจาน",
+        "credit": "Zzubnik · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Open_hard-drive.jpg",
+        "width": 960,
+        "height": 837
+      }
+    ]
+  },
+  "r08": {
+    "id": "r08",
+    "title": "CPU",
+    "readMinutes": 6,
+    "intro": "ความเร็ว CPU คือความถี่สัญญาณนาฬิกา (Hz) และตัว CPU มี 4 แพ็กเกจ โดย LGA เป็นแบบที่ Intel ใช้ถึงปัจจุบัน",
+    "keyPoints": [
+      "CPU คำนวณ arithmetic/logical และควบคุมส่วนอื่นของระบบ",
+      "ความเร็ว หน่วย Hz = จำนวน cycle ต่อวินาที (1 MHz = 1 ล้านครั้ง/วินาที)",
+      "– Clock ภายใน = ความเร็วของ CPU เอง เช่น 2.8 หรือ 3.6 GHz",
+      "– Clock ภายนอก = จังหวะของ bus: FSB, QPI, HTT, PCIe, UMI, DMI",
+      "Bus ของ CPU",
+      "– FSB (Front Side Bus) — CPU ↔ North Bridge/MCH ยุค Core 2 · clock จริง 100–400 MHz แต่เขียนเป็น FSB 400–1600 (ความเร็วสุทธิ)",
+      "– QPI (Intel QuickPath Interconnect) — CPU ↔ chipset/IOH มาแทน FSB",
+      "– DMI (Direct Media Interface) — เชื่อมแบบจุดต่อจุด CPU ↔ PCH",
+      "Cache L1, L2, L3 อยู่ในตัว CPU ช่วยให้ประมวลผลเร็วขึ้น",
+      "อ่านสเปกบนตัว CPU เช่น Core 2 Quad Q9450: sSpec SLAWR, 2.66 GHz, L2 cache 12 MB, Bus 1333 MHz · เช็คละเอียดได้ที่เว็บ Intel",
+      "รหัสท้ายรุ่น Intel",
+      "– โน้ตบุ๊ก: U ไฟต่ำ (ฝังบอร์ด อัปไม่ได้) · Y ไฟต่ำมาก ไม่มีพัดลม · M Mobile (ถอดได้) · Q Quad core · H กราฟิกแรง · K ปลดล็อก overclock",
+      "– เดสก์ท็อป: K ปลดล็อก overclock · F ไม่มีกราฟิกในตัว ต้องใช้การ์ดจอแยก"
+    ],
+    "bookRef": "",
+    "table": [
+      {
+        "from": "BGA (Ball Grid Array)",
+        "to": "ลูกบอลเล็กบัดกรีติดบอร์ด ถอดเปลี่ยนไม่ได้"
+      },
+      {
+        "from": "Cartridge (SECC)",
+        "to": "เสียบลง slot บนบอร์ด ใช้กับ CPU รุ่นเก่า · ตัวอย่าง: Celeron, Pentium II/III (Slot 1), AMD Athlon K7 (Slot A)"
+      },
+      {
+        "from": "PGA (Pin Grid Array)",
+        "to": "ขาอยู่ที่ตัว CPU · ตัวอย่าง: PPGA, OmPGA, FC-PGA"
+      },
+      {
+        "from": "LGA (Land Grid Array)",
+        "to": "CPU ไม่มีขา เป็นแผ่นสัมผัสกลมแบน ขาอยู่ที่ socket ล็อกด้วย Load plate + Load lever · ตัวอย่าง: Pentium 4 ถึงปัจจุบัน: LGA 775, 1150, 1366, 2011, 2066, 1200"
+      }
+    ],
+    "tableHeaders": [
+      "แพ็กเกจ",
+      "รายละเอียด"
+    ],
+    "image": {
+      "src": "assets/lessons/r08.svg",
+      "alt": "เปรียบเทียบ CPU สองแพ็กเกจ: PGA ขาอยู่ที่ตัว CPU ส่วน LGA ขาอยู่ที่ socket ตัว CPU เป็นแผ่นสัมผัสเรียบ",
+      "caption": "ขา (pin) อยู่ที่ไหนในแต่ละแบบ? ถ้าทำ CPU หล่น แบบไหนเสี่ยงขางอมากกว่า?"
+    },
+    "examples": [
+      {
+        "title": "🔎 อ่านชื่อรุ่นแบบช่าง",
+        "story": "ลองนึกภาพ: คุณเดินร้านคอมแล้วเห็นป้าย ‘Core i5-10400F’ กับ ‘Core i7-9700K’ ตัวอักษรท้ายรุ่นบอกความลับของ CPU ตัวนั้น",
+        "lines": [
+          "F = ไม่มีกราฟิกในตัว ต้องใช้การ์ดจอแยก ไม่งั้นจอไม่ขึ้นภาพ!",
+          "K = ปลดล็อก overclock",
+          "U (โน้ตบุ๊ก) = ไฟต่ำ ฝังบอร์ด อัปไม่ได้",
+          "H (โน้ตบุ๊ก) = กราฟิกแรง"
+        ]
+      },
+      {
+        "title": "🥁 จังหวะกลองของ CPU",
+        "story": "ความเร็ว CPU คือความถี่สัญญาณนาฬิกา ลองนึกภาพมือกลองที่ตีได้เร็วมากๆ",
+        "lines": [
+          "1 Hz = ตี 1 ครั้งต่อวินาที",
+          "1 MHz = 1 ล้านครั้งต่อวินาที",
+          "3.6 GHz = 3,600 ล้านครั้งต่อวินาที เร็วจนนึกภาพแทบไม่ออก!"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "เพื่อนซื้อ Core i5-10400F มาประกอบเครื่องโดยไม่มีการ์ดจอ เปิดแล้วจอไม่ขึ้นภาพ เพราะอะไร?",
+        "answer": "รหัส F = ไม่มีกราฟิกในตัว ต้องใช้การ์ดจอแยก"
+      },
+      {
+        "task": "ดูภาพด้านบน: CPU ของ Intel ตั้งแต่ Pentium 4 ถึงปัจจุบันใช้แพ็กเกจแบบใด และขาอยู่ที่ไหน?",
+        "answer": "LGA — ขาอยู่ที่ socket ส่วนตัว CPU เป็นแผ่นสัมผัสเรียบ"
+      },
+      {
+        "task": "CPU 2.8 GHz มีสัญญาณนาฬิกากี่ล้านครั้งต่อวินาที?",
+        "answer": "2,800 ล้านครั้งต่อวินาที (1 GHz = 1,000 MHz)"
+      }
+    ],
+    "idea": "ลองหาชื่อรุ่น CPU ของคอมหรือโน้ตบุ๊กที่คุณใช้ (ดูที่สติกเกอร์บนเครื่อง หรือในหน้าข้อมูลระบบ) แล้วถอดรหัส: กี่ GHz ท้ายรุ่นเป็นตัวอักษรอะไร หมายความว่าอะไร? ถ้าต้องเลือก CPU ให้เครื่องในฝัน จะเอารหัสท้ายแบบไหน เพราะอะไร?",
+    "photos": [
+      {
+        "src": "assets/photos/r08-lga-cpu.jpg",
+        "alt": "ด้านล่างของ CPU Intel Core i7-2600K เป็นแผ่นสัมผัสสีทองเรียบ ไม่มีขา",
+        "caption": "CPU แบบ LGA (Intel Core i7-2600K): ด้านล่างเป็นแผ่นสัมผัสเรียบ ไม่มีขา",
+        "credit": "Eric Gaba, Wikimedia Commons user Sting · CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Intel_CPU_Core_i7_2600K_Sandy_Bridge_bottom.jpg",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "assets/photos/r08-lga-socket.jpg",
+        "alt": "Socket LGA 1155 บนเมนบอร์ด มีขาเล็กๆ เรียงเต็มช่อง",
+        "caption": "Socket LGA 1155 บนเมนบอร์ด: ขาเล็กๆ ย้ายมาอยู่ที่ socket แทน ขาพวกนี้งอง่ายมาก ห้ามเอานิ้วแตะ",
+        "credit": "Artem S. Tashkinov · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Intel_Socket_1155.jpeg",
+        "width": 500,
+        "height": 496
+      },
+      {
+        "src": "assets/photos/r08-pga-cpu.jpg",
+        "alt": "ด้านล่างของ CPU AMD Phenom X4 9750 มีขาสีทองเรียงเป็นตาราง",
+        "caption": "CPU แบบ PGA (AMD Phenom X4 9750): ขาสีทองหลายร้อยขาอยู่ที่ตัว CPU เอง ถ้าทำหล่น ขางอได้ง่าย",
+        "credit": "Liam McSherry · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:AMD_Phenom_X4_9750_(Underside).JPG",
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  "r09": {
+    "id": "r09",
+    "title": "RAM",
+    "readMinutes": 5,
+    "intro": "RAM ในเครื่องเป็น DRAM แต่ละรุ่นขา ไฟ และร่องบากต่างกัน จึงใส่แทนกันไม่ได้",
+    "keyPoints": [
+      "RAM ทำงานคู่ CPU ตลอด เป็นที่พักข้อมูลและคำสั่งชั่วคราวรอ CPU ประมวลผล",
+      "SRAM (Static RAM) — เร็วกว่า DRAM มาก ใช้ทำ cache ใน CPU แต่ทำความจุใหญ่ยาก แพง กินไฟ ร้อน",
+      "DRAM (Dynamic RAM) — ใช้ทำ RAM หลัก เป็นแบบ Synchronous พัฒนาเป็นรุ่นตามตาราง",
+      "โหมด RAM: Single-channel, Dual-channel, Flex mode — สไลด์มีแต่รูป: dual-channel คือใส่ RAM เป็นคู่ในช่องสีเดียวกันให้ทำงานพร้อมกัน จึงเร็วขึ้น"
+    ],
+    "bookRef": "",
+    "table": [
+      {
+        "from": "SDRAM",
+        "to": "DIMM 168 ขา · 3.3 V · PC-66 / PC-100 / PC-133 · เลิกใช้หลังยุค Pentium III"
+      },
+      {
+        "from": "DDR",
+        "to": "DIMM 184 ขา · SO-DIMM 200 ขา · 2.5 V · DDR-266 → DDR-700 · หมดความนิยมแล้ว"
+      },
+      {
+        "from": "DDR2",
+        "to": "DIMM 240 ขา · SO-DIMM 200 ขา · 1.8 V · DDR2-400 (PC2-3200) → DDR2-1066 · สูงสุด 4 GB, prefetch 4 bit"
+      },
+      {
+        "from": "DDR3",
+        "to": "DIMM 240 ขา · SO-DIMM 204 ขา · 1.5 V · DDR3-800 (PC3-6400) → DDR3-1600 (PC3-12800) · สูงสุด 8 GB, prefetch 8 bit, ใส่แทน DDR2 ไม่ได้"
+      },
+      {
+        "from": "DDR4",
+        "to": "DIMM 288 ขา · SO-DIMM 260 ขา · 1.2 V · DDR4-1600 (PC4-12800) → DDR4-3200 (PC4-25600) · สูงสุด 16 GB, prefetch 16 bit"
+      }
+    ],
+    "tableHeaders": [
+      "รุ่น",
+      "รายละเอียด"
+    ],
+    "image": {
+      "src": "assets/lessons/r09.svg",
+      "alt": "แผง RAM 3 รุ่น: DDR2 (240 pin, 1.8 V), DDR3 (240 pin, 1.5 V) และ DDR4 (288 pin, 1.2 V) ร่องบากอยู่คนละตำแหน่ง",
+      "caption": "ร่องบากของแต่ละรุ่นอยู่คนละตำแหน่ง (สามเหลี่ยมสีแดง) คิดว่าออกแบบมาแบบนี้เพื่ออะไร?"
+    },
+    "examples": [
+      {
+        "title": "🧩 จิ๊กซอว์ที่ใส่ผิดไม่ได้",
+        "story": "ลองนึกภาพ: คุณเจอ RAM DDR3 เก่าในลิ้นชัก อยากเอาไปเพิ่มให้เครื่องใหม่ที่ใช้ DDR4 จะเกิดอะไรขึ้น?",
+        "lines": [
+          "ร่องบากอยู่คนละตำแหน่ง เสียบไม่ลง เหมือนจิ๊กซอว์คนละชิ้น",
+          "จำนวนขาต่างกัน: DDR3 = 240 ขา · DDR4 = 288 ขา",
+          "ไฟก็ต่างกัน: DDR3 = 1.5 V · DDR4 = 1.2 V",
+          "สรุป: ก่อนซื้อ RAM ต้องเช็กก่อนว่าเมนบอร์ดรองรับ DDR รุ่นไหน"
+        ]
+      },
+      {
+        "title": "👫 ทำงานเป็นคู่เร็วกว่า",
+        "story": "Dual-channel เหมือนเปิดช่องจ่ายเงิน 2 ช่องพร้อมกัน คิวก็เดินเร็วขึ้น",
+        "lines": [
+          "Single-channel: RAM แผงเดียว = ช่องจ่ายเงินช่องเดียว",
+          "Dual-channel: ใส่ RAM เป็นคู่ในช่องสีเดียวกัน ทำงานพร้อมกัน จึงเร็วขึ้น"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "RAM โน้ตบุ๊กเรียกว่า SO-DIMM ถ้าเป็น DDR4 จะมีกี่ขา?",
+        "answer": "260 ขา (แบบ DIMM ของเดสก์ท็อปมี 288 ขา)"
+      },
+      {
+        "task": "เรียงแรงดันไฟจากมากไปน้อย: DDR4, DDR2, DDR3, DDR",
+        "answer": "DDR 2.5 V · DDR2 1.8 V · DDR3 1.5 V · DDR4 1.2 V"
+      },
+      {
+        "task": "หน่วยความจำ cache ใน CPU ทำจาก RAM ชนิดใด เพราะอะไร?",
+        "answer": "SRAM เพราะเร็วกว่า DRAM มาก (แต่แพง และทำความจุใหญ่ยาก)"
+      }
+    ],
+    "idea": "ถ้าคุณมีงบซื้อ RAM 16 GB จะซื้อแผงเดียว 16 GB หรือ 8 GB สองแผง? ลองให้เหตุผลจากเรื่อง Dual-channel แล้วสังเกตว่าแรงดันไฟลดลงทุกรุ่น คุณคิดว่ามีข้อดีอะไร?",
+    "photos": [
+      {
+        "src": "assets/photos/r09-ram-generations.jpg",
+        "alt": "แผง RAM 6 รุ่นวางเรียงกัน มีป้าย A ถึง F: RAMBUS, SDRAM, DDR, DDR2, DDR3 และ DDR4",
+        "caption": "RAM ของจริง 6 รุ่น เรียงจากบนลงล่าง A: RAMBUS, B: SDRAM, C: DDR, D: DDR2, E: DDR3, F: DDR4 ลองไล่ดูร่องบากของ D, E และ F ว่าอยู่ตรงกันไหม",
+        "credit": "smial · Free Art License · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:DIMM_IMGP5807_ABCDEF_smial_wp.jpg",
+        "width": 960,
+        "height": 506
+      }
+    ]
+  },
+  "r10": {
+    "id": "r10",
+    "title": "Hard Disk",
+    "readMinutes": 6,
+    "intro": "Hard disk ต่อกับบอร์ดผ่าน interface 4 แบบ และ SATA III เร็วสุดที่ 6 Gbit/s",
+    "keyPoints": [
+      "จานแม่เหล็กหมุนหลายพันรอบต่อนาที (rpm = Revolutions Per Minute เช่น 5,400 และ 7,200 rpm) มีหัวอ่านเลื่อนอ่าน/เขียน",
+      "SSD (Solid State Drive) — ใช้ flash memory เก็บข้อมูลถาวร เร็วมาก",
+      "HDD ภายนอก — USB 2.0, FireWire (IEEE 1394), eSATA (เร็วเท่าแบบติดในเครื่อง) · NAS (Network Attached Storage) = ดิสก์ที่ต่อเข้าเครือข่าย",
+      "RAID (Redundant Array of Inexpensive Disks) = เอา HDD ตั้งแต่ 2 ลูกมาทำงานรวมเป็นลูกเดียว",
+      "– RAID 0 — อ่าน/เขียนเร็วขึ้น แต่ถ้าลูกเดียวเสีย ข้อมูลอาจหายทั้งหมด",
+      "– RAID 1 — เขียนซ้ำ 2 ลูก ปลอดภัยแต่ไม่เร็วขึ้น ค่าใช้จ่าย 2 เท่า",
+      "– RAID 5 — ใช้อย่างน้อย 3 ลูก สเปกเท่ากัน ได้ทั้งความเร็วและสำรอง ลูกหนึ่งเสียยังทำงานต่อได้"
+    ],
+    "bookRef": "",
+    "table": [
+      {
+        "from": "IDE / ATA / PATA",
+        "to": "ขนาน (Parallel) · ATA-100 = 100 MB/s, ATA-133 = 133 MB/s · ขั้วต่อ 40 ขา · สายแพ 40/80 เส้น 3 หัว · ต่อ 2 ลูกบนสายเดียวต้องตั้ง Master/Slave ด้วย jumper"
+      },
+      {
+        "from": "SATA",
+        "to": "อนุกรม (Serial) · SATA I 1.5 Gbit/s (~150 MB/s) · SATA II 3 Gbit/s (~300 MB/s) · SATA III 6 Gbit/s (~600 MB/s) · port บนบอร์ด 7 ขา · ดูแลมาตรฐานโดย SATA-IO"
+      },
+      {
+        "from": "SCSI",
+        "to": "ขนาน (Parallel) · ต่อได้ 7 อุปกรณ์ (SCSI-2 ได้ 15) ผ่าน SCSI host adapter · ใช้กับ server · ถอดเปลี่ยนดิสก์ขณะเครื่องทำงานได้"
+      },
+      {
+        "from": "SAS (Serial Attached SCSI)",
+        "to": "อนุกรม (Serial) · มาแทน SCSI แบบเดียวกับ ATA → SATA · ใช้กับอุปกรณ์ SATA ได้"
+      }
+    ],
+    "tableHeaders": [
+      "Interface",
+      "รายละเอียด"
+    ],
+    "image": {
+      "src": "assets/lessons/r10.svg",
+      "alt": "RAID 0 แบ่งข้อมูล A B C D สลับลงดิสก์สองลูก ส่วน RAID 1 เขียนข้อมูล A B ซ้ำกันทั้งสองลูก",
+      "caption": "ถ้าดิสก์ลูกขวาพัง แบบไหนข้อมูลยังอยู่ครบ?"
+    },
+    "examples": [
+      {
+        "title": "📝 จดเลกเชอร์ 3 สไตล์",
+        "story": "ลองนึกภาพคุณกับเพื่อนช่วยกันจดเลกเชอร์ วิธีจดแต่ละแบบก็เหมือน RAID แต่ละแบบ",
+        "lines": [
+          "RAID 0: แบ่งกันจดคนละครึ่ง เสร็จเร็วมาก แต่ถ้าสมุดใครหาย เนื้อหาก็ขาด อ่านไม่รู้เรื่องทั้งหมด",
+          "RAID 1: สองคนจดเหมือนกันทุกบรรทัด ไม่เร็วขึ้น เปลืองสมุด 2 เท่า แต่สมุดหายเล่มหนึ่งก็ยังมีอีกเล่ม",
+          "RAID 5: เพื่อน 3 คนขึ้นไป ได้ทั้งความเร็วและสำรอง สมุดหาย 1 เล่มก็ยังเรียนต่อได้"
+        ]
+      },
+      {
+        "title": "🚚 ถนนของข้อมูล",
+        "story": "interface คือถนนที่เชื่อม hard disk กับเมนบอร์ด",
+        "lines": [
+          "IDE / PATA = ถนนหลายเลนขนานกัน (Parallel) ใช้สายแพ และต้องตั้ง Master/Slave",
+          "SATA = ส่งทีละบิตต่อเนื่องกัน (Serial) แต่เร็วกว่ามาก",
+          "SATA I 1.5 · SATA II 3 · SATA III 6 Gbit/s เร็วขึ้นเท่าตัวทุกรุ่น"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "ดูภาพด้านบน: ถ้าดิสก์ลูกหนึ่งเสีย RAID แบบใดที่ข้อมูลยังอยู่ครบ?",
+        "answer": "RAID 1 เพราะเขียนข้อมูลซ้ำกันทั้ง 2 ลูก"
+      },
+      {
+        "task": "อยากทำ RAID 5 ต้องมี hard disk อย่างน้อยกี่ลูก?",
+        "answer": "3 ลูก (สเปกเท่ากัน)"
+      },
+      {
+        "task": "hard disk 7,200 rpm หมายความว่าอะไร?",
+        "answer": "จานหมุน 7,200 รอบต่อนาที (rpm = Revolutions Per Minute)"
+      }
+    ],
+    "idea": "ถ้าคุณเป็นช่างและมีลูกค้า 2 คนมาขอคำแนะนำ: คนแรกเป็นเกมเมอร์ อยากให้โหลดเกมเร็วที่สุด คนที่สองเป็นร้านถ่ายรูปที่ไฟล์ลูกค้าห้ามหาย คุณจะแนะนำ SSD, HDD หรือ RAID แบบไหนให้แต่ละคน เพราะอะไร?",
+    "photos": [
+      {
+        "src": "assets/photos/r10-sata-connectors.jpg",
+        "alt": "Hard disk แบบ SATA มีสายข้อมูลสีแดงและสายไฟเสียบอยู่",
+        "caption": "Hard disk แบบ SATA: สายแบนสีแดงคือสายข้อมูล ส่วนขั้วที่กว้างกว่าซึ่งมีสายดำ แดง เหลือง คือสายไฟ เทียบกับสายแพ IDE 40 ขาแล้วเล็กกว่ากันมาก",
+        "credit": "Thomas Rosenau (Pumbaa80) · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Serial_ATA_hard_disk_connected.jpg",
+        "width": 960,
+        "height": 875
+      }
+    ]
+  },
+  "r11": {
+    "id": "r11",
+    "title": "Mainboard, Case และ Power",
+    "readMinutes": 6,
+    "intro": "Chipset กำหนดคุณสมบัติเกือบทั้งหมดของเมนบอร์ด จึงเป็นหลักในการเลือกซื้อเมนบอร์ด",
+    "keyPoints": [
+      "Form factor = มาตรฐานขนาดและตำแหน่งชิ้นส่วนบนบอร์ด มีผลกับการออกแบบ case",
+      "– AT (Advanced Technology) — ใช้ใน IBM PC รุ่นแรก",
+      "– ATX (Advanced Technology eXtended) — Intel ออกแบบปี 1995 ใช้แพร่หลายถึงปัจจุบัน",
+      "– Micro ATX, Flex ATX, BTX และ ITX (Mini-ITX 17 × 17 cm, Nano-ITX 12 × 12 cm, Pico-ITX 10 × 7.2 cm)",
+      "CPU socket — CPU แต่ละยี่ห้อ/รุ่นใช้ socket ต่างกัน · RAM slot — DDR3 กับ DDR4 ร่องบากต่างกัน ใส่แทนกันไม่ได้",
+      "Chipset (North Bridge/MCH + South Bridge/ICH) — กำหนด CPU และ socket ที่รองรับ, ชนิด RAM, ความเร็ว bus และการขยายระบบ · FSB คือ bus ที่เชื่อม CPU กับ chipset ตัวหลัก",
+      "ข้อมูลระหว่าง CPU กับ RAM และการ์ดจอวิ่งผ่าน North Bridge ส่วน PCI slot และขั้วต่อดิสก์อยู่ฝั่ง South Bridge",
+      "Slot การ์ด",
+      "– PCI / PCI-X — LAN, modem, sound, SATA, SSD, SCSI, USB, capture card",
+      "– AGP (Accelerated Graphics Port, สูงสุด 8X) — สำหรับการ์ดจอ ถูกแทนด้วย PCIe x16",
+      "– PCIe x16 bandwidth: v1.1 = 8 GB/s, v2.0 = 16 GB/s, v3.0 = 32 GB/s · มี slot ขนาด x1, x4, x16",
+      "BIOS (Basic Input/Output System) — ชิปบนบอร์ด เก็บโปรแกรมพื้นฐาน ตรวจความพร้อมอุปกรณ์และ boot ระบบ",
+      "BIOS battery — เลี้ยงไฟ CMOS ถ้าใกล้หมด นาฬิกาเพี้ยนและค่า BIOS ไม่ถูกบันทึก",
+      "Power connector — รับไฟ ±5 V, ±12 V และ +3.3 V จาก Power Supply",
+      "Front panel connector",
+      "– Reset SW = ปิดแล้วเปิดใหม่ · Power SW = เปิดเครื่อง (กดค้าง 4–5 วินาที = บังคับปิด)",
+      "– Power LED สีเขียว = เครื่องทำงาน · HDD LED กะพริบ = ดิสก์กำลังทำงาน · Speaker = เสียงเตือนจาก BIOS",
+      "ขั้วต่อบนบอร์ด — IDE (สายแพ 40/80 เส้น) · SATA 7 ขา · Floppy (FDD) 34 ขา ต่อได้ 2 ไดรฟ์",
+      "Case",
+      "– Full Tower — ใหญ่ หนัก วางพื้น นิยมทำ server",
+      "– Medium Tower — ขนาดกลาง นิยมที่สุดในปัจจุบัน",
+      "– Mini Tower — สำหรับบอร์ดเล็ก 2–3 slot",
+      "– Desktop — วางแนวนอน วางจอบน case · Mini PC — เล็ก วางได้ทั้งแนวนอนและแนวตั้ง",
+      "Power Supply — แปลง AC 220 V → DC 3.3 V, 5 V, 12 V · ปัจจุบันควร 400 W ขึ้นไป (คำนวณได้ที่ outervision.com)",
+      "UPS (Uninterruptible Power Supply) — สำรองไฟและปรับแรงดันอัตโนมัติ · PC ทั่วไปเริ่มที่ 500 VA สำรองได้ประมาณ 5–10 นาที"
+    ],
+    "bookRef": "",
+    "image": {
+      "src": "assets/lessons/r11.svg",
+      "alt": "แผนผังเมนบอร์ด ATX: I/O, CPU socket, RAM slot, Power connector, PCIe x16, PCI, Chipset, SATA และ BIOS battery",
+      "caption": "ถ้าจะใส่การ์ดจอ ต้องเสียบที่ช่องไหน? แล้ว RAM ล่ะ?"
+    },
+    "examples": [
+      {
+        "title": "🏙️ เมนบอร์ดคือเมืองเล็กๆ",
+        "story": "ลองนึกภาพเมนบอร์ดเป็นเมือง ดูแผนผังด้านบนแล้วเดินเที่ยวไปด้วยกัน",
+        "lines": [
+          "CPU socket = ศาลากลาง ที่ตั้งของสมองเมือง",
+          "Chipset = ผังเมือง กำหนดว่าเมืองนี้รองรับ CPU, RAM และความเร็ว bus แบบไหน",
+          "RAM slot = ลานพักของชั่วคราวข้างศาลากลาง",
+          "PCIe x16 = ท่าเรือใหญ่สำหรับการ์ดจอ",
+          "Power connector = โรงไฟฟ้า รับไฟจาก Power Supply ที่แปลง AC 220 V เป็น DC",
+          "BIOS battery = ถ่านนาฬิกาประจำเมือง ใกล้หมดเมื่อไร เวลาเพี้ยนทันที"
+        ]
+      }
+    ],
+    "tryIt": [
+      {
+        "task": "เปิดเครื่องทีไร วันที่และเวลาเพี้ยนทุกครั้ง ชิ้นส่วนไหนน่าจะมีปัญหา?",
+        "answer": "BIOS battery ใกล้หมด (เลี้ยงไฟ CMOS ไม่พอ ค่า BIOS จึงไม่ถูกบันทึก)"
+      },
+      {
+        "task": "เครื่องค้าง กดปุ่ม Power ครั้งเดียวแล้วไม่ดับ ต้องทำอย่างไรเพื่อบังคับปิด?",
+        "answer": "กดปุ่ม Power ค้างไว้ 4–5 วินาที"
+      },
+      {
+        "task": "อยากได้ case ขนาดกลางที่นิยมที่สุดในปัจจุบัน ควรเลือกแบบใด?",
+        "answer": "Medium Tower"
+      }
+    ],
+    "idea": "ลองออกแบบ ‘เครื่องในฝัน’ ของคุณบนกระดาษ: วาดเมนบอร์ดแล้วเลือกชิ้นส่วนเอง (CPU, RAM กี่แผง, การ์ดจอ, ดิสก์กี่ลูก, case แบบไหน, Power Supply กี่วัตต์) แล้วอธิบายว่าเครื่องนี้เอาไว้ทำอะไร",
+    "photos": [
+      {
+        "src": "assets/photos/r11-mainboard.jpg",
+        "alt": "เมนบอร์ด Asus P8H61-MX ขนาด Micro ATX มีพัดลม CPU แผง RAM และ slot สีน้ำเงิน",
+        "caption": "เมนบอร์ดจริง (Asus P8H61-MX ขนาด Micro ATX) ลองเทียบกับแผนผังด้านบนแล้วหาให้เจอ: CPU (อยู่ใต้พัดลม), RAM, slot PCIe x16 สีน้ำเงินเส้นยาว, ถ่าน BIOS, port SATA และ Power connector",
+        "credit": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+        "source": "https://commons.wikimedia.org/wiki/File:Asus_P8H61-MX_USB3_-_uATX_motherboard-6071.jpg",
+        "width": 960,
+        "height": 631
+      },
+      {
+        "src": "assets/photos/r11-power-supply.jpg",
+        "alt": "Power Supply แบบ ATX มีพัดลมและสายไฟหลายเส้น",
+        "caption": "Power Supply ของจริง: กล่องนี้แปลงไฟ AC 220 V จากปลั๊กเป็นไฟ DC แล้วจ่ายผ่านสายหลายเส้นไปเลี้ยงเมนบอร์ดและไดรฟ์",
+        "credit": "Victor Korniyenko · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Power_Supply_ATX-450PNF.jpg",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/photos/r11-bios-battery.jpg",
+        "alt": "ถ่านกระดุม CR2032 บนเมนบอร์ด",
+        "caption": "BIOS battery ของจริง: ถ่านกระดุม (CR2032) บนเมนบอร์ด ถ้านาฬิกาของเครื่องเพี้ยนบ่อยๆ ให้สงสัยถ่านก้อนนี้ก่อน",
+        "credit": "Kent Madsen · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CMOS_Battery,_Motherboard.jpg",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  }
+}

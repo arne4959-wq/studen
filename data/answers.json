@@ -1,0 +1,756 @@
+{
+  "g01": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "she ໃຊ້ is"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "they ໃຊ້ are"
+    },
+    "q3": {
+      "correctChoiceId": "a",
+      "explanation": "I ໃຊ້ am ສະເໝີ"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "you ໃຊ້ are ແລະ ຄຳຖາມເອົາ Are ໄວ້ໜ້າ"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "he ໃຊ້ is → ປະຕິເສດ is not = isn't"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "Anna ເປັນຜູ້ຍິງ ຈຶ່ງໃຊ້ her"
+    },
+    "q7": {
+      "correctChoiceId": "a",
+      "explanation": "we → our"
+    },
+    "q8": {
+      "correctChoiceId": "c",
+      "explanation": "ຖາມຊື່ຂອງອີກຝ່າຍ ໃຊ້ your"
+    },
+    "q9": {
+      "correctChoiceId": "b",
+      "explanation": "its = ຂອງມັນ (ບໍ່ມີ '), it's = it is"
+    },
+    "q10": {
+      "correctChoiceId": "c",
+      "explanation": "Tom and Lin = they → their"
+    }
+  },
+  "g03": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "apple ຂຶ້ນຕົ້ນດ້ວຍສຽງສະຫຼະ ຈຶ່ງໃຊ້ an"
+    },
+    "q2": {
+      "correctChoiceId": "b",
+      "explanation": "university ອອກສຽງ 'ຢູ' (ພະຍັນຊະນະ) ຈຶ່ງໃຊ້ a"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "ລົງທ້າຍ -x ເຕີມ -es"
+    },
+    "q4": {
+      "correctChoiceId": "b",
+      "explanation": "child ເປັນຄຳບໍ່ປົກກະຕິ: children"
+    },
+    "q5": {
+      "correctChoiceId": "c",
+      "explanation": "hour ບໍ່ອອກສຽງ h ຈຶ່ງເປັນສຽງສະຫຼະ → an"
+    },
+    "q6": {
+      "correctChoiceId": "d",
+      "explanation": "ໃກ້ + 1 ອັນ = this"
+    },
+    "q7": {
+      "correctChoiceId": "a",
+      "explanation": "ໄກ + ຫຼາຍ = those"
+    },
+    "q8": {
+      "correctChoiceId": "b",
+      "explanation": "ໃກ້ + ຫຼາຍ = these"
+    },
+    "q9": {
+      "correctChoiceId": "c",
+      "explanation": "ໄກ (over there) + 1 ຄົນ = that"
+    },
+    "q10": {
+      "correctChoiceId": "c",
+      "explanation": "ໃກ້ + ຫຼາຍ (books) = these"
+    }
+  },
+  "g05": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "she → ກິລິຍາເຕີມ -s"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "I ໃຊ້ don't"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "he ໃຊ້ Does ໃນຄຳຖາມ"
+    },
+    "q4": {
+      "correctChoiceId": "a",
+      "explanation": "go + es = goes"
+    },
+    "q5": {
+      "correctChoiceId": "d",
+      "explanation": "he ໃຊ້ has (ບໍ່ແມ່ນ haves)"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "ຄຳບອກຄວາມຖີ່ ວາງໄວ້ໜ້າກິລິຍາຫຼັກ"
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "ກັບ to be ໃຫ້ວາງຫຼັງ is"
+    },
+    "q8": {
+      "correctChoiceId": "d",
+      "explanation": "never = ບໍ່ເຄີຍ 0%"
+    },
+    "q9": {
+      "correctChoiceId": "a",
+      "explanation": "always = ສະເໝີ 100%"
+    },
+    "q10": {
+      "correctChoiceId": "b",
+      "explanation": "ເກືອບທຸກມື້ = usually ວາງໜ້າ eat"
+    }
+  },
+  "g07": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "a park = 1 ອັນ → There is"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "thirty students = ຫຼາຍ → There are"
+    },
+    "q3": {
+      "correctChoiceId": "a",
+      "explanation": "a hospital = 1 → Is there"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "ປະຕິເສດ ໃຊ້ any"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "ບອກວ່າ 'ມີ' ຢູ່ບ່ອນໃດ ໃຊ້ There is"
+    },
+    "q6": {
+      "correctChoiceId": "c",
+      "explanation": "can ບໍ່ເຕີມ -s ແລະ ບໍ່ມີ to"
+    },
+    "q7": {
+      "correctChoiceId": "a",
+      "explanation": "ຫຼັງ can't ໃຊ້ກິລິຍາຮູບປົກກະຕິ"
+    },
+    "q8": {
+      "correctChoiceId": "b",
+      "explanation": "ຄຳຖາມ: Can + ປະທານ + ກິລິຍາ"
+    },
+    "q9": {
+      "correctChoiceId": "c",
+      "explanation": "ຂໍອະນຸຍາດ ໃຊ້ Can I ...?"
+    },
+    "q10": {
+      "correctChoiceId": "b",
+      "explanation": "can't = cannot"
+    }
+  },
+  "g09": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "Look! = ກຳລັງເກີດຂຶ້ນ → is + sleeping"
+    },
+    "q2": {
+      "correctChoiceId": "a",
+      "explanation": "I → am + reading"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "run ສະຫຼະສັ້ນ+ພະຍັນຊະນະ ຊ້ອນ n → running"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "ລົບ e ແລ້ວເຕີມ -ing → writing"
+    },
+    "q5": {
+      "correctChoiceId": "c",
+      "explanation": "they → are"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "I → am going to"
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "going to + ກິລິຍາ"
+    },
+    "q8": {
+      "correctChoiceId": "a",
+      "explanation": "ເຫັນຫຼັກຖານ (ເມກ) → is going to"
+    },
+    "q9": {
+      "correctChoiceId": "c",
+      "explanation": "you → Are"
+    },
+    "q10": {
+      "correctChoiceId": "b",
+      "explanation": "they → aren't going to"
+    }
+  },
+  "g10": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "I → was"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "they → were"
+    },
+    "q3": {
+      "correctChoiceId": "b",
+      "explanation": "you → were"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "the test = it → wasn't"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "she → was"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "Yesterday ບອກອະດີດ walk + ed = walked"
+    },
+    "q7": {
+      "correctChoiceId": "b",
+      "explanation": "go ເປັນກິລິຍາບໍ່ປົກກະຕິ ຮູບອະດີດແມ່ນ went ສ່ວນ gone ແມ່ນ past participle"
+    },
+    "q8": {
+      "correctChoiceId": "c",
+      "explanation": "eat → ate"
+    },
+    "q9": {
+      "correctChoiceId": "c",
+      "explanation": "ປະຕິເສດອະດີດ ໃຊ້ didn't + ກິລິຍາປົກກະຕິ"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "ຄຳຖາມອະດີດ ໃຊ້ Did"
+    }
+  },
+  "v01": {
+    "q1": {
+      "correctChoiceId": "c",
+      "explanation": "15 = fifteen (ບໍ່ແມ່ນ fiveteen)"
+    },
+    "q2": {
+      "correctChoiceId": "a",
+      "explanation": "40 = forty (ບໍ່ມີ u)"
+    },
+    "q3": {
+      "correctChoiceId": "b",
+      "explanation": "12 = twelve"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "ຕົວເລກ 21–99 ມີ - ລະຫວ່າງ"
+    },
+    "q5": {
+      "correctChoiceId": "a",
+      "explanation": "thirteen = 13, thirty = 30"
+    },
+    "q6": {
+      "correctChoiceId": "c",
+      "explanation": "on + ມື້"
+    },
+    "q7": {
+      "correctChoiceId": "a",
+      "explanation": "in + ເດືອນ"
+    },
+    "q8": {
+      "correctChoiceId": "b",
+      "explanation": "at + ເວລາ"
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "half past six = ຫົກໂມງເຄິ່ງ"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "Wednesday → Thursday"
+    }
+  },
+  "v03": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "ແມ່ຂອງແມ່ = grandmother"
+    },
+    "q2": {
+      "correctChoiceId": "a",
+      "explanation": "ອ້າຍ/ນ້ອງຊາຍຂອງພໍ່ = uncle"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "ລູກຂອງລຸງ/ອາ = cousin"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "ພໍ່ + ແມ່ = parents"
+    },
+    "q5": {
+      "correctChoiceId": "a",
+      "explanation": "ບອກເຈົ້າຂອງ ໃຊ້ 's"
+    },
+    "q6": {
+      "correctChoiceId": "a",
+      "explanation": "ຕອບກັບດ້ວຍ Nice to meet you, too."
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "How are you? ຖາມສຸຂະພາບ/ຄວາມຮູ້ສຶກ"
+    },
+    "q8": {
+      "correctChoiceId": "b",
+      "explanation": "ຖາມວ່າມາຈາກໃສ → I'm from ..."
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "Good morning = ສະບາຍດີຕອນເຊົ້າ"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "What's your name? ສຸພາບ ແລະ ຖືກໄວຍະກອນ"
+    }
+  },
+  "v04": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "get up = ລຸກຈາກຕຽງ"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "have a shower = ອາບນ້ຳ"
+    },
+    "q3": {
+      "correctChoiceId": "d",
+      "explanation": "do homework"
+    },
+    "q4": {
+      "correctChoiceId": "a",
+      "explanation": "go to bed (ບໍ່ມີ the)"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "have lunch / breakfast / dinner"
+    },
+    "q6": {
+      "correctChoiceId": "c",
+      "explanation": "rice ນັບບໍ່ໄດ້"
+    },
+    "q7": {
+      "correctChoiceId": "b",
+      "explanation": "water ນັບບໍ່ໄດ້ → some"
+    },
+    "q8": {
+      "correctChoiceId": "a",
+      "explanation": "ຄຳຖາມ ໃຊ້ any"
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "a cup of coffee"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "ໄກ່ = chicken (kitchen = ເຮືອນຄົວ)"
+    }
+  },
+  "v06": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "nurse ເຮັດວຽກຢູ່ໂຮງໝໍ"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "engineer ຂຶ້ນຕົ້ນສຽງສະຫຼະ → an"
+    },
+    "q3": {
+      "correctChoiceId": "d",
+      "explanation": "waiter ເຮັດວຽກຢູ່ຮ້ານອາຫານ"
+    },
+    "q4": {
+      "correctChoiceId": "a",
+      "explanation": "ບອກອາຊີບຕ້ອງມີ a/an, developer ສຽງພະຍັນຊະນະ → a"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "ຄູ = teacher"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "ໃຊ້ Can you ..., please? ໃຫ້ສຸພາບ"
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "What does + ຄຳ + mean?"
+    },
+    "q8": {
+      "correctChoiceId": "a",
+      "explanation": "spell = ສະກົດຕົວອັກສອນ"
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "I → don't"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "ຂໍອະນຸຍາດ ໃຊ້ Can I ..., please?"
+    }
+  },
+  "p03": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "Excuse me ໃຊ້ເອີ້ນຄົນແປກໜ້າຢ່າງສຸພາບ"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "right = ຂວາ"
+    },
+    "q3": {
+      "correctChoiceId": "b",
+      "explanation": "next to = ຢູ່ຂ້າງ (opposite = ກົງກັນຂ້າມ)"
+    },
+    "q4": {
+      "correctChoiceId": "b",
+      "explanation": "go straight on (ສະກົດ straight)"
+    },
+    "q5": {
+      "correctChoiceId": "d",
+      "explanation": "ຕອບວ່າບໍ່ໄກ ພ້ອມບອກເວລາ"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "ລາຄາ ໃຊ້ How much, 1 ອັນ ໃຊ້ is"
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "I'd like ..., please. ສຸພາບທີ່ສຸດ"
+    },
+    "q8": {
+      "correctChoiceId": "a",
+      "explanation": "pay by card / pay in cash"
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "shoes ຫຼາຍ → are"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "ຮັບເຄື່ອງແລ້ວຕອບ Thank you."
+    }
+  },
+  "m01": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "0.3 ມີ 1 ຕຳແໜ່ງທົດສະນິຍົມ ຈຶ່ງເປັນ 3/10"
+    },
+    "q2": {
+      "correctChoiceId": "b",
+      "explanation": "0.25 = 25/100 ຫຍໍ້ດ້ວຍ 25 ໄດ້ 1/4"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "0.8 = 8/10 ຫຍໍ້ດ້ວຍ 2 ໄດ້ 4/5"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "0.125 = 125/1000 ຫຍໍ້ດ້ວຍ 125 ໄດ້ 1/8"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "1.5 = 15/10 ຫຍໍ້ດ້ວຍ 5 ໄດ້ 3/2"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "1 ÷ 2 = 0.5"
+    },
+    "q7": {
+      "correctChoiceId": "c",
+      "explanation": "3 ÷ 4 = 0.75"
+    },
+    "q8": {
+      "correctChoiceId": "d",
+      "explanation": "1 ÷ 5 = 0.2"
+    },
+    "q9": {
+      "correctChoiceId": "a",
+      "explanation": "7/10 = 7 ໃນສິບ = 0.7"
+    },
+    "q10": {
+      "correctChoiceId": "b",
+      "explanation": "3 ÷ 8 = 0.375"
+    }
+  },
+  "m03": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "U ແມ່ນສັນຍາລັກຂອງກຸ່ມຈັກກະວານ"
+    },
+    "q2": {
+      "correctChoiceId": "b",
+      "explanation": "3 ຢູ່ໃນ A ຈຶ່ງຂຽນ 3 ∈ A ໄດ້"
+    },
+    "q3": {
+      "correctChoiceId": "c",
+      "explanation": "ກຸ່ມຫວ່າງ ຂຽນ ∅"
+    },
+    "q4": {
+      "correctChoiceId": "b",
+      "explanation": "ທຸກໂຕຂອງ A ຢູ່ໃນ B ຈຶ່ງ A ເປັນກຸ່ມຍ່ອຍຂອງ B (A ⊂ B)"
+    },
+    "q5": {
+      "correctChoiceId": "a",
+      "explanation": "ມີອົງປະກອບ a, b, c ລວມ 3 ໂຕ"
+    },
+    "q6": {
+      "correctChoiceId": "a",
+      "explanation": "ເລກຄີກບວກທີ່ນ້ອຍກວ່າ 8 ຄື 1, 3, 5, 7"
+    },
+    "q7": {
+      "correctChoiceId": "d",
+      "explanation": "ຕົວປະກອບຂອງ 6 ຄື 1, 2, 3, 6"
+    },
+    "q8": {
+      "correctChoiceId": "b",
+      "explanation": "ອົງປະກອບຊ້ຳຂຽນເທື່ອດຽວ ຈຶ່ງມີ 1, 2, 3 ລວມ 3 ໂຕ"
+    },
+    "q9": {
+      "correctChoiceId": "c",
+      "explanation": "ເລກທຳມະຊາດທີ່ຫຼາຍກວ່າ 2 ແລະ ບໍ່ເກີນ 5 ຄື 3, 4, 5"
+    },
+    "q10": {
+      "correctChoiceId": "a",
+      "explanation": "ລຳດັບບໍ່ສຳຄັນ {3, 2, 1} ຈຶ່ງເປັນກຸ່ມດຽວກັນກັບ {1, 2, 3}"
+    },
+    "q11": {
+      "correctChoiceId": "a",
+      "explanation": "12 + 8 − 3 = 17"
+    },
+    "q12": {
+      "correctChoiceId": "b",
+      "explanation": "ສະເພາະບານເຕະ = 18 − 5 = 13"
+    },
+    "q13": {
+      "correctChoiceId": "c",
+      "explanation": "ມັກຢ່າງໜ້ອຍໜຶ່ງ = 18 + 14 − 5 = 27 ຈຶ່ງບໍ່ມັກທັງສອງ = 30 − 27 = 3"
+    },
+    "q14": {
+      "correctChoiceId": "b",
+      "explanation": "A ∩ B ແມ່ນສ່ວນທີ່ວົງ A ແລະ B ຊ້ອນກັນ"
+    },
+    "q15": {
+      "correctChoiceId": "d",
+      "explanation": "ບໍ່ມີອົງປະກອບຮ່ວມກັນ ຈຶ່ງ n(A ∩ B) = 0"
+    }
+  },
+  "m06": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "ໂຕທຳອິດກັບໂຕທຳອິດ: x = 3 ແລະ ໂຕທີສອງກັບໂຕທີສອງ: y = 7"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "x + 2 = 6 ຈຶ່ງ x = 4 ແລະ y = 5"
+    },
+    "q3": {
+      "correctChoiceId": "a",
+      "explanation": "2x = 8 ຈຶ່ງ x = 4 ແລະ y − 1 = 4 ຈຶ່ງ y = 5"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "(5, 6) ບໍ່ເທົ່າກັບ (6, 5) ເພາະລຳດັບຕ່າງກັນ"
+    },
+    "q5": {
+      "correctChoiceId": "b",
+      "explanation": "x − 1 = 0 ຈຶ່ງ x = 1 ແລະ 3y = 9 ຈຶ່ງ y = 3"
+    },
+    "q6": {
+      "correctChoiceId": "a",
+      "explanation": "ເອົາແຕ່ລະໂຕຂອງ A ຈັບຄູ່ກັບ 3: (1, 3) ແລະ (2, 3)"
+    },
+    "q7": {
+      "correctChoiceId": "b",
+      "explanation": "n(A × B) = 3 × 4 = 12"
+    },
+    "q8": {
+      "correctChoiceId": "c",
+      "explanation": "ໂຕທຳອິດຕ້ອງມາຈາກ A ແລະ ໂຕທີສອງມາຈາກ B: (a, 2)"
+    },
+    "q9": {
+      "correctChoiceId": "d",
+      "explanation": "ລຳດັບສຳຄັນ ຈຶ່ງໂດຍທົ່ວໄປ A × B ≠ B × A"
+    },
+    "q10": {
+      "correctChoiceId": "c",
+      "explanation": "n(B) = 20 ÷ 4 = 5"
+    }
+  },
+  "m08": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "y = 2x: x = 1, 2, 3 ໄດ້ y = 2, 4, 6"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "ຄວາມສຳພັນ R ຈາກ A ໄປ B ເປັນກຸ່ມຍ່ອຍຂອງ A × B"
+    },
+    "q3": {
+      "correctChoiceId": "b",
+      "explanation": "ໂດເມນແມ່ນໂຕທຳອິດຂອງແຕ່ລະຄູ່: 1, 2, 3"
+    },
+    "q4": {
+      "correctChoiceId": "d",
+      "explanation": "ເຣນແມ່ນໂຕທີສອງຂອງແຕ່ລະຄູ່: 2, 3, 4"
+    },
+    "q5": {
+      "correctChoiceId": "c",
+      "explanation": "ມີພຽງ 1 < 2 ຈຶ່ງໄດ້ຄູ່ (1, 2) ຄູ່ດຽວ"
+    },
+    "q6": {
+      "correctChoiceId": "b",
+      "explanation": "ຄູ່ທີ່ x > y ມີ (2,1), (3,1), (3,2) ລວມ 3 ຄູ່"
+    },
+    "q7": {
+      "correctChoiceId": "a",
+      "explanation": "1 < 2, 1 < 3, 2 < 3 ຖືກ ແຕ່ 2 < 2 ບໍ່ຖືກ"
+    },
+    "q8": {
+      "correctChoiceId": "d",
+      "explanation": "5 > 2 ຖືກ ສ່ວນຄູ່ອື່ນໂຕທຳອິດບໍ່ໃຫຍ່ກວ່າໂຕທີສອງ"
+    },
+    "q9": {
+      "correctChoiceId": "a",
+      "explanation": "4 > 3, 5 > 3, 5 > 4 ຖືກ ແຕ່ 4 > 4 ບໍ່ຖືກ"
+    },
+    "q10": {
+      "correctChoiceId": "c",
+      "explanation": "ຄູ່ທີ່ x < y ມີ (1,2), (1,3), (2,3) ລວມ 3 ຄູ່"
+    }
+  },
+  "m10": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "5 + 4 = 9 ບອກໄດ້ຊັດວ່າຖືກ ຈຶ່ງເປັນຄຳຢືນຢັນ"
+    },
+    "q2": {
+      "correctChoiceId": "c",
+      "explanation": "8 ເປັນເລກຄູ່ ບໍ່ແມ່ນເລກຄີກ ຈຶ່ງເປັນຄຳຢືນຢັນທີ່ຜິດ"
+    },
+    "q3": {
+      "correctChoiceId": "d",
+      "explanation": "ຄຳຖາມ ບໍ່ແມ່ນຄຳຢືນຢັນ"
+    },
+    "q4": {
+      "correctChoiceId": "a",
+      "explanation": "ການປະຕິເສດຄຳຢືນຢັນທີ່ຜິດ ຈະເປັນຄຳຢືນຢັນທີ່ຖືກ"
+    },
+    "q5": {
+      "correctChoiceId": "c",
+      "explanation": "ເມື່ອ x = 3 ຈະໄດ້ 3 + 2 = 5 ຈຶ່ງເປັນຄຳຢືນຢັນທີ່ຖືກ"
+    }
+  },
+  "r01": {
+    "q1": {
+      "correctChoiceId": "c",
+      "explanation": "งานคอมพิวเตอร์ทุกอย่างต้องมีคนเป็นผู้ทำ"
+    }
+  },
+  "r02": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "ARPANET ปี 1969 คือจุดเริ่ม Internet ส่วน CERN ให้กำเนิด Web ปี 1991"
+    },
+    "q2": {
+      "correctChoiceId": "d",
+      "explanation": "C2C ที่นิยมที่สุดคือการประมูล ส่วน B2C โตเร็วที่สุด"
+    }
+  },
+  "r03": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "เก็บเป็นจุด (pixels) ส่วน Vector เก็บเป็นวัตถุ เช่น เส้น วงรี"
+    }
+  },
+  "r04": {
+    "q1": {
+      "correctChoiceId": "a",
+      "explanation": "Restart = warm boot ส่วนเปิดจากที่ปิดสนิท = cold boot"
+    }
+  },
+  "r05": {
+    "q1": {
+      "correctChoiceId": "c",
+      "explanation": "ALU คำนวณ arithmetic และ logical ส่วน Control unit คุมการทำงาน"
+    },
+    "q2": {
+      "correctChoiceId": "b",
+      "explanation": "RAM เป็น volatile ส่วน ROM, Flash และ Hard disk เก็บได้แม้ไม่มีไฟ"
+    }
+  },
+  "r06": {
+    "q1": {
+      "correctChoiceId": "c",
+      "explanation": "Optical Mark Recognition อ่านเครื่องหมาย · OCR อ่านตัวอักษร · MICR อ่านหมึกแม่เหล็ก"
+    }
+  },
+  "r07": {
+    "q1": {
+      "correctChoiceId": "d",
+      "explanation": "ROM อ่านอย่างเดียว · R เขียนครั้งเดียว · RW เขียนซ้ำได้"
+    }
+  },
+  "r08": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "F = Requires discrete graphics · K = ปลดล็อก overclock · U/Y = ประหยัดไฟ"
+    }
+  },
+  "r09": {
+    "q1": {
+      "correctChoiceId": "d",
+      "explanation": "DDR3 = 240 ขา 1.5 V · DDR2 = 240 ขา 1.8 V · DDR = 184 ขา 2.5 V"
+    }
+  },
+  "r10": {
+    "q1": {
+      "correctChoiceId": "c",
+      "explanation": "SATA I = 1.5 · SATA II = 3 · SATA III = 6 Gbit/s ส่วน 133 MB/s คือ ATA-133"
+    },
+    "q2": {
+      "correctChoiceId": "a",
+      "explanation": "เร็วแต่ไม่มีสำรอง · RAID 1 เขียนซ้ำ 2 ลูก · RAID 5 ใช้อย่างน้อย 3 ลูก"
+    }
+  },
+  "r11": {
+    "q1": {
+      "correctChoiceId": "b",
+      "explanation": "กำหนด CPU, socket, ชนิด RAM และความเร็ว bus ที่บอร์ดรองรับ"
+    },
+    "q2": {
+      "correctChoiceId": "a",
+      "explanation": "การสำรองไฟคือหน้าที่ของ UPS ส่วนค่า BIOS เก็บใน CMOS"
+    }
+  }
+}

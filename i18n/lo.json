@@ -1,0 +1,312 @@
+{
+  "app": {
+    "name": "ຮຽນງ່າຍ",
+    "tagline": "// ບັນທຶກຄະແນນ ແລະ ຄວາມຄືບໜ້າຂອງທ່ານ"
+  },
+  "title": {
+    "index": "ຮຽນງ່າຍ",
+    "login": "ເຂົ້າສູ່ລະບົບ · ຮຽນງ່າຍ",
+    "register": "ສະໝັກສະມາຊິກ · ຮຽນງ່າຍ",
+    "forgot": "ລືມລະຫັດຜ່ານ · ຮຽນງ່າຍ",
+    "subjects": "ເລືອກວິຊາ ແລະ ບົດຮຽນ · ຮຽນງ່າຍ",
+    "summary": "ສະຫຼຸບບົດຮຽນ · ຮຽນງ່າຍ",
+    "lesson": "{title} · ຮຽນງ່າຍ",
+    "quiz": "Quiz · ຮຽນງ່າຍ",
+    "score": "ຜົນຄະແນນ · ຮຽນງ່າຍ",
+    "review": "ເບິ່ງເຉລີຍ · ຮຽນງ່າຍ",
+    "stats": "ສະຖິຕິ · ຮຽນງ່າຍ",
+    "profile": "ໂປຣໄຟລ໌ · ຮຽນງ່າຍ",
+    "language": "ພາສາ · ຮຽນງ່າຍ",
+    "password": "ປ່ຽນລະຫັດຜ່ານ · ຮຽນງ່າຍ",
+    "notFound": "ບໍ່ພົບໜ້າ 404 · ຮຽນງ່າຍ",
+    "styleguide": "ຄູ່ມືສະໄຕລ໌ · ຮຽນງ່າຍ"
+  },
+  "a11y": {
+    "skip": "ຂ້າມໄປຫາເນື້ອຫາ",
+    "mainNav": "ເມນູຫຼັກ"
+  },
+  "nav": {
+    "subjects": "ວິຊາ",
+    "stats": "ສະຖິຕິ",
+    "profile": "ໂປຣໄຟລ໌",
+    "explorer": "EXPLORER"
+  },
+  "theme": {
+    "dark": "ໂໝດມືດ"
+  },
+  "common": {
+    "cancel": "ຍົກເລີກ",
+    "confirm": "ຢືນຢັນ",
+    "retry": "ລອງໃໝ່",
+    "toSubjects": "ກັບໄປໜ້າວິຊາ",
+    "backProfile": "ກັບໄປໂປຣໄຟລ໌"
+  },
+  "state": {
+    "loading": "ກຳລັງໂຫຼດ…",
+    "errorTitle": "ERROR",
+    "errorCode": "{status} {code}",
+    "emptyTitle": "ຍັງບໍ່ມີຂໍ້ມູນ",
+    "emptyMessage": "ຍັງບໍ່ມີຂໍ້ມູນໃຫ້ສະແດງ.",
+    "loadFailed": "ໂຫຼດຂໍ້ມູນບໍ່ສຳເລັດ"
+  },
+  "errors": {
+    "invalid_credentials": "ອີເມວ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ",
+    "email_taken": "ອີເມວນີ້ຖືກໃຊ້ແລ້ວ",
+    "wrong_password": "ລະຫັດຜ່ານປັດຈຸບັນບໍ່ຖືກຕ້ອງ.",
+    "server_error": "ກວດອິນເຕີເນັດ ແລ້ວລອງໃໝ່ອີກຄັ້ງ",
+    "network_error": "ກວດອິນເຕີເນັດ ແລ້ວລອງໃໝ່ອີກຄັ້ງ",
+    "not_found": "ບໍ່ພົບຂໍ້ມູນທີ່ຊອກຫາ.",
+    "unauthorized": "ໝົດເວລາເຂົ້າສູ່ລະບົບ. ກະລຸນາເຂົ້າສູ່ລະບົບໃໝ່.",
+    "validation_error": "ຂໍ້ມູນບໍ່ຖືກຕ້ອງ. ກວດແລ້ວລອງໃໝ່.",
+    "unknown": "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຄາດຄິດ."
+  },
+  "validation": {
+    "emailRequired": "ກະລຸນາປ້ອນອີເມວ.",
+    "email": "ຮູບແບບອີເມວບໍ່ຖືກຕ້ອງ",
+    "passwordRequired": "ກະລຸນາປ້ອນລະຫັດຜ່ານ.",
+    "passwordMin": "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ.",
+    "username": "ຊື່ຜູ້ໃຊ້ຕ້ອງມີຢ່າງໜ້ອຍ 2 ຕົວອັກສອນ.",
+    "confirmRequired": "ກະລຸນາຢືນຢັນລະຫັດຜ່ານ.",
+    "mismatch": "ລະຫັດຜ່ານບໍ່ກົງກັນ",
+    "currentRequired": "ກະລຸນາປ້ອນລະຫັດຜ່ານປັດຈຸບັນ."
+  },
+  "auth": {
+    "prompt": "~/ຮຽນງ່າຍ $",
+    "email": "ອີເມວ",
+    "password": "ລະຫັດຜ່ານ",
+    "passwordHint": "// ຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ",
+    "username": "ຊື່ຜູ້ໃຊ້",
+    "confirm": "ຢືນຢັນລະຫັດຜ່ານ",
+    "term": {
+      "start": "./ຮຽນງ່າຍ --start",
+      "loading": "ກຳລັງໂຫຼດບົດຮຽນ",
+      "subjects": "ວິຊາ: ໄວຍະກອນ, ຄຳສັບ, ປະໂຫຍກ",
+      "waiting": "ລໍຖ້າການເຂົ້າສູ່ລະບົບ"
+    },
+    "login": {
+      "title": "ເຂົ້າສູ່ລະບົບ",
+      "lead": "// ເຂົ້າສູ່ລະບົບເພື່ອບັນທຶກຄະແນນຂອງທ່ານ",
+      "submit": "ເຂົ້າສູ່ລະບົບ",
+      "forgot": "ລືມລະຫັດຜ່ານ?",
+      "register": "ຍັງບໍ່ມີບັນຊີ? ສະໝັກສະມາຊິກ",
+      "mockHint": "ໂໝດທົດລອງ: user@example.com + ລະຫັດຜ່ານໃດກໍໄດ້ 8 ຕົວຂຶ້ນໄປ",
+      "checkPassword": "ກວດລະຫັດຜ່ານ ແລ້ວລອງໃໝ່"
+    },
+    "register": {
+      "title": "ສະໝັກສະມາຊິກ",
+      "lead": "// ສ້າງບັນຊີໃໝ່ ໃຊ້ເວລາບໍ່ເຖິງ 1 ນາທີ",
+      "submit": "ສະໝັກສະມາຊິກ",
+      "haveAccount": "ມີບັນຊີແລ້ວ? ເຂົ້າສູ່ລະບົບ",
+      "checkFields": "ກວດຂໍ້ມູນທີ່ຖືກໝາຍສີແດງ {n} ຈຸດ"
+    },
+    "forgot": {
+      "title": "ລືມລະຫັດຜ່ານ",
+      "lead": "// ເຮົາຈະສົ່ງລິ້ງຕັ້ງລະຫັດຜ່ານໃໝ່ໃຫ້ທາງອີເມວ",
+      "submit": "ສົ່ງລິ້ງ",
+      "sent": "ສົ່ງລິ້ງແລ້ວ",
+      "sentDetail": "ກວດອີເມວຂອງທ່ານ ແລ້ວກົດລິ້ງເພື່ອຕັ້ງລະຫັດຜ່ານໃໝ່ ຖ້າບໍ່ເຫັນ ໃຫ້ລອງຫາໃນກ່ອງສະແປມ",
+      "resend": "ສົ່ງອີກຄັ້ງ",
+      "resent": "✓ ສົ່ງລິ້ງອີກຄັ້ງແລ້ວ",
+      "back": "← ກັບໄປໜ້າເຂົ້າສູ່ລະບົບ"
+    }
+  },
+  "index": {
+    "booting": "ກຳລັງເປີດ…"
+  },
+  "status": {
+    "done": "ຮຽນແລ້ວ",
+    "running": "ກຳລັງຮຽນ",
+    "todo": "ຍັງບໍ່ຮຽນ"
+  },
+  "subjects": {
+    "eyebrow": "// ເລືອກວິຊາທີ່ຢາກຮຽນ",
+    "title": "ວິຊາຮຽນ",
+    "cardsHeading": "ເລືອກວິຊາ",
+    "lessonsOf": "ບົດຮຽນ · {name}",
+    "progress": "{done}/{total} ບົດ",
+    "score": "{score}/{total}",
+    "level": "ລະດັບ {n}",
+    "lessonNo": "ບົດທີ {n}",
+    "continue": "ຮຽນຕໍ່",
+    "startHere": "ເລີ່ມຈາກບົດນີ້",
+    "continueGo": "ເຂົ້າໄປຮຽນ",
+    "allDone": "ເຈົ້າຮຽນຄົບທຸກບົດໃນວິຊານີ້ແລ້ວ — ເກັ່ງຫຼາຍ!",
+    "noLessons": "ຍັງບໍ່ມີບົດຮຽນໃນວິຊານີ້ ກະລຸນາກັບມາໃໝ່ພາຍຫຼັງ",
+    "empty": "ຍັງບໍ່ມີວິຊາໃຫ້ຮຽນ."
+  },
+  "summary": {
+    "back": "ກັບໄປໜ້າວິຊາ",
+    "readTime": "// ສະຫຼຸບ · ອ່ານ {n} ນາທີ",
+    "bookRef": "English File · Unit {unit}",
+    "keyPoints": "ຈຸດສຳຄັນ.js",
+    "example": "// ຕົວຢ່າງ",
+    "tableCaption": "ຕາຕະລາງປຽບທຽບ",
+    "from": "ຮູບເດີມ",
+    "to": "ປ່ຽນເປັນ",
+    "runQuiz": "ເລີ່ມທົດສອບ",
+    "empty": "ບົດນີ້ຍັງບໍ່ມີເນື້ອຫາສະຫຼຸບ.",
+    "missing": "ບໍ່ໄດ້ລະບຸບົດຮຽນ. ກັບໄປເລືອກບົດຈາກໜ້າວິຊາ.",
+    "ready": "// ພ້ອມແລ້ວບໍ? ທົດສອບຄວາມເຂົ້າໃຈດ້ວຍ Quiz",
+    "photos": "// ຂອງຈິງໜ້າຕາແບບນີ້",
+    "examples": "// ລອງນຶກພາບຕາມ",
+    "tryIt": "// ລອງເຮັດເອງ",
+    "tryHint": "ຄິດຄຳຕອບໃນໃຈກ່ອນ ແລ້ວຄ່ອຍກົດເບິ່ງຄຳຕອບ",
+    "showAnswer": "ເບິ່ງຄຳຕອບ",
+    "idea": "// ຄິດເອງ ສ້າງເອງ"
+  },
+  "quiz": {
+    "exit": "ອອກ",
+    "progress": "ຂໍ້ {i}/{n}",
+    "progressSr": "ຂໍ້ {i} ຈາກ {n}: ",
+    "prev": "ຂໍ້ກ່ອນ",
+    "next": "ຂໍ້ຕໍ່ໄປ",
+    "submit": "ສົ່ງຄຳຕອບ",
+    "shortcutHint": "ຄີລັດ: 1–4 ຫຼື A–D ເພື່ອເລືອກຄຳຕອບ, Enter ໄປຂໍ້ຕໍ່ໄປ",
+    "chooseFirst": "ເລືອກຄຳຕອບກ່ອນ ຈຶ່ງໄປຂໍ້ຕໍ່ໄປໄດ້.",
+    "retryHint": "ຄຳຕອບຂອງທ່ານຍັງຢູ່. ກົດ «ສົ່ງຄຳຕອບ» ເພື່ອສົ່ງອີກຄັ້ງ.",
+    "restored": "↺ ກູ້ຄືນຄຳຕອບທີ່ເຮັດໄວ້ແລ້ວ",
+    "exitTitle": "ອອກຈາກ Quiz ບໍ?",
+    "exitMessage": "ຄຳຕອບທີ່ເລືອກໄວ້ຈະບໍ່ຖືກບັນທຶກ",
+    "exitConfirm": "ອອກ",
+    "empty": "ບົດນີ້ຍັງບໍ່ມີ Quiz.",
+    "missing": "ບໍ່ໄດ້ລະບຸບົດຮຽນ.",
+    "backToLesson": "← ກັບໄປບົດຮຽນ",
+    "pickHint": "// ເລືອກຄຳຕອບທີ່ຖືກ"
+  },
+  "score": {
+    "eyebrow": "// ຜົນການທົດສອບ",
+    "title": "ຜົນຄະແນນ",
+    "command": "npm test -- {lesson}",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "questionName": "ຂໍ້ {n} · {text}",
+    "expected": "ຄຳຕອບທີ່ຖືກ",
+    "received": "ຄຳຕອບຂອງທ່ານ",
+    "tests": "ສະຫຼຸບ:",
+    "passed": "ຖືກ {n}",
+    "failed": "ຜິດ {n}",
+    "totalCount": "ລວມ {n}",
+    "summary": "ຕອບຖືກ {score} ຈາກ {total} ຂໍ້",
+    "toReview": "ເບິ່ງເຉລີຍ",
+    "toStats": "ເບິ່ງສະຖິຕິ",
+    "next": "ບົດຕໍ່ໄປ",
+    "empty": "ບໍ່ພົບຜົນ Quiz. ເລືອກບົດຮຽນແລ້ວເຮັດ Quiz ກ່ອນ.",
+    "total": "// ຜົນລວມ"
+  },
+  "review": {
+    "eyebrow": "$ git diff answers",
+    "title": "ເບິ່ງເຉລີຍ",
+    "filter": "ກັ່ນຕອງຂໍ້",
+    "filterAll": "ທັງໝົດ {n}",
+    "filterWrong": "ຜິດ {n}",
+    "question": "ຂໍ້ {n} · {text}",
+    "yours": "// ຄຳຕອບຂອງທ່ານ",
+    "correct": "// ຄຳຕອບທີ່ຖືກ",
+    "yoursCorrect": "// ຄຳຕອບຂອງທ່ານ",
+    "noAnswer": "(ບໍ່ໄດ້ຕອບ)",
+    "reason": "// ເຫດຜົນ",
+    "noWrong": "ບໍ່ມີຂໍ້ຜິດ — ເກັ່ງຫຼາຍ!",
+    "retry": "ເຮັດ Quiz ໃໝ່",
+    "toScore": "ກັບໄປໜ້າຄະແນນ",
+    "toLesson": "ທົບທວນບົດນີ້",
+    "empty": "ບໍ່ມີເຉລີຍຂອງບົດນີ້ໃນເຄື່ອງນີ້. ລອງເຮັດ Quiz ອີກຄັ້ງ."
+  },
+  "stats": {
+    "eyebrow": "$ stats",
+    "title": "ສະຖິຕິ",
+    "lessons": "ບົດທີ່ຮຽນແລ້ວ",
+    "avgScore": "ຄະແນນສະເລ່ຍ",
+    "quizzes": "Quiz ທີ່ເຮັດ",
+    "activity": "// ກິດຈະກຳ 4 ອາທິດຫຼ້າສຸດ",
+    "heatSummary": "ກິດຈະກຳ 4 ອາທິດຫຼ້າສຸດ: {total} ຄັ້ງ ໃນ {days} ມື້",
+    "cellTitle": "{date}: {count} ຄັ້ງ",
+    "less": "ໜ້ອຍ",
+    "more": "ຫຼາຍ",
+    "today": "ມື້ນີ້",
+    "recent": "ຄະແນນລ່າສຸດ",
+    "logScore": "{score}/{total}",
+    "noRecent": "ຍັງບໍ່ມີຄະແນນ.",
+    "empty": "ຍັງບໍ່ມີສະຖິຕິ. ເລີ່ມຮຽນບົດທຳອິດເລີຍ!",
+    "days": {
+      "mon": "ຈັນ",
+      "tue": "ອັງ",
+      "wed": "ພຸດ",
+      "thu": "ພະຫັດ",
+      "fri": "ສຸກ",
+      "sat": "ເສົາ",
+      "sun": "ອາທິດ"
+    }
+  },
+  "profile": {
+    "eyebrow": "$ whoami",
+    "title": "ໂປຣໄຟລ໌",
+    "account": "ບັນຊີ",
+    "settings": "ຕັ້ງຄ່າ",
+    "language": "ພາສາ",
+    "changePassword": "ປ່ຽນລະຫັດຜ່ານ",
+    "logout": "ອອກຈາກລະບົບ",
+    "logoutTitle": "ອອກຈາກລະບົບບໍ?",
+    "logoutMessage": "ຄະແນນທີ່ບັນທຶກແລ້ວຈະບໍ່ຫາຍ ເຂົ້າສູ່ລະບົບໃໝ່ໄດ້ທຸກເວລາ",
+    "logoutConfirm": "ອອກຈາກລະບົບ"
+  },
+  "lang": {
+    "lo": "ລາວ",
+    "th": "ไทย",
+    "en": "English"
+  },
+  "language": {
+    "eyebrow": "$ lang",
+    "title": "ພາສາ",
+    "hint": "// ມີຜົນທັນທີ ບໍ່ຕ້ອງບັນທຶກ",
+    "changed": "ປ່ຽນພາສາແລ້ວ"
+  },
+  "password": {
+    "eyebrow": "// ປ່ຽນລະຫັດຜ່ານຂອງບັນຊີ",
+    "title": "ປ່ຽນລະຫັດຜ່ານ",
+    "current": "ລະຫັດຜ່ານປັດຈຸບັນ",
+    "next": "ລະຫັດຜ່ານໃໝ່",
+    "confirm": "ຢືນຢັນລະຫັດຜ່ານໃໝ່",
+    "submit": "ບັນທຶກ",
+    "changed": "ປ່ຽນລະຫັດຜ່ານແລ້ວ"
+  },
+  "notFound": {
+    "command": "cd {path}",
+    "line": "bash: cd: {path}: No such file or directory",
+    "message": "ບໍ່ພົບໜ້າທີ່ທ່ານຊອກຫາ",
+    "home": "ກັບໄປໜ້າຫຼັກ",
+    "detail": "ລິ້ງອາດຜິດ ຫຼື ໜ້ານີ້ຖືກລຶບແລ້ວ"
+  },
+  "styleguide": {
+    "eyebrow": "~/styleguide",
+    "title": "ຄູ່ມືສະໄຕລ໌",
+    "description": "ທຸກຄອມໂພເນັນ, ສະຖານະ, ທີມ ແລະ ພາສາ ໃນໜ້າດຽວ — ໃຊ້ກວດກ່ອນສົ່ງງານ.",
+    "language": "ພາສາ",
+    "colors": "ສີ (tokens.css)",
+    "colorsHint": "ສະຫຼັບທີມເພື່ອເບິ່ງຄ່າໃນໂໝດມືດ ແລະ ສະຫວ່າງ.",
+    "typography": "ຕົວອັກສອນ",
+    "bodyFont": "Noto Sans Lao · ເນື້ອຫາ",
+    "bodySample": "ສະບາຍດີ! ມື້ນີ້ມາຮຽນ Past Simple ກັນ.",
+    "thaiFont": "Noto Sans Thai · ປ້າຍພາສາໄທ",
+    "thaiSample": "สวัสดี! วันนี้มาเรียนกัน",
+    "monoFont": "JetBrains Mono · ໂຄ້ດ, ປ້າຍ, ຕົວເລກ",
+    "monoSample": "$ npm test -- past_simple  ✓ 4 passed  0123456789",
+    "buttons": "ປຸ່ມ",
+    "forms": "ຟອມ ແລະ ຂໍ້ຄວາມ",
+    "states": "ສະຖານະ: loading / error / empty",
+    "loading": "loading",
+    "error": "error",
+    "empty": "empty",
+    "subjects": "ວິຊາ ແລະ ບົດຮຽນ",
+    "lesson": "ສະຫຼຸບບົດຮຽນ",
+    "quiz": "ຕົວເລືອກ Quiz",
+    "result": "ຜົນ ແລະ ເຉລີຍ",
+    "stats": "ສະຖິຕິ ແລະ ໂປຣໄຟລ໌",
+    "overlays": "ຂໍ້ຄວາມແຈ້ງເຕືອນ ແລະ ໜ້າຕ່າງຢືນຢັນ",
+    "showToast": "toast",
+    "showConfirm": "confirm",
+    "showDanger": "confirm --danger",
+    "retried": "↻ ກົດ retry ແລ້ວ",
+    "confirmed": "✓ ຢືນຢັນແລ້ວ",
+    "cancelled": "✗ ຍົກເລີກແລ້ວ"
+  }
+}

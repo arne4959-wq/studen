@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-theme="dark" translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>layout-check</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="tests.css">
+  <script type="module" src="layout-check.js"></script>
+</head>
+<body>
+  <main class="test-page">
+    <h1>layout-check</h1>
+    <p class="eyebrow">Every page × widths 360/390/768/1280 × ?mock= normal/slow/error/empty: no horizontal overflow.</p>
+    <p id="summary" role="status">running…</p>
+    <ol id="results" class="tests"></ol>
+    <div id="report"></div>
+    <div id="frames" class="frames" aria-hidden="true"></div>
+  </main>
+</body>
+</html>

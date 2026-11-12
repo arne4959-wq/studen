@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="lo">
+<head>
+<meta charset="utf-8">
+<title>Quiz ຈໍຄອມ</title>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0} a{text-decoration:none;color:inherit} button{font-family:inherit}</style>
+</helmet>
+<div style="position:relative;min-height:880px;box-sizing:border-box;background:#0D1117;font-family:'Noto Sans Lao',system-ui,sans-serif;color:#E6EDF3;display:flex;flex-wrap:wrap;align-items:stretch">
+
+  <div style="flex:1 1 240px;max-width:260px;min-width:200px;background:#161B22;border-right:1px solid #30363D;padding:20px 12px;display:flex;flex-direction:column;gap:20px;box-sizing:border-box;font-family:'JetBrains Mono','Noto Sans Lao',monospace">
+    <div style="font-size:16px;font-weight:700;padding:0 8px"><span style="color:#3FB950">~/</span>ຮຽນງ່າຍ<span style="color:#3FB950">_</span></div>
+    <div style="display:flex;flex-direction:column;gap:4px;font-size:14px">
+      <div style="font-size:11px;color:#8B949E;padding:0 8px 4px;letter-spacing:.08em">EXPLORER</div>
+      <a href="DesktopHome.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;background:#0F2A1A;color:#3FB950;font-weight:700;display:flex;align-items:center;padding:0 10px">&gt; subjects/</a>
+      <a href="DesktopDash.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;color:#8B949E;display:flex;align-items:center;padding:0 10px">stats/</a><a href="DesktopProfile.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;color:#8B949E;display:flex;align-items:center;padding:0 10px">profile/</a>
+    </div>
+  </div>
+
+  <div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column">
+    <div style="height:44px;background:#161B22;border-bottom:1px solid #30363D;display:flex;align-items:flex-end;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px">
+      <div style="height:44px;display:flex;align-items:center;padding:0 20px;background:#0D1117;border-top:2px solid #3FB950;border-right:1px solid #30363D">past_simple.test</div>
+    <span style="flex-grow:1"></span><div style="align-self:center;padding-right:16px"><a href="LightDesktopQuiz.dc.html" aria-label="ສະຫຼັບເປັນໂໝດສະຫວ່າງ" style="width:56px;height:44px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span style="position:relative;display:block;width:52px;height:30px;border-radius:15px;background:#21262D;border:1px solid #30363D;box-sizing:border-box"><span style="position:absolute;top:2px;left:2px;background:#E6EDF3;width:24px;height:24px;border-radius:12px;display:flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D1117" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span></span></a></div></div>
+
+    <div style="box-sizing:border-box;padding:36px 48px;display:flex;flex-direction:column;gap:22px;max-width:820px">
+      <div style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace">
+        <div style="display:flex;justify-content:space-between;font-size:13px;color:#8B949E"><span>test {{n}}/5</span><span>{{pct}}%</span></div>
+        <div style="font-size:16px;color:#3FB950;letter-spacing:.5px">{{bar}}</div>
+      </div>
+
+      <div style="background:#161B22;border:1px solid #30363D;border-radius:10px;overflow:hidden">
+        <div style="padding:8px 14px;border-bottom:1px solid #30363D;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">{{file}}</div>
+        <div style="display:flex;padding:18px 18px 20px;gap:16px;font-family:'JetBrains Mono','Noto Sans Lao',monospace">
+          <div style="color:#8B949E;font-size:14px;line-height:1.8;text-align:right"><div>1</div><div>2</div></div>
+          <div style="font-size:18px;line-height:1.8">
+            <div style="color:#8B949E;font-family:'JetBrains Mono','Noto Sans Lao',monospace">// ເລືອກຄຳຕອບທີ່ຖືກ</div>
+            <div><span style="color:#D2A8FF">const</span> q = <span style="color:#3FB950">"{{qtext}}"</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px">
+        <sc-for list="{{choices}}" as="c" hint-placeholder-count="4">
+          <sc-if value="{{c.isSel}}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ c.pick }}" aria-pressed="true" style="width:100%;min-height:56px;box-sizing:border-box;border-radius:8px;background:#0F2A1A;border:2px solid #3FB950;padding:0 18px;display:flex;align-items:center;gap:12px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:17px;font-weight:700;color:#3FB950;text-align:left;cursor:pointer">
+              <span>[x]</span><span style="color:#8B949E">{{c.letter}}</span>{{c.label}}
+            </button>
+          </sc-if>
+          <sc-if value="{{c.notSel}}" hint-placeholder-val="{{ true }}">
+            <button onClick="{{ c.pick }}" aria-pressed="false" style="width:100%;min-height:56px;box-sizing:border-box;border-radius:8px;background:#161B22;border:1px solid #30363D;padding:0 18px;display:flex;align-items:center;gap:12px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:17px;color:#E6EDF3;text-align:left;cursor:pointer">
+              <span style="color:#8B949E">[ ]</span><span style="color:#8B949E">{{c.letter}}</span>{{c.label}}
+            </button>
+          </sc-if>
+        </sc-for>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;margin-top:6px">
+        <div style="display:flex;gap:12px">
+          <button onClick="{{ askLeave }}" style="height:52px;box-sizing:border-box;padding:0 22px;border-radius:8px;border:1.5px solid #30363D;background:transparent;color:#E6EDF3;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;cursor:pointer">exit</button>
+          <sc-if value="{{hasPrev}}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ prev }}" style="height:52px;box-sizing:border-box;padding:0 22px;border-radius:8px;border:1.5px solid #30363D;background:transparent;color:#E6EDF3;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;cursor:pointer">← prev()</button>
+          </sc-if>
+        </div>
+        <sc-if value="{{canNext}}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ next }}" style="height:52px;padding:0 28px;border:0;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;cursor:pointer">next() →</button>
+        </sc-if>
+        <sc-if value="{{cantNext}}" hint-placeholder-val="{{ true }}">
+          <div aria-disabled="true" style="height:52px;padding:0 28px;box-sizing:border-box;border-radius:8px;background:#21262D;border:1px solid #30363D;color:#8B949E;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;display:flex;align-items:center">next() →</div>
+        </sc-if>
+        <sc-if value="{{canSubmit}}" hint-placeholder-val="{{ false }}">
+          <a href="DesktopScore.dc.html" style="height:52px;padding:0 28px;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;display:flex;align-items:center">submit()</a>
+        </sc-if>
+        <sc-if value="{{cantSubmit}}" hint-placeholder-val="{{ false }}">
+          <div aria-disabled="true" style="height:52px;padding:0 28px;box-sizing:border-box;border-radius:8px;background:#21262D;border:1px solid #30363D;color:#8B949E;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;display:flex;align-items:center">submit()</div>
+        </sc-if>
+      </div>
+    </div>
+  </div>
+
+  <sc-if value="{{leave}}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;left:0;top:0;right:0;bottom:0;background:rgba(1,4,9,.75);display:flex;align-items:center;justify-content:center;padding:24px">
+      <div role="dialog" aria-label="ຢືນຢັນການອອກຈາກ Quiz" style="width:100%;max-width:420px;box-sizing:border-box;background:#161B22;border:1px solid #30363D;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:14px">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// confirm</div>
+        <div style="font-size:21px;font-weight:700">ອອກຈາກ Quiz ບໍ?</div>
+        <div style="font-size:15px;line-height:1.7;color:#8B949E">ຄຳຕອບທີ່ເລືອກໄວ້ຈະບໍ່ຖືກບັນທຶກ</div>
+        <div style="display:flex;gap:12px;margin-top:6px">
+          <button onClick="{{ stay }}" style="flex:1;height:48px;border:0;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;cursor:pointer">continue</button>
+          <a href="DesktopSummary.dc.html" style="flex:1;height:48px;box-sizing:border-box;border-radius:8px;border:1.5px solid #FF7B72;color:#FF7B72;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center">$ exit</a>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":880}}'>
+class Component extends DCLogic {
+  state = { idx: 0, ans: [null, null, null, null, null], leave: false };
+  renderVals() {
+    const Q = [
+      { q: 'Yesterday I ___ to school.', c: ['walk', 'walked', 'walks', 'walking'] },
+      { q: "What is the past tense of 'go'?", c: ['goed', 'went', 'gone', 'going'] },
+      { q: 'She ___ breakfast at 7 yesterday.', c: ['eat', 'eats', 'ate', 'eaten'] },
+      { q: 'They ___ football last night.', c: ['play', 'plays', 'played', 'playing'] },
+      { q: 'I ___ a bird this morning.', c: ['see', 'saw', 'seen', 'seeing'] }
+    ];
+    const i = this.state.idx, a = this.state.ans, cur = Q[i];
+    const last = i === Q.length - 1, done = a[i] !== null;
+    const filled = (i + 1) * 3;
+    return {
+      n: i + 1,
+      pct: (i + 1) * 20,
+      bar: '█'.repeat(filled) + '░'.repeat(15 - filled),
+      file: 'question_0' + (i + 1) + '.js',
+      qtext: cur.q,
+      choices: cur.c.map((label, k) => ({
+        label,
+        letter: 'ABCD'[k],
+        isSel: a[i] === k,
+        notSel: a[i] !== k,
+        pick: () => { const na = this.state.ans.slice(); na[i] = k; this.setState({ ans: na }); }
+      })),
+      hasPrev: i > 0,
+      canNext: !last && done,
+      cantNext: !last && !done,
+      canSubmit: last && done,
+      cantSubmit: last && !done,
+      next: () => this.setState({ idx: i + 1 }),
+      prev: () => this.setState({ idx: i - 1 }),
+      leave: this.state.leave,
+      askLeave: () => this.setState({ leave: true }),
+      stay: () => this.setState({ leave: false })
+    };
+  }
+}
+</script>
+</body>
+</html>

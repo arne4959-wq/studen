@@ -1,0 +1,3838 @@
+{
+  "_note": "ເນື້ອຫາຂຽນໃໝ່ທັງໝົດ ບໍ່ໄດ້ສຳເນົາຈາກປຶ້ມ English File. bookRef ໃຫ້ຄູໃສ່ເລກ Unit ຂອງປຶ້ມເອງ",
+  "subjects": [
+    {
+      "id": "english",
+      "name": "ພາສາອັງກິດ",
+      "lessonCount": 22,
+      "doneCount": 0
+    }
+  ],
+  "lessons": {
+    "english": [
+      {
+        "id": "g01",
+        "order": 1,
+        "slug": "verb_to_be",
+        "title": "Verb to be (am / is / are)",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g02",
+        "order": 2,
+        "slug": "pronouns_possessives",
+        "title": "I / my, you / your",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g03",
+        "order": 3,
+        "slug": "a_an_plurals",
+        "title": "a / an ແລະ ພະຫູພົດ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g04",
+        "order": 4,
+        "slug": "this_that_these_those",
+        "title": "this / that / these / those",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g05",
+        "order": 5,
+        "slug": "present_simple",
+        "title": "Present Simple",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g06",
+        "order": 6,
+        "slug": "adverbs_of_frequency",
+        "title": "always / usually / never",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g07",
+        "order": 7,
+        "slug": "there_is_there_are",
+        "title": "There is / There are",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g08",
+        "order": 8,
+        "slug": "can_cant",
+        "title": "can / can't",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g09",
+        "order": 9,
+        "slug": "present_continuous",
+        "title": "Present Continuous",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g10",
+        "order": 10,
+        "slug": "was_were",
+        "title": "was / were",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g11",
+        "order": 11,
+        "slug": "past_simple",
+        "title": "Past Simple",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "g12",
+        "order": 12,
+        "slug": "going_to",
+        "title": "be going to (ອະນາຄົດ)",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v01",
+        "order": 13,
+        "slug": "numbers",
+        "title": "ຕົວເລກ 1–100",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v02",
+        "order": 14,
+        "slug": "days_months_time",
+        "title": "ມື້ ເດືອນ ແລະ ເວລາ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v03",
+        "order": 15,
+        "slug": "family",
+        "title": "ຄອບຄົວ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v04",
+        "order": 16,
+        "slug": "daily_routine",
+        "title": "ກິດຈະວັດປະຈຳວັນ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v05",
+        "order": 17,
+        "slug": "food_drink",
+        "title": "ອາຫານ ແລະ ເຄື່ອງດື່ມ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "v06",
+        "order": 18,
+        "slug": "jobs_places",
+        "title": "ອາຊີບ ແລະ ສະຖານທີ່",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "p01",
+        "order": 19,
+        "slug": "greetings",
+        "title": "ທັກທາຍ ແລະ ແນະນຳຕົວ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "p02",
+        "order": 20,
+        "slug": "classroom",
+        "title": "ພາສາໃນຫ້ອງຮຽນ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "p03",
+        "order": 21,
+        "slug": "directions",
+        "title": "ຖາມທາງ",
+        "status": "todo",
+        "bookRef": ""
+      },
+      {
+        "id": "p04",
+        "order": 22,
+        "slug": "shopping_ordering",
+        "title": "ຊື້ເຄື່ອງ ແລະ ສັ່ງອາຫານ",
+        "status": "todo",
+        "bookRef": ""
+      }
+    ]
+  },
+  "summaries": {
+    "g01": {
+      "id": "g01",
+      "title": "Verb to be",
+      "readMinutes": 3,
+      "intro": "to be ແປວ່າ 'ເປັນ / ຢູ່ / ແມ່ນ' ໃຊ້ບອກວ່າຜູ້ໃດເປັນໃຜ ຢູ່ໃສ ຫຼື ເປັນແນວໃດ",
+      "keyPoints": [
+        "I ໃຊ້ am",
+        "he / she / it ໃຊ້ is",
+        "you / we / they ໃຊ້ are",
+        "ປະໂຫຍກປະຕິເສດ ເຕີມ not: I am not, she isn't",
+        "ຄຳຖາມ ເອົາ am/is/are ໄວ້ໜ້າ: Are you a student?"
+      ],
+      "codeSample": "I        -> am\nhe/she/it -> is\nyou/we/they -> are",
+      "table": [
+        {
+          "from": "I am",
+          "to": "I'm"
+        },
+        {
+          "from": "she is",
+          "to": "she's"
+        },
+        {
+          "from": "they are",
+          "to": "they're"
+        },
+        {
+          "from": "is not",
+          "to": "isn't"
+        }
+      ]
+    },
+    "g02": {
+      "id": "g02",
+      "title": "Subject pronouns & possessive adjectives",
+      "readMinutes": 3,
+      "intro": "ຄຳແທນນາມ (I, you...) ໃຊ້ເປັນປະທານ ສ່ວນ my, your... ບອກວ່າເປັນຂອງໃຜ ແລະ ຕ້ອງມີນາມຕາມຫຼັງ",
+      "keyPoints": [
+        "I → my",
+        "you → your",
+        "he → his, she → her, it → its",
+        "we → our, they → their",
+        "its (ຂອງມັນ) ບໍ່ມີ ' — it's = it is"
+      ],
+      "codeSample": "she -> her book\nthey -> their house",
+      "table": [
+        {
+          "from": "I",
+          "to": "my"
+        },
+        {
+          "from": "he",
+          "to": "his"
+        },
+        {
+          "from": "she",
+          "to": "her"
+        },
+        {
+          "from": "we",
+          "to": "our"
+        },
+        {
+          "from": "they",
+          "to": "their"
+        }
+      ]
+    },
+    "g03": {
+      "id": "g03",
+      "title": "a / an and plurals",
+      "readMinutes": 3,
+      "intro": "a / an ໃຊ້ກັບນາມນັບໄດ້ ຈຳນວນດຽວ. ພະຫູພົດ (ຫຼາຍອັນ) ສ່ວນຫຼາຍເຕີມ -s",
+      "keyPoints": [
+        "a ໃຊ້ກ່ອນສຽງພະຍັນຊະນະ: a book, a university",
+        "an ໃຊ້ກ່ອນສຽງສະຫຼະ: an apple, an hour",
+        "ພະຫູພົດທົ່ວໄປ ເຕີມ -s: books",
+        "ລົງທ້າຍ -s, -sh, -ch, -x ເຕີມ -es: boxes",
+        "ບໍ່ປົກກະຕິ: man → men, child → children"
+      ],
+      "codeSample": "if (sound == vowel) 'an' else 'a'",
+      "table": [
+        {
+          "from": "box",
+          "to": "boxes"
+        },
+        {
+          "from": "city",
+          "to": "cities"
+        },
+        {
+          "from": "man",
+          "to": "men"
+        },
+        {
+          "from": "child",
+          "to": "children"
+        }
+      ]
+    },
+    "g04": {
+      "id": "g04",
+      "title": "this / that / these / those",
+      "readMinutes": 2,
+      "intro": "ໃຊ້ຊີ້ສິ່ງຂອງ. ໃກ້ໃຊ້ this/these ໄກໃຊ້ that/those",
+      "keyPoints": [
+        "this = ອັນນີ້ (ໃກ້, 1 ອັນ)",
+        "these = ເຫຼົ່ານີ້ (ໃກ້, ຫຼາຍອັນ)",
+        "that = ອັນນັ້ນ (ໄກ, 1 ອັນ)",
+        "those = ເຫຼົ່ານັ້ນ (ໄກ, ຫຼາຍອັນ)"
+      ],
+      "codeSample": "near + 1 = this\nnear + many = these\nfar + 1 = that\nfar + many = those",
+      "table": [
+        {
+          "from": "this pen",
+          "to": "these pens"
+        },
+        {
+          "from": "that car",
+          "to": "those cars"
+        }
+      ]
+    },
+    "g05": {
+      "id": "g05",
+      "title": "Present Simple",
+      "readMinutes": 4,
+      "intro": "ໃຊ້ເວົ້າເຖິງສິ່ງທີ່ເຮັດເປັນປະຈຳ ນິໄສ ຫຼື ຄວາມຈິງທົ່ວໄປ",
+      "keyPoints": [
+        "he / she / it ກິລິຍາເຕີມ -s: she works",
+        "ປະຕິເສດ: don't / doesn't + ກິລິຍາຮູບປົກກະຕິ",
+        "ຄຳຖາມ: Do / Does + ປະທານ + ກິລິຍາ?",
+        "have → has, go → goes, study → studies"
+      ],
+      "codeSample": "if (subject in [he, she, it]) verb + 's'\nelse verb",
+      "table": [
+        {
+          "from": "I work",
+          "to": "she works"
+        },
+        {
+          "from": "I go",
+          "to": "he goes"
+        },
+        {
+          "from": "I don't like",
+          "to": "she doesn't like"
+        }
+      ]
+    },
+    "g06": {
+      "id": "g06",
+      "title": "Adverbs of frequency",
+      "readMinutes": 2,
+      "intro": "ບອກວ່າເຮັດເລື້ອຍປານໃດ ວາງໄວ້ໜ້າກິລິຍາຫຼັກ ແຕ່ຫຼັງ to be",
+      "keyPoints": [
+        "always 100% > usually > often > sometimes > never 0%",
+        "I always get up at 6.",
+        "She is never late. (ຫຼັງ is)"
+      ],
+      "codeSample": "always 100%\nusually  80%\noften    60%\nsometimes 40%\nnever     0%",
+      "table": [
+        {
+          "from": "I eat breakfast.",
+          "to": "I usually eat breakfast."
+        },
+        {
+          "from": "He is late.",
+          "to": "He is often late."
+        }
+      ]
+    },
+    "g07": {
+      "id": "g07",
+      "title": "There is / There are",
+      "readMinutes": 2,
+      "intro": "ໃຊ້ບອກວ່າມີສິ່ງໃດຢູ່ໃສ",
+      "keyPoints": [
+        "There is + ຈຳນວນດຽວ: There is a bank.",
+        "There are + ຫຼາຍ: There are two chairs.",
+        "ຄຳຖາມ: Is there...? / Are there...?",
+        "ປະຕິເສດ: There isn't / There aren't any"
+      ],
+      "codeSample": "count == 1 ? 'There is' : 'There are'",
+      "table": [
+        {
+          "from": "a book",
+          "to": "There is a book."
+        },
+        {
+          "from": "three books",
+          "to": "There are three books."
+        }
+      ]
+    },
+    "g08": {
+      "id": "g08",
+      "title": "can / can't",
+      "readMinutes": 2,
+      "intro": "can ບອກຄວາມສາມາດ ຫຼື ຂໍອະນຸຍາດ ກິລິຍາຫຼັງ can ບໍ່ເຕີມ -s",
+      "keyPoints": [
+        "I / she / they can swim. (ບໍ່ມີ cans)",
+        "ປະຕິເສດ: can't = cannot",
+        "ຄຳຖາມ: Can you speak English?",
+        "ຂໍອະນຸຍາດ: Can I open the window?"
+      ],
+      "codeSample": "subject + can + verb (no -s, no to)",
+      "table": [
+        {
+          "from": "She can to sing.",
+          "to": "She can sing."
+        },
+        {
+          "from": "He cans drive.",
+          "to": "He can drive."
+        }
+      ]
+    },
+    "g09": {
+      "id": "g09",
+      "title": "Present Continuous",
+      "readMinutes": 3,
+      "intro": "ໃຊ້ເວົ້າເຖິງສິ່ງທີ່ກຳລັງເກີດຂຶ້ນຕອນນີ້",
+      "keyPoints": [
+        "am / is / are + ກິລິຍາ-ing",
+        "I'm reading. She's cooking.",
+        "ຄຳທີ່ມັກໃຊ້: now, at the moment, look!",
+        "run → running, write → writing"
+      ],
+      "codeSample": "be + verb + 'ing'",
+      "table": [
+        {
+          "from": "read",
+          "to": "reading"
+        },
+        {
+          "from": "write",
+          "to": "writing"
+        },
+        {
+          "from": "swim",
+          "to": "swimming"
+        }
+      ]
+    },
+    "g10": {
+      "id": "g10",
+      "title": "was / were",
+      "readMinutes": 2,
+      "intro": "ອະດີດຂອງ to be",
+      "keyPoints": [
+        "I / he / she / it → was",
+        "you / we / they → were",
+        "ປະຕິເສດ: wasn't / weren't",
+        "ຄຳຖາມ: Were you at home yesterday?"
+      ],
+      "codeSample": "am, is -> was\nare    -> were",
+      "table": [
+        {
+          "from": "I am tired.",
+          "to": "I was tired."
+        },
+        {
+          "from": "They are here.",
+          "to": "They were here."
+        }
+      ]
+    },
+    "g11": {
+      "id": "g11",
+      "title": "Past Simple",
+      "readMinutes": 4,
+      "intro": "ໃຊ້ເວົ້າເຖິງເຫດການທີ່ເກີດຂຶ້ນ ແລະ ຈົບໄປແລ້ວໃນອະດີດ",
+      "keyPoints": [
+        "ກິລິຍາປົກກະຕິ ເຕີມ -ed: walk → walked",
+        "ກິລິຍາບໍ່ປົກກະຕິ ຕ້ອງຈື່: go → went",
+        "ປະຕິເສດ: didn't + ກິລິຍາຮູບປົກກະຕິ",
+        "ຄຳຖາມ: Did you go...?",
+        "ຄຳບອກເວລາ: yesterday, last week, ago"
+      ],
+      "codeSample": "if (verb.regular) past = verb + 'ed'\nelse past = irregular[verb]",
+      "table": [
+        {
+          "from": "walk",
+          "to": "walked"
+        },
+        {
+          "from": "go",
+          "to": "went"
+        },
+        {
+          "from": "eat",
+          "to": "ate"
+        },
+        {
+          "from": "see",
+          "to": "saw"
+        },
+        {
+          "from": "buy",
+          "to": "bought"
+        }
+      ]
+    },
+    "g12": {
+      "id": "g12",
+      "title": "be going to",
+      "readMinutes": 3,
+      "intro": "ໃຊ້ເວົ້າເຖິງແຜນທີ່ຕັດສິນໃຈໄວ້ແລ້ວ ຫຼື ສິ່ງທີ່ເຫັນວ່າກຳລັງຈະເກີດ",
+      "keyPoints": [
+        "am / is / are + going to + ກິລິຍາ",
+        "I'm going to study tonight.",
+        "Look at the clouds! It's going to rain.",
+        "ຄຳຖາມ: Are you going to...?"
+      ],
+      "codeSample": "be + going to + verb",
+      "table": [
+        {
+          "from": "I study (plan)",
+          "to": "I'm going to study."
+        },
+        {
+          "from": "she visit",
+          "to": "She's going to visit."
+        }
+      ]
+    },
+    "v01": {
+      "id": "v01",
+      "title": "Numbers 1–100",
+      "readMinutes": 3,
+      "intro": "ຕົວເລກໃຊ້ທຸກມື້ ລະວັງ -teen ກັບ -ty ອອກສຽງຕ່າງກັນ",
+      "keyPoints": [
+        "13 thirteen ↔ 30 thirty",
+        "15 fifteen ↔ 50 fifty",
+        "21 = twenty-one (ມີ -)",
+        "100 = one hundred"
+      ],
+      "codeSample": "teen -> 13..19 (ສຽງໜັກທ້າຍ)\nty   -> 20,30..90 (ສຽງໜັກໜ້າ)",
+      "table": [
+        {
+          "from": "12",
+          "to": "twelve"
+        },
+        {
+          "from": "13",
+          "to": "thirteen"
+        },
+        {
+          "from": "40",
+          "to": "forty"
+        },
+        {
+          "from": "99",
+          "to": "ninety-nine"
+        }
+      ]
+    },
+    "v02": {
+      "id": "v02",
+      "title": "Days, months & time",
+      "readMinutes": 3,
+      "intro": "ມື້ ແລະ ເດືອນ ຂຶ້ນຕົ້ນດ້ວຍຕົວໃຫຍ່ສະເໝີ",
+      "keyPoints": [
+        "on + ມື້: on Monday",
+        "in + ເດືອນ/ປີ: in May, in 2026",
+        "at + ເວລາ: at 7 o'clock",
+        "half past six = 6:30, quarter to nine = 8:45"
+      ],
+      "codeSample": "on  -> day\nin  -> month, year\nat  -> time",
+      "table": [
+        {
+          "from": "ວັນຈັນ",
+          "to": "Monday"
+        },
+        {
+          "from": "ວັນເສົາ",
+          "to": "Saturday"
+        },
+        {
+          "from": "ເດືອນມັງກອນ",
+          "to": "January"
+        },
+        {
+          "from": "6:30",
+          "to": "half past six"
+        }
+      ]
+    },
+    "v03": {
+      "id": "v03",
+      "title": "Family",
+      "readMinutes": 2,
+      "intro": "ຄຳສັບຄອບຄົວ ແລະ ການໃຊ້ 's ບອກຄວາມເປັນເຈົ້າຂອງ",
+      "keyPoints": [
+        "mother, father → parents",
+        "brother, sister",
+        "grandmother, grandfather",
+        "aunt, uncle, cousin",
+        "Tom's sister = ເອື້ອຍ/ນ້ອງສາວຂອງ Tom"
+      ],
+      "codeSample": "owner + 's + thing\nTom's bag",
+      "table": [
+        {
+          "from": "ພໍ່ແມ່",
+          "to": "parents"
+        },
+        {
+          "from": "ພີ່ນ້ອງຊາຍ",
+          "to": "brother"
+        },
+        {
+          "from": "ລູກພີ່ລູກນ້ອງ",
+          "to": "cousin"
+        },
+        {
+          "from": "ລຸງ/ອາ",
+          "to": "uncle"
+        }
+      ]
+    },
+    "v04": {
+      "id": "v04",
+      "title": "Daily routine",
+      "readMinutes": 2,
+      "intro": "ກິລິຍາທີ່ໃຊ້ເລົ່າກິດຈະວັດປະຈຳວັນ ໃຊ້ຄູ່ກັບ Present Simple",
+      "keyPoints": [
+        "get up, have a shower, have breakfast",
+        "go to school, start / finish work",
+        "have lunch / dinner, do homework",
+        "go to bed"
+      ],
+      "codeSample": "06:00 get up\n07:00 have breakfast\n22:00 go to bed",
+      "table": [
+        {
+          "from": "ຕື່ນນອນ",
+          "to": "get up"
+        },
+        {
+          "from": "ອາບນ້ຳ",
+          "to": "have a shower"
+        },
+        {
+          "from": "ເຮັດວຽກບ້ານ",
+          "to": "do homework"
+        },
+        {
+          "from": "ເຂົ້ານອນ",
+          "to": "go to bed"
+        }
+      ]
+    },
+    "v05": {
+      "id": "v05",
+      "title": "Food & drink",
+      "readMinutes": 3,
+      "intro": "ນາມນັບໄດ້ ແລະ ນັບບໍ່ໄດ້ ໃຊ້ some / any ຕ່າງກັນ",
+      "keyPoints": [
+        "ນັບໄດ້: an apple, two eggs",
+        "ນັບບໍ່ໄດ້: rice, water, milk (ບໍ່ເຕີມ -s)",
+        "some ໃນປະໂຫຍກບອກເລົ່າ, any ໃນຄຳຖາມ/ປະຕິເສດ",
+        "a bottle of water, a cup of coffee"
+      ],
+      "codeSample": "countable   -> a/an, -s\nuncountable -> some, no -s",
+      "table": [
+        {
+          "from": "ເຂົ້າ",
+          "to": "rice"
+        },
+        {
+          "from": "ໄຂ່",
+          "to": "egg"
+        },
+        {
+          "from": "ນ້ຳ",
+          "to": "water"
+        },
+        {
+          "from": "ໄກ່",
+          "to": "chicken"
+        }
+      ]
+    },
+    "v06": {
+      "id": "v06",
+      "title": "Jobs & places",
+      "readMinutes": 2,
+      "intro": "ບອກອາຊີບໃຊ້ a / an ສະເໝີ: She's a doctor.",
+      "keyPoints": [
+        "teacher → school",
+        "doctor, nurse → hospital",
+        "waiter → restaurant",
+        "engineer, developer → office",
+        "I'm an engineer. (an ເພາະສຽງສະຫຼະ)"
+      ],
+      "codeSample": "job -> place\ndoctor -> hospital",
+      "table": [
+        {
+          "from": "ຄູ",
+          "to": "teacher"
+        },
+        {
+          "from": "ໝໍ",
+          "to": "doctor"
+        },
+        {
+          "from": "ພະນັກງານເສີບ",
+          "to": "waiter"
+        },
+        {
+          "from": "ນັກພັດທະນາ",
+          "to": "developer"
+        }
+      ]
+    },
+    "p01": {
+      "id": "p01",
+      "title": "Greetings & introductions",
+      "readMinutes": 2,
+      "intro": "ປະໂຫຍກທັກທາຍ ແລະ ແນະນຳຕົວທີ່ໃຊ້ທຸກມື້",
+      "keyPoints": [
+        "Hi / Hello. Good morning.",
+        "What's your name? — My name's Noy.",
+        "Where are you from? — I'm from Laos.",
+        "Nice to meet you. — Nice to meet you, too.",
+        "How are you? — I'm fine, thanks. And you?"
+      ],
+      "codeSample": "> What's your name?\n< My name's Noy.",
+      "table": [
+        {
+          "from": "ສະບາຍດີ (ຕອນເຊົ້າ)",
+          "to": "Good morning"
+        },
+        {
+          "from": "ຍິນດີທີ່ໄດ້ຮູ້ຈັກ",
+          "to": "Nice to meet you"
+        },
+        {
+          "from": "ລາກ່ອນ",
+          "to": "Goodbye / See you"
+        }
+      ]
+    },
+    "p02": {
+      "id": "p02",
+      "title": "Classroom language",
+      "readMinutes": 2,
+      "intro": "ປະໂຫຍກທີ່ນັກຮຽນໃຊ້ໃນຫ້ອງຮຽນ",
+      "keyPoints": [
+        "Can you repeat that, please?",
+        "What does ... mean?",
+        "How do you spell it?",
+        "Sorry, I don't understand.",
+        "Can I go to the toilet, please?"
+      ],
+      "codeSample": "> How do you spell 'friend'?\n< F-R-I-E-N-D",
+      "table": [
+        {
+          "from": "ຂໍໃຫ້ເວົ້າອີກເທື່ອໜຶ່ງ",
+          "to": "Can you repeat that, please?"
+        },
+        {
+          "from": "ຂ້ອຍບໍ່ເຂົ້າໃຈ",
+          "to": "I don't understand."
+        }
+      ]
+    },
+    "p03": {
+      "id": "p03",
+      "title": "Asking for directions",
+      "readMinutes": 2,
+      "intro": "ຖາມທາງ ແລະ ຟັງຄຳຕອບ",
+      "keyPoints": [
+        "Excuse me, where is the bank?",
+        "Go straight on.",
+        "Turn left / Turn right.",
+        "It's next to / opposite / near the school.",
+        "Is it far? — No, it's five minutes from here."
+      ],
+      "codeSample": "go straight -> turn left -> next to the bank",
+      "table": [
+        {
+          "from": "ໄປຊື່ໆ",
+          "to": "go straight on"
+        },
+        {
+          "from": "ລ້ຽວຊ້າຍ",
+          "to": "turn left"
+        },
+        {
+          "from": "ກົງກັນຂ້າມ",
+          "to": "opposite"
+        },
+        {
+          "from": "ຢູ່ຂ້າງ",
+          "to": "next to"
+        }
+      ]
+    },
+    "p04": {
+      "id": "p04",
+      "title": "Shopping & ordering food",
+      "readMinutes": 2,
+      "intro": "ປະໂຫຍກສຸພາບເວລາຊື້ເຄື່ອງ ແລະ ສັ່ງອາຫານ",
+      "keyPoints": [
+        "How much is it? / How much are they?",
+        "Can I have a coffee, please?",
+        "I'd like the chicken, please.",
+        "Can I pay by card?",
+        "Here you are. — Thank you."
+      ],
+      "codeSample": "> Can I have a coffee, please?\n< Sure. That's 2 dollars.",
+      "table": [
+        {
+          "from": "ລາຄາເທົ່າໃດ (1 ອັນ)",
+          "to": "How much is it?"
+        },
+        {
+          "from": "ຂ້ອຍຂໍ...",
+          "to": "I'd like ..., please."
+        },
+        {
+          "from": "ຈ່າຍບັດໄດ້ບໍ",
+          "to": "Can I pay by card?"
+        }
+      ]
+    }
+  },
+  "quizzes": {
+    "g01": {
+      "lessonId": "g01",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "She ___ a teacher.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "am"
+            },
+            {
+              "id": "b",
+              "label": "is"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "be"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "They ___ from Laos.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "am"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "be"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "I ___ hungry.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "am"
+            },
+            {
+              "id": "b",
+              "label": "is"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "be"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "___ you a student?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Is"
+            },
+            {
+              "id": "b",
+              "label": "Am"
+            },
+            {
+              "id": "c",
+              "label": "Be"
+            },
+            {
+              "id": "d",
+              "label": "Are"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "He ___ at home. (ປະຕິເສດ)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "not is"
+            },
+            {
+              "id": "b",
+              "label": "isn't"
+            },
+            {
+              "id": "c",
+              "label": "aren't"
+            },
+            {
+              "id": "d",
+              "label": "don't"
+            }
+          ]
+        }
+      ]
+    },
+    "g02": {
+      "lessonId": "g02",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "This is Anna. ___ brother is a doctor.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "His"
+            },
+            {
+              "id": "b",
+              "label": "Her"
+            },
+            {
+              "id": "c",
+              "label": "She"
+            },
+            {
+              "id": "d",
+              "label": "Their"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "We love ___ school.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "our"
+            },
+            {
+              "id": "b",
+              "label": "we"
+            },
+            {
+              "id": "c",
+              "label": "us"
+            },
+            {
+              "id": "d",
+              "label": "their"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "What's ___ name? — I'm Kham.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "you"
+            },
+            {
+              "id": "b",
+              "label": "my"
+            },
+            {
+              "id": "c",
+              "label": "your"
+            },
+            {
+              "id": "d",
+              "label": "his"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "The dog is eating ___ food.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "it's"
+            },
+            {
+              "id": "b",
+              "label": "its"
+            },
+            {
+              "id": "c",
+              "label": "it"
+            },
+            {
+              "id": "d",
+              "label": "his'"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Tom and Lin live in Vientiane. ___ house is big.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "There"
+            },
+            {
+              "id": "b",
+              "label": "They"
+            },
+            {
+              "id": "c",
+              "label": "Their"
+            },
+            {
+              "id": "d",
+              "label": "Them"
+            }
+          ]
+        }
+      ]
+    },
+    "g03": {
+      "lessonId": "g03",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I eat ___ apple every day.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "a"
+            },
+            {
+              "id": "b",
+              "label": "an"
+            },
+            {
+              "id": "c",
+              "label": "two"
+            },
+            {
+              "id": "d",
+              "label": "-"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "She is ___ university student.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "an"
+            },
+            {
+              "id": "b",
+              "label": "a"
+            },
+            {
+              "id": "c",
+              "label": "some"
+            },
+            {
+              "id": "d",
+              "label": "-"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "Plural of 'box' is ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "boxs"
+            },
+            {
+              "id": "b",
+              "label": "boxies"
+            },
+            {
+              "id": "c",
+              "label": "boxes"
+            },
+            {
+              "id": "d",
+              "label": "box"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "Plural of 'child' is ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "childs"
+            },
+            {
+              "id": "b",
+              "label": "children"
+            },
+            {
+              "id": "c",
+              "label": "childes"
+            },
+            {
+              "id": "d",
+              "label": "childrens"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "I'll be back in ___ hour.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "a"
+            },
+            {
+              "id": "b",
+              "label": "the"
+            },
+            {
+              "id": "c",
+              "label": "an"
+            },
+            {
+              "id": "d",
+              "label": "one of"
+            }
+          ]
+        }
+      ]
+    },
+    "g04": {
+      "lessonId": "g04",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "(ຖືໃນມື) ___ is my phone.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "That"
+            },
+            {
+              "id": "b",
+              "label": "These"
+            },
+            {
+              "id": "c",
+              "label": "Those"
+            },
+            {
+              "id": "d",
+              "label": "This"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "(ໄກ, ຫຼາຍຄັນ) Look at ___ cars!",
+          "choices": [
+            {
+              "id": "a",
+              "label": "those"
+            },
+            {
+              "id": "b",
+              "label": "this"
+            },
+            {
+              "id": "c",
+              "label": "that"
+            },
+            {
+              "id": "d",
+              "label": "these"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "___ shoes are new. (ໃກ້)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "This"
+            },
+            {
+              "id": "b",
+              "label": "These"
+            },
+            {
+              "id": "c",
+              "label": "That"
+            },
+            {
+              "id": "d",
+              "label": "Those"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "Who is ___ man over there?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "these"
+            },
+            {
+              "id": "b",
+              "label": "those"
+            },
+            {
+              "id": "c",
+              "label": "that"
+            },
+            {
+              "id": "d",
+              "label": "this"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Are ___ your books? (ໃກ້)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "this"
+            },
+            {
+              "id": "b",
+              "label": "that"
+            },
+            {
+              "id": "c",
+              "label": "these"
+            },
+            {
+              "id": "d",
+              "label": "it"
+            }
+          ]
+        }
+      ]
+    },
+    "g05": {
+      "lessonId": "g05",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "She ___ in a bank.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "work"
+            },
+            {
+              "id": "b",
+              "label": "works"
+            },
+            {
+              "id": "c",
+              "label": "working"
+            },
+            {
+              "id": "d",
+              "label": "is work"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "I ___ like coffee.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "doesn't"
+            },
+            {
+              "id": "b",
+              "label": "not"
+            },
+            {
+              "id": "c",
+              "label": "don't"
+            },
+            {
+              "id": "d",
+              "label": "isn't"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "___ he play football?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Do"
+            },
+            {
+              "id": "b",
+              "label": "Is"
+            },
+            {
+              "id": "c",
+              "label": "Does"
+            },
+            {
+              "id": "d",
+              "label": "Are"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "My brother ___ to school by bike.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "goes"
+            },
+            {
+              "id": "b",
+              "label": "go"
+            },
+            {
+              "id": "c",
+              "label": "gos"
+            },
+            {
+              "id": "d",
+              "label": "going"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "He ___ two sisters.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "have"
+            },
+            {
+              "id": "b",
+              "label": "haves"
+            },
+            {
+              "id": "c",
+              "label": "is have"
+            },
+            {
+              "id": "d",
+              "label": "has"
+            }
+          ]
+        }
+      ]
+    },
+    "g06": {
+      "lessonId": "g06",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+          "choices": [
+            {
+              "id": "a",
+              "label": "I get always up at 6."
+            },
+            {
+              "id": "b",
+              "label": "I always get up at 6."
+            },
+            {
+              "id": "c",
+              "label": "Always I get up at 6."
+            },
+            {
+              "id": "d",
+              "label": "I get up at 6 always am."
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+          "choices": [
+            {
+              "id": "a",
+              "label": "She never is late."
+            },
+            {
+              "id": "b",
+              "label": "She is late never."
+            },
+            {
+              "id": "c",
+              "label": "She is never late."
+            },
+            {
+              "id": "d",
+              "label": "Never she is late."
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "0% = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "sometimes"
+            },
+            {
+              "id": "b",
+              "label": "often"
+            },
+            {
+              "id": "c",
+              "label": "usually"
+            },
+            {
+              "id": "d",
+              "label": "never"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "ຄຳໃດເລື້ອຍທີ່ສຸດ?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "always"
+            },
+            {
+              "id": "b",
+              "label": "often"
+            },
+            {
+              "id": "c",
+              "label": "sometimes"
+            },
+            {
+              "id": "d",
+              "label": "usually"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "They ___ eat rice for dinner. (ເກືອບທຸກມື້)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "never"
+            },
+            {
+              "id": "b",
+              "label": "usually"
+            },
+            {
+              "id": "c",
+              "label": "are usually"
+            },
+            {
+              "id": "d",
+              "label": "does usually"
+            }
+          ]
+        }
+      ]
+    },
+    "g07": {
+      "lessonId": "g07",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "There ___ a park near my house.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "are"
+            },
+            {
+              "id": "b",
+              "label": "is"
+            },
+            {
+              "id": "c",
+              "label": "be"
+            },
+            {
+              "id": "d",
+              "label": "have"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "There ___ thirty students in my class.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "has"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "am"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "___ there a hospital in this town?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Is"
+            },
+            {
+              "id": "b",
+              "label": "Are"
+            },
+            {
+              "id": "c",
+              "label": "Do"
+            },
+            {
+              "id": "d",
+              "label": "Have"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "There aren't ___ shops here.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "a"
+            },
+            {
+              "id": "b",
+              "label": "some"
+            },
+            {
+              "id": "c",
+              "label": "an"
+            },
+            {
+              "id": "d",
+              "label": "any"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+          "choices": [
+            {
+              "id": "a",
+              "label": "It has a bank in the street."
+            },
+            {
+              "id": "b",
+              "label": "There is a bank in the street."
+            },
+            {
+              "id": "c",
+              "label": "There are a bank in the street."
+            },
+            {
+              "id": "d",
+              "label": "Have a bank in the street."
+            }
+          ]
+        }
+      ]
+    },
+    "g08": {
+      "lessonId": "g08",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "She ___ swim very well.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "cans"
+            },
+            {
+              "id": "b",
+              "label": "can to"
+            },
+            {
+              "id": "c",
+              "label": "can"
+            },
+            {
+              "id": "d",
+              "label": "is can"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "I can't ___ the guitar.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "play"
+            },
+            {
+              "id": "b",
+              "label": "plays"
+            },
+            {
+              "id": "c",
+              "label": "to play"
+            },
+            {
+              "id": "d",
+              "label": "playing"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "___ you speak English?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Do can"
+            },
+            {
+              "id": "b",
+              "label": "Can"
+            },
+            {
+              "id": "c",
+              "label": "Are"
+            },
+            {
+              "id": "d",
+              "label": "Does"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "ຂໍອະນຸຍາດເປີດປ່ອງຢ້ຽມ: ___ I open the window?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Do"
+            },
+            {
+              "id": "b",
+              "label": "Am"
+            },
+            {
+              "id": "c",
+              "label": "Can"
+            },
+            {
+              "id": "d",
+              "label": "Is"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "can't ແມ່ນຮູບຫຍໍ້ຂອງ ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "can not to"
+            },
+            {
+              "id": "b",
+              "label": "cannot"
+            },
+            {
+              "id": "c",
+              "label": "can't to"
+            },
+            {
+              "id": "d",
+              "label": "don't can"
+            }
+          ]
+        }
+      ]
+    },
+    "g09": {
+      "lessonId": "g09",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Look! The baby ___.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "sleeps"
+            },
+            {
+              "id": "b",
+              "label": "is sleeping"
+            },
+            {
+              "id": "c",
+              "label": "sleep"
+            },
+            {
+              "id": "d",
+              "label": "are sleeping"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "I ___ a book at the moment.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "am reading"
+            },
+            {
+              "id": "b",
+              "label": "read"
+            },
+            {
+              "id": "c",
+              "label": "reads"
+            },
+            {
+              "id": "d",
+              "label": "is reading"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "-ing ຂອງ 'run' ແມ່ນ ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "runing"
+            },
+            {
+              "id": "b",
+              "label": "runeing"
+            },
+            {
+              "id": "c",
+              "label": "running"
+            },
+            {
+              "id": "d",
+              "label": "runs"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "-ing ຂອງ 'write' ແມ່ນ ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "writeing"
+            },
+            {
+              "id": "b",
+              "label": "writting"
+            },
+            {
+              "id": "c",
+              "label": "wrote"
+            },
+            {
+              "id": "d",
+              "label": "writing"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "What ___ they doing now?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "do"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "does"
+            }
+          ]
+        }
+      ]
+    },
+    "g10": {
+      "lessonId": "g10",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I ___ at home yesterday.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "was"
+            },
+            {
+              "id": "b",
+              "label": "were"
+            },
+            {
+              "id": "c",
+              "label": "am"
+            },
+            {
+              "id": "d",
+              "label": "is"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "They ___ at the party last night.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "was"
+            },
+            {
+              "id": "b",
+              "label": "are"
+            },
+            {
+              "id": "c",
+              "label": "were"
+            },
+            {
+              "id": "d",
+              "label": "is"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "___ you tired after the game?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Was"
+            },
+            {
+              "id": "b",
+              "label": "Were"
+            },
+            {
+              "id": "c",
+              "label": "Did"
+            },
+            {
+              "id": "d",
+              "label": "Are"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "The test ___ difficult. It was easy.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "weren't"
+            },
+            {
+              "id": "b",
+              "label": "didn't"
+            },
+            {
+              "id": "c",
+              "label": "isn't"
+            },
+            {
+              "id": "d",
+              "label": "wasn't"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "Where ___ she last week?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "were"
+            },
+            {
+              "id": "b",
+              "label": "was"
+            },
+            {
+              "id": "c",
+              "label": "did"
+            },
+            {
+              "id": "d",
+              "label": "is"
+            }
+          ]
+        }
+      ]
+    },
+    "g11": {
+      "lessonId": "g11",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Yesterday I ___ to school.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "walk"
+            },
+            {
+              "id": "b",
+              "label": "walked"
+            },
+            {
+              "id": "c",
+              "label": "walks"
+            },
+            {
+              "id": "d",
+              "label": "walking"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "What is the past tense of 'go'?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "goed"
+            },
+            {
+              "id": "b",
+              "label": "went"
+            },
+            {
+              "id": "c",
+              "label": "gone"
+            },
+            {
+              "id": "d",
+              "label": "going"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "She ___ breakfast at 7 yesterday.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "eat"
+            },
+            {
+              "id": "b",
+              "label": "eats"
+            },
+            {
+              "id": "c",
+              "label": "ate"
+            },
+            {
+              "id": "d",
+              "label": "eaten"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "I ___ see him last week.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "don't"
+            },
+            {
+              "id": "b",
+              "label": "wasn't"
+            },
+            {
+              "id": "c",
+              "label": "didn't"
+            },
+            {
+              "id": "d",
+              "label": "not"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "___ you buy a new phone?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Did"
+            },
+            {
+              "id": "b",
+              "label": "Do"
+            },
+            {
+              "id": "c",
+              "label": "Were"
+            },
+            {
+              "id": "d",
+              "label": "Was"
+            }
+          ]
+        }
+      ]
+    },
+    "g12": {
+      "lessonId": "g12",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I ___ going to study tonight.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "am"
+            },
+            {
+              "id": "c",
+              "label": "are"
+            },
+            {
+              "id": "d",
+              "label": "be"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "She's going ___ her grandmother.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "visit"
+            },
+            {
+              "id": "b",
+              "label": "visiting"
+            },
+            {
+              "id": "c",
+              "label": "to visit"
+            },
+            {
+              "id": "d",
+              "label": "visits"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "Look at those clouds! It ___ rain.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is going to"
+            },
+            {
+              "id": "b",
+              "label": "goes to"
+            },
+            {
+              "id": "c",
+              "label": "going"
+            },
+            {
+              "id": "d",
+              "label": "is go to"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "___ you going to buy a car?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Do"
+            },
+            {
+              "id": "b",
+              "label": "Is"
+            },
+            {
+              "id": "c",
+              "label": "Are"
+            },
+            {
+              "id": "d",
+              "label": "Will"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "They ___ going to come. They're busy.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "don't"
+            },
+            {
+              "id": "b",
+              "label": "aren't"
+            },
+            {
+              "id": "c",
+              "label": "isn't"
+            },
+            {
+              "id": "d",
+              "label": "not"
+            }
+          ]
+        }
+      ]
+    },
+    "v01": {
+      "lessonId": "v01",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "15 = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "fifty"
+            },
+            {
+              "id": "b",
+              "label": "fiveteen"
+            },
+            {
+              "id": "c",
+              "label": "fifteen"
+            },
+            {
+              "id": "d",
+              "label": "five-ten"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "40 = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "forty"
+            },
+            {
+              "id": "b",
+              "label": "fourty"
+            },
+            {
+              "id": "c",
+              "label": "fourteen"
+            },
+            {
+              "id": "d",
+              "label": "for-ty"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "12 = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "twelf"
+            },
+            {
+              "id": "b",
+              "label": "twelve"
+            },
+            {
+              "id": "c",
+              "label": "twoteen"
+            },
+            {
+              "id": "d",
+              "label": "twenty"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "99 = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "nineteen-nine"
+            },
+            {
+              "id": "b",
+              "label": "ninety nine"
+            },
+            {
+              "id": "c",
+              "label": "ninty-nine"
+            },
+            {
+              "id": "d",
+              "label": "ninety-nine"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "thirteen = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "13"
+            },
+            {
+              "id": "b",
+              "label": "30"
+            },
+            {
+              "id": "c",
+              "label": "3"
+            },
+            {
+              "id": "d",
+              "label": "33"
+            }
+          ]
+        }
+      ]
+    },
+    "v02": {
+      "lessonId": "v02",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I have English ___ Monday.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "in"
+            },
+            {
+              "id": "b",
+              "label": "at"
+            },
+            {
+              "id": "c",
+              "label": "on"
+            },
+            {
+              "id": "d",
+              "label": "to"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "My birthday is ___ May.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "in"
+            },
+            {
+              "id": "b",
+              "label": "on"
+            },
+            {
+              "id": "c",
+              "label": "at"
+            },
+            {
+              "id": "d",
+              "label": "of"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "The class starts ___ 8 o'clock.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "on"
+            },
+            {
+              "id": "b",
+              "label": "at"
+            },
+            {
+              "id": "c",
+              "label": "in"
+            },
+            {
+              "id": "d",
+              "label": "by"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "6:30 = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "half to six"
+            },
+            {
+              "id": "b",
+              "label": "six half"
+            },
+            {
+              "id": "c",
+              "label": "half past seven"
+            },
+            {
+              "id": "d",
+              "label": "half past six"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ມື້ຫຼັງວັນພຸດ ແມ່ນ ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Thursday"
+            },
+            {
+              "id": "b",
+              "label": "Tuesday"
+            },
+            {
+              "id": "c",
+              "label": "Friday"
+            },
+            {
+              "id": "d",
+              "label": "Monday"
+            }
+          ]
+        }
+      ]
+    },
+    "v03": {
+      "lessonId": "v03",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "My mother's mother is my ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "aunt"
+            },
+            {
+              "id": "b",
+              "label": "grandmother"
+            },
+            {
+              "id": "c",
+              "label": "sister"
+            },
+            {
+              "id": "d",
+              "label": "cousin"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "My father's brother is my ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "uncle"
+            },
+            {
+              "id": "b",
+              "label": "cousin"
+            },
+            {
+              "id": "c",
+              "label": "grandfather"
+            },
+            {
+              "id": "d",
+              "label": "nephew"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "My uncle's son is my ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "brother"
+            },
+            {
+              "id": "b",
+              "label": "nephew"
+            },
+            {
+              "id": "c",
+              "label": "cousin"
+            },
+            {
+              "id": "d",
+              "label": "uncle"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "mother + father = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "relatives"
+            },
+            {
+              "id": "b",
+              "label": "children"
+            },
+            {
+              "id": "c",
+              "label": "grandparents"
+            },
+            {
+              "id": "d",
+              "label": "parents"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "This is ___ bag. (ຂອງ Tom)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Tom's"
+            },
+            {
+              "id": "b",
+              "label": "Toms"
+            },
+            {
+              "id": "c",
+              "label": "Toms'"
+            },
+            {
+              "id": "d",
+              "label": "of Tom"
+            }
+          ]
+        }
+      ]
+    },
+    "v04": {
+      "lessonId": "v04",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "I ___ up at 6 every day.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "wake"
+            },
+            {
+              "id": "b",
+              "label": "get"
+            },
+            {
+              "id": "c",
+              "label": "go"
+            },
+            {
+              "id": "d",
+              "label": "have"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "She ___ a shower in the morning.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "does"
+            },
+            {
+              "id": "b",
+              "label": "makes"
+            },
+            {
+              "id": "c",
+              "label": "has"
+            },
+            {
+              "id": "d",
+              "label": "takes up"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "After school I ___ my homework.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "make"
+            },
+            {
+              "id": "b",
+              "label": "have"
+            },
+            {
+              "id": "c",
+              "label": "get"
+            },
+            {
+              "id": "d",
+              "label": "do"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "I go to ___ at 10 p.m.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "bed"
+            },
+            {
+              "id": "b",
+              "label": "the bed"
+            },
+            {
+              "id": "c",
+              "label": "sleep bed"
+            },
+            {
+              "id": "d",
+              "label": "a bed"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "We ___ lunch at 12.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "do"
+            },
+            {
+              "id": "b",
+              "label": "have"
+            },
+            {
+              "id": "c",
+              "label": "make"
+            },
+            {
+              "id": "d",
+              "label": "get"
+            }
+          ]
+        }
+      ]
+    },
+    "v05": {
+      "lessonId": "v05",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ຄຳໃດນັບບໍ່ໄດ້?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "apple"
+            },
+            {
+              "id": "b",
+              "label": "egg"
+            },
+            {
+              "id": "c",
+              "label": "rice"
+            },
+            {
+              "id": "d",
+              "label": "banana"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "Can I have ___ water, please?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "a"
+            },
+            {
+              "id": "b",
+              "label": "some"
+            },
+            {
+              "id": "c",
+              "label": "an"
+            },
+            {
+              "id": "d",
+              "label": "many"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "Is there ___ milk in the fridge?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "any"
+            },
+            {
+              "id": "b",
+              "label": "a"
+            },
+            {
+              "id": "c",
+              "label": "an"
+            },
+            {
+              "id": "d",
+              "label": "many"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "a ___ of coffee",
+          "choices": [
+            {
+              "id": "a",
+              "label": "bottle"
+            },
+            {
+              "id": "b",
+              "label": "piece"
+            },
+            {
+              "id": "c",
+              "label": "slice"
+            },
+            {
+              "id": "d",
+              "label": "cup"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ໄກ່ = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "chicken"
+            },
+            {
+              "id": "b",
+              "label": "kitchen"
+            },
+            {
+              "id": "c",
+              "label": "beef"
+            },
+            {
+              "id": "d",
+              "label": "fish"
+            }
+          ]
+        }
+      ]
+    },
+    "v06": {
+      "lessonId": "v06",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "A ___ works in a hospital.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "waiter"
+            },
+            {
+              "id": "b",
+              "label": "nurse"
+            },
+            {
+              "id": "c",
+              "label": "farmer"
+            },
+            {
+              "id": "d",
+              "label": "pilot"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "She's ___ engineer.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "a"
+            },
+            {
+              "id": "b",
+              "label": "the"
+            },
+            {
+              "id": "c",
+              "label": "an"
+            },
+            {
+              "id": "d",
+              "label": "-"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "A waiter works in a ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "school"
+            },
+            {
+              "id": "b",
+              "label": "bank"
+            },
+            {
+              "id": "c",
+              "label": "farm"
+            },
+            {
+              "id": "d",
+              "label": "restaurant"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "ເລືອກປະໂຫຍກທີ່ຖືກ",
+          "choices": [
+            {
+              "id": "a",
+              "label": "I'm a developer."
+            },
+            {
+              "id": "b",
+              "label": "I'm developer."
+            },
+            {
+              "id": "c",
+              "label": "I developer."
+            },
+            {
+              "id": "d",
+              "label": "I'm an developer."
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ຄູ = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "student"
+            },
+            {
+              "id": "b",
+              "label": "teacher"
+            },
+            {
+              "id": "c",
+              "label": "doctor"
+            },
+            {
+              "id": "d",
+              "label": "driver"
+            }
+          ]
+        }
+      ]
+    },
+    "p01": {
+      "lessonId": "p01",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "A: Nice to meet you. B: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Nice to meet you, too."
+            },
+            {
+              "id": "b",
+              "label": "I'm fine."
+            },
+            {
+              "id": "c",
+              "label": "Goodbye."
+            },
+            {
+              "id": "d",
+              "label": "Yes, I am."
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "A: How are you? B: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "I'm 18."
+            },
+            {
+              "id": "b",
+              "label": "I'm from Laos."
+            },
+            {
+              "id": "c",
+              "label": "I'm fine, thanks."
+            },
+            {
+              "id": "d",
+              "label": "My name's Noy."
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "A: Where are you from? B: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "I'm a student."
+            },
+            {
+              "id": "b",
+              "label": "I'm from Vientiane."
+            },
+            {
+              "id": "c",
+              "label": "I'm fine."
+            },
+            {
+              "id": "d",
+              "label": "At school."
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "ທັກທາຍຕອນເຊົ້າ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Good night"
+            },
+            {
+              "id": "b",
+              "label": "Good evening"
+            },
+            {
+              "id": "c",
+              "label": "Goodbye"
+            },
+            {
+              "id": "d",
+              "label": "Good morning"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ຖາມຊື່ຢ່າງສຸພາບ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "What's your name?"
+            },
+            {
+              "id": "b",
+              "label": "Who you?"
+            },
+            {
+              "id": "c",
+              "label": "Name?"
+            },
+            {
+              "id": "d",
+              "label": "How old are you?"
+            }
+          ]
+        }
+      ]
+    },
+    "p02": {
+      "lessonId": "p02",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ບໍ່ໄດ້ຍິນ ຢາກໃຫ້ຄູເວົ້າອີກ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Say again!"
+            },
+            {
+              "id": "b",
+              "label": "Can you repeat that, please?"
+            },
+            {
+              "id": "c",
+              "label": "What?"
+            },
+            {
+              "id": "d",
+              "label": "Repeat you."
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "ຖາມຄວາມໝາຍຂອງຄຳ: What ___ 'library' mean?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "do"
+            },
+            {
+              "id": "c",
+              "label": "does"
+            },
+            {
+              "id": "d",
+              "label": "are"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "How do you ___ it? — F-R-I-E-N-D",
+          "choices": [
+            {
+              "id": "a",
+              "label": "spell"
+            },
+            {
+              "id": "b",
+              "label": "say"
+            },
+            {
+              "id": "c",
+              "label": "write"
+            },
+            {
+              "id": "d",
+              "label": "read"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "ບໍ່ເຂົ້າໃຈ: Sorry, I ___ understand.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "not"
+            },
+            {
+              "id": "b",
+              "label": "am not"
+            },
+            {
+              "id": "c",
+              "label": "doesn't"
+            },
+            {
+              "id": "d",
+              "label": "don't"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "ຂໍອະນຸຍາດໄປຫ້ອງນ້ຳ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Can I go to the toilet, please?"
+            },
+            {
+              "id": "b",
+              "label": "I go toilet."
+            },
+            {
+              "id": "c",
+              "label": "Toilet now!"
+            },
+            {
+              "id": "d",
+              "label": "Do I go to toilet?"
+            }
+          ]
+        }
+      ]
+    },
+    "p03": {
+      "lessonId": "p03",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "___, where is the post office?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Excuse me"
+            },
+            {
+              "id": "b",
+              "label": "Sorry for you"
+            },
+            {
+              "id": "c",
+              "label": "Hey you"
+            },
+            {
+              "id": "d",
+              "label": "Thank you"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "ລ້ຽວຂວາ = ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "turn left"
+            },
+            {
+              "id": "b",
+              "label": "go straight"
+            },
+            {
+              "id": "c",
+              "label": "turn right"
+            },
+            {
+              "id": "d",
+              "label": "go back"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "The bank is ___ the school. (ຢູ່ຂ້າງ)",
+          "choices": [
+            {
+              "id": "a",
+              "label": "opposite"
+            },
+            {
+              "id": "b",
+              "label": "next to"
+            },
+            {
+              "id": "c",
+              "label": "in"
+            },
+            {
+              "id": "d",
+              "label": "far"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "Go ___ on, then turn left.",
+          "choices": [
+            {
+              "id": "a",
+              "label": "right"
+            },
+            {
+              "id": "b",
+              "label": "straight"
+            },
+            {
+              "id": "c",
+              "label": "strait"
+            },
+            {
+              "id": "d",
+              "label": "direct"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "A: Is it far? B: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Yes, it is near."
+            },
+            {
+              "id": "b",
+              "label": "It's next."
+            },
+            {
+              "id": "c",
+              "label": "Turn left."
+            },
+            {
+              "id": "d",
+              "label": "No, it's five minutes from here."
+            }
+          ]
+        }
+      ]
+    },
+    "p04": {
+      "lessonId": "p04",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ຖາມລາຄາ 1 ອັນ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "How many is it?"
+            },
+            {
+              "id": "b",
+              "label": "How much is it?"
+            },
+            {
+              "id": "c",
+              "label": "How much are it?"
+            },
+            {
+              "id": "d",
+              "label": "What money?"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "text": "ສັ່ງອາຫານຢ່າງສຸພາບ: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Give me chicken."
+            },
+            {
+              "id": "b",
+              "label": "I want chicken now."
+            },
+            {
+              "id": "c",
+              "label": "I'd like the chicken, please."
+            },
+            {
+              "id": "d",
+              "label": "Chicken!"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "text": "Can I pay ___ card?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "by"
+            },
+            {
+              "id": "b",
+              "label": "with the"
+            },
+            {
+              "id": "c",
+              "label": "on"
+            },
+            {
+              "id": "d",
+              "label": "in"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "text": "How much ___ these shoes?",
+          "choices": [
+            {
+              "id": "a",
+              "label": "is"
+            },
+            {
+              "id": "b",
+              "label": "be"
+            },
+            {
+              "id": "c",
+              "label": "does"
+            },
+            {
+              "id": "d",
+              "label": "are"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "text": "A: Here you are. B: ___",
+          "choices": [
+            {
+              "id": "a",
+              "label": "Thank you."
+            },
+            {
+              "id": "b",
+              "label": "You're welcome."
+            },
+            {
+              "id": "c",
+              "label": "Here you are."
+            },
+            {
+              "id": "d",
+              "label": "Sorry."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "answers": {
+    "g01": {
+      "q1": [
+        "b",
+        "she ໃຊ້ is"
+      ],
+      "q2": [
+        "c",
+        "they ໃຊ້ are"
+      ],
+      "q3": [
+        "a",
+        "I ໃຊ້ am ສະເໝີ"
+      ],
+      "q4": [
+        "d",
+        "you ໃຊ້ are ແລະ ຄຳຖາມເອົາ Are ໄວ້ໜ້າ"
+      ],
+      "q5": [
+        "b",
+        "he ໃຊ້ is → ປະຕິເສດ is not = isn't"
+      ]
+    },
+    "g02": {
+      "q1": [
+        "b",
+        "Anna ເປັນຜູ້ຍິງ ຈຶ່ງໃຊ້ her"
+      ],
+      "q2": [
+        "a",
+        "we → our"
+      ],
+      "q3": [
+        "c",
+        "ຖາມຊື່ຂອງອີກຝ່າຍ ໃຊ້ your"
+      ],
+      "q4": [
+        "b",
+        "its = ຂອງມັນ (ບໍ່ມີ '), it's = it is"
+      ],
+      "q5": [
+        "c",
+        "Tom and Lin = they → their"
+      ]
+    },
+    "g03": {
+      "q1": [
+        "b",
+        "apple ຂຶ້ນຕົ້ນດ້ວຍສຽງສະຫຼະ ຈຶ່ງໃຊ້ an"
+      ],
+      "q2": [
+        "b",
+        "university ອອກສຽງ 'ຢູ' (ພະຍັນຊະນະ) ຈຶ່ງໃຊ້ a"
+      ],
+      "q3": [
+        "c",
+        "ລົງທ້າຍ -x ເຕີມ -es"
+      ],
+      "q4": [
+        "b",
+        "child ເປັນຄຳບໍ່ປົກກະຕິ: children"
+      ],
+      "q5": [
+        "c",
+        "hour ບໍ່ອອກສຽງ h ຈຶ່ງເປັນສຽງສະຫຼະ → an"
+      ]
+    },
+    "g04": {
+      "q1": [
+        "d",
+        "ໃກ້ + 1 ອັນ = this"
+      ],
+      "q2": [
+        "a",
+        "ໄກ + ຫຼາຍ = those"
+      ],
+      "q3": [
+        "b",
+        "ໃກ້ + ຫຼາຍ = these"
+      ],
+      "q4": [
+        "c",
+        "ໄກ (over there) + 1 ຄົນ = that"
+      ],
+      "q5": [
+        "c",
+        "ໃກ້ + ຫຼາຍ (books) = these"
+      ]
+    },
+    "g05": {
+      "q1": [
+        "b",
+        "she → ກິລິຍາເຕີມ -s"
+      ],
+      "q2": [
+        "c",
+        "I ໃຊ້ don't"
+      ],
+      "q3": [
+        "c",
+        "he ໃຊ້ Does ໃນຄຳຖາມ"
+      ],
+      "q4": [
+        "a",
+        "go + es = goes"
+      ],
+      "q5": [
+        "d",
+        "he ໃຊ້ has (ບໍ່ແມ່ນ haves)"
+      ]
+    },
+    "g06": {
+      "q1": [
+        "b",
+        "ຄຳບອກຄວາມຖີ່ ວາງໄວ້ໜ້າກິລິຍາຫຼັກ"
+      ],
+      "q2": [
+        "c",
+        "ກັບ to be ໃຫ້ວາງຫຼັງ is"
+      ],
+      "q3": [
+        "d",
+        "never = ບໍ່ເຄີຍ 0%"
+      ],
+      "q4": [
+        "a",
+        "always = ສະເໝີ 100%"
+      ],
+      "q5": [
+        "b",
+        "ເກືອບທຸກມື້ = usually ວາງໜ້າ eat"
+      ]
+    },
+    "g07": {
+      "q1": [
+        "b",
+        "a park = 1 ອັນ → There is"
+      ],
+      "q2": [
+        "c",
+        "thirty students = ຫຼາຍ → There are"
+      ],
+      "q3": [
+        "a",
+        "a hospital = 1 → Is there"
+      ],
+      "q4": [
+        "d",
+        "ປະຕິເສດ ໃຊ້ any"
+      ],
+      "q5": [
+        "b",
+        "ບອກວ່າ 'ມີ' ຢູ່ບ່ອນໃດ ໃຊ້ There is"
+      ]
+    },
+    "g08": {
+      "q1": [
+        "c",
+        "can ບໍ່ເຕີມ -s ແລະ ບໍ່ມີ to"
+      ],
+      "q2": [
+        "a",
+        "ຫຼັງ can't ໃຊ້ກິລິຍາຮູບປົກກະຕິ"
+      ],
+      "q3": [
+        "b",
+        "ຄຳຖາມ: Can + ປະທານ + ກິລິຍາ"
+      ],
+      "q4": [
+        "c",
+        "ຂໍອະນຸຍາດ ໃຊ້ Can I ...?"
+      ],
+      "q5": [
+        "b",
+        "can't = cannot"
+      ]
+    },
+    "g09": {
+      "q1": [
+        "b",
+        "Look! = ກຳລັງເກີດຂຶ້ນ → is + sleeping"
+      ],
+      "q2": [
+        "a",
+        "I → am + reading"
+      ],
+      "q3": [
+        "c",
+        "run ສະຫຼະສັ້ນ+ພະຍັນຊະນະ ຊ້ອນ n → running"
+      ],
+      "q4": [
+        "d",
+        "ລົບ e ແລ້ວເຕີມ -ing → writing"
+      ],
+      "q5": [
+        "c",
+        "they → are"
+      ]
+    },
+    "g10": {
+      "q1": [
+        "a",
+        "I → was"
+      ],
+      "q2": [
+        "c",
+        "they → were"
+      ],
+      "q3": [
+        "b",
+        "you → were"
+      ],
+      "q4": [
+        "d",
+        "the test = it → wasn't"
+      ],
+      "q5": [
+        "b",
+        "she → was"
+      ]
+    },
+    "g11": {
+      "q1": [
+        "b",
+        "Yesterday ບອກອະດີດ walk + ed = walked"
+      ],
+      "q2": [
+        "b",
+        "go ເປັນກິລິຍາບໍ່ປົກກະຕິ ຮູບອະດີດແມ່ນ went ສ່ວນ gone ແມ່ນ past participle"
+      ],
+      "q3": [
+        "c",
+        "eat → ate"
+      ],
+      "q4": [
+        "c",
+        "ປະຕິເສດອະດີດ ໃຊ້ didn't + ກິລິຍາປົກກະຕິ"
+      ],
+      "q5": [
+        "a",
+        "ຄຳຖາມອະດີດ ໃຊ້ Did"
+      ]
+    },
+    "g12": {
+      "q1": [
+        "b",
+        "I → am going to"
+      ],
+      "q2": [
+        "c",
+        "going to + ກິລິຍາ"
+      ],
+      "q3": [
+        "a",
+        "ເຫັນຫຼັກຖານ (ເມກ) → is going to"
+      ],
+      "q4": [
+        "c",
+        "you → Are"
+      ],
+      "q5": [
+        "b",
+        "they → aren't going to"
+      ]
+    },
+    "v01": {
+      "q1": [
+        "c",
+        "15 = fifteen (ບໍ່ແມ່ນ fiveteen)"
+      ],
+      "q2": [
+        "a",
+        "40 = forty (ບໍ່ມີ u)"
+      ],
+      "q3": [
+        "b",
+        "12 = twelve"
+      ],
+      "q4": [
+        "d",
+        "ຕົວເລກ 21–99 ມີ - ລະຫວ່າງ"
+      ],
+      "q5": [
+        "a",
+        "thirteen = 13, thirty = 30"
+      ]
+    },
+    "v02": {
+      "q1": [
+        "c",
+        "on + ມື້"
+      ],
+      "q2": [
+        "a",
+        "in + ເດືອນ"
+      ],
+      "q3": [
+        "b",
+        "at + ເວລາ"
+      ],
+      "q4": [
+        "d",
+        "half past six = ຫົກໂມງເຄິ່ງ"
+      ],
+      "q5": [
+        "a",
+        "Wednesday → Thursday"
+      ]
+    },
+    "v03": {
+      "q1": [
+        "b",
+        "ແມ່ຂອງແມ່ = grandmother"
+      ],
+      "q2": [
+        "a",
+        "ອ້າຍ/ນ້ອງຊາຍຂອງພໍ່ = uncle"
+      ],
+      "q3": [
+        "c",
+        "ລູກຂອງລຸງ/ອາ = cousin"
+      ],
+      "q4": [
+        "d",
+        "ພໍ່ + ແມ່ = parents"
+      ],
+      "q5": [
+        "a",
+        "ບອກເຈົ້າຂອງ ໃຊ້ 's"
+      ]
+    },
+    "v04": {
+      "q1": [
+        "b",
+        "get up = ລຸກຈາກຕຽງ"
+      ],
+      "q2": [
+        "c",
+        "have a shower = ອາບນ້ຳ"
+      ],
+      "q3": [
+        "d",
+        "do homework"
+      ],
+      "q4": [
+        "a",
+        "go to bed (ບໍ່ມີ the)"
+      ],
+      "q5": [
+        "b",
+        "have lunch / breakfast / dinner"
+      ]
+    },
+    "v05": {
+      "q1": [
+        "c",
+        "rice ນັບບໍ່ໄດ້"
+      ],
+      "q2": [
+        "b",
+        "water ນັບບໍ່ໄດ້ → some"
+      ],
+      "q3": [
+        "a",
+        "ຄຳຖາມ ໃຊ້ any"
+      ],
+      "q4": [
+        "d",
+        "a cup of coffee"
+      ],
+      "q5": [
+        "a",
+        "ໄກ່ = chicken (kitchen = ເຮືອນຄົວ)"
+      ]
+    },
+    "v06": {
+      "q1": [
+        "b",
+        "nurse ເຮັດວຽກຢູ່ໂຮງໝໍ"
+      ],
+      "q2": [
+        "c",
+        "engineer ຂຶ້ນຕົ້ນສຽງສະຫຼະ → an"
+      ],
+      "q3": [
+        "d",
+        "waiter ເຮັດວຽກຢູ່ຮ້ານອາຫານ"
+      ],
+      "q4": [
+        "a",
+        "ບອກອາຊີບຕ້ອງມີ a/an, developer ສຽງພະຍັນຊະນະ → a"
+      ],
+      "q5": [
+        "b",
+        "ຄູ = teacher"
+      ]
+    },
+    "p01": {
+      "q1": [
+        "a",
+        "ຕອບກັບດ້ວຍ Nice to meet you, too."
+      ],
+      "q2": [
+        "c",
+        "How are you? ຖາມສຸຂະພາບ/ຄວາມຮູ້ສຶກ"
+      ],
+      "q3": [
+        "b",
+        "ຖາມວ່າມາຈາກໃສ → I'm from ..."
+      ],
+      "q4": [
+        "d",
+        "Good morning = ສະບາຍດີຕອນເຊົ້າ"
+      ],
+      "q5": [
+        "a",
+        "What's your name? ສຸພາບ ແລະ ຖືກໄວຍະກອນ"
+      ]
+    },
+    "p02": {
+      "q1": [
+        "b",
+        "ໃຊ້ Can you ..., please? ໃຫ້ສຸພາບ"
+      ],
+      "q2": [
+        "c",
+        "What does + ຄຳ + mean?"
+      ],
+      "q3": [
+        "a",
+        "spell = ສະກົດຕົວອັກສອນ"
+      ],
+      "q4": [
+        "d",
+        "I → don't"
+      ],
+      "q5": [
+        "a",
+        "ຂໍອະນຸຍາດ ໃຊ້ Can I ..., please?"
+      ]
+    },
+    "p03": {
+      "q1": [
+        "a",
+        "Excuse me ໃຊ້ເອີ້ນຄົນແປກໜ້າຢ່າງສຸພາບ"
+      ],
+      "q2": [
+        "c",
+        "right = ຂວາ"
+      ],
+      "q3": [
+        "b",
+        "next to = ຢູ່ຂ້າງ (opposite = ກົງກັນຂ້າມ)"
+      ],
+      "q4": [
+        "b",
+        "go straight on (ສະກົດ straight)"
+      ],
+      "q5": [
+        "d",
+        "ຕອບວ່າບໍ່ໄກ ພ້ອມບອກເວລາ"
+      ]
+    },
+    "p04": {
+      "q1": [
+        "b",
+        "ລາຄາ ໃຊ້ How much, 1 ອັນ ໃຊ້ is"
+      ],
+      "q2": [
+        "c",
+        "I'd like ..., please. ສຸພາບທີ່ສຸດ"
+      ],
+      "q3": [
+        "a",
+        "pay by card / pay in cash"
+      ],
+      "q4": [
+        "d",
+        "shoes ຫຼາຍ → are"
+      ],
+      "q5": [
+        "a",
+        "ຮັບເຄື່ອງແລ້ວຕອບ Thank you."
+      ]
+    }
+  }
+}

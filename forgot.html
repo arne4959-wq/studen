@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="lo" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.forgot"></title>
+  <script>try{var d=document.documentElement,s=localStorage;if(s.getItem("hianngai:theme")==="light")d.dataset.theme="light";d.lang=s.getItem("hianngai:lang")||"lo"}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Lao:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/pages/forgot.js"></script>
+</head>
+<body>
+  <div class="auth">
+    <div class="auth__term">
+      <p><span class="term-prompt" aria-hidden="true">~/</span><span data-i18n="app.name"></span><span class="term-cursor" aria-hidden="true">_</span></p>
+      <p class="term-extra"><span class="term-prompt" aria-hidden="true">$</span> <span data-i18n="auth.term.start"></span></p>
+      <p class="term-extra"><span class="term-ok" aria-hidden="true">✓</span> <span data-i18n="auth.term.loading"></span></p>
+      <p class="term-extra"><span class="term-ok" aria-hidden="true">✓</span> <span data-i18n="auth.term.subjects"></span></p>
+      <p class="term-extra"><span class="term-wait" aria-hidden="true">●</span> <span data-i18n="auth.term.waiting"></span></p>
+      <p class="term-extra term-out" data-i18n="app.tagline"></p>
+    </div>
+    <main id="main" class="auth__main" tabindex="-1">
+      <div class="page-head">
+        <h1 data-i18n="auth.forgot.title"></h1>
+        <p class="eyebrow" data-i18n="auth.forgot.lead"></p>
+      </div>
+      <form class="auth__form" id="forgot-form" novalidate>
+        <div class="field">
+          <label class="field__label" for="email" data-i18n="auth.email"></label>
+          <input class="input" id="email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required aria-describedby="email-error">
+          <p class="field__error" id="email-error" hidden></p>
+        </div>
+        <button class="btn btn--primary btn--block" type="submit"><span class="btn__prompt" aria-hidden="true">$</span><span class="btn__label" data-i18n="auth.forgot.submit"></span></button>
+      </form>
+      <div id="form-msg" aria-live="polite"></div>
+      <div class="sent" id="sent" hidden>
+        <p class="sent__title" id="sent-title" tabindex="-1"><span aria-hidden="true">✓ </span><span data-i18n="auth.forgot.sent"></span></p>
+        <p id="sent-detail" data-i18n="auth.forgot.sentDetail"></p>
+        <button class="btn btn--secondary btn--block" type="button" id="resend"><span class="btn__prompt" aria-hidden="true">$</span><span class="btn__label" data-i18n="auth.forgot.resend"></span></button>
+      </div>
+      <p class="auth__links">
+        <a href="login.html" data-i18n="auth.forgot.back"></a>
+      </p>
+    </main>
+  </div>
+</body>
+</html>

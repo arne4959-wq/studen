@@ -1,0 +1,312 @@
+{
+  "app": {
+    "name": "ຮຽນງ່າຍ",
+    "tagline": "// your scores and progress, saved"
+  },
+  "title": {
+    "index": "ຮຽນງ່າຍ",
+    "login": "Log in · ຮຽນງ່າຍ",
+    "register": "Sign up · ຮຽນງ່າຍ",
+    "forgot": "Forgot password · ຮຽນງ່າຍ",
+    "subjects": "Subjects · ຮຽນງ່າຍ",
+    "summary": "Lesson summary · ຮຽນງ່າຍ",
+    "lesson": "{title} · ຮຽນງ່າຍ",
+    "quiz": "Quiz · ຮຽນງ່າຍ",
+    "score": "Score · ຮຽນງ່າຍ",
+    "review": "Answers · ຮຽນງ່າຍ",
+    "stats": "Stats · ຮຽນງ່າຍ",
+    "profile": "Profile · ຮຽນງ່າຍ",
+    "language": "Language · ຮຽນງ່າຍ",
+    "password": "Change password · ຮຽນງ່າຍ",
+    "notFound": "404 · ຮຽນງ່າຍ",
+    "styleguide": "Styleguide · ຮຽນງ່າຍ"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "mainNav": "Main menu"
+  },
+  "nav": {
+    "subjects": "subjects",
+    "stats": "stats",
+    "profile": "profile",
+    "explorer": "EXPLORER"
+  },
+  "theme": {
+    "dark": "Dark mode"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "retry": "Try again",
+    "toSubjects": "Back to subjects",
+    "backProfile": "Back to profile"
+  },
+  "state": {
+    "loading": "Loading…",
+    "errorTitle": "ERROR",
+    "errorCode": "{status} {code}",
+    "emptyTitle": "Nothing here",
+    "emptyMessage": "There is no data to show yet.",
+    "loadFailed": "Couldn't load the data"
+  },
+  "errors": {
+    "invalid_credentials": "Email or password is incorrect.",
+    "email_taken": "This email is already registered.",
+    "wrong_password": "Current password is incorrect.",
+    "server_error": "The server had a problem. Please try again.",
+    "network_error": "Can't connect. Check your internet and try again.",
+    "not_found": "We couldn't find that.",
+    "unauthorized": "Your session expired. Please log in again.",
+    "validation_error": "Some data is invalid. Check it and try again.",
+    "unknown": "Something unexpected went wrong."
+  },
+  "validation": {
+    "emailRequired": "Enter your email.",
+    "email": "Use an email like name@example.com",
+    "passwordRequired": "Enter your password.",
+    "passwordMin": "Password must be at least 8 characters.",
+    "username": "Username must be at least 2 characters.",
+    "confirmRequired": "Confirm your password.",
+    "mismatch": "The passwords don't match.",
+    "currentRequired": "Enter your current password."
+  },
+  "auth": {
+    "prompt": "~/hianngai $",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters",
+    "username": "Username",
+    "confirm": "Confirm password",
+    "term": {
+      "start": "./ຮຽນງ່າຍ --start",
+      "loading": "loading lessons",
+      "subjects": "subjects: grammar, vocabulary, phrases",
+      "waiting": "waiting for login"
+    },
+    "login": {
+      "title": "Log in",
+      "lead": "Welcome back! Enter your email and password.",
+      "submit": "Log in",
+      "forgot": "Forgot password?",
+      "register": "No account? Sign up",
+      "mockHint": "Mock mode: user@example.com + any password of 8+ characters",
+      "checkPassword": "Check your password and try again"
+    },
+    "register": {
+      "title": "Sign up",
+      "lead": "Create an account to start learning.",
+      "submit": "Sign up",
+      "haveAccount": "Have an account? Log in",
+      "checkFields": "Check the fields marked in red ({n})"
+    },
+    "forgot": {
+      "title": "Forgot password",
+      "lead": "Enter the email you signed up with and we'll send a link.",
+      "submit": "Send link",
+      "sent": "Link sent",
+      "sentDetail": "Check your email and open the link to set a new password. If you can't see it, look in the spam folder.",
+      "resend": "Send again",
+      "resent": "✓ Link sent again",
+      "back": "← Back to log in"
+    }
+  },
+  "index": {
+    "booting": "Starting…"
+  },
+  "status": {
+    "done": "done",
+    "running": "running",
+    "todo": "todo"
+  },
+  "subjects": {
+    "eyebrow": "$ ls ~/subjects",
+    "title": "Subjects",
+    "cardsHeading": "Choose a subject",
+    "lessonsOf": "Lessons · {name}",
+    "progress": "{done}/{total} lessons",
+    "score": "{score}/{total}",
+    "level": "Level {n}",
+    "lessonNo": "Lesson {n}",
+    "continue": "Continue",
+    "startHere": "Start here",
+    "continueGo": "Open lesson",
+    "allDone": "You have finished every lesson in this subject — great job!",
+    "noLessons": "This subject has no lessons yet.",
+    "empty": "No subjects yet."
+  },
+  "summary": {
+    "back": "Back to subjects",
+    "readTime": "{n} min read",
+    "bookRef": "English File · Unit {unit}",
+    "keyPoints": "// key points",
+    "example": "// example",
+    "tableCaption": "Comparison table",
+    "from": "Base form",
+    "to": "Becomes",
+    "runQuiz": "Start quiz",
+    "empty": "This lesson has no summary yet.",
+    "missing": "No lesson selected. Pick one from the subjects page.",
+    "ready": "// Ready? Check what you learned with the quiz",
+    "photos": "// the real thing",
+    "examples": "// picture it",
+    "tryIt": "// try it yourself",
+    "tryHint": "Think of your answer first, then tap to check",
+    "showAnswer": "Show answer",
+    "idea": "// your own idea"
+  },
+  "quiz": {
+    "exit": "Exit",
+    "progress": "Q {i}/{n}",
+    "progressSr": "Question {i} of {n}: ",
+    "prev": "Previous",
+    "next": "Next",
+    "submit": "Submit",
+    "shortcutHint": "Shortcuts: 1–4 or A–D to choose, Enter for next",
+    "chooseFirst": "Choose an answer before moving on.",
+    "retryHint": "Your answers are kept. Press “Submit” to send again.",
+    "restored": "↺ Restored your saved answers",
+    "exitTitle": "Leave the quiz?",
+    "exitMessage": "Your selected answers will be lost and you'll start over.",
+    "exitConfirm": "Leave",
+    "empty": "This lesson has no quiz yet.",
+    "missing": "No lesson selected.",
+    "backToLesson": "← Back to lesson",
+    "pickHint": "// choose the correct answer"
+  },
+  "score": {
+    "eyebrow": "~/results",
+    "title": "Test results",
+    "command": "npm test -- {lesson}",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "questionName": "{n}. {text}",
+    "expected": "Correct answer",
+    "received": "Your answer",
+    "tests": "Summary:",
+    "passed": "{n} correct",
+    "failed": "{n} wrong",
+    "totalCount": "{n} total",
+    "summary": "{score} of {total} correct",
+    "toReview": "See answers",
+    "toStats": "See stats",
+    "next": "Next lesson",
+    "empty": "No quiz result found. Take a quiz first.",
+    "total": "// total"
+  },
+  "review": {
+    "eyebrow": "$ git diff --answers",
+    "title": "Answers",
+    "filter": "Filter questions",
+    "filterAll": "All ({n})",
+    "filterWrong": "Wrong ({n})",
+    "question": "{n}. {text}",
+    "yours": "yours",
+    "correct": "correct",
+    "yoursCorrect": "yours · correct",
+    "noAnswer": "(no answer)",
+    "reason": "// why",
+    "noWrong": "No wrong answers — great job!",
+    "retry": "Retake quiz",
+    "toScore": "Back to your score",
+    "toLesson": "Review this lesson",
+    "empty": "No saved answers for this lesson on this device. Take the quiz again."
+  },
+  "stats": {
+    "eyebrow": "$ git log --stat",
+    "title": "Stats",
+    "lessons": "Lessons done",
+    "avgScore": "Average score",
+    "quizzes": "Quizzes taken",
+    "activity": "Activity · 4 weeks",
+    "heatSummary": "Last 4 weeks: {total} activities on {days} days",
+    "cellTitle": "{date}: {count} activities",
+    "less": "less",
+    "more": "more",
+    "today": "today",
+    "recent": "Recent scores",
+    "logScore": "{score}/{total}",
+    "noRecent": "No scores yet.",
+    "empty": "No stats yet. Start your first lesson!",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "profile": {
+    "eyebrow": "$ whoami",
+    "title": "Profile",
+    "account": "Account",
+    "settings": "Settings",
+    "language": "Language",
+    "changePassword": "Change password",
+    "logout": "Log out",
+    "logoutTitle": "Log out?",
+    "logoutMessage": "You'll need to log in again to keep learning.",
+    "logoutConfirm": "Log out"
+  },
+  "lang": {
+    "lo": "ລາວ",
+    "th": "ไทย",
+    "en": "English"
+  },
+  "language": {
+    "eyebrow": "$ locale",
+    "title": "Language",
+    "hint": "Takes effect immediately — nothing to save.",
+    "changed": "Language changed"
+  },
+  "password": {
+    "eyebrow": "$ passwd",
+    "title": "Change password",
+    "current": "Current password",
+    "next": "New password",
+    "confirm": "Confirm new password",
+    "submit": "Save",
+    "changed": "Password changed"
+  },
+  "notFound": {
+    "command": "cd {path}",
+    "line": "bash: cd: {path}: No such file or directory",
+    "message": "We couldn't find that page. The link may be wrong or the page has moved.",
+    "home": "Go home",
+    "detail": "The link may be wrong or the page was removed."
+  },
+  "styleguide": {
+    "eyebrow": "~/styleguide",
+    "title": "Styleguide",
+    "description": "Every component, state, theme and language on one page — use it to check before shipping.",
+    "language": "Language",
+    "colors": "Colors (tokens.css)",
+    "colorsHint": "Toggle the theme to compare dark and light values.",
+    "typography": "Typography",
+    "bodyFont": "Noto Sans Lao · body text",
+    "bodySample": "ສະບາຍດີ! ມື້ນີ້ມາຮຽນ Past Simple ກັນ.",
+    "thaiFont": "Noto Sans Thai · Thai labels",
+    "thaiSample": "สวัสดี! วันนี้มาเรียนกัน",
+    "monoFont": "JetBrains Mono · code, labels, numbers",
+    "monoSample": "$ npm test -- past_simple  ✓ 4 passed  0123456789",
+    "buttons": "Buttons",
+    "forms": "Forms and messages",
+    "states": "States: loading / error / empty",
+    "loading": "loading",
+    "error": "error",
+    "empty": "empty",
+    "subjects": "Subjects and lessons",
+    "lesson": "Lesson summary",
+    "quiz": "Quiz choices",
+    "result": "Results and answers",
+    "stats": "Stats and profile",
+    "overlays": "Toast and confirm dialogs",
+    "showToast": "toast",
+    "showConfirm": "confirm",
+    "showDanger": "confirm --danger",
+    "retried": "↻ retry pressed",
+    "confirmed": "✓ Confirmed",
+    "cancelled": "✗ Cancelled"
+  }
+}

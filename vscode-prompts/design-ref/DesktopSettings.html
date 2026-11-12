@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="lo">
+<head>
+<meta charset="utf-8">
+<title>ການຕັ້ງຄ່າ ຈໍຄອມ</title>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0} a{text-decoration:none;color:inherit} button{font-family:inherit} input::placeholder{color:#8B949E} input:focus{outline:2px solid #3FB950;outline-offset:1px}</style>
+</helmet>
+<div style="min-height:880px;box-sizing:border-box;background:#0D1117;font-family:'Noto Sans Lao','Noto Sans Thai',system-ui,sans-serif;color:#E6EDF3;display:flex;flex-wrap:wrap;align-items:stretch">
+
+  <div style="flex:1 1 240px;max-width:260px;min-width:200px;background:#161B22;border-right:1px solid #30363D;padding:20px 12px;display:flex;flex-direction:column;gap:20px;box-sizing:border-box;font-family:'JetBrains Mono','Noto Sans Lao',monospace">
+    <div style="font-size:16px;font-weight:700;padding:0 8px"><span style="color:#3FB950">~/</span>ຮຽນງ່າຍ<span style="color:#3FB950">_</span></div>
+    <div style="display:flex;flex-direction:column;gap:4px;font-size:14px">
+      <div style="font-size:11px;color:#8B949E;padding:0 8px 4px;letter-spacing:.08em">EXPLORER</div>
+      <a href="DesktopHome.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;color:#8B949E;display:flex;align-items:center;padding:0 10px">subjects/</a>
+      <a href="DesktopDash.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;color:#8B949E;display:flex;align-items:center;padding:0 10px">stats/</a>
+      <a href="DesktopProfile.dc.html" style="min-height:44px;box-sizing:border-box;border-radius:6px;background:#0F2A1A;color:#3FB950;font-weight:700;display:flex;align-items:center;padding:0 10px">&gt; profile/</a>
+    </div>
+  </div>
+
+  <div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column">
+    <div style="height:44px;background:#161B22;border-bottom:1px solid #30363D;display:flex;align-items:flex-end;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px">
+      <div style="height:44px;display:flex;align-items:center;padding:0 20px;background:#0D1117;border-top:2px solid #3FB950;border-right:1px solid #30363D">settings.json</div>
+    <span style="flex-grow:1"></span><div style="align-self:center;padding-right:16px"><a href="LightDesktopSettings.dc.html" aria-label="ສະຫຼັບເປັນໂໝດສະຫວ່າງ" style="width:56px;height:44px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span style="position:relative;display:block;width:52px;height:30px;border-radius:15px;background:#21262D;border:1px solid #30363D;box-sizing:border-box"><span style="position:absolute;top:2px;left:2px;background:#E6EDF3;width:24px;height:24px;border-radius:12px;display:flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D1117" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span></span></a></div></div>
+
+    <div style="box-sizing:border-box;padding:32px 48px;display:flex;flex-direction:column;gap:24px">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="DesktopProfile.dc.html" style="min-height:44px;display:flex;align-items:center;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;color:#79C0FF;align-self:flex-start">← ../profile</a>
+        <h1 style="margin:0;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:28px;font-weight:700"><span style="color:#3FB950">$</span> settings</h1>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start;max-width:980px">
+
+        <div style="flex:1 1 320px;min-width:0;background:#161B22;border:1px solid #30363D;border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box">
+          <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// ພາສາ · ມີຜົນທັນທີ</div>
+          <sc-for list="{{langs}}" as="l" hint-placeholder-count="3">
+            <sc-if value="{{l.isSel}}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ l.pick }}" aria-pressed="true" style="width:100%;min-height:56px;box-sizing:border-box;border-radius:10px;background:#0F2A1A;border:2px solid #3FB950;padding:0 16px;display:flex;align-items:center;gap:12px;font-size:17px;font-weight:700;color:#3FB950;text-align:left;cursor:pointer"><span style="font-family:'JetBrains Mono','Noto Sans Lao',monospace">[x]</span><span style="flex-grow:1">{{l.name}}</span><span style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E;font-weight:400">{{l.code}}</span></button>
+            </sc-if>
+            <sc-if value="{{l.notSel}}" hint-placeholder-val="{{ true }}">
+              <button onClick="{{ l.pick }}" aria-pressed="false" style="width:100%;min-height:56px;box-sizing:border-box;border-radius:10px;background:#0D1117;border:1px solid #30363D;padding:0 16px;display:flex;align-items:center;gap:12px;font-size:17px;color:#E6EDF3;text-align:left;cursor:pointer"><span style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;color:#8B949E">[ ]</span><span style="flex-grow:1">{{l.name}}</span><span style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">{{l.code}}</span></button>
+            </sc-if>
+          </sc-for>
+        </div>
+
+        <div style="flex:1 1 320px;min-width:0;background:#161B22;border:1px solid #30363D;border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box">
+          <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// ປ່ຽນລະຫັດຜ່ານ</div>
+          <sc-if value="{{saved}}" hint-placeholder-val="{{ false }}">
+            <div role="status" style="background:#0F2A1A;border:1px solid #3FB950;border-radius:10px;padding:12px 16px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;color:#3FB950">✓ ປ່ຽນລະຫັດຜ່ານແລ້ວ</div>
+          </sc-if>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ລະຫັດຜ່ານປັດຈຸບັນ</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#0D1117;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ລະຫັດຜ່ານໃໝ່</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#0D1117;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ຢືນຢັນລະຫັດຜ່ານໃໝ່</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#0D1117;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <button onClick="{{ save }}" style="align-self:flex-start;height:48px;padding:0 28px;border:0;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;cursor:pointer">$ save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":880}}'>
+class Component extends DCLogic {
+  state = { sel: 0, saved: false };
+  renderVals() {
+    const L = [['ລາວ', 'lo'], ['ไทย', 'th'], ['English', 'en']];
+    return {
+      langs: L.map(([name, code], k) => ({
+        name, code,
+        isSel: this.state.sel === k,
+        notSel: this.state.sel !== k,
+        pick: () => this.setState({ sel: k })
+      })),
+      saved: this.state.saved,
+      save: () => this.setState({ saved: true })
+    };
+  }
+}
+</script>
+</body>
+</html>

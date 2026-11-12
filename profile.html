@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="lo" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.profile"></title>
+  <script>try{var d=document.documentElement,s=localStorage;if(s.getItem("hianngai:theme")==="light")d.dataset.theme="light";d.lang=s.getItem("hianngai:lang")||"lo"}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Lao:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/pages/profile.js"></script>
+</head>
+<body>
+  <main id="main" class="page page--narrow" tabindex="-1">
+    <div class="page-head">
+      <p class="eyebrow" data-i18n="profile.eyebrow"></p>
+      <h1 data-i18n="profile.title"></h1>
+    </div>
+    <section class="profile" aria-labelledby="profile-h">
+      <h2 class="sr-only" id="profile-h" data-i18n="profile.account"></h2>
+      <div id="profile"></div>
+    </section>
+    <section class="section" aria-labelledby="settings-h">
+      <h2 id="settings-h" data-i18n="profile.settings"></h2>
+      <ul class="settings" role="list">
+        <li><a class="setting" href="language.html"><span data-i18n="profile.language"></span><span class="setting__value" id="lang-value"></span></a></li>
+        <li class="setting"><span id="theme-label" data-i18n="theme.dark"></span><span id="theme-slot"></span></li>
+        <li><a class="setting" href="change-password.html"><span data-i18n="profile.changePassword"></span><span class="setting__value"></span></a></li>
+      </ul>
+    </section>
+    <div class="section">
+      <button class="btn btn--danger-outline btn--block" type="button" id="logout"><span class="btn__prompt" aria-hidden="true">$</span><span class="btn__label" data-i18n="profile.logout"></span></button>
+    </div>
+  </main>
+</body>
+</html>

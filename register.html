@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="lo" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.register"></title>
+  <script>try{var d=document.documentElement,s=localStorage;if(s.getItem("hianngai:theme")==="light")d.dataset.theme="light";d.lang=s.getItem("hianngai:lang")||"lo"}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Lao:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/pages/register.js"></script>
+</head>
+<body>
+  <div class="auth">
+    <div class="auth__term">
+      <p><span class="term-prompt" aria-hidden="true">~/</span><span data-i18n="app.name"></span><span class="term-cursor" aria-hidden="true">_</span></p>
+      <p class="term-extra"><span class="term-prompt" aria-hidden="true">$</span> <span data-i18n="auth.term.start"></span></p>
+      <p class="term-extra"><span class="term-ok" aria-hidden="true">✓</span> <span data-i18n="auth.term.loading"></span></p>
+      <p class="term-extra"><span class="term-ok" aria-hidden="true">✓</span> <span data-i18n="auth.term.subjects"></span></p>
+      <p class="term-extra"><span class="term-wait" aria-hidden="true">●</span> <span data-i18n="auth.term.waiting"></span></p>
+      <p class="term-extra term-out" data-i18n="app.tagline"></p>
+    </div>
+    <main id="main" class="auth__main" tabindex="-1">
+      <div class="page-head">
+        <h1 data-i18n="auth.register.title"></h1>
+        <p class="eyebrow" data-i18n="auth.register.lead"></p>
+      </div>
+      <form class="auth__form" id="register-form" novalidate>
+        <div id="form-msg" aria-live="polite"></div>
+        <div class="field">
+          <label class="field__label" for="username" data-i18n="auth.username"></label>
+          <input class="input" id="username" name="username" type="text" autocomplete="username" spellcheck="false" required aria-describedby="username-error">
+          <p class="field__error" id="username-error" hidden></p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="email" data-i18n="auth.email"></label>
+          <input class="input" id="email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required aria-describedby="email-error">
+          <p class="field__error" id="email-error" hidden></p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="password" data-i18n="auth.password"></label>
+          <input class="input" id="password" name="password" type="password" autocomplete="new-password" minlength="8" required aria-describedby="password-hint password-error">
+          <p class="field__hint" id="password-hint" data-i18n="auth.passwordHint"></p>
+          <p class="field__error" id="password-error" hidden></p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="confirm" data-i18n="auth.confirm"></label>
+          <input class="input" id="confirm" name="confirm" type="password" autocomplete="new-password" required aria-describedby="confirm-error">
+          <p class="field__error" id="confirm-error" hidden></p>
+        </div>
+        <button class="btn btn--primary btn--block" type="submit"><span class="btn__prompt" aria-hidden="true">$</span><span class="btn__label" data-i18n="auth.register.submit"></span></button>
+      </form>
+      <p class="auth__links">
+        <a href="login.html" data-i18n="auth.register.haveAccount"></a>
+      </p>
+    </main>
+  </div>
+</body>
+</html>

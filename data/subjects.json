@@ -1,0 +1,20 @@
+[
+  {
+    "id": "english",
+    "name": "ພາສາອັງກິດ",
+    "lessonCount": 11,
+    "doneCount": 0
+  },
+  {
+    "id": "math",
+    "name": "ຄະນິດສາດ",
+    "lessonCount": 5,
+    "doneCount": 0
+  },
+  {
+    "id": "repair",
+    "name": "ສ້ອມແປງຄອມພິວເຕີ",
+    "lessonCount": 11,
+    "doneCount": 0
+  }
+]

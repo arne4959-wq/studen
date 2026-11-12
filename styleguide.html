@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="lo" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.styleguide"></title>
+  <script>try{var d=document.documentElement,s=localStorage;if(s.getItem("hianngai:theme")==="light")d.dataset.theme="light";d.lang=s.getItem("hianngai:lang")||"lo"}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Lao:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/pages/styleguide.js"></script>
+</head>
+<body>
+  <main id="main" class="page" tabindex="-1">
+    <div class="page-head">
+      <p class="eyebrow" data-i18n="styleguide.eyebrow"></p>
+      <h1 data-i18n="styleguide.title"></h1>
+      <p data-i18n="styleguide.description"></p>
+    </div>
+
+    <div class="card sg-controls">
+      <div class="field">
+        <label class="field__label" for="sg-lang" data-i18n="styleguide.language"></label>
+        <select class="input" id="sg-lang">
+          <option value="lo" lang="lo" data-i18n="lang.lo"></option>
+          <option value="th" lang="th" data-i18n="lang.th"></option>
+          <option value="en" lang="en" data-i18n="lang.en"></option>
+        </select>
+      </div>
+      <div class="field">
+        <span class="field__label" id="sg-theme-label" data-i18n="theme.dark"></span>
+        <span id="sg-theme"></span>
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="sg-colors">
+      <h2 id="sg-colors" data-i18n="styleguide.colors"></h2>
+      <p class="field__hint" data-i18n="styleguide.colorsHint"></p>
+      <ul class="swatches" id="sg-swatches" role="list"></ul>
+    </section>
+
+    <section class="section" aria-labelledby="sg-type">
+      <h2 id="sg-type" data-i18n="styleguide.typography"></h2>
+      <div class="card sg-stack">
+        <p class="eyebrow" data-i18n="styleguide.bodyFont"></p>
+        <p class="sg-body" data-i18n="styleguide.bodySample"></p>
+        <p class="eyebrow" data-i18n="styleguide.thaiFont"></p>
+        <p class="sg-body" lang="th" data-i18n="styleguide.thaiSample"></p>
+        <p class="eyebrow" data-i18n="styleguide.monoFont"></p>
+        <p class="mono" data-i18n="styleguide.monoSample"></p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-buttons">
+      <h2 id="sg-buttons" data-i18n="styleguide.buttons"></h2>
+      <div class="actions" id="sg-button-row"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-forms">
+      <h2 id="sg-forms" data-i18n="styleguide.forms"></h2>
+      <form class="card auth__form" novalidate id="sg-form">
+        <div class="field">
+          <label class="field__label" for="sg-email" data-i18n="auth.email"></label>
+          <input class="input" id="sg-email" type="email" autocomplete="off" aria-describedby="sg-email-error">
+          <p class="field__error" id="sg-email-error" hidden></p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="sg-password" data-i18n="auth.password"></label>
+          <input class="input" id="sg-password" type="password" autocomplete="off" aria-describedby="sg-password-hint sg-password-error">
+          <p class="field__hint" id="sg-password-hint" data-i18n="auth.passwordHint"></p>
+          <p class="field__error" id="sg-password-error" hidden></p>
+        </div>
+        <div id="sg-msg-error" aria-live="polite"></div>
+        <div id="sg-msg-ok" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="section" aria-labelledby="sg-states">
+      <h2 id="sg-states" data-i18n="styleguide.states"></h2>
+      <div class="sg-grid">
+        <div><p class="eyebrow" data-i18n="styleguide.loading"></p><div id="sg-loading"></div></div>
+        <div><p class="eyebrow" data-i18n="styleguide.error"></p><div id="sg-error"></div></div>
+        <div><p class="eyebrow" data-i18n="styleguide.empty"></p><div id="sg-empty"></div></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-subjects">
+      <h2 id="sg-subjects" data-i18n="styleguide.subjects"></h2>
+      <div id="sg-cards"></div>
+      <div id="sg-files"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-lesson">
+      <h2 id="sg-lesson" data-i18n="styleguide.lesson"></h2>
+      <div class="sg-stack" id="sg-summary"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-quiz">
+      <h2 id="sg-quiz" data-i18n="styleguide.quiz"></h2>
+      <div class="sg-stack" id="sg-choices"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-result">
+      <h2 id="sg-result" data-i18n="styleguide.result"></h2>
+      <div class="sg-stack" id="sg-review"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-stats">
+      <h2 id="sg-stats" data-i18n="styleguide.stats"></h2>
+      <div class="sg-stack" id="sg-dashboard"></div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-overlays">
+      <h2 id="sg-overlays" data-i18n="styleguide.overlays"></h2>
+      <div class="actions" id="sg-overlay-row"></div>
+    </section>
+  </main>
+</body>
+</html>

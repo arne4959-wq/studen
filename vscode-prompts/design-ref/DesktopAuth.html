@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="lo">
+<head>
+<meta charset="utf-8">
+<title>Login / ສະໝັກສະມາຊິກ ຈໍຄອມ</title>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0} a{text-decoration:none;color:inherit} button{font-family:inherit} input::placeholder{color:#8B949E} input:focus{outline:2px solid #3FB950;outline-offset:1px}</style>
+</helmet>
+<div style="position:relative;min-height:880px;box-sizing:border-box;background:#0D1117;font-family:'Noto Sans Lao',system-ui,sans-serif;color:#E6EDF3;display:flex;flex-wrap:wrap;align-items:stretch"><div style="position:absolute;top:8px;right:12px;z-index:2"><a href="LightDesktopAuth.dc.html" aria-label="ສະຫຼັບເປັນໂໝດສະຫວ່າງ" style="width:56px;height:44px;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span style="position:relative;display:block;width:52px;height:30px;border-radius:15px;background:#21262D;border:1px solid #30363D;box-sizing:border-box"><span style="position:absolute;top:2px;left:2px;background:#E6EDF3;width:24px;height:24px;border-radius:12px;display:flex;align-items:center;justify-content:center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D1117" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span></span></a></div>
+
+  <div style="flex:1 1 420px;min-width:0;background:#161B22;border-right:1px solid #30363D;padding:48px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;gap:40px">
+    <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:20px;font-weight:700"><span style="color:#3FB950">~/</span>ຮຽນງ່າຍ<span style="color:#3FB950">_</span></div>
+    <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:18px;line-height:2;color:#E6EDF3">
+      <div style="color:#8B949E">$ ./ຮຽນງ່າຍ --start</div>
+      <div><span style="color:#3FB950">✓</span> ກຳລັງໂຫຼດບົດຮຽນ</div>
+      <div><span style="color:#3FB950">✓</span> ວິຊາ: <span style="color:#79C0FF">ໄວຍະກອນ</span>, <span style="color:#79C0FF">ຄຳສັບ</span>, <span style="color:#79C0FF">ການອ່ານ</span></div>
+      <div><span style="color:#E3B341">●</span> ລໍຖ້າການເຂົ້າສູ່ລະບົບ<span style="color:#3FB950">_</span></div>
+    </div>
+    <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// ບັນທຶກຄະແນນ ແລະ ຄວາມຄືບໜ້າຂອງທ່ານ</div>
+  </div>
+
+  <div style="flex:1 1 460px;min-width:0;padding:48px;box-sizing:border-box;display:flex;align-items:center;justify-content:center">
+    <div style="width:100%;max-width:420px;display:flex;flex-direction:column;gap:22px">
+
+      <sc-if value="{{showTabs}}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;border:1px solid #30363D;border-radius:8px;overflow:hidden;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px">
+          <sc-if value="{{isLogin}}" hint-placeholder-val="{{ true }}">
+            <button onClick="{{ goLogin }}" aria-pressed="true" style="flex:1;height:48px;border:0;background:#0F2A1A;color:#3FB950;font-weight:700;font-size:14px;cursor:pointer;border-bottom:2px solid #3FB950">login</button>
+            <button onClick="{{ goReg }}" aria-pressed="false" style="flex:1;height:48px;border:0;background:#161B22;color:#8B949E;font-size:14px;cursor:pointer;border-bottom:2px solid transparent">register</button>
+          </sc-if>
+          <sc-if value="{{isReg}}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ goLogin }}" aria-pressed="false" style="flex:1;height:48px;border:0;background:#161B22;color:#8B949E;font-size:14px;cursor:pointer;border-bottom:2px solid transparent">login</button>
+            <button onClick="{{ goReg }}" aria-pressed="true" style="flex:1;height:48px;border:0;background:#0F2A1A;color:#3FB950;font-weight:700;font-size:14px;cursor:pointer;border-bottom:2px solid #3FB950">register</button>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{isLogin}}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;flex-direction:column;gap:18px">
+          <h1 style="margin:0;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:28px;font-weight:700"><span style="color:#3FB950">$</span> login</h1>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ອີເມວ</span>
+            <input type="email" placeholder="user@example.com" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ລະຫັດຜ່ານ</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <a href="DesktopHome.dc.html" style="height:52px;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center">$ login</a>
+          <button onClick="{{ goForgot }}" style="align-self:flex-start;min-height:44px;border:0;background:transparent;color:#79C0FF;font-size:14px;padding:0;cursor:pointer">ລືມລະຫັດຜ່ານ?</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{isReg}}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <h1 style="margin:0;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:28px;font-weight:700"><span style="color:#3FB950">$</span> register</h1>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ຊື່ຜູ້ໃຊ້</span>
+            <input type="text" placeholder="username" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ອີເມວ</span>
+            <input type="email" placeholder="user@example.com" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ລະຫັດຜ່ານ</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px">
+            <span style="font-size:12px">// ຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ</span></label>
+          <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ຢືນຢັນລະຫັດຜ່ານ</span>
+            <input type="password" placeholder="••••••••" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+          <a href="DesktopHome.dc.html" style="height:52px;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center">$ register</a>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{isForgot}}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:18px">
+          <h1 style="margin:0;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:28px;font-weight:700"><span style="color:#3FB950">$</span> reset-password</h1>
+          <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// ເຮົາຈະສົ່ງລິ້ງຕັ້ງລະຫັດຜ່ານໃໝ່ໃຫ້ທາງອີເມວ</div>
+          <sc-if value="{{notSent}}" hint-placeholder-val="{{ true }}">
+            <label style="display:flex;flex-direction:column;gap:6px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E"><span><span style="color:#D2A8FF">const</span> ອີເມວ</span>
+              <input type="email" placeholder="user@example.com" style="height:48px;box-sizing:border-box;border-radius:8px;border:1px solid #30363D;background:#161B22;color:#E6EDF3;padding:0 14px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px"></label>
+            <button onClick="{{ send }}" style="height:52px;border:0;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;cursor:pointer">$ send-link</button>
+          </sc-if>
+          <sc-if value="{{sent}}" hint-placeholder-val="{{ false }}">
+            <div role="status" style="background:#0F2A1A;border:1px solid #3FB950;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px">
+              <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:15px;font-weight:700;color:#3FB950">✓ ສົ່ງລິ້ງແລ້ວ</div>
+              <div style="font-size:15px;line-height:1.7">ກວດອີເມວຂອງທ່ານ ແລ້ວກົດລິ້ງເພື່ອຕັ້ງລະຫັດຜ່ານໃໝ່</div>
+            </div>
+          </sc-if>
+          <button onClick="{{ goLogin }}" style="height:48px;box-sizing:border-box;border-radius:8px;border:1.5px solid #3FB950;background:transparent;color:#3FB950;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;font-weight:700;cursor:pointer">cd ../login</button>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":880}}'>
+class Component extends DCLogic {
+  state = { tab: 'login', sent: false };
+  renderVals() {
+    const t = this.state.tab;
+    return {
+      isLogin: t === 'login',
+      isReg: t === 'reg',
+      isForgot: t === 'forgot',
+      showTabs: t !== 'forgot',
+      sent: this.state.sent,
+      notSent: !this.state.sent,
+      goLogin: () => this.setState({ tab: 'login', sent: false }),
+      goReg: () => this.setState({ tab: 'reg' }),
+      goForgot: () => this.setState({ tab: 'forgot', sent: false }),
+      send: () => this.setState({ sent: true })
+    };
+  }
+}
+</script>
+</body>
+</html>

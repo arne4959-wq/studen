@@ -1,0 +1,8 @@
+.test-page { max-width: 64rem; margin: 0 auto; padding: var(--space-5) var(--space-4); }
+.test-page h1 { font-family: var(--font-mono); }
+#summary { margin-block: var(--space-4); font-family: var(--font-mono); font-weight: 700; }
+html[data-result="pass"] #summary { color: var(--green); }
+html[data-result="fail"] #summary { color: var(--red); }
+.test { font-family: var(--font-mono); font-size: var(--text-sm); }
+.frames { position: fixed; top: 0; left: 0; display: flex; gap: var(--space-2); opacity: 0; pointer-events: none; }
+.frames iframe { border: 0; }

@@ -1,0 +1,312 @@
+{
+  "app": {
+    "name": "ຮຽນງ່າຍ",
+    "tagline": "// บันทึกคะแนนและความคืบหน้าของคุณ"
+  },
+  "title": {
+    "index": "ຮຽນງ່າຍ",
+    "login": "เข้าสู่ระบบ · ຮຽນງ່າຍ",
+    "register": "สมัครสมาชิก · ຮຽນງ່າຍ",
+    "forgot": "ลืมรหัสผ่าน · ຮຽນງ່າຍ",
+    "subjects": "วิชา · ຮຽນງ່າຍ",
+    "summary": "สรุปบทเรียน · ຮຽນງ່າຍ",
+    "lesson": "{title} · ຮຽນງ່າຍ",
+    "quiz": "Quiz · ຮຽນງ່າຍ",
+    "score": "คะแนน · ຮຽນງ່າຍ",
+    "review": "เฉลย · ຮຽນງ່າຍ",
+    "stats": "สถิติ · ຮຽນງ່າຍ",
+    "profile": "โปรไฟล์ · ຮຽນງ່າຍ",
+    "language": "ภาษา · ຮຽນງ່າຍ",
+    "password": "เปลี่ยนรหัสผ่าน · ຮຽນງ່າຍ",
+    "notFound": "404 · ຮຽນງ່າຍ",
+    "styleguide": "คู่มือสไตล์ · ຮຽນງ່າຍ"
+  },
+  "a11y": {
+    "skip": "ข้ามไปยังเนื้อหา",
+    "mainNav": "เมนูหลัก"
+  },
+  "nav": {
+    "subjects": "วิชา",
+    "stats": "สถิติ",
+    "profile": "โปรไฟล์",
+    "explorer": "EXPLORER"
+  },
+  "theme": {
+    "dark": "โหมดมืด"
+  },
+  "common": {
+    "cancel": "ยกเลิก",
+    "confirm": "ยืนยัน",
+    "retry": "ลองใหม่",
+    "toSubjects": "กลับไปหน้าวิชา",
+    "backProfile": "กลับไปโปรไฟล์"
+  },
+  "state": {
+    "loading": "กำลังโหลด…",
+    "errorTitle": "ERROR",
+    "errorCode": "{status} {code}",
+    "emptyTitle": "ไม่มีข้อมูล",
+    "emptyMessage": "ยังไม่มีข้อมูลให้แสดง",
+    "loadFailed": "โหลดข้อมูลไม่สำเร็จ"
+  },
+  "errors": {
+    "invalid_credentials": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+    "email_taken": "อีเมลนี้ถูกใช้สมัครแล้ว",
+    "wrong_password": "รหัสผ่านปัจจุบันไม่ถูกต้อง",
+    "server_error": "เซิร์ฟเวอร์มีปัญหา กรุณาลองใหม่อีกครั้ง",
+    "network_error": "เชื่อมต่อไม่ได้ ตรวจสอบอินเทอร์เน็ตแล้วลองใหม่",
+    "not_found": "ไม่พบข้อมูลที่ต้องการ",
+    "unauthorized": "เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่",
+    "validation_error": "ข้อมูลไม่ถูกต้อง ตรวจสอบแล้วลองใหม่",
+    "unknown": "เกิดข้อผิดพลาดที่ไม่คาดคิด"
+  },
+  "validation": {
+    "emailRequired": "กรุณากรอกอีเมล",
+    "email": "รูปแบบอีเมลไม่ถูกต้อง เช่น name@example.com",
+    "passwordRequired": "กรุณากรอกรหัสผ่าน",
+    "passwordMin": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
+    "username": "ชื่อผู้ใช้ต้องมีอย่างน้อย 2 ตัวอักษร",
+    "confirmRequired": "กรุณายืนยันรหัสผ่าน",
+    "mismatch": "รหัสผ่านทั้งสองไม่ตรงกัน",
+    "currentRequired": "กรุณากรอกรหัสผ่านปัจจุบัน"
+  },
+  "auth": {
+    "prompt": "~/hianngai $",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "passwordHint": "อย่างน้อย 8 ตัวอักษร",
+    "username": "ชื่อผู้ใช้",
+    "confirm": "ยืนยันรหัสผ่าน",
+    "term": {
+      "start": "./ຮຽນງ່າຍ --start",
+      "loading": "กำลังโหลดบทเรียน",
+      "subjects": "วิชา: ไวยากรณ์, คำศัพท์, ประโยค",
+      "waiting": "รอการเข้าสู่ระบบ"
+    },
+    "login": {
+      "title": "เข้าสู่ระบบ",
+      "lead": "ยินดีต้อนรับกลับ! กรอกอีเมลและรหัสผ่าน",
+      "submit": "เข้าสู่ระบบ",
+      "forgot": "ลืมรหัสผ่าน?",
+      "register": "ยังไม่มีบัญชี? สมัครสมาชิก",
+      "mockHint": "โหมดทดลอง: user@example.com + รหัสผ่านใดก็ได้ 8 ตัวขึ้นไป",
+      "checkPassword": "ตรวจสอบรหัสผ่านแล้วลองใหม่"
+    },
+    "register": {
+      "title": "สมัครสมาชิก",
+      "lead": "สร้างบัญชีเพื่อเริ่มเรียน",
+      "submit": "สมัครสมาชิก",
+      "haveAccount": "มีบัญชีแล้ว? เข้าสู่ระบบ",
+      "checkFields": "ตรวจสอบข้อมูลที่ทำเครื่องหมายสีแดง {n} จุด"
+    },
+    "forgot": {
+      "title": "ลืมรหัสผ่าน",
+      "lead": "กรอกอีเมลที่ใช้สมัคร แล้วเราจะส่งลิงก์ให้",
+      "submit": "ส่งลิงก์",
+      "sent": "ส่งลิงก์แล้ว",
+      "sentDetail": "ตรวจสอบอีเมลของคุณแล้วกดลิงก์เพื่อตั้งรหัสผ่านใหม่ ถ้าไม่เห็นให้ลองหาในกล่องสแปม",
+      "resend": "ส่งอีกครั้ง",
+      "resent": "✓ ส่งลิงก์อีกครั้งแล้ว",
+      "back": "← กลับไปหน้าเข้าสู่ระบบ"
+    }
+  },
+  "index": {
+    "booting": "กำลังเปิด…"
+  },
+  "status": {
+    "done": "เรียนแล้ว",
+    "running": "กำลังเรียน",
+    "todo": "ยังไม่เรียน"
+  },
+  "subjects": {
+    "eyebrow": "$ ls ~/subjects",
+    "title": "วิชาเรียน",
+    "cardsHeading": "เลือกวิชา",
+    "lessonsOf": "บทเรียน · {name}",
+    "progress": "{done}/{total} บท",
+    "score": "{score}/{total}",
+    "level": "ระดับ {n}",
+    "lessonNo": "บทที่ {n}",
+    "continue": "เรียนต่อ",
+    "startHere": "เริ่มจากบทนี้",
+    "continueGo": "เข้าไปเรียน",
+    "allDone": "คุณเรียนครบทุกบทในวิชานี้แล้ว — เก่งมาก!",
+    "noLessons": "วิชานี้ยังไม่มีบทเรียน",
+    "empty": "ยังไม่มีวิชาให้เรียน"
+  },
+  "summary": {
+    "back": "กลับไปหน้าวิชา",
+    "readTime": "อ่าน {n} นาที",
+    "bookRef": "English File · Unit {unit}",
+    "keyPoints": "// ประเด็นสำคัญ",
+    "example": "// ตัวอย่าง",
+    "tableCaption": "ตารางเปรียบเทียบ",
+    "from": "รูปเดิม",
+    "to": "เปลี่ยนเป็น",
+    "runQuiz": "เริ่มทดสอบ",
+    "empty": "บทนี้ยังไม่มีเนื้อหาสรุป",
+    "missing": "ไม่ได้ระบุบทเรียน กลับไปเลือกบทจากหน้าวิชา",
+    "ready": "// พร้อมหรือยัง? ทดสอบความเข้าใจด้วย Quiz",
+    "photos": "// ของจริงหน้าตาแบบนี้",
+    "examples": "// ลองนึกภาพตาม",
+    "tryIt": "// ลองทำเอง",
+    "tryHint": "คิดคำตอบในใจก่อน แล้วค่อยกดดูคำตอบ",
+    "showAnswer": "ดูคำตอบ",
+    "idea": "// คิดเอง สร้างเอง"
+  },
+  "quiz": {
+    "exit": "ออก",
+    "progress": "ข้อ {i}/{n}",
+    "progressSr": "ข้อ {i} จาก {n}: ",
+    "prev": "ข้อก่อนหน้า",
+    "next": "ข้อต่อไป",
+    "submit": "ส่งคำตอบ",
+    "shortcutHint": "คีย์ลัด: 1–4 หรือ A–D เพื่อเลือกคำตอบ, Enter ไปข้อต่อไป",
+    "chooseFirst": "เลือกคำตอบก่อนจึงไปข้อถัดไปได้",
+    "retryHint": "คำตอบของคุณยังอยู่ กด «ส่งคำตอบ» เพื่อส่งอีกครั้ง",
+    "restored": "↺ กู้คืนคำตอบที่ทำไว้แล้ว",
+    "exitTitle": "ออกจาก Quiz?",
+    "exitMessage": "คำตอบที่เลือกไว้จะหายไป และต้องเริ่มใหม่",
+    "exitConfirm": "ออก",
+    "empty": "บทนี้ยังไม่มี Quiz",
+    "missing": "ไม่ได้ระบุบทเรียน",
+    "backToLesson": "← กลับไปบทเรียน",
+    "pickHint": "// เลือกคำตอบที่ถูก"
+  },
+  "score": {
+    "eyebrow": "~/results",
+    "title": "ผลการทดสอบ",
+    "command": "npm test -- {lesson}",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "questionName": "{n}. {text}",
+    "expected": "คำตอบที่ถูก",
+    "received": "คำตอบของคุณ",
+    "tests": "สรุป:",
+    "passed": "ถูก {n}",
+    "failed": "ผิด {n}",
+    "totalCount": "รวม {n}",
+    "summary": "ตอบถูก {score} จาก {total} ข้อ",
+    "toReview": "ดูเฉลย",
+    "toStats": "ดูสถิติ",
+    "next": "บทถัดไป",
+    "empty": "ไม่พบผล Quiz เลือกบทเรียนแล้วทำ Quiz ก่อน",
+    "total": "// ผลรวม"
+  },
+  "review": {
+    "eyebrow": "$ git diff --answers",
+    "title": "เฉลย",
+    "filter": "กรองข้อ",
+    "filterAll": "ทั้งหมด ({n})",
+    "filterWrong": "ผิด ({n})",
+    "question": "{n}. {text}",
+    "yours": "ของคุณ",
+    "correct": "ที่ถูก",
+    "yoursCorrect": "ของคุณ · ถูกต้อง",
+    "noAnswer": "(ไม่ได้ตอบ)",
+    "reason": "// เหตุผล",
+    "noWrong": "ไม่มีข้อผิด — เก่งมาก!",
+    "retry": "ทำ Quiz ใหม่",
+    "toScore": "กลับไปหน้าคะแนน",
+    "toLesson": "ทบทวนบทนี้",
+    "empty": "ไม่มีเฉลยของบทนี้ในเครื่องนี้ ลองทำ Quiz อีกครั้ง"
+  },
+  "stats": {
+    "eyebrow": "$ git log --stat",
+    "title": "สถิติ",
+    "lessons": "บทที่เรียนแล้ว",
+    "avgScore": "คะแนนเฉลี่ย",
+    "quizzes": "Quiz ที่ทำ",
+    "activity": "กิจกรรม 4 สัปดาห์",
+    "heatSummary": "กิจกรรม 4 สัปดาห์ล่าสุด: {total} ครั้ง ใน {days} วัน",
+    "cellTitle": "{date}: {count} ครั้ง",
+    "less": "น้อย",
+    "more": "มาก",
+    "today": "วันนี้",
+    "recent": "คะแนนล่าสุด",
+    "logScore": "{score}/{total}",
+    "noRecent": "ยังไม่มีคะแนน",
+    "empty": "ยังไม่มีสถิติ เริ่มเรียนบทแรกเลย!",
+    "days": {
+      "mon": "จ",
+      "tue": "อ",
+      "wed": "พ",
+      "thu": "พฤ",
+      "fri": "ศ",
+      "sat": "ส",
+      "sun": "อา"
+    }
+  },
+  "profile": {
+    "eyebrow": "$ whoami",
+    "title": "โปรไฟล์",
+    "account": "บัญชี",
+    "settings": "ตั้งค่า",
+    "language": "ภาษา",
+    "changePassword": "เปลี่ยนรหัสผ่าน",
+    "logout": "ออกจากระบบ",
+    "logoutTitle": "ออกจากระบบ?",
+    "logoutMessage": "คุณจะต้องเข้าสู่ระบบใหม่เพื่อเรียนต่อ",
+    "logoutConfirm": "ออกจากระบบ"
+  },
+  "lang": {
+    "lo": "ລາວ",
+    "th": "ไทย",
+    "en": "English"
+  },
+  "language": {
+    "eyebrow": "$ locale",
+    "title": "ภาษา",
+    "hint": "เลือกแล้วมีผลทันที ไม่ต้องกดบันทึก",
+    "changed": "เปลี่ยนภาษาแล้ว"
+  },
+  "password": {
+    "eyebrow": "$ passwd",
+    "title": "เปลี่ยนรหัสผ่าน",
+    "current": "รหัสผ่านปัจจุบัน",
+    "next": "รหัสผ่านใหม่",
+    "confirm": "ยืนยันรหัสผ่านใหม่",
+    "submit": "บันทึก",
+    "changed": "เปลี่ยนรหัสผ่านแล้ว"
+  },
+  "notFound": {
+    "command": "cd {path}",
+    "line": "bash: cd: {path}: No such file or directory",
+    "message": "ไม่พบหน้าที่คุณค้นหา ลิงก์อาจผิดหรือหน้านี้ถูกย้ายแล้ว",
+    "home": "กลับหน้าหลัก",
+    "detail": "ลิงก์อาจผิดหรือหน้านี้ถูกลบแล้ว"
+  },
+  "styleguide": {
+    "eyebrow": "~/styleguide",
+    "title": "คู่มือสไตล์",
+    "description": "ทุกคอมโพเนนต์ สถานะ ธีม และภาษา ในหน้าเดียว — ใช้ตรวจก่อนส่งงาน",
+    "language": "ภาษา",
+    "colors": "สี (tokens.css)",
+    "colorsHint": "สลับธีมเพื่อดูค่าในโหมดมืดและสว่าง",
+    "typography": "ตัวอักษร",
+    "bodyFont": "Noto Sans Lao · เนื้อหา",
+    "bodySample": "ສະບາຍດີ! ມື້ນີ້ມາຮຽນ Past Simple ກັນ.",
+    "thaiFont": "Noto Sans Thai · ป้ายภาษาไทย",
+    "thaiSample": "สวัสดี! วันนี้มาเรียนกัน",
+    "monoFont": "JetBrains Mono · โค้ด ป้าย ตัวเลข",
+    "monoSample": "$ npm test -- past_simple  ✓ 4 passed  0123456789",
+    "buttons": "ปุ่ม",
+    "forms": "ฟอร์มและข้อความ",
+    "states": "สถานะ: loading / error / empty",
+    "loading": "loading",
+    "error": "error",
+    "empty": "empty",
+    "subjects": "วิชาและบทเรียน",
+    "lesson": "สรุปบทเรียน",
+    "quiz": "ตัวเลือก Quiz",
+    "result": "ผลและเฉลย",
+    "stats": "สถิติและโปรไฟล์",
+    "overlays": "Toast และหน้าต่างยืนยัน",
+    "showToast": "toast",
+    "showConfirm": "confirm",
+    "showDanger": "confirm --danger",
+    "retried": "↻ กด retry แล้ว",
+    "confirmed": "✓ ยืนยันแล้ว",
+    "cancelled": "✗ ยกเลิกแล้ว"
+  }
+}

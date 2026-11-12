@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="lo" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="title.notFound"></title>
+  <script>try{var d=document.documentElement,s=localStorage;if(s.getItem("hianngai:theme")==="light")d.dataset.theme="light";d.lang=s.getItem("hianngai:lang")||"lo"}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+Lao:wght@400;600;700&family=Noto+Sans+Thai:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/pages/not-found.js"></script>
+</head>
+<body>
+  <main id="main" class="focus-page nf" tabindex="-1">
+    <div class="nf__term">
+      <p><span class="term-prompt" data-i18n="auth.prompt"></span> <span id="nf-cmd"></span></p>
+      <p class="nf__line" id="nf-line"></p>
+    </div>
+    <h1 class="nf__code">404</h1>
+    <p class="nf__msg" data-i18n="notFound.message"></p>
+    <p class="nf__msg" data-i18n="notFound.detail"></p>
+    <a class="btn btn--primary" href="index.html"><span class="btn__label" data-i18n="notFound.home"></span></a>
+  </main>
+</body>
+</html>

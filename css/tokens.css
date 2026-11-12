@@ -1,0 +1,105 @@
+/* The only file allowed to contain color values. Everything else uses var(--*). */
+:root {
+  color-scheme: dark;
+
+  --bg: #0D1117;
+  --panel: #161B22;
+  --line: #30363D;
+  --text: #E6EDF3;
+  --muted: #8B949E;
+  --green: #3FB950;
+  --green-bg: #0F2A1A;
+  --blue: #79C0FF;
+  --purple: #D2A8FF;
+  --red: #FF7B72;
+  --red-bg: #2D1417;
+  --yellow: #E3B341;
+  --skeleton: #21262D;
+  --on-green: #0D1117;
+  --heat-0: #21262D;
+  --heat-1: #0E4429;
+  --heat-2: #006D32;
+  --heat-3: #26A641;
+  --heat-4: #39D353;
+  --heat-fg-1: var(--text);
+  --heat-fg-2: var(--text);
+  --heat-fg-3: var(--on-green);
+  --heat-fg-4: var(--on-green);
+  --backdrop: rgb(1 4 9 / 0.72);
+  --shadow: 0 12px 32px rgb(1 4 9 / 0.5);
+
+  /* semantic aliases */
+  --on-red: var(--on-green);
+  --focus: var(--blue);
+  --field-line: var(--muted);
+  --hover: var(--skeleton);
+
+  --font-body: "Noto Sans Lao", "Noto Sans Thai", system-ui, sans-serif;
+  --font-thai: "Noto Sans Thai", "Noto Sans Lao", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Noto Sans Lao", "Noto Sans Thai", ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-hero: 4.5rem;
+
+  --space-0: 0.125rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --radius-tag: 4px;
+  --radius-control: 8px;
+  --radius-card: 10px;
+  --radius-sheet: 16px;
+  --radius-pill: 999px;
+
+  --tap: 2.75rem;          /* 44px minimum target */
+  --control-h: 3rem;       /* 48px buttons/inputs */
+  --control-h-lg: 3.25rem; /* 52px rows */
+  --topbar-h: 3.5rem;
+  --tabbar-h: 4rem;
+  --sidebar-w: 15rem;
+  --content-max: 60rem;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #FBF8F1;
+  --panel: #FFFFFF;
+  --line: #D0D7DE;
+  --text: #1F2328;
+  --muted: #59636E;
+  --green: #1A7F37;
+  --green-bg: #DAFBE1;
+  --blue: #0550AE;
+  --purple: #8250DF;
+  --red: #CF222E;
+  --red-bg: #FFEBE9;
+  --yellow: #7D4E00;
+  --skeleton: #EAEEF2;
+  --on-green: #FFFFFF;
+  --heat-0: #EBEDF0;
+  --heat-1: #9BE9A8;
+  --heat-2: #40C463;
+  --heat-3: #30A14E;
+  --heat-4: #216E39;
+  --heat-fg-1: var(--text);
+  --heat-fg-2: var(--text);
+  --heat-fg-3: var(--text);
+  --heat-fg-4: var(--on-green);
+  --backdrop: rgb(31 35 40 / 0.5);
+  --shadow: 0 12px 32px rgb(31 35 40 / 0.18);
+}
+
+:root:lang(th) {
+  --font-body: var(--font-thai);
+}

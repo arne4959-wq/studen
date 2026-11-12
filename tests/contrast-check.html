@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-theme="dark" translate="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contrast-check</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="tests.css">
+  <script type="module" src="contrast-check.js"></script>
+</head>
+<body>
+  <main class="test-page">
+    <h1>contrast-check</h1>
+    <p class="eyebrow">WCAG contrast of every text/background and UI pair in both themes (text ≥ 4.5, UI ≥ 3).</p>
+    <p id="summary" role="status">running…</p>
+    <ol id="results" class="tests"></ol>
+    <div id="report"></div>
+    <div id="frames" class="frames" aria-hidden="true"></div>
+  </main>
+</body>
+</html>

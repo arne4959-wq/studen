@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="lo">
+<head>
+<meta charset="utf-8">
+<title>ສີ ຟອນ Components</title>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width:1200px;height:860px;box-sizing:border-box;padding:44px 48px;background:#0D1117;font-family:'Noto Sans Lao',system-ui,sans-serif;color:#E6EDF3;display:flex;flex-direction:column;gap:30px">
+
+  <div style="display:flex;flex-direction:column;gap:8px">
+    <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;color:#8B949E">// design-system.md</div>
+    <h1 style="margin:0;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:32px;font-weight:700"><span style="color:#3FB950">$</span> ສີ · ຟອນ · Components</h1>
+    <div style="font-size:16px;color:#8B949E">ທີມມືດແບບ IDE/ເທີມິນອນ ໃຊ້ສີແບບ syntax highlight ເປັນສີເນັ້ນ ຕົວອັກສອນ monospace ສຳລັບ label ແລະ ໂຄ້ດ</div>
+  </div>
+
+  <div style="display:flex;gap:40px">
+    <!-- สี -->
+    <div style="display:flex;flex-direction:column;gap:12px;width:520px">
+      <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">:root { colors }</div>
+      <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px">
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#0D1117;border:1px solid #30363D"></div>--bg<br><span style="color:#8B949E">#0D1117</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#161B22;border:1px solid #30363D"></div>--panel<br><span style="color:#8B949E">#161B22</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#30363D"></div>--line<br><span style="color:#8B949E">#30363D</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#E6EDF3"></div>--text<br><span style="color:#8B949E">#E6EDF3</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#3FB950"></div>--green<br><span style="color:#8B949E">ປຸ່ມ/ຜ່ານ</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#79C0FF"></div>--blue<br><span style="color:#8B949E">ລິ້ງ/ຊື່</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#D2A8FF"></div>--purple<br><span style="color:#8B949E">ຄີເວິດ</span></div>
+        <div style="display:flex;flex-direction:column;gap:6px"><div style="height:48px;border-radius:8px;background:#FF7B72"></div>--red<br><span style="color:#8B949E">ບໍ່ຜ່ານ</span></div>
+      </div>
+    </div>
+
+    <!-- ฟอนต์ -->
+    <div style="display:flex;flex-direction:column;gap:12px;flex-grow:1">
+      <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">font-family</div>
+      <div style="background:#161B22;border:1px solid #30363D;border-radius:10px;padding:18px 22px;display:flex;flex-direction:column;gap:10px">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:26px;font-weight:700"><span style="color:#D2A8FF">const</span> <span style="color:#79C0FF">ບົດຮຽນ</span> = <span style="color:#3FB950">"JetBrains Mono"</span></div>
+        <div style="font-size:16px;line-height:1.6;color:#E6EDF3">ເນື້ອຫາ ແລະ ຄຳອະທິບາຍໃຊ້ Noto Sans Lao ອ່ານງ່າຍເທິງຈໍນ້ອຍ</div>
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">// label, ຕົວເລກ, ຊື່ໄຟລ໌ ໃຊ້ mono ທັງໝົດ</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#8B949E">components/</div>
+    <div style="display:flex;gap:28px;align-items:flex-start">
+
+      <!-- Navbar -->
+      <div style="display:flex;flex-direction:column;gap:8px;width:290px">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">Navbar.tsx</div>
+        <div style="background:#161B22;border:1px solid #30363D;border-radius:10px;overflow:hidden">
+          <div style="height:44px;display:flex;align-items:center;gap:8px;padding:0 14px;border-bottom:1px solid #30363D;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px"><span style="color:#3FB950">~/</span>ຮຽນງ່າຍ<span style="color:#3FB950">_</span></div>
+          <div style="display:flex;height:56px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px">
+            <div style="flex:1;display:flex;align-items:center;justify-content:center;color:#3FB950;border-top:2px solid #3FB950;background:#0D1117">subjects</div>
+            <div style="flex:1;display:flex;align-items:center;justify-content:center;color:#8B949E">stats</div><div style="flex:1;display:flex;align-items:center;justify-content:center;color:#8B949E">profile</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div style="display:flex;flex-direction:column;gap:8px;width:290px">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">SubjectCard.tsx</div>
+        <div style="background:#161B22;border:1px solid #30363D;border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px">
+          <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:16px;font-weight:700;color:#79C0FF">ໄວຍະກອນພາສາອັງກິດ</div>
+          <div style="font-size:14px;color:#8B949E">8 ບົດຮຽນ · ຮຽນແລ້ວ 3</div>
+          <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;color:#3FB950;letter-spacing:.5px">███░░░░░ <span style="color:#E6EDF3">38%</span></div>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div style="display:flex;flex-direction:column;gap:8px;width:230px">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">Button.tsx (ສູງ 48px)</div>
+        <div style="height:48px;border-radius:8px;background:#3FB950;color:#0D1117;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center">$ run quiz</div>
+        <div style="height:48px;box-sizing:border-box;border-radius:8px;background:transparent;border:1.5px solid #3FB950;color:#3FB950;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center">cd ../subjects</div>
+        <div style="height:48px;box-sizing:border-box;border-radius:8px;background:#21262D;border:1px solid #30363D;color:#8B949E;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;display:flex;align-items:center;justify-content:center">submit() · disabled</div>
+      </div>
+
+      <!-- Choices -->
+      <div style="display:flex;flex-direction:column;gap:8px;flex-grow:1">
+        <div style="font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:12px;color:#8B949E">Choice.tsx</div>
+        <div style="height:44px;box-sizing:border-box;border-radius:8px;background:#161B22;border:1px solid #30363D;padding:0 14px;display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px"><span style="color:#8B949E">[ ]</span>goed</div>
+        <div style="height:44px;box-sizing:border-box;border-radius:8px;background:#0F2A1A;border:2px solid #3FB950;padding:0 14px;display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:14px;color:#3FB950;font-weight:700"><span>[x]</span>went</div>
+        <div style="height:44px;box-sizing:border-box;border-radius:8px;background:#0F2A1A;border:2px solid #3FB950;padding:0 14px;display:flex;align-items:center;justify-content:space-between;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#3FB950;font-weight:700"><span>went</span><span>✓ PASS</span></div>
+        <div style="height:44px;box-sizing:border-box;border-radius:8px;background:#2D1417;border:2px solid #FF7B72;padding:0 14px;display:flex;align-items:center;justify-content:space-between;font-family:'JetBrains Mono','Noto Sans Lao',monospace;font-size:13px;color:#FF7B72;font-weight:700"><span>gone</span><span>✗ FAIL</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1200,"height":860}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
