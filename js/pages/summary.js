@@ -1,5 +1,6 @@
 import { initPage } from "../shell.js";
 import { getSummary } from "../api.js";
+import { setStore } from "../store.js";
 import { $, el, cmd, enc, param, setText, renderState, withState } from "../ui.js";
 
 const quizLink = (id) => cmd("a", "summary.runQuiz", { class: "btn btn--primary", href: `quiz.html?lesson=${enc(id)}` });
@@ -13,6 +14,8 @@ const extra = (key, ...children) => el("section", { class: "extra" }, el("h2", {
 if (await initPage({ nav: "subjects" })) {
   const region = $("#summary");
   const lessonId = param("lesson");
+  const subjectId = param("subject");
+  if (subjectId) setStore("subject", subjectId);
 
   if (!lessonId) {
     renderState(region, "empty", { emptyKey: "summary.missing" });
@@ -24,6 +27,7 @@ if (await initPage({ nav: "subjects" })) {
       emptyKey: "summary.empty",
       emptyAction: () => quizLink(lessonId),
       render(s) {
+        setStore("lastLesson", s.id);
         setText($("title"), "title.lesson", { title: s.title });
         region.append(...[ // parts a lesson may lack are false/undefined: drop them, append() would print them as text
           el("header", { class: "page-head" },

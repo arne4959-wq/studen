@@ -144,6 +144,7 @@
     "continue": "Continue",
     "startHere": "Start here",
     "continueGo": "Open lesson",
+    "resumeQuiz": "Resume quiz",
     "allDone": "You have finished every lesson in this subject — great job!",
     "noLessons": "This subject has no lessons yet.",
     "empty": "No subjects yet."

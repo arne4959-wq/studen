@@ -298,15 +298,16 @@ export function subjectCard(subject, pressed, onClick) {
 
 const GLYPH = { done: "✓", running: "●", todo: "○" };
 
-export function lessonRow(lesson) {
+export function lessonRow(lesson, subjectId = "") {
   const status = GLYPH[lesson.status] ? lesson.status : "todo";
   const hasScore = lesson.score !== undefined && lesson.score !== null;
+  const subject = subjectId ? `&subject=${enc(subjectId)}` : "";
   return el(
     "li",
     { class: "file" },
     el(
       "a",
-      { class: `file__link file--${status}`, href: `summary.html?lesson=${enc(lesson.id)}` },
+      { class: `file__link file--${status}`, href: `summary.html?lesson=${enc(lesson.id)}${subject}` },
       el("span", { class: "file__glyph", "aria-hidden": "true", text: GLYPH[status] }),
       el("span", { class: "file__main" },
         el("span", { class: "file__name", i18n: "subjects.lessonNo", vars: { n: lesson.order } }),

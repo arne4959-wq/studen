@@ -64,6 +64,7 @@ export function clearSession() {
   removeStore("token");
   removeStore("refresh");
   removeStore("user");
+  removeStore("lastLesson");
   for (const session of [false, true]) {
     try {
       const storage = area(session);
