@@ -393,7 +393,7 @@ function shortHash(text) {
 
 export function logList(items) {
   return el("ol", { class: "log", role: "list" }, items.map((item, index) =>
-    el("li", {}, el("a", { class: "log__link", href: `review.html?lesson=${enc(item.lessonId)}` },
+    el("li", {}, el("a", { class: "log__link", href: `review.html?lesson=${enc(item.lessonId)}${item.attemptId ? `&attempt=${enc(item.attemptId)}` : ""}` },
       el("span", { class: "log__hash", translate: "no", "aria-hidden": "true", text: shortHash(`${item.lessonId}${item.date}${index}`) }),
       el("span", { class: "log__msg", text: item.lessonTitle }),
       el("span", { class: "log__score", i18n: "stats.logScore", vars: { score: item.score, total: item.total } }),

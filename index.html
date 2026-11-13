@@ -16,8 +16,42 @@
   <script type="module" src="js/pages/index.js"></script>
 </head>
 <body>
-  <main id="main" class="focus-page" tabindex="-1">
-    <p class="eyebrow" role="status"><span aria-hidden="true">❯ </span><span data-i18n="index.booting"></span></p>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip"></a>
+  <header class="welcome__top">
+    <a class="brand" href="index.html">
+      <span class="brand__prompt" aria-hidden="true">❯</span>
+      <span data-i18n="app.name"></span>
+    </a>
+    <span class="topbar__spacer"></span>
+    <label class="sr-only" for="welcome-language" data-i18n="welcome.language"></label>
+    <select class="input welcome__language" id="welcome-language">
+      <option value="lo" lang="lo" data-i18n="lang.lo"></option>
+      <option value="th" lang="th" data-i18n="lang.th"></option>
+      <option value="en" lang="en" data-i18n="lang.en"></option>
+    </select>
+    <div id="welcome-theme"></div>
+  </header>
+  <main id="main" class="welcome page" tabindex="-1">
+    <section class="welcome__hero">
+      <p class="eyebrow" data-i18n="welcome.eyebrow"></p>
+      <h1 data-i18n="welcome.title"></h1>
+      <p class="welcome__lead" data-i18n="welcome.lead"></p>
+      <div class="actions">
+        <a class="btn btn--primary" href="register.html"><span class="btn__prompt" aria-hidden="true">$</span><span data-i18n="welcome.start"></span></a>
+        <a class="btn btn--secondary" href="login.html" data-i18n="welcome.login"></a>
+      </div>
+      <p class="welcome__counts" id="welcome-counts"></p>
+    </section>
+    <section class="welcome__preview" aria-labelledby="welcome-preview-heading">
+      <div>
+        <p class="eyebrow" data-i18n="welcome.previewLabel"></p>
+        <h2 id="welcome-preview-heading"></h2>
+        <p id="welcome-preview-intro" class="welcome__lead"></p>
+        <h3 data-i18n="welcome.previewPoints"></h3>
+        <ul id="welcome-preview-points" class="welcome__points"></ul>
+      </div>
+      <figure class="shot" id="welcome-figure"></figure>
+    </section>
   </main>
 </body>
 </html>

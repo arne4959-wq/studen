@@ -1,12 +1,24 @@
 import { initPage } from "../shell.js";
-import { loadResult } from "../store.js";
-import { getNextLesson } from "../api.js";
-import { $, el, cmd, enc, param, renderState, passFailTag } from "../ui.js";
+import { loadResult, saveResult } from "../store.js";
+import { getNextLesson, getQuizResult } from "../api.js";
+import { $, el, cmd, enc, param, renderState, passFailTag, errorBox } from "../ui.js";
 
-if (await initPage({ nav: "subjects" })) {
+if (await initPage({ nav: "subjects" })) await renderScore();
+
+async function renderScore() {
   const region = $("#score");
   const lessonId = param("lesson");
-  const saved = lessonId ? loadResult(lessonId) : null;
+  let saved = lessonId ? loadResult(lessonId) : null;
+  if (!saved && lessonId) {
+    renderState(region, "loading", { skeleton: "text" });
+    try {
+      saved = await getQuizResult(lessonId);
+      if (saved) saveResult(lessonId, saved.quiz, saved.result);
+    } catch (error) {
+      region.replaceChildren(errorBox(error, () => window.location.reload()));
+      return;
+    }
+  }
 
   if (!saved) {
     renderState(region, "empty", { emptyKey: "score.empty", emptyAction: cmd("a", "common.toSubjects", { class: "btn btn--secondary", href: "subjects.html" }) });
@@ -45,12 +57,12 @@ if (await initPage({ nav: "subjects" })) {
         el("p", { class: "score-big__label", i18n: "score.summary", vars: { score: result.score, total: result.total } })),
       actions,
     );
-    // Not essential, so it is added when the lookup finishes and silently left out if it fails.
+    // Not essential, so it is added when the lookup finishes.
     getNextLesson(lessonId).then((next) => {
       if (!next) return;
       const button = cmd("a", "score.next", { class: `btn ${wrong ? "btn--secondary" : "btn--primary"}`, href: `summary.html?lesson=${enc(next.id)}` });
       if (wrong) reviewButton.after(button);
       else actions.prepend(button);
-    }).catch(() => {});
+    }).catch((error) => region.append(errorBox(error)));
   }
 }

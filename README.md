@@ -5,8 +5,9 @@ HTML + CSS + JavaScript ล้วน (ES modules) ไม่มี framework / bu
 ## วิธีรัน
 
 1. เปิดโฟลเดอร์นี้ใน VS Code → คลิกขวา `index.html` → **Open with Live Server**
-2. เข้า `http://127.0.0.1:5500/` → ระบบพาไปหน้า login
-3. บัญชีทดลอง (โหมด mock): `user@example.com` + รหัสผ่านอะไรก็ได้ ≥ 8 ตัว
+2. เข้า `http://127.0.0.1:5500/` → ดูตัวอย่างบทเรียนได้ก่อนสมัคร
+3. สมัครสมาชิกหรือเข้าสู่ระบบเพื่อบันทึกความคืบหน้าและทำ Quiz
+4. บัญชีทดลอง (โหมด mock): `user@example.com` + รหัสผ่านอะไรก็ได้ ≥ 8 ตัว
 
 > ต้องเปิดผ่านเซิร์ฟเวอร์ (Live Server หรือ `python3 -m http.server`) — เปิดไฟล์ตรง ๆ แบบ `file://` จะโหลด ES modules / JSON ไม่ได้
 
@@ -29,7 +30,7 @@ HTML + CSS + JavaScript ล้วน (ES modules) ไม่มี framework / bu
 | `tests/api-check.html` | สัญญา API ทุก endpoint, รูปแบบ `ApiError`, `?mock=` ทั้ง 3 แบบ, guard (ไม่มี token / token ปลอม / login แล้วเข้า login) , กัน redirect ออกนอกเว็บ |
 | `tests/i18n-check.html` | key ครบเท่ากัน 3 ภาษา, `{placeholder}` ตรงกัน, key ที่โค้ดใช้มีจริง, และสแกนข้อความที่แสดงจริงในทุกหน้า × 3 ภาษา (+ error/empty) ว่าไม่มีข้อความตายตัวหลุด |
 | `tests/contrast-check.html` | คอนทราสต์ทุกคู่สีที่ใช้จริงทั้งสองธีม (ข้อความ ≥ 4.5, ขอบ/โฟกัส ≥ 3) |
-| `tests/layout-check.html` | 17 หน้า × กว้าง 360/390/768/1280 × mock ปกติ/slow/error/empty — ไม่มีแถบเลื่อนแนวนอน |
+| `tests/layout-check.html` | 18 หน้า × กว้าง 360/390/768/1280 × mock ปกติ/slow/error/empty — ไม่มีแถบเลื่อนแนวนอน |
 | `styleguide.html` | ทุกคอมโพเนนต์ + สถานะ + สลับธีม/ภาษา บนหน้าเดียว |
 
 ## โครงโฟลเดอร์
@@ -53,6 +54,7 @@ js/
   guard.js        requireAuth, redirectIfAuthed, handleUnauthorized (401), safeNext
   pages/*.js      ไฟล์ละหน้า
 data/             mock JSON (เฉลยแยกอยู่ใน answers.json — api.js ตรวจเอง, GET quiz ไม่ส่งเฉลย)
+                  วิชากฎหมาย (l01–l05) สร้างจาก studen-offline-sources/build_law.py — บท l02 อัปเดตข้อมูลรัฐธรรมนูญตามฉบับปรับปรุงปี 2025 ในจดหมายเหตุทางการ; บทอื่นยังเป็นร่างจากความรู้ทั่วไปและต้องตรวจเทียบกับกฎหมายฉบับปัจจุบันและหนังสืออาจารย์ก่อนใช้สอบ
                   summaries.json แต่ละบทมีส่วนเสริม (ไม่บังคับ): image {src, alt, caption} · photos [{src, alt, caption, credit, source, width, height}] · examples [{title, story, lines}] · tryIt [{task, answer}] · idea
 assets/lessons/   ภาพประกอบบทเรียน <lessonId>.svg (วาดเอง พื้นมืดในตัว ใช้ได้ทั้งสองธีม — ไฟล์ภาพเป็นข้อยกเว้นของกติกา "ไม่มีรหัสสีนอก tokens.css")
                   ต้นฉบับที่ใช้วาด: studen-offline-sources/make_lesson_svgs.py (รันซ้ำเฉพาะเมื่อแก้ภาพ)
@@ -68,6 +70,7 @@ tests/            หน้าตรวจด้านบน + harness.js
 เนื้อหาบทเรียนอยู่ในไฟล์ของเว็บ (`data/*.json`) ส่วนบัญชี ความคืบหน้า คะแนน และ **เฉลย Quiz** อยู่ในฐานข้อมูล Supabase เว็บเรียกผ่าน `js/api.js` ไฟล์เดียวเหมือนเดิม
 
 - `supabase/schema.sql` — ตาราง `progress`, `attempts`, `quiz_answers` + กฎความปลอดภัย (RLS: ผู้เรียนอ่านได้เฉพาะแถวของตัวเอง, เขียนไม่ได้ตรงๆ, อ่านเฉลยไม่ได้) + ฟังก์ชัน `submit_quiz` (ตรวจข้อสอบฝั่งเซิร์ฟเวอร์) และ `my_state`
+- ถ้ามี Supabase ที่ตั้งค่าไว้ก่อนแล้ว ให้รัน `supabase/migrations/20261112_quiz_result_history.sql` หนึ่งครั้ง เพื่อเพิ่มการเก็บคำตอบและเรียกดูเฉลยข้ามอุปกรณ์
 - `studen-offline-sources/make_answers_sql.py` — สร้าง SQL ใส่เฉลยลงตาราง `quiz_answers` จาก `data/answers.json` (ผลลัพธ์ห้าม commit)
 - `js/config.js` — ใส่ `SUPABASE_URL` และ `SUPABASE_KEY` (publishable key เปิดเผยได้ ความปลอดภัยอยู่ที่ RLS) ถ้าเว้นว่าง เว็บใช้โหมดทดลอง (mock) ตามเดิม
 - บน localhost เว็บใช้ mock เสมอ (เทสต์ทั้งหมดรันบน mock) อยากลองระบบจริงจาก localhost: `localStorage.setItem("hianngai:real", "1")` ในคอนโซลแล้วรีโหลด
@@ -88,7 +91,7 @@ tests/            หน้าตรวจด้านบน + harness.js
 
 ## ข้อจำกัดที่รู้อยู่
 
-- **เฉลยย้อนหลัง**: API ไม่มี endpoint ดึงผล Quiz เก่า เว็บจึงเก็บผลจาก `submitQuiz` ไว้ใน localStorage ของเครื่องนั้น — ประวัติที่มาจาก server (เช่นรายการตั้งต้นใน stats) กดแล้วจะเจอสถานะ "ไม่มีเฉลยในเครื่องนี้" + ปุ่มทำ Quiz ใหม่
+- **เฉลยย้อนหลัง**: ผล Quiz ใหม่จะถูกบันทึกพร้อมคำตอบไว้ใน `attempts` ของ Supabase และเรียกดูได้เมื่อเข้าสู่ระบบจากอุปกรณ์อื่น ส่วนผลเดิมที่บันทึกก่อนเพิ่มคอลัมน์ `results` มีเฉพาะคะแนนและยังเปิดเฉลยย้อนหลังไม่ได้
 - **404 ของ Live Server**: Live Server ไม่เสิร์ฟ `404.html` ให้อัตโนมัติ ถ้าต้องการให้ตั้ง `"liveServer.settings.file": "404.html"` (ใช้ได้ดีกับ path ชั้นเดียว เช่น `/abc.html`; path ซ้อนหลายชั้น CSS แบบ relative จะหาไม่เจอ)
 - Mock login รับเฉพาะ `user@example.com` ตามสเปก — บัญชีที่สมัครใหม่ใช้ได้ทันทีหลังสมัคร แต่ login ซ้ำด้วยอีเมลนั้นจะได้ 401
 

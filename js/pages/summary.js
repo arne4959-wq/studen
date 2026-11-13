@@ -57,6 +57,11 @@ if (await initPage({ nav: "subjects" })) {
                   photo.caption && el("p", { text: photo.caption }),
                   photo.credit && el("p", { class: "shot__credit" }, // licence credit; the link is followed only when it is plain https
                     /^https:\/\//.test(photo.source ?? "") ? el("a", { href: photo.source, target: "_blank", rel: "noopener noreferrer", text: photo.credit }) : photo.credit)))))),
+          s.sources?.length > 0 &&
+            extra("summary.sources", el("ul", { class: "example__lines" }, s.sources.map((source) =>
+              el("li", {}, /^https:\/\//.test(source.url ?? "")
+                ? el("a", { href: source.url, target: "_blank", rel: "noopener noreferrer", text: source.label })
+                : source.label)))),
           s.examples?.length > 0 &&
             extra("summary.examples", s.examples.map((example) =>
               el("article", { class: "example" },

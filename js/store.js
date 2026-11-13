@@ -76,7 +76,7 @@ export function clearSession() {
   }
 }
 
-/* ---- quiz results (the API has no "get result" endpoint, so the submit response is kept here) ---- */
+/* ---- local cache for the latest result; the API restores history when this cache is missing ---- */
 
 export function saveResult(lessonId, quiz, result) {
   setJSON(`result:${lessonId}`, { quiz, result, savedAt: new Date().toISOString() });

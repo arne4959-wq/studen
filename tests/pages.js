@@ -1,5 +1,6 @@
 // Pages exercised by the rendered checks. auth=false pages are loaded signed-out.
 export const PAGES = [
+  { url: "index.html", auth: false },
   { url: "login.html", auth: false },
   { url: "register.html", auth: false },
   { url: "forgot.html", auth: false },

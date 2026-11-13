@@ -47,6 +47,12 @@ export const getLessons = (subjectId) => request("GET", `/api/subjects/${id(subj
 export const getSummary = (lessonId) => request("GET", `/api/lessons/${id(lessonId)}/summary`);
 export const getQuiz = (lessonId) => request("GET", `/api/lessons/${id(lessonId)}/quiz`);
 export const submitQuiz = (body) => request("POST", "/api/quiz/submit", body);
+export async function getQuizResult(lessonId, attemptId = "") {
+  const suffix = attemptId ? `/${id(attemptId)}` : "";
+  const result = await request("GET", `/api/quiz/results/${id(lessonId)}${suffix}`);
+  if (!result) return null;
+  return { quiz: await getQuiz(lessonId), result, savedAt: result.savedAt ?? null };
+}
 export const getDashboard = () => request("GET", "/api/dashboard");
 
 // The lesson after this one in its subject, or null. shortcut: looks the lesson up by listing every subject (1 + one request per subject); swap for a backend field if subjects grow.
@@ -168,6 +174,13 @@ function route(method, path, body, data, db, empty) {
     if (!findLesson(match[1], data)) throw fail(404, "not_found", "Lesson not found");
     return { lessonId: match[1], questions: empty ? [] : data.quizzes[match[1]]?.questions ?? [] };
   }
+  if (method === "GET" && (match = path.match(/^\/api\/quiz\/results\/([\w-]+)(?:\/(\d+))?$/))) {
+    const attempt = match[2]
+      ? db.attempts.find((item) => String(item.id) === match[2] && item.lessonId === match[1])
+      : [...db.attempts].reverse().find((item) => item.lessonId === match[1]);
+    if (!attempt?.result) return null;
+    return attempt ? { ...attempt.result, savedAt: attempt.date } : null;
+  }
   if (key === "POST /api/quiz/submit") return submit(body, data, db);
   if (key === "GET /api/dashboard") return dashboard(data, db, empty);
 
@@ -187,11 +200,13 @@ function submit(body, data, db) {
   const score = results.filter((result) => result.correct).length;
   const total = results.length;
   const today = isoDaysAgo(0);
+  const graded = { score, total, percent: Math.round((score / total) * 100), results };
   db.progress[body.lessonId] = { status: "done", score, total };
-  db.attempts.push({ lessonId: body.lessonId, score, total, date: today });
+  const id = db.attempts.reduce((max, attempt) => Math.max(max, Number(attempt.id) || 0), 0) + 1;
+  db.attempts.push({ id, lessonId: body.lessonId, score, total, date: today, result: graded });
   db.activity[today] = (db.activity[today] ?? 0) + 1;
   saveDb(db);
-  return { score, total, percent: Math.round((score / total) * 100), results };
+  return graded;
 }
 
 function dashboard(data, db, empty) {
@@ -217,6 +232,7 @@ function dashboard(data, db, empty) {
     quizzesTaken: attempts.length,
     activity,
     recent: attempts.slice(0, 10).map((a) => ({
+      attemptId: a.id,
       lessonId: a.lessonId,
       lessonTitle: findLesson(a.lessonId, data)?.title ?? a.lessonId,
       score: a.score,
@@ -332,7 +348,7 @@ function toDb(state) {
   const attempts = state.attempts.map((a) => {
     const date = localDate(new Date(a.at));
     activity[date] = (activity[date] ?? 0) + 1;
-    return { lessonId: a.lessonId, score: a.score, total: a.total, date };
+    return { id: a.attemptId, lessonId: a.lessonId, score: a.score, total: a.total, date, result: a.result };
   });
   return { progress, attempts, activity, user: getUser() };
 }

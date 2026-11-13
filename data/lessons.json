@@ -247,5 +247,52 @@
       "bookRef": "",
       "level": 2
     }
+  ],
+  "law": [
+    {
+      "id": "l01",
+      "order": 1,
+      "slug": "origin_of_state_and_law",
+      "title": "ກຳເນີດຂອງລັດ ແລະ ກົດໝາຍ",
+      "status": "todo",
+      "bookRef": "",
+      "level": 1
+    },
+    {
+      "id": "l02",
+      "order": 2,
+      "slug": "constitution",
+      "title": "ລັດຖະທຳມະນູນ",
+      "status": "todo",
+      "bookRef": "",
+      "level": 1
+    },
+    {
+      "id": "l03",
+      "order": 3,
+      "slug": "criminal_law",
+      "title": "ກົດໝາຍອາຍາ: ການກະທຳຜິດ ແລະ ໂທດ",
+      "status": "todo",
+      "bookRef": "",
+      "level": 1
+    },
+    {
+      "id": "l04",
+      "order": 4,
+      "slug": "contracts",
+      "title": "ສັນຍາ ແລະ ປະເພດສັນຍາ",
+      "status": "todo",
+      "bookRef": "",
+      "level": 1
+    },
+    {
+      "id": "l05",
+      "order": 5,
+      "slug": "family_and_labour",
+      "title": "ຄອບຄົວ ແລະ ແຮງງານ",
+      "status": "todo",
+      "bookRef": "",
+      "level": 1
+    }
   ]
 }

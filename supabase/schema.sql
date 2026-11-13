@@ -16,8 +16,10 @@ create table public.attempts (            -- every quiz submission, for the stat
   lesson_id  text not null,
   score      int  not null,
   total      int  not null,
+  results    jsonb,
   created_at timestamptz not null default now()
 );
+alter table public.attempts add column if not exists results jsonb;
 create index attempts_user_time on public.attempts (user_id, created_at);
 
 create table public.quiz_answers (        -- the answer key: filled by studen-offline-sources/make_answers_sql.py, never readable from the site
@@ -77,7 +79,8 @@ begin
   insert into public.progress (user_id, lesson_id, score, total)
     values (v_uid, p_lesson_id, v_score, v_total)
     on conflict (user_id, lesson_id) do update set score = excluded.score, total = excluded.total, updated_at = now();
-  insert into public.attempts (user_id, lesson_id, score, total) values (v_uid, p_lesson_id, v_score, v_total);
+  insert into public.attempts (user_id, lesson_id, score, total, results)
+    values (v_uid, p_lesson_id, v_score, v_total, v_results);
 
   return jsonb_build_object('score', v_score, 'total', v_total, 'percent', round(v_score * 100.0 / v_total), 'results', v_results);
 end;
@@ -93,7 +96,7 @@ set search_path = ''
 as $$
   select jsonb_build_object(
     'progress', coalesce((select jsonb_agg(jsonb_build_object('lessonId', lesson_id, 'score', score, 'total', total)) from public.progress), '[]'::jsonb),
-    'attempts', coalesce((select jsonb_agg(jsonb_build_object('lessonId', lesson_id, 'score', score, 'total', total, 'at', created_at) order by created_at, id) from public.attempts), '[]'::jsonb));
+    'attempts', coalesce((select jsonb_agg(jsonb_build_object('attemptId', id, 'lessonId', lesson_id, 'score', score, 'total', total, 'at', created_at, 'result', results) order by created_at, id) from public.attempts), '[]'::jsonb));
 $$;
 
 revoke execute on function public.submit_quiz(text, jsonb), public.my_state() from public, anon;

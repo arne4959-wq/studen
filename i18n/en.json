@@ -21,6 +21,19 @@
     "notFound": "404 · ຮຽນງ່າຍ",
     "styleguide": "Styleguide · ຮຽນງ່າຍ"
   },
+  "welcome": {
+    "eyebrow": "// a place to learn",
+    "title": "Learn lessons and practice quizzes in one place",
+    "lead": "Choose a subject, read a lesson summary, then check your understanding. Preview a sample before signing up.",
+    "start": "Start learning for free",
+    "login": "Already have an account? Log in",
+    "previewLabel": "Lesson preview",
+    "previewIntro": "Learn from a short example, see the key ideas, and put them into practice.",
+    "previewPoints": "Key ideas from this lesson",
+    "courses": "{n} subjects",
+    "lessons": "{n} lessons",
+    "language": "Change language"
+  },
   "a11y": {
     "skip": "Skip to content",
     "mainNav": "Main menu"
@@ -149,6 +162,7 @@
     "missing": "No lesson selected. Pick one from the subjects page.",
     "ready": "// Ready? Check what you learned with the quiz",
     "photos": "// the real thing",
+    "sources": "// sources",
     "examples": "// picture it",
     "tryIt": "// try it yourself",
     "tryHint": "Think of your answer first, then tap to check",
@@ -177,7 +191,7 @@
   "score": {
     "eyebrow": "~/results",
     "title": "Test results",
-    "command": "npm test -- {lesson}",
+    "command": "Quiz results · {lesson}",
     "pass": "PASS",
     "fail": "FAIL",
     "questionName": "{n}. {text}",

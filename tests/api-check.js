@@ -46,21 +46,22 @@ test("GET /api/me → {id,username,email}", async () => {
   const me = await api.getMe();
   assert(me.email === "user@example.com" && me.username && me.id !== undefined);
 });
-test("GET /api/subjects → ພາສາອັງກິດ (11) + ຄະນິດສາດ (5) + ສ້ອມແປງຄອມພິວເຕີ (11), nothing done yet", async () => {
+test("GET /api/subjects → ພາສາອັງກິດ (11) + ຄະນິດສາດ (5) + ສ້ອມແປງຄອມພິວເຕີ (11) + ກົດໝາຍ (5), nothing done yet", async () => {
   const subjects = await api.getSubjects();
-  assert(subjects.length === 3, "count");
+  assert(subjects.length === 4, "count");
   const byId = Object.fromEntries(subjects.map((s) => [s.id, s]));
   assert(byId.english.name === "ພາສາອັງກິດ" && byId.english.lessonCount === 11, "english");
   assert(byId.math.name === "ຄະນິດສາດ" && byId.math.lessonCount === 5, "math");
   assert(byId.repair.name === "ສ້ອມແປງຄອມພິວເຕີ" && byId.repair.lessonCount === 11, "repair");
+  assert(byId.law.name === "ກົດໝາຍ" && byId.law.lessonCount === 5, "law");
   assert(subjects.every((s) => s.doneCount === 0), "doneCount 0");
 });
 test("GET lessons: every lesson has a summary with a picture, examples and tasks + a quiz (English/maths: 5 questions per merged topic, repair: the teacher's 15 split over 11 lessons), unknown 404", async () => {
-  for (const [subjectId, n] of [["english", 11], ["math", 5], ["repair", 11]]) {
+  for (const [subjectId, n] of [["english", 11], ["math", 5], ["repair", 11], ["law", 5]]) {
     const lessons = await api.getLessons(subjectId);
     assert(lessons.length === n, `${subjectId}: ${lessons.length} lessons`);
     assert(lessons.every((l) => l.id && l.order && l.slug && l.title && l.status === "todo"), `${subjectId} shape`);
-    assert(lessons.every((l) => Number.isInteger(l.level)) && new Set(lessons.map((l) => l.level)).size === ({ english: 3, math: 1, repair: 2 })[subjectId], `${subjectId} levels`);
+    assert(lessons.every((l) => Number.isInteger(l.level)) && new Set(lessons.map((l) => l.level)).size === ({ english: 3, math: 1, repair: 2, law: 1 })[subjectId], `${subjectId} levels`);
     for (const l of lessons) {
       const summary = await api.getSummary(l.id);
       assert(summary.intro && summary.order === l.order, `${l.id} summary (lesson number ${summary.order} vs list ${l.order})`);
@@ -100,6 +101,12 @@ test("POST submit → server-side score 9/10 = 90%", async () => {
   const wrong = res.results.find((r) => !r.correct);
   assert(wrong.questionId === "q10" && wrong.yourChoiceId === "b" && wrong.correctChoiceId === "a", "wrong row");
 });
+test("GET quiz result → latest answers and quiz content are available after reload", async () => {
+  const saved = await api.getQuizResult("g10");
+  assert(saved?.quiz.questions.length === 10 && saved.result.score === 9, "saved result includes quiz and score");
+  assert(saved.result.results.some((item) => item.questionId === "q10" && !item.correct), "saved answer review is intact");
+  assert(await api.getQuizResult("g07") === null, "lesson without an attempt has no result");
+});
 test("g01 all correct → 10/10 = 100%", async () => {
   const answers = ["b", "c", "a", "d", "b", "b", "a", "c", "b", "c"].map((choiceId, i) => ({ questionId: `q${i + 1}`, choiceId }));
   const res = await api.submitQuiz({ lessonId: "g01", answers });
@@ -112,7 +119,7 @@ test("after submit: lessons done, doneCount 2, dashboard shows them", async () =
   assert(grammar.doneCount === 2, `doneCount ${grammar.doneCount}`);
   const d = await api.getDashboard();
   assert(d.recent[0].lessonId === "g01" && d.recent[1].lessonId === "g10" && d.recent[1].lessonTitle.includes("Past Simple"), "recent");
-  assert(d.quizzesTaken === 2 && d.lessonsTotal === 27 && d.lessonsDone === 2 && d.avgScore === 95, `counts ${d.quizzesTaken}/${d.lessonsDone}/${d.lessonsTotal}/${d.avgScore}`);
+  assert(d.quizzesTaken === 2 && d.lessonsTotal === 32 && d.lessonsDone === 2 && d.avgScore === 95, `counts ${d.quizzesTaken}/${d.lessonsDone}/${d.lessonsTotal}/${d.avgScore}`);
   assert(typeof d.avgScore === "number" && d.activity.every((a) => /^\d{4}-\d\d-\d\d$/.test(a.date) && a.count > 0), "activity");
 });
 test("math m03 (3 topics) all correct → 15/15, m08 one wrong → 9/10 with Lao explanation", async () => {
@@ -311,6 +318,22 @@ test("guard: signed in → login/register bounce to subjects", async () => {
     f.remove();
     assert(href.endsWith("/subjects.html"), `${page} → ${href}`);
   }
+});
+test("repeated attempts can retrieve the exact result linked from stats", async () => {
+  const key = await api.loadFile("data/answers.json");
+  const quiz = await api.getQuiz("g10");
+  const correctAnswers = answersFor(key, quiz, "g10", false);
+  const wrongAnswers = quiz.questions.map((q) => ({
+    questionId: q.id,
+    choiceId: q.choices.find((choice) => choice.id !== key.g10[q.id].correctChoiceId).id,
+  }));
+  await api.submitQuiz({ lessonId: "g10", answers: correctAnswers });
+  const firstId = (await api.getDashboard()).recent.find((item) => item.lessonId === "g10")?.attemptId;
+  await api.submitQuiz({ lessonId: "g10", answers: wrongAnswers });
+  const secondId = (await api.getDashboard()).recent.find((item) => item.lessonId === "g10")?.attemptId;
+  const [first, second] = await Promise.all([api.getQuizResult("g10", firstId), api.getQuizResult("g10", secondId)]);
+  assert(firstId && secondId && firstId !== secondId, "each attempt has its own id");
+  assert(first?.result.score === 10 && second?.result.score === 0, "each attempt returns its own score");
 });
 
 await run();

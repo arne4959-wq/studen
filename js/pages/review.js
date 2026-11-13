@@ -1,11 +1,25 @@
 import { initPage } from "../shell.js";
-import { loadResult } from "../store.js";
-import { $, el, cmd, enc, param, renderState, emptyBox, passFailTag, diffBox, reasonBox } from "../ui.js";
+import { loadResult, saveResult } from "../store.js";
+import { getQuizResult } from "../api.js";
+import { $, el, cmd, enc, param, renderState, emptyBox, passFailTag, diffBox, reasonBox, errorBox } from "../ui.js";
 
-if (await initPage({ nav: "subjects" })) {
+if (await initPage({ nav: "subjects" })) await renderReview();
+
+async function renderReview() {
   const region = $("#review");
   const lessonId = param("lesson");
-  const saved = lessonId ? loadResult(lessonId) : null;
+  const attemptId = param("attempt");
+  let saved = lessonId && !attemptId ? loadResult(lessonId) : null;
+  if (!saved && lessonId) {
+    renderState(region, "loading", { skeleton: "text" });
+    try {
+      saved = await getQuizResult(lessonId, attemptId);
+      if (saved) saveResult(lessonId, saved.quiz, saved.result);
+    } catch (error) {
+      region.replaceChildren(errorBox(error, () => window.location.reload()));
+      return;
+    }
+  }
   const retry = (primary = true) => cmd("a", "review.retry", { class: `btn ${primary ? "btn--primary" : "btn--secondary"}`, href: `quiz.html?lesson=${enc(lessonId)}` });
 
   if (!saved) {

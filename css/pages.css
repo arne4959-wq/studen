@@ -1,4 +1,86 @@
 /* ---------- shared bits ---------- */
+.welcome__top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--topbar-h);
+  padding-inline: var(--space-4);
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.welcome__language {
+  width: auto;
+  min-height: var(--tap);
+  padding-inline: var(--space-2);
+}
+
+.welcome {
+  display: grid;
+  gap: var(--space-7);
+  padding-top: clamp(var(--space-6), 8vw, 6rem);
+}
+
+.welcome__hero {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-4);
+  max-width: 52rem;
+}
+
+.welcome__hero h1 {
+  max-width: 16ch;
+  font-size: clamp(var(--text-2xl), 6vw, var(--text-hero));
+  line-height: 1.15;
+}
+
+.welcome__lead {
+  max-width: 48rem;
+  color: var(--muted);
+  font-size: var(--text-lg);
+}
+
+.welcome__counts {
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+}
+
+.welcome__preview {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  padding: clamp(var(--space-4), 5vw, var(--space-6));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sheet);
+  background: var(--panel);
+}
+
+.welcome__preview h2 {
+  margin-bottom: var(--space-3);
+}
+
+.welcome__preview h3 {
+  margin-block: var(--space-4) var(--space-2);
+  font-size: var(--text-md);
+}
+
+.welcome__points {
+  display: grid;
+  gap: var(--space-2);
+  padding-left: 1.25rem;
+}
+
+.welcome__preview figure {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .welcome__preview {
+    grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.9fr);
+  }
+}
+
 .page--narrow {
   max-width: 44rem;
 }

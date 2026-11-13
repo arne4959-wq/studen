@@ -73,7 +73,7 @@ test("self-check: the scanner rejects planted text and accepts real output", () 
 const LO_LATIN_OK = new Set(`title.quiz nav.explorer common.retry common.toSubjects state.errorTitle state.errorCode auth.term.start
 auth.login.submit auth.login.mockHint auth.register.submit auth.forgot.submit auth.forgot.resend summary.bookRef summary.keyPoints
 summary.runQuiz summary.ready quiz.exit quiz.prev quiz.next quiz.submit quiz.shortcutHint quiz.retryHint quiz.exitTitle quiz.empty
-score.command score.pass score.fail score.expected score.received score.passed score.failed score.totalCount score.toReview
+welcome.title welcome.lead score.command score.pass score.fail score.expected score.received score.passed score.failed score.totalCount score.toReview
 score.toStats score.empty review.eyebrow review.retry review.empty stats.eyebrow stats.quizzes profile.eyebrow profile.logout
 lang.en language.eyebrow password.submit notFound.command notFound.line notFound.home styleguide.eyebrow styleguide.colors
 styleguide.bodyFont styleguide.bodySample styleguide.thaiFont styleguide.monoFont styleguide.monoSample styleguide.states

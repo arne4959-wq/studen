@@ -35,7 +35,7 @@ def e(x, y, ch, size=30, anchor="middle"):
 
 
 def emoji(s):  # BMP emoji also exist as plain glyphs in monospace fonts: ask for the colour form
-    for ch in "⏰☕⚽⭐⚡☔":
+    for ch in "⏰☕⚽⭐⚡☔⚖⛓":
         s = s.replace(ch + "️", ch).replace(ch, ch + "️")
     return s
 
@@ -429,9 +429,53 @@ def r11():  # map of an ATX mainboard
     return o
 
 
+# ------------------------------------------------------------------ law
+
+
+def l01():  # five steps of society; the scales (law) appear on step 2
+    o = []
+    for i, ch in enumerate("🔥⛓🌾🏭🤝"):
+        x, h = 20 + i * 78, 34 + i * 26
+        o += [rect(x, 214 - h, 68, h, GB if i == 1 else PN, Y if i == 1 else LN), t(x + 34, 200, i + 1, 18, Y if i == 1 else TX), e(x + 34, 192 - h, ch, 26)]
+    o.append(e(132, 176, "⚖", 20))
+    return o
+
+
+def l02():  # the constitution on the top floor, laws below, rules at the bottom
+    o = [rect(140, 22, 140, 58, GB, Y, 8, 2.5), e(168, 51, "📜", 26), t(226, 36, "REV. 2025", 12, Y), t(226, 51, "FIRST 1991", 12), t(226, 66, "14 | 122", 12, B)]
+    o += [rect(90, 88, 240, 58), e(150, 117, "⚖", 26), t(226, 117, "LAW", 18)]
+    o += [rect(40, 154, 340, 58)] + [e(110 + i * 50, 183, "📄", 24) for i in range(5)]
+    return o
+
+
+def l03():  # three columns: the higher, the heavier the punishment
+    o = []
+    for i, (h, col, top, label) in enumerate(((60, G, "💬 💵", ""), (110, Y, "🔒", "3m–10y"), (160, R, "🔒🔒", "5y +"))):
+        x = 44 + i * 122
+        o += [rect(x, 214 - h, 90, h, PN, col, 8, 2.5), t(x + 45, 196, i + 1, 20, col), e(x + 45, 236 - h, top, 22)]
+        if label:
+            o.append(t(x + 45, 262 - h, label, 14))
+    return o
+
+
+def l04():  # A pays, B delivers; four conditions of a valid contract
+    o = [e(64, 70, "🧑", 44), t(64, 112, "A", 18, B), e(356, 70, "👩", 44), t(356, 112, "B", 18, P), e(210, 72, "📝", 40)]
+    o += [arrow(104, 46, 316, 46, Y), e(210, 26, "💵", 22), arrow(316, 104, 104, 104, G), e(210, 124, "📦", 22)]
+    o += [line(20, 150, 400, 150, LN, 2)] + [e(72 + i * 92, 190, ch, 30) for i, ch in enumerate("🤝🧠⚖📝")]
+    return o
+
+
+def l05():  # marriage at 18+, working time limits
+    o = [e(104, 62, "💍", 46), t(104, 122, "18+", 28, Y), t(104, 166, "1 + 1", 18), line(210, 20, 210, 216, LN, 2)]
+    o += [e(250, 52, "⏰", 30), t(280, 52, "8 h / day", 17, TX, "start"), e(250, 104, "📅", 30), t(280, 104, "48 h / week", 17, TX, "start")]
+    o += [e(250, 156, "👶", 30), t(280, 156, "105 d", 17, TX, "start"), e(250, 200, "🏖", 24), t(280, 200, "15 d", 17, TX, "start")]
+    return o
+
+
 SCENES = dict(v01=v01, v03=v03, v04=v04, v06=v06, g01=g01, g03=g03, g05=g05, p03=p03, g07=g07, g09=g09, g10=g10,
               m01=m01, m03=m03, m06=m06, m08=m08, m10=m10,
-              r01=r01, r02=r02, r03=r03, r04=r04, r05=r05, r06=r06, r07=r07, r08=r08, r09=r09, r10=r10, r11=r11)
+              r01=r01, r02=r02, r03=r03, r04=r04, r05=r05, r06=r06, r07=r07, r08=r08, r09=r09, r10=r10, r11=r11,
+              l01=l01, l02=l02, l03=l03, l04=l04, l05=l05)
 HEAD = (f'font-family="{FONT}" font-weight="700" text-anchor="middle"><style>text{{dominant-baseline:central}}.e{{font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}}</style>'
         f'<defs><pattern id="d" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="{SK}"/></pattern></defs>')
 FRAME = f'<rect width="{W}" height="{H}" fill="{BG}"/><rect width="{W}" height="{H}" fill="url(#d)"/>'
